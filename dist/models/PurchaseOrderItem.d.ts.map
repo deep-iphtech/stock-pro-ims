@@ -1,0 +1,1 @@
+{"version":3,"file":"PurchaseOrderItem.d.ts","sourceRoot":"","sources":["../../src/models/PurchaseOrderItem.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AAE9D,qBAAa,iBAAkB,SAAQ,KAAK;IAC1C,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CAgDtC"}

@@ -1,0 +1,35 @@
+import type { Model, ModelStatic, Sequelize, SyncOptions } from "@sequelize/core";
+import type { DB } from "../models/types.js";
+export type AutoPoolEnvironment = string;
+export type SupportedConfigDialect = "postgres";
+export interface AutoPoolConnectionConfig {
+    dialect: SupportedConfigDialect;
+    database?: string;
+    username?: string;
+    user?: string;
+    password?: string | null;
+    host?: string;
+    port?: number;
+    logging?: boolean;
+    pool?: Record<string, unknown>;
+}
+export interface CreateAutoPoolOptions {
+    env?: AutoPoolEnvironment;
+    configPath?: string;
+    sequelize?: Sequelize;
+    sync?: boolean | SyncOptions;
+    authenticate?: boolean;
+    productsTable?: string;
+    productModel?: ModelStatic<Model>;
+}
+export type AutoPoolDB = DB;
+export interface AutoPoolModels {
+    Warehouse: DB["Warehouse"];
+    Inventory: DB["Inventory"];
+    PurchaseOrder: DB["PurchaseOrder"];
+    PurchaseOrderItem: DB["PurchaseOrderItem"];
+    SalesOrder: DB["SalesOrder"];
+    SalesOrderItem: DB["SalesOrderItem"];
+    SalesOrderItemAllocation: DB["SalesOrderItemAllocation"];
+}
+//# sourceMappingURL=types.d.ts.map

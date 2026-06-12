@@ -1,0 +1,10 @@
+export declare const getAllInventory: () => Promise<import("../../index.js").Inventory[]>;
+export declare const getInventoryId: () => Promise<import("../../index.js").Inventory | null>;
+export declare const createInventory: () => Promise<import("../../index.js").Inventory>;
+export declare const updateInventory: () => Promise<import("../../index.js").Inventory>;
+export declare const deleteInventory: () => Promise<boolean>;
+export declare const getInventoryByWareHouse: () => Promise<import("../../index.js").Inventory[]>;
+export declare const getInventoryByProductId: () => Promise<import("../../index.js").Inventory[]>;
+export declare const getInventoryByProductIdAndWarehouseId: () => Promise<import("../../index.js").Inventory | null>;
+export declare const adjustInventoryAdjustStock: () => Promise<import("../../index.js").Inventory>;
+//# sourceMappingURL=inventory.controller.d.ts.map
