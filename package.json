@@ -1,32 +1,10 @@
 {
   "name": "stock-pro-ims",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stock management library",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
-    },
-    "./api": {
-      "types": "./dist/api/index.d.ts",
-      "import": "./dist/api/index.js",
-      "default": "./dist/api/index.js"
-    },
-    "./pool": {
-      "import": "./dist/pool.js",
-      "default": "./dist/pool.js",
-      "types": "./dist/pool.d.ts"
-    },
-    "./cli": {
-      "import": "./dist/cli.js",
-      "default": "./dist/cli.js",
-      "types": "./dist/cli.d.ts"
-    }
-  },
-  "files": [
-    "dist"
-  ]
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "stock-pro-ims": "./dist/cli.js"
+  }
 }
