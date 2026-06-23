@@ -84,14 +84,14 @@ const WarehouseUpdateBody = updateSchema({
 const InventoryCreateBody = z
     .object({
     product_id: positiveInteger,
-    warehouse_id: positiveInteger,
+    warehouse_id: positiveInteger.nullable().optional(),
     available: integer.optional(),
     reserved: integer.optional(),
 })
     .strict();
 const InventoryUpdateBody = updateSchema({
     product_id: positiveInteger,
-    warehouse_id: positiveInteger,
+    warehouse_id: positiveInteger.nullable().optional(),
     available: integer,
     reserved: integer,
 });
@@ -103,7 +103,7 @@ const PurchaseOrderCreateItemBody = z
         .enum(["retail", "wholesale", "distributor", "t1", "t2", "t3"])
         .default("retail"),
     price: z.number().default(0),
-    warehouse_id: z.number().int().positive().nullable().optional(),
+    warehouse_id: positiveInteger.nullable().optional(),
 })
     .strict();
 const PurchaseOrderCreateRequestBody = z
@@ -168,7 +168,7 @@ const PurchaseOrderItemCreateBody = z
         "t3",
     ]),
     price: z.number(),
-    warehouse_id: positiveInteger,
+    warehouse_id: positiveInteger.nullable().optional(),
 })
     .strict();
 const PurchaseOrderItemUpdateBody = updateSchema({
@@ -184,7 +184,7 @@ const PurchaseOrderItemUpdateBody = updateSchema({
         "t3",
     ]),
     price: z.number(),
-    warehouse_id: positiveInteger,
+    warehouse_id: positiveInteger.nullable().optional(),
 });
 const SalesOrderCreateBody = z
     .object({
@@ -265,13 +265,13 @@ const SalesOrderItemUpdateBody = updateSchema({
 const SalesOrderItemAllocationCreateBody = z
     .object({
     sales_order_item_id: positiveInteger,
-    warehouse_id: positiveInteger,
+    warehouse_id: positiveInteger.nullable().optional(),
     quantity: integer,
 })
     .strict();
 const SalesOrderItemAllocationUpdateBody = updateSchema({
     sales_order_item_id: positiveInteger,
-    warehouse_id: positiveInteger,
+    warehouse_id: positiveInteger.nullable().optional(),
     quantity: integer,
 });
 function buildInventoryRoutes(defaultPath) {
