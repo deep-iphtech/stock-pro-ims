@@ -33,6 +33,9 @@ export declare function createCrudRoutes<T>(options: {
     prefix: string;
     service: CrudService<T>;
     idParam?: string;
+    createBody?: (body: unknown) => unknown;
+    createHandler?: (body: unknown, context: RouteContext) => Promise<unknown> | unknown;
+    updateBody?: (body: unknown) => Record<string, unknown>;
 }): ({
     method: "get";
     path: string;
@@ -47,7 +50,7 @@ export declare function createCrudRoutes<T>(options: {
     method: "post";
     path: string;
     statusCode: number;
-    handler: ({ body }: RouteContext) => Promise<T>;
+    handler: (context: RouteContext) => unknown;
 } | {
     method: "put";
     path: string;

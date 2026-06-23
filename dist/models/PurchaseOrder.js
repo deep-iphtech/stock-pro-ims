@@ -1,4 +1,4 @@
-import { DataTypes, Model } from "@sequelize/core";
+import { DataTypes, Model, } from "@sequelize/core";
 export class PurchaseOrder extends Model {
     static initModel(sequelize) {
         PurchaseOrder.init({
@@ -8,8 +8,8 @@ export class PurchaseOrder extends Model {
                 autoIncrement: true,
             },
             order_number: {
-                type: DataTypes.TEXT,
-                allowNull: false,
+                type: DataTypes.STRING(50),
+                allowNull: true,
                 unique: true,
             },
             business_id: {
@@ -19,10 +19,6 @@ export class PurchaseOrder extends Model {
             status: {
                 type: DataTypes.ENUM("draft", "pending", "approved", "received", "cancelled"),
                 defaultValue: "draft",
-            },
-            order_date: {
-                type: DataTypes.DATEONLY,
-                allowNull: false,
             },
             shipping_charges: {
                 type: DataTypes.DECIMAL(12, 2),
@@ -42,12 +38,25 @@ export class PurchaseOrder extends Model {
             paid_at: {
                 type: DataTypes.DATE,
             },
+            created_at: {
+                type: DataTypes.DATE,
+                allowNull: false,
+                defaultValue: DataTypes.NOW,
+            },
+            updated_at: {
+                type: DataTypes.DATE,
+                allowNull: true,
+                defaultValue: null,
+            },
         }, {
             sequelize,
             tableName: "apd_purchase_orders",
-            timestamps: true,
-            createdAt: "created_at",
-            updatedAt: "updated_at",
+            timestamps: false,
+            hooks: {
+                beforeUpdate: (purchaseOrder) => {
+                    purchaseOrder.setDataValue("updated_at", new Date());
+                },
+            },
         });
     }
 }

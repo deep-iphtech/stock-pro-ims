@@ -9,7 +9,7 @@ export class SalesOrder extends Model {
             },
             order_number: {
                 type: DataTypes.STRING(50),
-                allowNull: false,
+                allowNull: true,
                 unique: true,
             },
             business_id: {

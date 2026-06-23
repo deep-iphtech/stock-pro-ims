@@ -25,16 +25,16 @@ export type CreateOpenApiDocumentOptions = {
 export type RegisterOpenApiJsonRouteOptions = {
     path?: string;
 };
-export type AutoPoolSwaggerConfig = {
+export type AutoPoolOpenApiConfig = {
     path: string;
     document: OpenApiDocument;
 };
 export declare function createAutoPoolOpenApiDocument(options?: CreateOpenApiDocumentOptions): OpenApiDocument;
-export declare function createAutoPoolSwaggerConfig(options?: {
+export declare function createAutoPoolOpenApiConfig(options?: {
     prefixPath?: string;
-    swaggerPath?: string;
+    openApiPath?: string;
     openApi?: CreateOpenApiDocumentOptions;
-}): AutoPoolSwaggerConfig;
+}): AutoPoolOpenApiConfig;
 export declare function registerOpenApiJsonRoute(target: {
     get: (path: string, handler: (request: unknown, reply: {
         code: (statusCode: number) => {

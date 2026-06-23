@@ -10,6 +10,7 @@ import { createCrudRoutes, } from "./http.js";
 import { QueryService } from "./queries_fetch/queries.service.js";
 import { ProductService } from "./products/product.service.js";
 import * as z from "zod";
+import { PurchaseOrder } from "../models/PurchaseOrder.js";
 const WarehouseId = z.object({
     warehouseId: z.coerce.number().min(1),
 });
@@ -61,11 +62,179 @@ const PurchaseOrderWithProductId = z.object({
     businessId: z.coerce.number().min(1).optional(),
     createdBy: z.coerce.number().min(1).optional(),
 });
+const integer = z.number().int();
+const positiveInteger = integer.min(1);
+function updateSchema(shape) {
+    return z
+        .object(shape)
+        .partial()
+        .strict()
+        .refine((value) => Object.keys(value).length > 0, {
+        message: "At least one field must be provided",
+    });
+}
+const WarehouseCreateBody = z.object({
+    name: z.string(),
+}).strict();
+const WarehouseUpdateBody = updateSchema({
+    name: z.string(),
+});
+const InventoryCreateBody = z.object({
+    product_id: positiveInteger,
+    warehouse_id: positiveInteger,
+    available: integer.optional(),
+    reserved: integer.optional(),
+}).strict();
+const InventoryUpdateBody = updateSchema({
+    product_id: positiveInteger,
+    warehouse_id: positiveInteger,
+    available: integer,
+    reserved: integer,
+});
+const PurchaseOrderCreateItemBody = z.object({
+    product_id: positiveInteger,
+    quantity: integer,
+    pricing_tier: z
+        .enum(["retail", "wholesale", "distributor"])
+        .default("retail"),
+    price: z.number().default(0),
+    warehouse_id: positiveInteger,
+}).strict();
+const PurchaseOrderCreateRequestBody = z
+    .object({
+    order_number: z.string().optional(),
+    business_id: positiveInteger,
+    status: z
+        .enum(["draft", "pending", "approved", "received", "cancelled"])
+        .optional(),
+    shipping_charges: z.number().optional(),
+    notes: z.string().nullable().optional(),
+    created_by: positiveInteger,
+    payment_status: z.enum(["pending", "partial", "paid"]).optional(),
+    paid_at: z.string().nullable().optional(),
+    items: z.array(PurchaseOrderCreateItemBody).min(1),
+})
+    .strict();
+function createPurchaseOrderWithItems(db, payload) {
+    const { items, ...purchaseOrderData } = payload;
+    return db.sequelize.transaction(async (transaction) => {
+        const purchaseOrder = await PurchaseOrder.create({
+            ...purchaseOrderData,
+        }, { transaction });
+        await db.PurchaseOrderItem.bulkCreate(items.map((item) => ({
+            purchase_order_id: purchaseOrder.id,
+            product_id: item.product_id,
+            quantity: item.quantity,
+            pricing_tier: item.pricing_tier,
+            price: item.price,
+            warehouse_id: item.warehouse_id,
+        })), { transaction });
+        await purchaseOrder.reload({
+            include: ["items"],
+            transaction,
+        });
+        return purchaseOrder;
+    });
+}
+const PurchaseOrderUpdateBody = updateSchema({
+    order_number: z.string().optional(),
+    business_id: positiveInteger,
+    status: z.enum(["draft", "pending", "approved", "received", "cancelled"]).optional(),
+    shipping_charges: z.number().optional(),
+    notes: z.string().nullable().optional(),
+    created_by: positiveInteger,
+    payment_status: z.enum(["pending", "partial", "paid"]).optional(),
+    paid_at: z.string().nullable().optional(),
+}).strict();
+const PurchaseOrderItemCreateBody = z.object({
+    purchase_order_id: positiveInteger,
+    product_id: positiveInteger,
+    quantity: integer,
+    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    price: z.number(),
+    warehouse_id: positiveInteger,
+}).strict();
+const PurchaseOrderItemUpdateBody = updateSchema({
+    purchase_order_id: positiveInteger,
+    product_id: positiveInteger,
+    quantity: integer,
+    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    price: z.number(),
+    warehouse_id: positiveInteger,
+});
+const SalesOrderCreateBody = z.object({
+    order_number: z.string().optional(),
+    business_id: positiveInteger.nullable().optional(),
+    status: z.enum([
+        "draft",
+        "pending",
+        "confirmed",
+        "processing",
+        "shipped",
+        "completed",
+        "cancelled",
+    ]).optional(),
+    invoice_date: z.string(),
+    shipping_charges: z.number().optional(),
+    notes: z.string().nullable().optional(),
+    created_by: positiveInteger,
+    payment_status: z.enum(["pending", "partial", "paid"]).optional(),
+    paid_at: z.string().nullable().optional(),
+    drop_ship_contact: z.string().nullable().optional(),
+    shipping_address: z.string().nullable().optional(),
+}).strict();
+const SalesOrderUpdateBody = updateSchema({
+    order_number: z.string().optional(),
+    business_id: positiveInteger.nullable(),
+    status: z.enum([
+        "draft",
+        "pending",
+        "confirmed",
+        "processing",
+        "shipped",
+        "completed",
+        "cancelled",
+    ]),
+    invoice_date: z.string(),
+    shipping_charges: z.number(),
+    notes: z.string().nullable(),
+    created_by: positiveInteger,
+    payment_status: z.enum(["pending", "partial", "paid"]),
+    paid_at: z.string().nullable(),
+    drop_ship_contact: z.string().nullable(),
+    shipping_address: z.string().nullable(),
+});
+const SalesOrderItemCreateBody = z.object({
+    sales_order_id: positiveInteger,
+    product_id: positiveInteger,
+    quantity: integer,
+    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    price: z.number(),
+}).strict();
+const SalesOrderItemUpdateBody = updateSchema({
+    sales_order_id: positiveInteger,
+    product_id: positiveInteger,
+    quantity: integer,
+    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    price: z.number(),
+});
+const SalesOrderItemAllocationCreateBody = z.object({
+    sales_order_item_id: positiveInteger,
+    warehouse_id: positiveInteger,
+    quantity: integer,
+}).strict();
+const SalesOrderItemAllocationUpdateBody = updateSchema({
+    sales_order_item_id: positiveInteger,
+    warehouse_id: positiveInteger,
+    quantity: integer,
+});
 function buildInventoryRoutes(defaultPath) {
     return [
         ...createCrudRoutes({
             prefix: defaultPath + "/inventories",
             service: inventoryService,
+            createBody: (body) => InventoryCreateBody.parse(body),
+            updateBody: (body) => InventoryUpdateBody.parse(body),
         }),
         {
             method: "get",
@@ -105,6 +274,8 @@ function buildWarehouseRoutes(defaultPath) {
     return createCrudRoutes({
         prefix: defaultPath + "/warehouses",
         service: warehouseService,
+        createBody: (body) => WarehouseCreateBody.parse(body),
+        updateBody: (body) => WarehouseUpdateBody.parse(body),
     });
 }
 function buildPurchaseOrderRoutes(defaultPath) {
@@ -112,6 +283,9 @@ function buildPurchaseOrderRoutes(defaultPath) {
         ...createCrudRoutes({
             prefix: defaultPath + "/purchase-orders",
             service: purchaseOrderService,
+            createBody: (body) => PurchaseOrderCreateRequestBody.parse(body),
+            createHandler: (payload, { db }) => createPurchaseOrderWithItems(db, payload),
+            updateBody: (body) => PurchaseOrderUpdateBody.parse(body),
         }),
         {
             method: "get",
@@ -128,6 +302,8 @@ function buildPurchaseOrderItemRoutes(defaultPath) {
         ...createCrudRoutes({
             prefix: defaultPath + "/purchase-order-items",
             service: purchaseOrderItemService,
+            createBody: (body) => PurchaseOrderItemCreateBody.parse(body),
+            updateBody: (body) => PurchaseOrderItemUpdateBody.parse(body),
         }),
         {
             method: "get",
@@ -144,6 +320,8 @@ function buildSalesOrderRoutes(defaultPath) {
         ...createCrudRoutes({
             prefix: defaultPath + "/sales-orders",
             service: salesOrderService,
+            createBody: (body) => SalesOrderCreateBody.parse(body),
+            updateBody: (body) => SalesOrderUpdateBody.parse(body),
         }),
         {
             method: "get",
@@ -160,6 +338,8 @@ function buildSalesOrderItemRoutes(defaultPath) {
         ...createCrudRoutes({
             prefix: defaultPath + "/sales-order-items",
             service: salesOrderItemService,
+            createBody: (body) => SalesOrderItemCreateBody.parse(body),
+            updateBody: (body) => SalesOrderItemUpdateBody.parse(body),
         }),
         {
             method: "get",
@@ -176,6 +356,8 @@ function buildSalesOrderItemAllocationRoutes(defaultPath) {
         ...createCrudRoutes({
             prefix: defaultPath + "/sales-order-item-allocations",
             service: salesOrderItemAllocationService,
+            createBody: (body) => SalesOrderItemAllocationCreateBody.parse(body),
+            updateBody: (body) => SalesOrderItemAllocationUpdateBody.parse(body),
         }),
         {
             method: "get",
@@ -368,6 +550,6 @@ export function buildAutoPoolRoutes(db, defaultPath) {
         ...buildInventoryManagementRoutes(db, defaultPath),
         ...buildQueryRoutes(db, defaultPath),
         ...buildProductsRoutes(db, defaultPath),
-        ...buildTestProtectedRoutes(defaultPath)
+        ...buildTestProtectedRoutes(defaultPath),
     ];
 }

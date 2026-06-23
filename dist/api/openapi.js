@@ -76,10 +76,7 @@ function withProductSchema(baseSchema) {
                 type: "object",
                 properties: {
                     product: {
-                        anyOf: [
-                            { $ref: "#/components/schemas/Product" },
-                            { type: "null" },
-                        ],
+                        anyOf: [{ $ref: "#/components/schemas/Product" }, { type: "null" }],
                     },
                 },
             },
@@ -205,16 +202,52 @@ const entitySchemas = {
             order_number: { type: "string" },
             business_id: { type: "integer" },
             status: { type: "string" },
-            order_date: { type: "string", format: "date" },
             shipping_charges: { type: "number" },
             notes: { type: ["string", "null"] },
             created_by: { type: "integer" },
             payment_status: { type: "string" },
             paid_at: { type: ["string", "null"], format: "date-time" },
             created_at: { type: "string", format: "date-time" },
-            updated_at: { type: "string", format: "date-time" },
+            updated_at: { type: ["string", "null"], format: "date-time" },
         },
     },
+    PurchaseOrderCreateItemRequest: objectSchema({
+        product_id: {
+            type: "integer",
+            minimum: 1,
+            example: 2005,
+        },
+        quantity: {
+            type: "integer",
+            example: 50,
+        },
+        pricing_tier: {
+            type: "string",
+            enum: ["retail", "wholesale", "distributor"],
+            example: "retail",
+        },
+        price: {
+            type: "number",
+            example: 0,
+        },
+        warehouse_id: {
+            type: "integer",
+            minimum: 1,
+            example: 1,
+        },
+    }, [
+        "product_id",
+        "quantity",
+        "pricing_tier",
+        "price",
+        "warehouse_id",
+    ], {
+        product_id: 2005,
+        quantity: 50,
+        pricing_tier: "retail",
+        price: 0,
+        warehouse_id: 1,
+    }),
     PurchaseOrderCreateRequest: objectSchema({
         order_number: {
             type: "string",
@@ -229,11 +262,6 @@ const entitySchemas = {
             type: "string",
             enum: ["draft", "pending", "approved", "received", "cancelled"],
             example: "draft",
-        },
-        order_date: {
-            type: "string",
-            format: "date",
-            example: "2026-06-05",
         },
         shipping_charges: {
             type: "number",
@@ -258,16 +286,29 @@ const entitySchemas = {
             format: "date-time",
             example: null,
         },
-    }, ["order_number", "business_id", "order_date", "created_by"], {
-        order_number: "PO-10001",
+        items: {
+            type: "array",
+            minItems: 1,
+            items: {
+                $ref: "#/components/schemas/PurchaseOrderCreateItemRequest",
+            },
+        },
+    }, [
+        "business_id",
+        "created_by",
+        "items",
+    ], {
         business_id: 12,
-        status: "draft",
-        order_date: "2026-06-05",
-        shipping_charges: 25,
-        notes: "Initial stock replenishment",
         created_by: 3,
-        payment_status: "pending",
-        paid_at: null,
+        items: [
+            {
+                product_id: 2005,
+                quantity: 50,
+                pricing_tier: "retail",
+                price: 0,
+                warehouse_id: 1,
+            },
+        ],
     }),
     PurchaseOrderUpdateRequest: objectSchema({
         order_number: {
@@ -283,11 +324,6 @@ const entitySchemas = {
             type: "string",
             enum: ["draft", "pending", "approved", "received", "cancelled"],
             example: "approved",
-        },
-        order_date: {
-            type: "string",
-            format: "date",
-            example: "2026-06-05",
         },
         shipping_charges: {
             type: "number",
@@ -486,7 +522,7 @@ const entitySchemas = {
             type: ["string", "null"],
             example: "12 Market St, Mumbai, MH 400001",
         },
-    }, ["order_number", "business_id", "invoice_date", "created_by"], {
+    }, ["order_number", "invoice_date", "created_by"], {
         order_number: "SO-20001",
         business_id: 12,
         status: "draft",
@@ -505,7 +541,7 @@ const entitySchemas = {
             example: "SO-20001",
         },
         business_id: {
-            type: "integer",
+            type: ["integer", "null"],
             minimum: 1,
             example: 12,
         },
@@ -1190,10 +1226,10 @@ export function createAutoPoolOpenApiDocument(options = {}) {
         },
     };
 }
-export function createAutoPoolSwaggerConfig(options = {}) {
+export function createAutoPoolOpenApiConfig(options = {}) {
     const prefixPath = options.openApi?.prefixPath ?? options.prefixPath ?? "/api";
     return {
-        path: options.swaggerPath ?? "/openapi.json",
+        path: options.openApiPath ?? "/openapi.json",
         document: createAutoPoolOpenApiDocument({
             ...options.openApi,
             prefixPath,
@@ -1202,7 +1238,7 @@ export function createAutoPoolSwaggerConfig(options = {}) {
 }
 export function registerOpenApiJsonRoute(target, document, options = {}) {
     const path = options.path ?? "/openapi.json";
-    target.get(path, (request, replyOrResponse) => {
+    target.get(path, (_request, replyOrResponse) => {
         if (replyOrResponse.code) {
             return replyOrResponse.code(200).send(document);
         }

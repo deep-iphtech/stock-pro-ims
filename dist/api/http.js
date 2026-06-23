@@ -1,3 +1,4 @@
+import { ZodError } from "zod";
 export class HttpError extends Error {
     statusCode;
     constructor(statusCode, message) {
@@ -36,12 +37,20 @@ export function createCrudRoutes(options) {
             method: "post",
             path: options.prefix,
             statusCode: 201,
-            handler: ({ body }) => options.service.create(readBodyObject(body)),
+            handler: (context) => {
+                const body = options.createBody
+                    ? options.createBody(context.body)
+                    : readBodyObject(context.body);
+                if (options.createHandler) {
+                    return options.createHandler(body, context);
+                }
+                return options.service.create(body);
+            },
         },
         {
             method: "put",
             path: `${options.prefix}/:${idParam}`,
-            handler: ({ params, body }) => options.service.update(readNumber(params[idParam], idParam), readBodyObject(body)),
+            handler: ({ params, body }) => options.service.update(readNumber(params[idParam], idParam), options.updateBody ? options.updateBody(body) : readBodyObject(body)),
         },
         {
             method: "delete",
@@ -71,6 +80,12 @@ function normalizeError(error) {
     if (error instanceof HttpError) {
         return {
             statusCode: error.statusCode,
+            payload: { message: error.message },
+        };
+    }
+    if (error instanceof ZodError) {
+        return {
+            statusCode: 400,
             payload: { message: error.message },
         };
     }
