@@ -73,33 +73,39 @@ function updateSchema(shape) {
         message: "At least one field must be provided",
     });
 }
-const WarehouseCreateBody = z.object({
+const WarehouseCreateBody = z
+    .object({
     name: z.string(),
-}).strict();
+})
+    .strict();
 const WarehouseUpdateBody = updateSchema({
     name: z.string(),
 });
-const InventoryCreateBody = z.object({
+const InventoryCreateBody = z
+    .object({
     product_id: positiveInteger,
     warehouse_id: positiveInteger,
     available: integer.optional(),
     reserved: integer.optional(),
-}).strict();
+})
+    .strict();
 const InventoryUpdateBody = updateSchema({
     product_id: positiveInteger,
     warehouse_id: positiveInteger,
     available: integer,
     reserved: integer,
 });
-const PurchaseOrderCreateItemBody = z.object({
+const PurchaseOrderCreateItemBody = z
+    .object({
     product_id: positiveInteger,
     quantity: integer,
     pricing_tier: z
-        .enum(["retail", "wholesale", "distributor"])
+        .enum(["retail", "wholesale", "distributor", "t1", "t2", "t3"])
         .default("retail"),
     price: z.number().default(0),
     warehouse_id: positiveInteger,
-}).strict();
+})
+    .strict();
 const PurchaseOrderCreateRequestBody = z
     .object({
     order_number: z.string().optional(),
@@ -139,21 +145,25 @@ function createPurchaseOrderWithItems(db, payload) {
 const PurchaseOrderUpdateBody = updateSchema({
     order_number: z.string().optional(),
     business_id: positiveInteger,
-    status: z.enum(["draft", "pending", "approved", "received", "cancelled"]).optional(),
+    status: z
+        .enum(["draft", "pending", "approved", "received", "cancelled"])
+        .optional(),
     shipping_charges: z.number().optional(),
     notes: z.string().nullable().optional(),
     created_by: positiveInteger,
     payment_status: z.enum(["pending", "partial", "paid"]).optional(),
     paid_at: z.string().nullable().optional(),
 }).strict();
-const PurchaseOrderItemCreateBody = z.object({
+const PurchaseOrderItemCreateBody = z
+    .object({
     purchase_order_id: positiveInteger,
     product_id: positiveInteger,
     quantity: integer,
     pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
     price: z.number(),
     warehouse_id: positiveInteger,
-}).strict();
+})
+    .strict();
 const PurchaseOrderItemUpdateBody = updateSchema({
     purchase_order_id: positiveInteger,
     product_id: positiveInteger,
@@ -162,10 +172,12 @@ const PurchaseOrderItemUpdateBody = updateSchema({
     price: z.number(),
     warehouse_id: positiveInteger,
 });
-const SalesOrderCreateBody = z.object({
+const SalesOrderCreateBody = z
+    .object({
     order_number: z.string().optional(),
     business_id: positiveInteger.nullable().optional(),
-    status: z.enum([
+    status: z
+        .enum([
         "draft",
         "pending",
         "confirmed",
@@ -173,7 +185,8 @@ const SalesOrderCreateBody = z.object({
         "shipped",
         "completed",
         "cancelled",
-    ]).optional(),
+    ])
+        .optional(),
     invoice_date: z.string(),
     shipping_charges: z.number().optional(),
     notes: z.string().nullable().optional(),
@@ -182,7 +195,8 @@ const SalesOrderCreateBody = z.object({
     paid_at: z.string().nullable().optional(),
     drop_ship_contact: z.string().nullable().optional(),
     shipping_address: z.string().nullable().optional(),
-}).strict();
+})
+    .strict();
 const SalesOrderUpdateBody = updateSchema({
     order_number: z.string().optional(),
     business_id: positiveInteger.nullable(),
@@ -204,13 +218,15 @@ const SalesOrderUpdateBody = updateSchema({
     drop_ship_contact: z.string().nullable(),
     shipping_address: z.string().nullable(),
 });
-const SalesOrderItemCreateBody = z.object({
+const SalesOrderItemCreateBody = z
+    .object({
     sales_order_id: positiveInteger,
     product_id: positiveInteger,
     quantity: integer,
     pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
     price: z.number(),
-}).strict();
+})
+    .strict();
 const SalesOrderItemUpdateBody = updateSchema({
     sales_order_id: positiveInteger,
     product_id: positiveInteger,
@@ -218,11 +234,13 @@ const SalesOrderItemUpdateBody = updateSchema({
     pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
     price: z.number(),
 });
-const SalesOrderItemAllocationCreateBody = z.object({
+const SalesOrderItemAllocationCreateBody = z
+    .object({
     sales_order_item_id: positiveInteger,
     warehouse_id: positiveInteger,
     quantity: integer,
-}).strict();
+})
+    .strict();
 const SalesOrderItemAllocationUpdateBody = updateSchema({
     sales_order_item_id: positiveInteger,
     warehouse_id: positiveInteger,
