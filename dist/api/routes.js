@@ -159,7 +159,14 @@ const PurchaseOrderItemCreateBody = z
     purchase_order_id: positiveInteger,
     product_id: positiveInteger,
     quantity: integer,
-    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    pricing_tier: z.enum([
+        "retail",
+        "wholesale",
+        "distributor",
+        "t1",
+        "t2",
+        "t3",
+    ]),
     price: z.number(),
     warehouse_id: positiveInteger,
 })
@@ -168,7 +175,14 @@ const PurchaseOrderItemUpdateBody = updateSchema({
     purchase_order_id: positiveInteger,
     product_id: positiveInteger,
     quantity: integer,
-    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    pricing_tier: z.enum([
+        "retail",
+        "wholesale",
+        "distributor",
+        "t1",
+        "t2",
+        "t3",
+    ]),
     price: z.number(),
     warehouse_id: positiveInteger,
 });
@@ -223,7 +237,14 @@ const SalesOrderItemCreateBody = z
     sales_order_id: positiveInteger,
     product_id: positiveInteger,
     quantity: integer,
-    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    pricing_tier: z.enum([
+        "retail",
+        "wholesale",
+        "distributor",
+        "t1",
+        "t2",
+        "t3",
+    ]),
     price: z.number(),
 })
     .strict();
@@ -231,7 +252,14 @@ const SalesOrderItemUpdateBody = updateSchema({
     sales_order_id: positiveInteger,
     product_id: positiveInteger,
     quantity: integer,
-    pricing_tier: z.enum(["retail", "wholesale", "distributor"]),
+    pricing_tier: z.enum([
+        "retail",
+        "wholesale",
+        "distributor",
+        "t1",
+        "t2",
+        "t3",
+    ]),
     price: z.number(),
 });
 const SalesOrderItemAllocationCreateBody = z

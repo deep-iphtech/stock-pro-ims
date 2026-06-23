@@ -25,7 +25,7 @@ export class PurchaseOrderItem extends Model {
                 allowNull: false,
             },
             pricing_tier: {
-                type: DataTypes.ENUM("retail", "wholesale", "distributor"),
+                type: DataTypes.ENUM("retail", "wholesale", "distributor", "t1", "t2", "t3"),
                 allowNull: false,
             },
             price: {
