@@ -103,7 +103,7 @@ const PurchaseOrderCreateItemBody = z
         .enum(["retail", "wholesale", "distributor", "t1", "t2", "t3"])
         .default("retail"),
     price: z.number().default(0),
-    warehouse_id: positiveInteger,
+    warehouse_id: z.number().int().positive().nullable().optional(),
 })
     .strict();
 const PurchaseOrderCreateRequestBody = z
