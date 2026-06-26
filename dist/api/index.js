@@ -16,7 +16,7 @@ export async function createAutoPoolExpressRouter(db, options = {}) {
     registerOpenApiJsonRoute(router, openApi.document, {
         path: openApi.path,
     });
-    router.get(`${defaultPath}/docs`, (_request, response) => {
+    router.get(`${defaultPath}/ims-storyboard`, (_request, response) => {
         response.type("text/html").send(scalarHtml(openApi.path));
     });
     return router;
@@ -32,7 +32,7 @@ export async function registerAutoPoolFastifyRoutes(fastify, db, options = {}) {
     registerOpenApiJsonRoute(fastify, openApi.document, {
         path: openApi.path,
     });
-    fastify.get(`${defaultPath}/docs`, (_request, reply) => {
+    fastify.get(`${defaultPath}/ims-storyboard`, (_request, reply) => {
         return reply.type("text/html").send(scalarHtml(openApi.path));
     });
 }

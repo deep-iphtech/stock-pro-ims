@@ -109,7 +109,7 @@ async function startExpressServer(options) {
     app.use(await createAutoPoolExpressRouter(db, {
         prefixPath: "/api",
     }));
-    app.get("/", (_req, res) => res.redirect("/api/docs"));
+    app.get("/", (_req, res) => res.redirect("/api/ims-storyboard"));
     const port = Number(process.env.PORT ?? 3000);
     const host = process.env.HOST;
     await new Promise((resolve, reject) => {
@@ -129,7 +129,7 @@ async function startFastifyServer(options, db) {
     //   sync: options.sync,
     // });
     const app = Fastify({ logger: true, bodyLimit: 10 * 1024 * 1024 });
-    app.get("/", async (_request, reply) => reply.redirect("/api/docs"));
+    app.get("/", async (_request, reply) => reply.redirect("/api/ims-storyboard"));
     await registerAutoPoolFastifyRoutes(app, db, {
         prefixPath: "/api",
     });
