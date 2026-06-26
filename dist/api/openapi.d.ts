@@ -6,6 +6,13 @@ export type OpenApiTag = {
     name: string;
     description?: string;
 };
+export declare const queryParam: (name: string, description: string, required?: boolean, schema?: Record<string, unknown>) => {
+    name: string;
+    in: string;
+    required: boolean;
+    description: string;
+    schema: Record<string, unknown>;
+};
 export type OpenApiDocument = {
     openapi: "3.1.0";
     info: {
@@ -34,6 +41,13 @@ export type RegisterOpenApiJsonRouteOptions = {
 export type AutoPoolOpenApiConfig = {
     path: string;
     document: OpenApiDocument;
+};
+export declare const pathParam: (name: string, description: string, schema?: Record<string, any>) => {
+    name: string;
+    in: string;
+    required: boolean;
+    description: string;
+    schema: Record<string, any>;
 };
 export declare function createAutoPoolOpenApiDocument(options?: CreateOpenApiDocumentOptions): OpenApiDocument;
 export declare function createAutoPoolOpenApiConfig(options?: {

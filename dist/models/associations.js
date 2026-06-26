@@ -38,10 +38,10 @@ export function setupAssociations(productModel) {
         as: "warehouse",
     });
     // Orders ↔ OrderItems
-    // Orders.hasMany(OrderItems, {
-    //   foreignKey: "order_id",
-    //   as: "o_id",
-    // });
+    Orders.hasMany(OrderItems, {
+        foreignKey: "order_id",
+        as: "orderItems",
+    });
     // OrderItems.belongsTo(Orders, {
     //   foreignKey: "order_id",
     //   as: "o_id",

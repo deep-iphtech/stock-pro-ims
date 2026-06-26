@@ -21,6 +21,10 @@ export class Orders extends Model {
                 allowNull: false,
                 unique: true,
             },
+            shipment_tracking_number: {
+                type: DataTypes.STRING,
+                allowNull: true,
+            },
             status: {
                 type: DataTypes.ENUM("draft", "pending", "approved", "received", "cancelled"),
                 defaultValue: "draft",

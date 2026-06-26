@@ -1,13 +1,14 @@
 import { InventoryManagementService } from "./InventoryManagementService/im.service.js";
 import inventoryService from "./apd_inventory/inventory.service.js";
 import purchaseOrderItemService from "./apd_purchase_order_items/purchase_order_items.service.js";
-import purchaseOrderService from "./apd_purchase_order/purchase_order.service.js";
 import warehouseService from "./apd_warehouse/warehouse.service.js";
 import { createCrudRoutes, } from "./http.js";
 import { QueryService } from "./queries_fetch/queries.service.js";
 import { ProductService } from "./products/product.service.js";
 import * as z from "zod";
 import { Orders } from "../models/Orders.js";
+import OrderService from "./orders/order.service.js";
+import { fetchOrderByTypeSchema } from "../validations/order.schema.js";
 const WarehouseId = z.object({
     warehouseId: z.coerce.number().min(1),
 });
@@ -102,7 +103,9 @@ const PurchaseOrderCreateItemBody = z
         .string()
         .refine((value) => value.split(",").every((item) => /^\d+:\d+$/.test(item)), {
         message: "Invalid format. Expected id:count,id:count",
-    }),
+    })
+        .nullable()
+        .optional(),
 })
     .loose();
 const createOrderValidationSchema = z
@@ -322,7 +325,7 @@ function buildPurchaseOrderRoutes(defaultPath) {
     return [
         ...createCrudRoutes({
             prefix: defaultPath + "/orders",
-            service: purchaseOrderService,
+            service: purchaseOrderItemService,
             createBody: (body) => createOrderValidationSchema.parse(body),
             createHandler: (payload, { db }) => createPurchaseOrderWithItems(db, payload),
             updateBody: (body) => PurchaseOrderUpdateBody.parse(body),
@@ -332,7 +335,27 @@ function buildPurchaseOrderRoutes(defaultPath) {
             path: defaultPath + "/orders/:id/items",
             handler: ({ params }) => {
                 const { id } = PurchaseId.parse(params);
-                return purchaseOrderService.findWithItems(id);
+                return OrderService.findWithItems(id);
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/type/:order_type",
+            handler: async ({ params, query }) => {
+                const { order_type } = fetchOrderByTypeSchema.parse(params);
+                const includeOrderItems = query.include === "orderItems";
+                const draw = Number(query.draw ?? 1);
+                const start = Number(query.start ?? 0);
+                const length = Number(query.length ?? 10);
+                const totalRecords = await Orders.count();
+                const result = await OrderService.findByType(order_type, start, length, includeOrderItems);
+                return {
+                    success: true,
+                    draw,
+                    recordsTotal: totalRecords,
+                    recordsFiltered: result.recordsFiltered,
+                    data: result.data,
+                };
             },
         },
     ];

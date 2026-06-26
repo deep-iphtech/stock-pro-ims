@@ -1,5 +1,12 @@
 import reqSchemas from "./open-api-schema/req-schema.js";
 import resSchemas from "./open-api-schema/res-schema.js";
+export const queryParam = (name, description, required = false, schema = { type: "string" }) => ({
+    name,
+    in: "query",
+    required,
+    description,
+    schema,
+});
 function ok(schema) {
     return {
         description: "OK",
@@ -35,18 +42,19 @@ function errorResponse(description) {
         },
     };
 }
-function pathParam(name, description) {
-    return {
-        name,
-        in: "path",
-        required: true,
-        description,
-        schema: {
-            type: "integer",
-            minimum: 1,
-        },
-    };
-}
+// function pathParam(name: string, description: string) {
+//   return {
+//     name,
+//     description,
+//   };
+// }
+export const pathParam = (name, description, schema = { type: "string" }) => ({
+    name,
+    in: "path",
+    required: true,
+    description,
+    schema,
+});
 function normalizeServerUrl(prefixPath) {
     if (!prefixPath) {
         return undefined;
@@ -224,6 +232,36 @@ export function createAutoPoolOpenApiDocument(options = {}) {
         paths: {
             ...crudPaths("/warehouses", "Warehouse", "Warehouse", ["Warehouses"]),
             ...crudPaths("/orders", "Orders", "Orders", ["Orders"]),
+            "orders/type/{order_type}": {
+                get: {
+                    tags: ["Orders"],
+                    summary: "List orders by type",
+                    parameters: [
+                        pathParam("order_type", "Order type", { type: "string" }),
+                        queryParam("include", "Include related resources", false, {
+                            type: "string",
+                            enum: ["orderItems"],
+                        }),
+                        queryParam("draw", "DataTables draw counter", false, {
+                            type: "integer",
+                            default: 1,
+                        }),
+                        queryParam("start", "Starting record index", false, {
+                            type: "integer",
+                            default: 0,
+                        }),
+                        queryParam("length", "Number of records to return", false, {
+                            type: "integer",
+                            default: 10,
+                        }),
+                    ],
+                    responses: {
+                        200: created(resSchemas["Orders"]),
+                        400: errorResponse("Invalid request"),
+                        500: errorResponse("Server error"),
+                    },
+                },
+            },
             ...crudPaths("/inventories", "Inventory", "Inventory", ["Inventory"]),
             // ...crudPaths("/products", "Product", "products", "Product"),
             // "/inventories/warehouse/{warehouseId}": {
