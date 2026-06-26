@@ -1,1 +1,0 @@
-{"version":3,"file":"SalesOrderItem.d.ts","sourceRoot":"","sources":["../../src/models/SalesOrderItem.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AAE9D,qBAAa,cAAe,SAAQ,KAAK;IACvC,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CAmDtC"}

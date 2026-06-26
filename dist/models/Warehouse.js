@@ -14,7 +14,7 @@ export class Warehouse extends Model {
         }, {
             sequelize,
             modelName: "Warehouse",
-            tableName: "apd_warehouses",
+            tableName: "ims_warehouses",
             timestamps: true,
             createdAt: "created_at",
             updatedAt: "updated_at",

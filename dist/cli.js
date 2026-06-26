@@ -1,8 +1,16 @@
 #!/usr/bin/env node
-import { createAutoPool } from "./init.js";
+import { createAutoPool, syncAutoPoolData } from "./init.js";
 import { createAutoPoolExpressRouter, registerAutoPoolFastifyRoutes, } from "./api/index.js";
+import readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 const KNOWN_ENVS = new Set(["development", "production", "test"]);
 const KNOWN_SERVERS = new Set(["express", "fastify"]);
+async function askToCreateTables() {
+    const rl = readline.createInterface({ input, output });
+    const answer = await rl.question("Required tables are missing. Create default Auto Pool tables? (y/N): ");
+    rl.close();
+    return ["y", "yes"].includes(answer.trim().toLowerCase());
+}
 function printHelp() {
     console.log(`
 Usage:
@@ -105,25 +113,27 @@ async function startExpressServer(options) {
     const port = Number(process.env.PORT ?? 3000);
     const host = process.env.HOST;
     await new Promise((resolve, reject) => {
-        const server = host ? app.listen(port, host, resolve) : app.listen(port, resolve);
+        const server = host
+            ? app.listen(port, host, resolve)
+            : app.listen(port, resolve);
         server.on("error", reject);
     });
     console.log(`Express server running at ${host ? `http://${host}:${port}` : `http://localhost:${port}`}`);
 }
-async function startFastifyServer(options) {
+async function startFastifyServer(options, db) {
     const fastifyModule = await import("fastify");
     const Fastify = fastifyModule.default ?? fastifyModule;
-    const db = await createAutoPool({
-        env: options.env,
-        configPath: options.configPath,
-        sync: options.sync,
-    });
-    const app = Fastify();
+    // const db = await createAutoPool({
+    //   env: options.env,
+    //   configPath: options.configPath,
+    //   sync: options.sync,
+    // });
+    const app = Fastify({ logger: true, bodyLimit: 10 * 1024 * 1024 });
     app.get("/", async (_request, reply) => reply.redirect("/api/docs"));
     await registerAutoPoolFastifyRoutes(app, db, {
         prefixPath: "/api",
     });
-    const port = Number(process.env.PORT ?? 5000);
+    const port = Number(process.env.PORT ?? 3005);
     const host = process.env.HOST ?? "0.0.0.0";
     await app.listen({
         host,
@@ -133,22 +143,32 @@ async function startFastifyServer(options) {
 }
 async function main() {
     const options = parseArgs(process.argv.slice(2));
+    const db = await createAutoPool({
+        env: options.env,
+        configPath: options.configPath,
+        sync: options.sync,
+    });
+    // ❗ handle missing tables here (CLI responsibility)
+    if (!db.status.productsTableExists) {
+        const shouldCreate = await askToCreateTables();
+        if (!shouldCreate) {
+            console.log("Aborted. Tables not created.");
+            process.exit(1);
+        }
+        await syncAutoPoolData(true);
+        console.log("Default Auto Pool tables created successfully.");
+    }
     if (options.server === "express") {
         await startExpressServer(options);
         return;
     }
     if (options.server === "fastify") {
-        await startFastifyServer(options);
-        return;
+        return await startFastifyServer(options, db);
     }
-    await createAutoPool({
-        env: options.env,
-        configPath: options.configPath,
-        sync: options.sync,
-    });
     console.log(`stock-pro-ims models initialized for "${options.env}"`);
 }
-main().catch((error) => {
+main().catch(async (error) => {
+    console.log("error======", error);
     console.error("Error initializing stock-pro-ims:");
     console.error(error instanceof Error ? error.message : error);
     process.exit(1);

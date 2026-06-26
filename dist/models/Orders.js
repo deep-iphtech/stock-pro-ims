@@ -1,35 +1,33 @@
 import { DataTypes, Model, } from "@sequelize/core";
-export class PurchaseOrder extends Model {
+export class Orders extends Model {
     static initModel(sequelize) {
-        PurchaseOrder.init({
+        Orders.init({
             id: {
                 type: DataTypes.INTEGER,
                 primaryKey: true,
                 autoIncrement: true,
             },
-            order_number: {
-                type: DataTypes.STRING(50),
-                allowNull: true,
-                unique: true,
-            },
-            business_id: {
+            customer_id: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
+            },
+            order_type: {
+                type: DataTypes.ENUM("sales", "purchase"),
+                allowNull: false,
+                defaultValue: "sales",
+            },
+            order_number: {
+                type: DataTypes.STRING(50),
+                allowNull: false,
+                unique: true,
             },
             status: {
                 type: DataTypes.ENUM("draft", "pending", "approved", "received", "cancelled"),
                 defaultValue: "draft",
             },
-            shipping_charges: {
-                type: DataTypes.DECIMAL(12, 2),
-                defaultValue: 0,
-            },
             notes: {
                 type: DataTypes.TEXT,
-            },
-            created_by: {
-                type: DataTypes.INTEGER,
-                allowNull: false,
+                allowNull: true,
             },
             payment_status: {
                 type: DataTypes.ENUM("pending", "partial", "paid"),
@@ -37,6 +35,19 @@ export class PurchaseOrder extends Model {
             },
             paid_at: {
                 type: DataTypes.DATE,
+                allowNull: true,
+            },
+            order_meta: {
+                type: DataTypes.JSONB,
+                allowNull: true,
+            },
+            shipping_charges: {
+                type: DataTypes.DECIMAL(12, 2),
+                defaultValue: 0,
+            },
+            discount: {
+                type: DataTypes.INTEGER,
+                allowNull: true,
             },
             created_at: {
                 type: DataTypes.DATE,
@@ -50,7 +61,7 @@ export class PurchaseOrder extends Model {
             },
         }, {
             sequelize,
-            tableName: "apd_purchase_orders",
+            tableName: "ims_orders",
             timestamps: false,
             hooks: {
                 beforeUpdate: (purchaseOrder) => {

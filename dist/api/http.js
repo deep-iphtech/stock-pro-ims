@@ -76,6 +76,10 @@ export function buildRouteContext(db, request, params, query, body) {
 export async function executeRoute(route, db, request, params, query, body) {
     return route.handler(buildRouteContext(db, request, params, query, body));
 }
+function getZodStatus(error) {
+    const hasMissingFields = error.issues.some((issue) => issue.code === "invalid_type" && issue.message.includes("undefined"));
+    return hasMissingFields ? 400 : 422;
+}
 function normalizeError(error) {
     if (error instanceof HttpError) {
         return {
@@ -85,8 +89,14 @@ function normalizeError(error) {
     }
     if (error instanceof ZodError) {
         return {
-            statusCode: 400,
-            payload: { message: error.message },
+            statusCode: getZodStatus(error),
+            payload: {
+                message: "Validation failed",
+                errors: error.issues.map((issue) => ({
+                    field: issue.path.join("."),
+                    message: issue.message,
+                })),
+            },
         };
     }
     const message = error instanceof Error ? error.message : "Internal Server Error";

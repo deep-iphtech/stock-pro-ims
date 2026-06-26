@@ -2,15 +2,12 @@ import { InventoryManagementService } from "./InventoryManagementService/im.serv
 import inventoryService from "./apd_inventory/inventory.service.js";
 import purchaseOrderItemService from "./apd_purchase_order_items/purchase_order_items.service.js";
 import purchaseOrderService from "./apd_purchase_order/purchase_order.service.js";
-import salesOrderItemAllocationService from "./apd_sales_order_item_allocation/sales_order_item_allocation.service.js";
-import salesOrderItemService from "./apd_sales_order_item/sales_order_item.service.js";
-import salesOrderService from "./apd_sales_order/sales_order.service.js";
 import warehouseService from "./apd_warehouse/warehouse.service.js";
 import { createCrudRoutes, } from "./http.js";
 import { QueryService } from "./queries_fetch/queries.service.js";
 import { ProductService } from "./products/product.service.js";
 import * as z from "zod";
-import { PurchaseOrder } from "../models/PurchaseOrder.js";
+import { Orders } from "../models/Orders.js";
 const WarehouseId = z.object({
     warehouseId: z.coerce.number().min(1),
 });
@@ -99,47 +96,44 @@ const PurchaseOrderCreateItemBody = z
     .object({
     product_id: positiveInteger,
     quantity: integer,
-    pricing_tier: z
-        .enum(["retail", "wholesale", "distributor", "t1", "t2", "t3"])
-        .default("retail"),
     price: z.number().default(0),
     warehouse_id: positiveInteger.nullable().optional(),
+    quantity_allocation: z
+        .string()
+        .refine((value) => value.split(",").every((item) => /^\d+:\d+$/.test(item)), {
+        message: "Invalid format. Expected id:count,id:count",
+    }),
 })
-    .strict();
-const PurchaseOrderCreateRequestBody = z
+    .loose();
+const createOrderValidationSchema = z
     .object({
-    order_number: z.string().optional(),
-    business_id: positiveInteger,
+    order_type: z.enum(["sales", "purchase"]),
+    customer_id: positiveInteger,
     status: z
         .enum(["draft", "pending", "approved", "received", "cancelled"])
         .optional(),
-    shipping_charges: z.number().optional(),
-    notes: z.string().nullable().optional(),
-    created_by: positiveInteger,
-    payment_status: z.enum(["pending", "partial", "paid"]).optional(),
-    paid_at: z.string().nullable().optional(),
-    items: z.array(PurchaseOrderCreateItemBody).min(1),
+    products: z.array(PurchaseOrderCreateItemBody).min(1),
 })
-    .strict();
+    .loose();
 function createPurchaseOrderWithItems(db, payload) {
-    const { items, ...purchaseOrderData } = payload;
+    const { products, ...orderInfo } = payload;
     return db.sequelize.transaction(async (transaction) => {
-        const purchaseOrder = await PurchaseOrder.create({
-            ...purchaseOrderData,
+        const order = await Orders.create({
+            order_number: "ORD-" +
+                orderInfo.order_type.toUpperCase() +
+                "-" +
+                Date.now() +
+                orderInfo.customer_id,
+            ...orderInfo,
         }, { transaction });
-        await db.PurchaseOrderItem.bulkCreate(items.map((item) => ({
-            purchase_order_id: purchaseOrder.id,
+        await db.OrderItems.bulkCreate(products.map((item) => ({
+            order_id: order.id,
             product_id: item.product_id,
             quantity: item.quantity,
-            pricing_tier: item.pricing_tier,
             price: item.price,
             warehouse_id: item.warehouse_id,
         })), { transaction });
-        await purchaseOrder.reload({
-            include: ["items"],
-            transaction,
-        });
-        return purchaseOrder;
+        return { order_id: order.id, order_number: order.order_number };
     });
 }
 const PurchaseOrderUpdateBody = updateSchema({
@@ -327,15 +321,15 @@ function buildWarehouseRoutes(defaultPath) {
 function buildPurchaseOrderRoutes(defaultPath) {
     return [
         ...createCrudRoutes({
-            prefix: defaultPath + "/purchase-orders",
+            prefix: defaultPath + "/orders",
             service: purchaseOrderService,
-            createBody: (body) => PurchaseOrderCreateRequestBody.parse(body),
+            createBody: (body) => createOrderValidationSchema.parse(body),
             createHandler: (payload, { db }) => createPurchaseOrderWithItems(db, payload),
             updateBody: (body) => PurchaseOrderUpdateBody.parse(body),
         }),
         {
             method: "get",
-            path: defaultPath + "/purchase-orders/:id/items",
+            path: defaultPath + "/orders/:id/items",
             handler: ({ params }) => {
                 const { id } = PurchaseId.parse(params);
                 return purchaseOrderService.findWithItems(id);
@@ -357,69 +351,6 @@ function buildPurchaseOrderItemRoutes(defaultPath) {
             handler: ({ params }) => {
                 const { orderId } = OrderId.parse(params);
                 return purchaseOrderItemService.findByOrder(orderId);
-            },
-        },
-    ];
-}
-function buildSalesOrderRoutes(defaultPath) {
-    return [
-        ...createCrudRoutes({
-            prefix: defaultPath + "/sales-orders",
-            service: salesOrderService,
-            createBody: (body) => SalesOrderCreateBody.parse(body),
-            updateBody: (body) => SalesOrderUpdateBody.parse(body),
-        }),
-        {
-            method: "get",
-            path: defaultPath + "/sales-orders/:id/items",
-            handler: ({ params }) => {
-                const { id } = SalesId.parse(params);
-                return salesOrderService.findWithItems(id);
-            },
-        },
-    ];
-}
-function buildSalesOrderItemRoutes(defaultPath) {
-    return [
-        ...createCrudRoutes({
-            prefix: defaultPath + "/sales-order-items",
-            service: salesOrderItemService,
-            createBody: (body) => SalesOrderItemCreateBody.parse(body),
-            updateBody: (body) => SalesOrderItemUpdateBody.parse(body),
-        }),
-        {
-            method: "get",
-            path: defaultPath + "/sales-order-items/by-order/:orderId",
-            handler: ({ params }) => {
-                const { orderId } = OrderId.parse(params);
-                return salesOrderItemService.findByOrder(orderId);
-            },
-        },
-    ];
-}
-function buildSalesOrderItemAllocationRoutes(defaultPath) {
-    return [
-        ...createCrudRoutes({
-            prefix: defaultPath + "/sales-order-item-allocations",
-            service: salesOrderItemAllocationService,
-            createBody: (body) => SalesOrderItemAllocationCreateBody.parse(body),
-            updateBody: (body) => SalesOrderItemAllocationUpdateBody.parse(body),
-        }),
-        {
-            method: "get",
-            path: defaultPath + "/sales-order-item-allocations/by-warehouse/:warehouseId",
-            handler: ({ params }) => {
-                const { warehouseId } = WarehouseId.parse(params);
-                return salesOrderItemAllocationService.findByWarehouse(warehouseId);
-            },
-        },
-        {
-            method: "get",
-            path: defaultPath +
-                "/sales-order-item-allocations/by-order-item/:orderItemId",
-            handler: ({ params }) => {
-                const { orderItemId } = OrderItemId.parse(params);
-                return salesOrderItemAllocationService.findByOrderItem(orderItemId);
             },
         },
     ];
@@ -590,9 +521,6 @@ export function buildAutoPoolRoutes(db, defaultPath) {
         ...buildInventoryRoutes(defaultPath),
         ...buildPurchaseOrderRoutes(defaultPath),
         ...buildPurchaseOrderItemRoutes(defaultPath),
-        ...buildSalesOrderRoutes(defaultPath),
-        ...buildSalesOrderItemRoutes(defaultPath),
-        ...buildSalesOrderItemAllocationRoutes(defaultPath),
         ...buildInventoryManagementRoutes(db, defaultPath),
         ...buildQueryRoutes(db, defaultPath),
         ...buildProductsRoutes(db, defaultPath),

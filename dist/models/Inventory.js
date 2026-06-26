@@ -26,7 +26,7 @@ export class Inventory extends Model {
         }, {
             sequelize,
             modelName: "Inventory",
-            tableName: "apd_inventory",
+            tableName: "ims_inventory",
             timestamps: true,
             createdAt: "created_at",
             updatedAt: "updated_at",

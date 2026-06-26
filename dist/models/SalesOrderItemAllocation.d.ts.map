@@ -1,1 +1,0 @@
-{"version":3,"file":"SalesOrderItemAllocation.d.ts","sourceRoot":"","sources":["../../src/models/SalesOrderItemAllocation.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AAE9D,qBAAa,wBAAyB,SAAQ,KAAK;IACjD,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CA+BtC"}

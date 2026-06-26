@@ -1,11 +1,11 @@
-import { PurchaseOrder } from "../../models/PurchaseOrder.js";
+import { Orders } from "../../models/Orders.js";
 import { BaseService } from "../base/base.service.js";
 export class PurchaseOrderService extends BaseService {
     constructor() {
-        super(PurchaseOrder);
+        super(Orders);
     }
     async findWithItems(id) {
-        return PurchaseOrder.findByPk(id, {
+        return Orders.findByPk(id, {
             include: ["items"],
         });
     }

@@ -1,11 +1,11 @@
-import { SalesOrderItem } from "../../models/SalesOrderItem.js";
+import { OrderItems } from "../../models/OrderItems.js";
 import { BaseService } from "../base/base.service.js";
 export class SalesOrderItemService extends BaseService {
     constructor() {
-        super(SalesOrderItem);
+        super(OrderItems);
     }
     async findByOrder(orderId) {
-        return SalesOrderItem.findAll({
+        return OrderItems.findAll({
             where: {
                 sales_order_id: orderId,
             },

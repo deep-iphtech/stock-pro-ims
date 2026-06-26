@@ -21,15 +21,13 @@ export interface CreateAutoPoolOptions {
     authenticate?: boolean;
     productsTable?: string;
     productModel?: ModelStatic<Model>;
+    onlyTables?: string[];
 }
 export type AutoPoolDB = DB;
 export interface AutoPoolModels {
     Warehouse: DB["Warehouse"];
     Inventory: DB["Inventory"];
-    PurchaseOrder: DB["PurchaseOrder"];
-    PurchaseOrderItem: DB["PurchaseOrderItem"];
-    SalesOrder: DB["SalesOrder"];
-    SalesOrderItem: DB["SalesOrderItem"];
-    SalesOrderItemAllocation: DB["SalesOrderItemAllocation"];
+    Orders: DB["Orders"];
+    OrderItems: DB["OrderItems"];
 }
 //# sourceMappingURL=types.d.ts.map

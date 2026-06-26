@@ -66,9 +66,9 @@ export class QueryService {
     }
     async fetchSalesOrderItemWithProducts(salesOrderItemId) {
         const db = this.db;
-        const include = productInclude(db.SalesOrderItem);
+        const include = productInclude(db.OrderItems);
         if (typeof salesOrderItemId === "number") {
-            const item = await db.SalesOrderItem.findByPk(salesOrderItemId, {
+            const item = await db.OrderItems.findByPk(salesOrderItemId, {
                 ...(include.length ? { include } : {}),
             });
             if (!item) {
@@ -83,7 +83,7 @@ export class QueryService {
             ]);
             return attachProductToItem(payload, productMap);
         }
-        const items = await db.SalesOrderItem.findAll({
+        const items = await db.OrderItems.findAll({
             ...(include.length ? { include } : {}),
         });
         const payload = toJsonList(items);
@@ -97,10 +97,10 @@ export class QueryService {
         const db = this.db;
         const includeItems = {
             association: "items",
-            include: productInclude(db.SalesOrderItem),
+            include: productInclude(db.OrderItems),
         };
         const where = typeof businessId === "number" ? { business_id: businessId } : undefined;
-        const orders = await db.SalesOrder.findAll({
+        const orders = await db.Orders.findAll({
             ...(where ? { where } : {}),
             include: [includeItems],
         });
@@ -117,9 +117,9 @@ export class QueryService {
         const db = this.db;
         const includeItems = {
             association: "items",
-            include: productInclude(db.SalesOrderItem),
+            include: productInclude(db.OrderItems),
         };
-        const order = await db.SalesOrder.findByPk(salesOrderId, {
+        const order = await db.Orders.findByPk(salesOrderId, {
             include: [includeItems],
         });
         if (!order) {
@@ -136,9 +136,9 @@ export class QueryService {
     }
     async fetchPurchaseOrderItemWithProducts(purchaseOrderItemId) {
         const db = this.db;
-        const include = productInclude(db.PurchaseOrderItem);
+        const include = productInclude(db.OrderItems);
         if (typeof purchaseOrderItemId === "number") {
-            const item = await db.PurchaseOrderItem.findByPk(purchaseOrderItemId, {
+            const item = await db.OrderItems.findByPk(purchaseOrderItemId, {
                 ...(include.length ? { include } : {}),
             });
             if (!item) {
@@ -153,7 +153,7 @@ export class QueryService {
             ]);
             return attachProductToItem(payload, productMap);
         }
-        const items = await db.PurchaseOrderItem.findAll({
+        const items = await db.OrderItems.findAll({
             ...(include.length ? { include } : {}),
         });
         const payload = toJsonList(items);
@@ -167,7 +167,7 @@ export class QueryService {
         const db = this.db;
         const includeItems = {
             association: "items",
-            include: productInclude(db.PurchaseOrderItem),
+            include: productInclude(db.OrderItems),
         };
         const where = {};
         if (typeof options.businessId === "number") {
@@ -176,7 +176,7 @@ export class QueryService {
         if (typeof options.createdBy === "number") {
             where.created_by = options.createdBy;
         }
-        const orders = await db.PurchaseOrder.findAll({
+        const orders = await db.Orders.findAll({
             ...(Object.keys(where).length ? { where } : {}),
             include: [includeItems],
         });
@@ -193,9 +193,9 @@ export class QueryService {
         const db = this.db;
         const includeItems = {
             association: "items",
-            include: productInclude(db.PurchaseOrderItem),
+            include: productInclude(db.OrderItems),
         };
-        const order = await db.PurchaseOrder.findByPk(purchaseOrderId, {
+        const order = await db.Orders.findByPk(purchaseOrderId, {
             include: [includeItems],
         });
         if (!order) {

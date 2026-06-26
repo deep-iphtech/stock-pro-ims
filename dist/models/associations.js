@@ -1,30 +1,23 @@
 import { Inventory } from "./Inventory.js";
-import { PurchaseOrder } from "./PurchaseOrder.js";
-import { PurchaseOrderItem } from "./PurchaseOrderItem.js";
-import { SalesOrder } from "./SalesOrder.js";
-import { SalesOrderItem } from "./SalesOrderItem.js";
-import { SalesOrderItemAllocation } from "./SalesOrderItemAllocation.js";
+import { Orders } from "./Orders.js";
+import { OrderItems } from "./OrderItems.js";
 import { Warehouse } from "./Warehouse.js";
 export function hasProductAssociation(model) {
     return Boolean(model.associations?.product);
 }
 export function setupAssociations(productModel) {
     if (productModel) {
-        PurchaseOrderItem.belongsTo(productModel, {
+        Orders.hasMany(OrderItems, {
+            foreignKey: "order_id",
+            as: "products",
+        });
+        OrderItems.belongsTo(productModel, {
             foreignKey: "product_id",
             as: "product",
         });
-        productModel.hasMany(PurchaseOrderItem, {
+        productModel.hasMany(OrderItems, {
             foreignKey: "product_id",
-            as: "purchaseOrderItems",
-        });
-        SalesOrderItem.belongsTo(productModel, {
-            foreignKey: "product_id",
-            as: "product",
-        });
-        productModel.hasMany(SalesOrderItem, {
-            foreignKey: "product_id",
-            as: "salesOrderItems",
+            as: "orderItems",
         });
         Inventory.belongsTo(productModel, {
             foreignKey: "product_id",
@@ -44,48 +37,21 @@ export function setupAssociations(productModel) {
         foreignKey: "warehouse_id",
         as: "warehouse",
     });
-    // PurchaseOrder ↔ PurchaseOrderItem
-    PurchaseOrder.hasMany(PurchaseOrderItem, {
-        foreignKey: "purchase_order_id",
-        as: "items",
-    });
-    PurchaseOrderItem.belongsTo(PurchaseOrder, {
-        foreignKey: "purchase_order_id",
-        as: "purchaseOrder",
-    });
-    // Warehouse ↔ PurchaseOrderItem
-    Warehouse.hasMany(PurchaseOrderItem, {
+    // Orders ↔ OrderItems
+    // Orders.hasMany(OrderItems, {
+    //   foreignKey: "order_id",
+    //   as: "o_id",
+    // });
+    // OrderItems.belongsTo(Orders, {
+    //   foreignKey: "order_id",
+    //   as: "o_id",
+    // });
+    // Warehouse ↔ OrderItems
+    Warehouse.hasMany(OrderItems, {
         foreignKey: "warehouse_id",
         as: "purchaseOrderItems",
     });
-    PurchaseOrderItem.belongsTo(Warehouse, {
-        foreignKey: "warehouse_id",
-        as: "warehouse",
-    });
-    // SalesOrder ↔ SalesOrderItem
-    SalesOrder.hasMany(SalesOrderItem, {
-        foreignKey: "sales_order_id",
-        as: "items",
-    });
-    SalesOrderItem.belongsTo(SalesOrder, {
-        foreignKey: "sales_order_id",
-        as: "salesOrder",
-    });
-    // SalesOrderItem ↔ Allocation
-    SalesOrderItem.hasMany(SalesOrderItemAllocation, {
-        foreignKey: "sales_order_item_id",
-        as: "allocations",
-    });
-    SalesOrderItemAllocation.belongsTo(SalesOrderItem, {
-        foreignKey: "sales_order_item_id",
-        as: "salesOrderItem",
-    });
-    // Warehouse ↔ Allocation
-    Warehouse.hasMany(SalesOrderItemAllocation, {
-        foreignKey: "warehouse_id",
-        as: "allocations",
-    });
-    SalesOrderItemAllocation.belongsTo(Warehouse, {
+    OrderItems.belongsTo(Warehouse, {
         foreignKey: "warehouse_id",
         as: "warehouse",
     });

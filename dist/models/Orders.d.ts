@@ -1,16 +1,16 @@
 import { CreationOptional, InferAttributes, InferCreationAttributes, Model, Sequelize } from "@sequelize/core";
-export declare class PurchaseOrder extends Model<InferAttributes<PurchaseOrder>, InferCreationAttributes<PurchaseOrder>> {
+export declare class Orders extends Model<InferAttributes<Orders>, InferCreationAttributes<Orders>> {
     id: CreationOptional<number>;
+    customer_id: number;
     order_number?: string;
-    business_id: number;
+    order_type: CreationOptional<"sales" | "purchase">;
     status: CreationOptional<"draft" | "pending" | "approved" | "received" | "cancelled">;
     shipping_charges: CreationOptional<number>;
     notes: string | null;
-    created_by: number;
     payment_status: CreationOptional<"pending" | "partial" | "paid">;
     paid_at: Date | null;
     created_at: CreationOptional<Date>;
     updated_at: Date | null;
     static initModel(sequelize: Sequelize): void;
 }
-//# sourceMappingURL=PurchaseOrder.d.ts.map
+//# sourceMappingURL=Orders.d.ts.map

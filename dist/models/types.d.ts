@@ -2,12 +2,12 @@ import { Sequelize } from "@sequelize/core";
 export interface DB {
     sequelize: Sequelize;
     productsTable?: string;
+    status: {
+        productsTableExists: boolean;
+    };
     Warehouse: typeof import("./Warehouse.js").Warehouse;
     Inventory: typeof import("./Inventory.js").Inventory;
-    PurchaseOrder: typeof import("./PurchaseOrder.js").PurchaseOrder;
-    PurchaseOrderItem: typeof import("./PurchaseOrderItem.js").PurchaseOrderItem;
-    SalesOrder: typeof import("./SalesOrder.js").SalesOrder;
-    SalesOrderItem: typeof import("./SalesOrderItem.js").SalesOrderItem;
-    SalesOrderItemAllocation: typeof import("./SalesOrderItemAllocation.js").SalesOrderItemAllocation;
+    Orders: typeof import("./Orders.js").Orders;
+    OrderItems: typeof import("./OrderItems.js").OrderItems;
 }
 //# sourceMappingURL=types.d.ts.map

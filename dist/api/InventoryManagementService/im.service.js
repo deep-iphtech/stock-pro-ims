@@ -1,14 +1,12 @@
-import { PurchaseOrder } from "../../models/PurchaseOrder.js";
+import { Orders } from "../../models/Orders.js";
 import { Inventory } from "../../models/Inventory.js";
-import { SalesOrder } from "../../models/SalesOrder.js";
-import { SalesOrderItemAllocation } from "../../models/SalesOrderItemAllocation.js";
 export class InventoryManagementService {
     sequelize;
     constructor(sequelize) {
         this.sequelize = sequelize;
     }
     async receivePurchaseOrderInternal(purchaseOrderId, transaction) {
-        const purchaseOrder = await PurchaseOrder.findByPk(purchaseOrderId, {
+        const purchaseOrder = await Orders.findByPk(purchaseOrderId, {
             include: ["items"],
             transaction,
         });
@@ -43,7 +41,7 @@ export class InventoryManagementService {
         return purchaseOrder;
     }
     async allocateSalesOrderInternal(salesOrderId, transaction) {
-        const order = await SalesOrder.findByPk(salesOrderId, {
+        const order = await Orders.findByPk(salesOrderId, {
             include: ["items"],
             transaction,
         });
@@ -67,18 +65,13 @@ export class InventoryManagementService {
             inventory.available -= item.quantity;
             inventory.reserved += item.quantity;
             await inventory.save({ transaction });
-            await SalesOrderItemAllocation.create({
-                sales_order_item_id: item.id,
-                warehouse_id: inventory.warehouse_id,
-                quantity: item.quantity,
-            }, { transaction });
         }
         order.status = "confirmed";
         await order.save({ transaction });
         return order;
     }
     async shipSalesOrderInternal(salesOrderId, transaction) {
-        const order = await SalesOrder.findByPk(salesOrderId, {
+        const order = await Orders.findByPk(salesOrderId, {
             include: [
                 {
                     association: "items",
@@ -111,7 +104,7 @@ export class InventoryManagementService {
         return order;
     }
     async cancelSalesOrderInternal(salesOrderId, transaction) {
-        const order = await SalesOrder.findByPk(salesOrderId, {
+        const order = await Orders.findByPk(salesOrderId, {
             include: [
                 {
                     association: "items",

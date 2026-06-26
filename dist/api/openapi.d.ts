@@ -2,6 +2,10 @@ export type OpenApiServer = {
     url: string;
     description?: string;
 };
+export type OpenApiTag = {
+    name: string;
+    description?: string;
+};
 export type OpenApiDocument = {
     openapi: "3.1.0";
     info: {
@@ -9,10 +13,12 @@ export type OpenApiDocument = {
         version: string;
         description?: string;
     };
+    tags?: OpenApiTag[];
     servers?: OpenApiServer[];
     paths: Record<string, Record<string, unknown>>;
     components: {
-        schemas: Record<string, unknown>;
+        reqSchemas: Record<string, unknown>;
+        resSchemas: Record<string, unknown>;
     };
 };
 export type CreateOpenApiDocumentOptions = {
