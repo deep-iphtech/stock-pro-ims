@@ -166,20 +166,18 @@ function crudPaths(path, reqTitle, schema, tags) {
             },
             put: {
                 tags: tags,
-                summary: `Update ${reqTitle} by id`,
-                parameters: [pathParam("id", `${reqTitle} id`)],
+                summary: `Update ${reqTitle} info`,
+                parameters: [pathParam("id", "Order Id", { type: "integer" })],
                 requestBody: {
                     required: true,
                     content: {
                         "application/json": {
-                            schema: {
-                                $ref: `#/components/schemas/${requestSchemaRef}UpdateRequest`,
-                            },
+                            schema: { $ref: `#/components/reqSchemas/${schema}-update` },
                         },
                     },
                 },
                 responses: {
-                    200: ok(responseSchemaRef),
+                    200: "success",
                     400: errorResponse("Invalid request"),
                     404: errorResponse("Not found"),
                     500: errorResponse("Server error"),

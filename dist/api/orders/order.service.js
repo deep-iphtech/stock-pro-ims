@@ -1,5 +1,6 @@
 import { Orders } from "../../models/Orders.js";
 import { BaseService } from "../base/base.service.js";
+import { HttpError } from "../http.js";
 export class OrderService extends BaseService {
     constructor() {
         super(Orders);
@@ -23,6 +24,15 @@ export class OrderService extends BaseService {
             data: rows,
             recordsFiltered: count,
         };
+    }
+    async updateOrderInfo(id, data) {
+        const [count] = await Orders.update(data, {
+            where: { id },
+        });
+        if (!count) {
+            throw new HttpError(404, "Order not found");
+        }
+        return Orders.findByPk(id);
     }
 }
 export default new OrderService();

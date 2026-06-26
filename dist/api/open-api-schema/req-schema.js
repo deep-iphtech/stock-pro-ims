@@ -146,6 +146,18 @@ const reqSchemas = {
         },
         required: ["customer_id", "order_type", "products"],
     },
+    "Orders-update": {
+        type: "object",
+        properties: {
+            shipment_tracking_number: {
+                type: "string",
+            },
+            order_meta: {
+                type: "object",
+                additionalProperties: true,
+            },
+        },
+    },
     PurchaseOrderCreateItemRequest: objectSchema({
         product_id: {
             type: "integer",

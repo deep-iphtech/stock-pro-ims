@@ -131,6 +131,18 @@ declare const reqSchemas: {
         };
         readonly required: readonly ["customer_id", "order_type", "products"];
     };
+    readonly "Orders-update": {
+        readonly type: "object";
+        readonly properties: {
+            readonly shipment_tracking_number: {
+                readonly type: "string";
+            };
+            readonly order_meta: {
+                readonly type: "object";
+                readonly additionalProperties: true;
+            };
+        };
+    };
     readonly PurchaseOrderCreateItemRequest: {
         example?: Record<string, unknown> | undefined;
         required?: string[] | undefined;

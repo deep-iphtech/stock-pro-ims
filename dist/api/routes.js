@@ -8,7 +8,7 @@ import { ProductService } from "./products/product.service.js";
 import * as z from "zod";
 import { Orders } from "../models/Orders.js";
 import OrderService from "./orders/order.service.js";
-import { fetchOrderByTypeSchema } from "../validations/order.schema.js";
+import { fetchOrderByTypeSchema, updateOrderInfoSchema, } from "../validations/order.schema.js";
 const WarehouseId = z.object({
     warehouseId: z.coerce.number().min(1),
 });
@@ -139,18 +139,6 @@ function createPurchaseOrderWithItems(db, payload) {
         return { order_id: order.id, order_number: order.order_number };
     });
 }
-const PurchaseOrderUpdateBody = updateSchema({
-    order_number: z.string().optional(),
-    business_id: positiveInteger,
-    status: z
-        .enum(["draft", "pending", "approved", "received", "cancelled"])
-        .optional(),
-    shipping_charges: z.number().optional(),
-    notes: z.string().nullable().optional(),
-    created_by: positiveInteger,
-    payment_status: z.enum(["pending", "partial", "paid"]).optional(),
-    paid_at: z.string().nullable().optional(),
-}).strict();
 const PurchaseOrderItemCreateBody = z
     .object({
     purchase_order_id: positiveInteger,
@@ -328,7 +316,7 @@ function buildPurchaseOrderRoutes(defaultPath) {
             service: purchaseOrderItemService,
             createBody: (body) => createOrderValidationSchema.parse(body),
             createHandler: (payload, { db }) => createPurchaseOrderWithItems(db, payload),
-            updateBody: (body) => PurchaseOrderUpdateBody.parse(body),
+            updateBody: (body) => updateOrderInfoSchema.parse(body),
         }),
         {
             method: "get",

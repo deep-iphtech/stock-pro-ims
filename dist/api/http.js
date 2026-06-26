@@ -1,4 +1,5 @@
 import { ZodError } from "zod";
+import OrderService from "./orders/order.service.js";
 export class HttpError extends Error {
     statusCode;
     constructor(statusCode, message) {
@@ -50,7 +51,17 @@ export function createCrudRoutes(options) {
         {
             method: "put",
             path: `${options.prefix}/:${idParam}`,
-            handler: ({ params, body }) => options.service.update(readNumber(params[idParam], idParam), options.updateBody ? options.updateBody(body) : readBodyObject(body)),
+            handler: async ({ params, body }) => {
+                const id = readNumber(params[idParam], idParam);
+                const payload = options.updateBody
+                    ? options.updateBody(body)
+                    : readBodyObject(body);
+                await OrderService.update(id, payload);
+                return {
+                    success: true,
+                    message: `Info updated successfully`,
+                };
+            },
         },
         {
             method: "delete",

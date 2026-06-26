@@ -7,6 +7,7 @@ export declare class OrderService extends BaseService<Orders> {
         data: Orders[];
         recordsFiltered: number;
     }>;
+    updateOrderInfo(id: number, data: any): Promise<Orders | null>;
 }
 declare const _default: OrderService;
 export default _default;

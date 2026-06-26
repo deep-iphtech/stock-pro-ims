@@ -54,7 +54,10 @@ export declare function createCrudRoutes<T>(options: {
 } | {
     method: "put";
     path: string;
-    handler: ({ params, body }: RouteContext) => Promise<T>;
+    handler: ({ params, body }: RouteContext) => Promise<{
+        success: boolean;
+        message: string;
+    }>;
     statusCode?: undefined;
 } | {
     method: "delete";
