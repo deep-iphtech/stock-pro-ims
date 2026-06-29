@@ -34,6 +34,6 @@ export interface AutoPoolModels {
 export interface ExternalModels {
     customer?: any;
     product?: any;
-    [key: string]: ModelStatic<any> | undefined;
+    [key: string]: any;
 }
 //# sourceMappingURL=types.d.ts.map
