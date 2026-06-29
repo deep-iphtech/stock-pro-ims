@@ -11,7 +11,7 @@ export async function createAutoPool(options = {}) {
     const hasProductsTable = tables.includes(productsTable);
     // ❗ DO NOT THROW — just report state
     const db = {
-        ...initializeAutoPoolData(sequelize, options.productModel),
+        ...initializeAutoPoolData(sequelize, options.models),
         sequelize,
         productsTable,
         status: {

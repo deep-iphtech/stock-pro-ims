@@ -22,6 +22,7 @@ export interface CreateAutoPoolOptions {
     productsTable?: string;
     productModel?: ModelStatic<Model>;
     onlyTables?: string[];
+    models?: ExternalModels;
 }
 export type AutoPoolDB = DB;
 export interface AutoPoolModels {
@@ -29,5 +30,10 @@ export interface AutoPoolModels {
     Inventory: DB["Inventory"];
     Orders: DB["Orders"];
     OrderItems: DB["OrderItems"];
+}
+export interface ExternalModels {
+    customer?: ModelStatic<Model>;
+    product?: ModelStatic<Model>;
+    [key: string]: ModelStatic<Model> | undefined;
 }
 //# sourceMappingURL=types.d.ts.map

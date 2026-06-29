@@ -5,30 +5,36 @@ import { Warehouse } from "./Warehouse.js";
 export function hasProductAssociation(model) {
     return Boolean(model.associations?.product);
 }
-export function setupAssociations(productModel) {
-    if (productModel) {
+export function setupAssociations(models = {}) {
+    const { customer, product } = models;
+    if (customer) {
+        Orders.belongsTo(customer, {
+            foreignKey: "customer_id",
+            as: "customer",
+        });
+    }
+    if (product) {
         Orders.hasMany(OrderItems, {
             foreignKey: "order_id",
             as: "products",
         });
-        OrderItems.belongsTo(productModel, {
+        OrderItems.belongsTo(product, {
             foreignKey: "product_id",
             as: "product",
         });
-        productModel.hasMany(OrderItems, {
+        product.hasMany(OrderItems, {
             foreignKey: "product_id",
             as: "orderItems",
         });
-        Inventory.belongsTo(productModel, {
+        Inventory.belongsTo(product, {
             foreignKey: "product_id",
             as: "product",
         });
-        productModel.hasMany(Inventory, {
+        product.hasMany(Inventory, {
             foreignKey: "product_id",
             as: "inventories",
         });
     }
-    // Warehouse ↔ Inventory
     Warehouse.hasMany(Inventory, {
         foreignKey: "warehouse_id",
         as: "inventory",
@@ -42,11 +48,6 @@ export function setupAssociations(productModel) {
         foreignKey: "order_id",
         as: "orderItems",
     });
-    // OrderItems.belongsTo(Orders, {
-    //   foreignKey: "order_id",
-    //   as: "o_id",
-    // });
-    // Warehouse ↔ OrderItems
     Warehouse.hasMany(OrderItems, {
         foreignKey: "warehouse_id",
         as: "purchaseOrderItems",

@@ -1,7 +1,7 @@
 import { Inventory } from "./Inventory.js";
+import { Warehouse } from "./Warehouse.js";
 import { Orders } from "./Orders.js";
 import { OrderItems } from "./OrderItems.js";
-import { Warehouse } from "./Warehouse.js";
 import { setupAssociations } from "./associations.js";
 const modelsToSync = [Warehouse, Inventory, Orders, OrderItems];
 export const autoPoolModels = {
@@ -11,7 +11,7 @@ export const autoPoolModels = {
     OrderItems,
 };
 let initializedFor;
-export function initializeAutoPoolData(sequelize, productModel) {
+export function initializeAutoPoolData(sequelize, externalModels = {}) {
     if (initializedFor === sequelize) {
         return {
             sequelize,
@@ -21,7 +21,7 @@ export function initializeAutoPoolData(sequelize, productModel) {
     for (const model of modelsToSync) {
         model.initModel(sequelize);
     }
-    setupAssociations(productModel);
+    setupAssociations(externalModels);
     initializedFor = sequelize;
     return {
         sequelize,
@@ -29,9 +29,8 @@ export function initializeAutoPoolData(sequelize, productModel) {
     };
 }
 export async function syncAutoPoolData(options = false) {
-    if (!options) {
+    if (!options)
         return;
-    }
     const syncOptions = options === true ? {} : options;
     for (const model of modelsToSync) {
         await model.sync(syncOptions);
