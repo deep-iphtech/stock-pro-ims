@@ -11,13 +11,26 @@ export class Warehouse extends Model {
                 type: DataTypes.STRING,
                 allowNull: false,
             },
+            created_at: {
+                type: DataTypes.DATE,
+                allowNull: false,
+                defaultValue: DataTypes.NOW,
+            },
+            updated_at: {
+                type: DataTypes.DATE,
+                allowNull: true,
+                defaultValue: null,
+            },
         }, {
             sequelize,
             modelName: "Warehouse",
             tableName: "ims_warehouses",
-            timestamps: true,
-            createdAt: "created_at",
-            updatedAt: "updated_at",
+            timestamps: false,
+            hooks: {
+                beforeUpdate: (purchaseOrder) => {
+                    purchaseOrder.setDataValue("updated_at", new Date());
+                },
+            },
         });
     }
 }

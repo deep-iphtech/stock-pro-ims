@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { createAutoPool, syncAutoPoolData } from "./init.js";
-import { createAutoPoolExpressRouter, registerAutoPoolFastifyRoutes, } from "./api/index.js";
+import { createAutoPoolExpressRouter, registerAutoPoolFastifyRoutes, } from "./services/index.js";
 import readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 const KNOWN_ENVS = new Set(["development", "production", "test"]);
