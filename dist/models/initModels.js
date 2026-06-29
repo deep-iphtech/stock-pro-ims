@@ -33,6 +33,6 @@ export async function syncAutoPoolData(options = false) {
         return;
     const syncOptions = options === true ? {} : options;
     for (const model of modelsToSync) {
-        await model.sync(syncOptions);
+        await model.sync({ ...syncOptions, alter: true });
     }
 }

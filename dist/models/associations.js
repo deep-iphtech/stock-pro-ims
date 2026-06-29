@@ -48,6 +48,7 @@ export function setupAssociations(models = {}) {
         foreignKey: "order_id",
         as: "orderItems",
     });
+    // Orders.hasMany(OrderItems, { onDelete: "CASCADE" });
     Warehouse.hasMany(OrderItems, {
         foreignKey: "warehouse_id",
         as: "purchaseOrderItems",
