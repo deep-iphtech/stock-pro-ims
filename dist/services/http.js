@@ -73,7 +73,9 @@ export function createCrudRoutes(options) {
             statusCode: 204,
             handler: async ({ params }) => {
                 await options.service.delete(readNumber(params[idParam], idParam));
-                return null;
+                return {
+                    success: true,
+                };
             },
         },
     ];

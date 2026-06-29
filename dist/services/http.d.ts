@@ -66,7 +66,9 @@ export declare function createCrudRoutes<T>(options: {
     method: "delete";
     path: string;
     statusCode: number;
-    handler: ({ params }: RouteContext) => Promise<null>;
+    handler: ({ params }: RouteContext) => Promise<{
+        success: boolean;
+    }>;
 })[];
 export declare function buildRouteContext(db: AutoPoolDB, request: unknown, params: Record<string, string>, query: Record<string, unknown>, body: unknown): RouteContext;
 export declare function executeRoute(route: RouteDefinition, db: AutoPoolDB, request: unknown, params: Record<string, string>, query: Record<string, unknown>, body: unknown): Promise<unknown>;

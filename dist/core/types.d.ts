@@ -32,8 +32,8 @@ export interface AutoPoolModels {
     OrderItems: DB["OrderItems"];
 }
 export interface ExternalModels {
-    customer?: ModelStatic<Model>;
-    product?: ModelStatic<Model>;
-    [key: string]: ModelStatic<Model> | undefined;
+    customer?: ModelStatic<any>;
+    product?: ModelStatic<any>;
+    [key: string]: ModelStatic<any> | undefined;
 }
 //# sourceMappingURL=types.d.ts.map

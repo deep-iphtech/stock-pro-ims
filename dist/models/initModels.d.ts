@@ -1,4 +1,4 @@
-import type { Model, ModelStatic, Sequelize, SyncOptions } from "@sequelize/core";
+import type { ModelStatic, Sequelize, SyncOptions } from "@sequelize/core";
 import { Inventory } from "./Inventory.js";
 import { Warehouse } from "./Warehouse.js";
 import { Orders } from "./Orders.js";
@@ -9,7 +9,7 @@ export declare const autoPoolModels: {
     Orders: typeof Orders;
     OrderItems: typeof OrderItems;
 };
-export declare function initializeAutoPoolData(sequelize: Sequelize, externalModels?: Record<string, ModelStatic<Model> | undefined>): {
+export declare function initializeAutoPoolData(sequelize: Sequelize, externalModels?: Record<string, ModelStatic<any> | undefined>): {
     Warehouse: typeof Warehouse;
     Inventory: typeof Inventory;
     Orders: typeof Orders;
