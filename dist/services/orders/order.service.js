@@ -12,7 +12,10 @@ export class OrderService extends BaseService {
         });
     }
     async findOtherItems(id) {
-        return OrderItems.findAll({ where: { order_id: id } });
+        return OrderItems.findAll({
+            where: { order_id: id },
+            include: ["product"],
+        });
     }
     async findByType(orderType, start = 0, length = 10, includeOrderItems = false, status) {
         const where = {

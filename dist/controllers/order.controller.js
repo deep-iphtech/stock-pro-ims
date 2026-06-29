@@ -14,8 +14,10 @@ export async function createPurchaseOrderWithItems(db, payload) {
             warehouse_id: item.warehouse_id,
         })), { transaction });
         return {
+            success: true,
             order_id: order.id,
             order_number: order.order_number,
+            created_at: order.created_at,
         };
     });
 }

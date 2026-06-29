@@ -265,6 +265,17 @@ export function createAutoPoolOpenApiDocument(options = {}) {
                     },
                 },
             },
+            "/orders/{id}/items": {
+                get: {
+                    tags: ["Orders"],
+                    summary: "Fetch Order Items",
+                    description: "This api is used fetch order items by order id you will product info as well",
+                    parameters: [pathParam("id", "Purchase order id")],
+                    responses: {
+                        200: ok(""),
+                    },
+                },
+            },
             ...crudPaths("/inventories", "Inventory", "Inventory", ["Inventory"]),
             // ...crudPaths("/products", "Product", "products", "Product"),
             // "/inventories/warehouse/{warehouseId}": {
@@ -322,15 +333,6 @@ export function createAutoPoolOpenApiDocument(options = {}) {
             //       200: ok({ $ref: "#/components/schemas/Inventory" }),
             //       400: errorResponse("Invalid request"),
             //       404: errorResponse("Inventory not found"),
-            //     },
-            //   },
-            // },
-            // "/purchase-orders/{id}/items": {
-            //   get: {
-            //     summary: "Get purchase order with items",
-            //     parameters: [pathParam("id", "Purchase order id")],
-            //     responses: {
-            //       200: ok({ $ref: "#/components/schemas/Orders" }),
             //     },
             //   },
             // },
