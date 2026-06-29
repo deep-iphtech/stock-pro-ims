@@ -2,7 +2,6 @@ import { createCrudRoutes } from "../services/http.js";
 import OrderService from "../services/orders/order.service.js";
 import { createPurchaseOrderWithItems } from "../controllers/order.controller.js";
 import { Orders } from "../models/Orders.js";
-import { orderIdSchema } from "../validations/common.schema.js";
 import { createOrderValidationSchema, fetchOrderByTypeSchema, updateOrderInfoSchema, } from "../validations/order.schema.js";
 export function buildOrderRoutes(defaultPath) {
     return [
@@ -16,9 +15,13 @@ export function buildOrderRoutes(defaultPath) {
         {
             method: "get",
             path: defaultPath + "/orders/:id/items",
-            handler: ({ params }) => {
-                const { id } = orderIdSchema.parse(params);
-                return OrderService.findWithItems(id);
+            handler: async ({ params }) => {
+                const { id } = params;
+                const data = await OrderService.findOtherItems(Number(id));
+                return {
+                    success: true,
+                    data,
+                };
             },
         },
         {

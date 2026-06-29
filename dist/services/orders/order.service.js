@@ -1,3 +1,4 @@
+import { OrderItems } from "../../models/OrderItems.js";
 import { Orders } from "../../models/Orders.js";
 import { BaseService } from "../base/base.service.js";
 import { HttpError } from "../http.js";
@@ -7,8 +8,11 @@ export class OrderService extends BaseService {
     }
     async findWithItems(id) {
         return Orders.findByPk(id, {
-            include: ["items"],
+            include: ["orderItems"],
         });
+    }
+    async findOtherItems(id) {
+        return OrderItems.findAll({ where: { order_id: id } });
     }
     async findByType(orderType, start = 0, length = 10, includeOrderItems = false, status) {
         const where = {
