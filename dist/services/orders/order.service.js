@@ -6,9 +6,23 @@ export class OrderService extends BaseService {
     constructor() {
         super(Orders);
     }
+    // async findWithItems(id: number) {
+    //   return Orders.findByPk(id, {
+    //     include: ["orderItems"],
+    //   });
+    // }
     async findWithItems(id) {
         return Orders.findByPk(id, {
-            include: ["orderItems"],
+            include: [
+                {
+                    association: "orderItems",
+                    include: [
+                        {
+                            association: "product",
+                        },
+                    ],
+                },
+            ],
         });
     }
     async findOtherItems(id) {

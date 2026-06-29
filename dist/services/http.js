@@ -34,11 +34,6 @@ export function createCrudRoutes(options) {
             },
         },
         {
-            method: "get",
-            path: `${options.prefix}/:${idParam}`,
-            handler: ({ params }) => options.service.findById(readNumber(params[idParam], idParam)),
-        },
-        {
             method: "post",
             path: options.prefix,
             statusCode: 201,

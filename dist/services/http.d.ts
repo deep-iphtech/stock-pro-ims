@@ -45,11 +45,6 @@ export declare function createCrudRoutes<T>(options: {
     }>;
     statusCode?: undefined;
 } | {
-    method: "get";
-    path: string;
-    handler: ({ params }: RouteContext) => Promise<T | null>;
-    statusCode?: undefined;
-} | {
     method: "post";
     path: string;
     statusCode: number;

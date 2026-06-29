@@ -14,6 +14,18 @@ export function buildOrderRoutes(defaultPath) {
         }),
         {
             method: "get",
+            path: defaultPath + "/orders/:id",
+            handler: async ({ params }) => {
+                const { id } = params;
+                const data = await OrderService.findWithItems(Number(id));
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
             path: defaultPath + "/orders/:id/items",
             handler: async ({ params }) => {
                 const { id } = params;
