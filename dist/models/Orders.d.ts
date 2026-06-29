@@ -1,4 +1,4 @@
-import { CreationOptional, InferAttributes, InferCreationAttributes, Model, Sequelize } from "@sequelize/core";
+import { CreationOptional, InferAttributes, InferCreationAttributes, Model, Sequelize } from "sequelize";
 export declare class Orders extends Model<InferAttributes<Orders>, InferCreationAttributes<Orders>> {
     id: CreationOptional<number>;
     customer_id: number;
@@ -6,6 +6,9 @@ export declare class Orders extends Model<InferAttributes<Orders>, InferCreation
     order_type: CreationOptional<"sales" | "purchase">;
     status: CreationOptional<"draft" | "pending" | "approved" | "received" | "cancelled">;
     shipping_charges: CreationOptional<number>;
+    shipment_tracking_number: string | null;
+    order_meta: any;
+    discount: number | null;
     notes: string | null;
     payment_status: CreationOptional<"pending" | "partial" | "paid">;
     paid_at: Date | null;

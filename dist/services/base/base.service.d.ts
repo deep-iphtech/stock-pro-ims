@@ -1,4 +1,4 @@
-import { Model, ModelStatic } from "@sequelize/core";
+import { Model, ModelStatic } from "sequelize";
 export declare class BaseService<T extends Model> {
     protected model: ModelStatic<T>;
     constructor(model: ModelStatic<T>);

@@ -1,6 +1,6 @@
-import type { Sequelize } from "@sequelize/core";
 import type { AutoPoolDB } from "../core/types.js";
 import { Middleware } from "./index.js";
+import { Sequelize } from "sequelize";
 export type HttpMethod = "get" | "post" | "put" | "patch" | "delete";
 export type RouteContext = {
     db: AutoPoolDB;

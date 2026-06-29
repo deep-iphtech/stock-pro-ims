@@ -1,5 +1,5 @@
-import Sequelize from "@sequelize/core";
 import { Inventory } from "../../models/Inventory.js";
+import { Sequelize } from "sequelize";
 export declare class InventoryManagementService {
     private sequelize;
     constructor(sequelize: Sequelize);

@@ -1,4 +1,4 @@
-import { DataTypes, Model } from "@sequelize/core";
+import { DataTypes, Model } from "sequelize";
 export class OrderItems extends Model {
     static initModel(sequelize) {
         OrderItems.init({
@@ -11,7 +11,7 @@ export class OrderItems extends Model {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 references: {
-                    table: "ims_orders",
+                    model: "ims_orders",
                     key: "id",
                 },
                 onDelete: "CASCADE",
@@ -24,7 +24,7 @@ export class OrderItems extends Model {
                 type: DataTypes.INTEGER,
                 allowNull: true,
                 references: {
-                    table: "ims_warehouses",
+                    model: "ims_warehouses",
                     key: "id",
                 },
             },

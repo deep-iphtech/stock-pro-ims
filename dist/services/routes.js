@@ -1,5 +1,4 @@
 import { InventoryManagementService } from "./InventoryManagementService/im.service.js";
-import { ProductService } from "./products/product.service.js";
 import * as z from "zod";
 const PurchaseId = z.object({
     id: z.coerce.number().min(1),
@@ -87,46 +86,6 @@ function buildInventoryManagementRoutes(db, defaultPath) {
             handler: ({ body }) => {
                 const { productId, sourceWarehouseId, targetWarehouseId, quantity } = StockTransfer.parse(body);
                 return service.transferStock(productId, sourceWarehouseId, targetWarehouseId, quantity);
-            },
-        },
-    ];
-}
-function buildProductsRoutes(db, defaultPath) {
-    const service = new ProductService(db);
-    return [
-        {
-            method: "get",
-            path: defaultPath + "/products",
-            handler: () => {
-                return service.findAll();
-            },
-        },
-        {
-            method: "post",
-            path: defaultPath + "/products",
-            handler: (request) => {
-                return service.create(request.body);
-            },
-        },
-        {
-            method: "get",
-            path: defaultPath + "/products/:id",
-            handler: (request) => {
-                return service.findById(Id.parse(request.params).id);
-            },
-        },
-        {
-            method: "put",
-            path: defaultPath + "/products/:id",
-            handler: (request) => {
-                return service.update(Id.parse(request.params).id, request.body);
-            },
-        },
-        {
-            method: "delete",
-            path: defaultPath + "/products/:id",
-            handler: (request) => {
-                return service.delete(Id.parse(request.params).id);
             },
         },
     ];

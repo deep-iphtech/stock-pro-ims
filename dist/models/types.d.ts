@@ -1,4 +1,4 @@
-import { Sequelize } from "@sequelize/core";
+import { Sequelize } from "sequelize";
 export interface DB {
     sequelize: Sequelize;
     productsTable?: string;

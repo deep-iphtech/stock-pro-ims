@@ -1,4 +1,4 @@
-import { DataTypes, Model, } from "@sequelize/core";
+import { DataTypes, Model, } from "sequelize";
 export class Orders extends Model {
     static initModel(sequelize) {
         Orders.init({

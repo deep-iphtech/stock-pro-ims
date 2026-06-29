@@ -1,1 +1,1 @@
-{"version":3,"file":"Warehouse.d.ts","sourceRoot":"","sources":["../../src/models/Warehouse.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AAE9D,qBAAa,SAAU,SAAQ,KAAK;IAClC,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CAoCtC"}
+{"version":3,"file":"Warehouse.d.ts","sourceRoot":"","sources":["../../src/models/Warehouse.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,WAAW,CAAC;AAExD,qBAAa,SAAU,SAAQ,KAAK;IAClC,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CAoCtC"}

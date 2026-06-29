@@ -6,7 +6,7 @@ export async function createAutoPool(options = {}) {
     if (options.authenticate ?? true) {
         await sequelize.authenticate();
     }
-    const tablesRaw = await sequelize.queryInterface.listTables();
+    const tablesRaw = await sequelize.getQueryInterface().showAllTables();
     const tables = tablesRaw.map((t) => (typeof t === "string" ? t : t.tableName).toLowerCase());
     const hasProductsTable = tables.includes(productsTable);
     // ❗ DO NOT THROW — just report state

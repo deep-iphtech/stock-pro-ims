@@ -1,4 +1,4 @@
-import { Model, InferAttributes, InferCreationAttributes, CreationOptional, Sequelize } from "@sequelize/core";
+import { CreationOptional, InferAttributes, InferCreationAttributes, Model, Sequelize } from "sequelize";
 export declare class Inventory extends Model<InferAttributes<Inventory>, InferCreationAttributes<Inventory>> {
     id: CreationOptional<number>;
     product_id: number;

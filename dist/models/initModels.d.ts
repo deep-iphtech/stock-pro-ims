@@ -1,8 +1,8 @@
-import type { ModelStatic, Sequelize, SyncOptions } from "@sequelize/core";
 import { Inventory } from "./Inventory.js";
 import { Warehouse } from "./Warehouse.js";
 import { Orders } from "./Orders.js";
 import { OrderItems } from "./OrderItems.js";
+import { ModelStatic, Sequelize, SyncOptions } from "sequelize";
 export declare const autoPoolModels: {
     Warehouse: typeof Warehouse;
     Inventory: typeof Inventory;
@@ -14,7 +14,7 @@ export declare function initializeAutoPoolData(sequelize: Sequelize, externalMod
     Inventory: typeof Inventory;
     Orders: typeof Orders;
     OrderItems: typeof OrderItems;
-    sequelize: Sequelize<import("@sequelize/core").AbstractDialect<object, object>>;
+    sequelize: Sequelize;
 };
 export declare function syncAutoPoolData(options?: boolean | SyncOptions): Promise<void>;
 //# sourceMappingURL=initModels.d.ts.map

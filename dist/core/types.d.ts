@@ -1,4 +1,4 @@
-import type { Model, ModelStatic, Sequelize, SyncOptions } from "@sequelize/core";
+import { Model, ModelStatic, Sequelize, SyncOptions } from "sequelize";
 import type { DB } from "../models/types.js";
 export type AutoPoolEnvironment = string;
 export type SupportedConfigDialect = "postgres";

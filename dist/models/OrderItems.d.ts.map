@@ -1,1 +1,1 @@
-{"version":3,"file":"OrderItems.d.ts","sourceRoot":"","sources":["../../src/models/OrderItems.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AAE9D,qBAAa,UAAW,SAAQ,KAAK;IACnC,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CA8DtC"}
+{"version":3,"file":"OrderItems.d.ts","sourceRoot":"","sources":["../../src/models/OrderItems.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,SAAS,EAAE,MAAM,WAAW,CAAC;AAExD,qBAAa,UAAW,SAAQ,KAAK;IACnC,MAAM,CAAC,SAAS,CAAC,SAAS,EAAE,SAAS;CA8DtC"}
