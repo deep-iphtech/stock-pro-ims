@@ -1,1 +1,59 @@
-(function(_0x432bb3,_0x40b1c4){const _0x5f4b00=a11_0x2867,_0x2f595d=_0x432bb3();while(!![]){try{const _0x342285=-parseInt(_0x5f4b00(0x12f,'9&5n'))/0x1+-parseInt(_0x5f4b00(0x123,'03W5'))/0x2*(-parseInt(_0x5f4b00(0x119,'D8#S'))/0x3)+-parseInt(_0x5f4b00(0x121,'[saC'))/0x4+parseInt(_0x5f4b00(0x11d,'4I#X'))/0x5+parseInt(_0x5f4b00(0x144,'(j^$'))/0x6*(parseInt(_0x5f4b00(0x122,'mP7U'))/0x7)+-parseInt(_0x5f4b00(0x140,'$GTQ'))/0x8*(-parseInt(_0x5f4b00(0x14d,'7b@k'))/0x9)+-parseInt(_0x5f4b00(0x125,'KtfH'))/0xa*(-parseInt(_0x5f4b00(0x14b,'G(gL'))/0xb);if(_0x342285===_0x40b1c4)break;else _0x2f595d['push'](_0x2f595d['shift']());}catch(_0x297ae4){_0x2f595d['push'](_0x2f595d['shift']());}}}(a11_0x5526,0x37866));const a11_0x57532f=(function(){let _0x41eb2b=!![];return function(_0x397a68,_0x2f750a){const _0x1c85b8=_0x41eb2b?function(){const _0x5df88a=a11_0x2867;if(_0x2f750a){const _0x1e145b=_0x2f750a[_0x5df88a(0x134,'Nqx4')](_0x397a68,arguments);return _0x2f750a=null,_0x1e145b;}}:function(){};return _0x41eb2b=![],_0x1c85b8;};}()),a11_0x5a93a4=a11_0x57532f(this,function(){const _0x566045=a11_0x2867,_0x205e29={'luXsi':'(((.+)+)+)+$'};return a11_0x5a93a4[_0x566045(0x137,'3vWu')]()[_0x566045(0x114,'3@g$')](_0x205e29[_0x566045(0x129,'w4Xm')])[_0x566045(0x138,'mP7U')]()[_0x566045(0x115,'W7(I')](a11_0x5a93a4)['search'](_0x205e29[_0x566045(0x147,'7b@k')]);});a11_0x5a93a4();function a11_0x5526(){const _0x1dc2d0=['W67cVmohEu8','W7tcTmohdmoFW4rqW7G','amocWP11BYnUW5eodg3cMSoK','WOhcGmk3WOxcTmkaWQLG','WOFcHNqaWOVdTtS','Fq/dHfdcVmk8WOe6','ktZcII9alu3dH2VdOq','y2hdLKHFp8oH','aI7cNMjf','z37dJ8oNsavsW43cVW','k8kdW5iuW5W','W6/dKCoKWPxcUSouW64','WO/cRLuaWOzbrSkynCkAbMBcQa','WRxdTa/dNCouW7ldVtKjWRarCW','WRSPw8k7W6BcMCo7yfO','oCkTW6a+WPm','WOZdJCkEiWL1W4bUWRDWy8kE','kwu/W6bI','aSkozw1jhCk9','W4LyW6bLWRy','W5BdJmkLWPxcI8kpWOryW5BdG0u','oZFcGxzK','ESkjuSoHWP4','W4LnW7POsG','is3cNvpcNKRdNmov','W4hdLSkfWPxcLSklWO9n','lSkUWQ53E8oZAmkLWRa','W5BdUb5/W5iEdq','j2tcOqrkj2tcGCkzf3Gs','CSkQW78gWRr1eW','WR0cW63dNmkUWQrDhq','bmkTumk8WOhdOJhdKGqXASoMW5vCW5VdVdlcKq','W53cGx0VWRZdVce','W40+CCkuW7z4W5FcGG','W7fGW5XnWQLNWR/dVw3cGa','W6rfW5PGWRS','cs4OW4TGtCkb','DmkGW75heCkvWRWymSkhW6C','FrP/o8kxdmkKf8kq','W5KRWOFdICoX','qmoVdI8g','W6pdG8k6gSkQ','W53dOmkLWQdcTG','W6LZW4bKWR1QWRi','WOxcM8ostmoDsr/cMNBdTNO','W73dR8ojWRFcGq','fCkTywPAwhtdNmohW7b1la','kmo2WRGur8kWWOKzdW','Ab5HmCkrbmkImmkAFIRcGa','WPdcQmkBFmkweq','f8k3tmkSWP3dStFdLd8SFa','i8oFW6JdOeBcVCkSWRnpe8o9','W4RdNCoGW7ObWORcTty','W5Pvo14v','W5Ozo8kBWP7dPhhdLvNcVhRdNW','W4KfWRtdJSo0','wmkBW5mIngyZW6qMpKK','sarkWR0bW7/dGmkxxCk2DW','wCoAjHuyrSkIwtKuWOFdHa','ySoZWRboWPhdRmolWRaBWPZcQSoZ'];a11_0x5526=function(){return _0x1dc2d0;};return a11_0x5526();}import{Inventory}from'./Inventory.js';import{Orders}from'./Orders.js';function a11_0x2867(_0x37c735,_0x219735){_0x37c735=_0x37c735-0x114;const _0x282de2=a11_0x5526();let _0x5a93a4=_0x282de2[_0x37c735];if(a11_0x2867['cddYUO']===undefined){var _0x57532f=function(_0x34813a){const _0x9bd807='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x51aca3='',_0x4d25d5='',_0x33234c=_0x51aca3+_0x57532f,_0x5ab5ad=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x371ae9=0x0,_0x30f132,_0x5ebc4f,_0x5c7031=0x0;_0x5ebc4f=_0x34813a['charAt'](_0x5c7031++);~_0x5ebc4f&&(_0x30f132=_0x371ae9%0x4?_0x30f132*0x40+_0x5ebc4f:_0x5ebc4f,_0x371ae9++%0x4)?_0x51aca3+=_0x5ab5ad||_0x33234c['charCodeAt'](_0x5c7031+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x30f132>>(-0x2*_0x371ae9&0x6)):_0x371ae9:0x0){_0x5ebc4f=_0x9bd807['indexOf'](_0x5ebc4f);}for(let _0x3d579b=0x0,_0x3454e2=_0x51aca3['length'];_0x3d579b<_0x3454e2;_0x3d579b++){_0x4d25d5+='%'+('00'+_0x51aca3['charCodeAt'](_0x3d579b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4d25d5);};const _0x1b0d6f=function(_0x443af8,_0x56f36f){let _0x516d5c=[],_0x35a6ba=0x0,_0x467709,_0x42011f='';_0x443af8=_0x57532f(_0x443af8);let _0x10fc07;for(_0x10fc07=0x0;_0x10fc07<0x100;_0x10fc07++){_0x516d5c[_0x10fc07]=_0x10fc07;}for(_0x10fc07=0x0;_0x10fc07<0x100;_0x10fc07++){_0x35a6ba=(_0x35a6ba+_0x516d5c[_0x10fc07]+_0x56f36f['charCodeAt'](_0x10fc07%_0x56f36f['length']))%0x100,_0x467709=_0x516d5c[_0x10fc07],_0x516d5c[_0x10fc07]=_0x516d5c[_0x35a6ba],_0x516d5c[_0x35a6ba]=_0x467709;}_0x10fc07=0x0,_0x35a6ba=0x0;for(let _0x4d539e=0x0;_0x4d539e<_0x443af8['length'];_0x4d539e++){_0x10fc07=(_0x10fc07+0x1)%0x100,_0x35a6ba=(_0x35a6ba+_0x516d5c[_0x10fc07])%0x100,_0x467709=_0x516d5c[_0x10fc07],_0x516d5c[_0x10fc07]=_0x516d5c[_0x35a6ba],_0x516d5c[_0x35a6ba]=_0x467709,_0x42011f+=String['fromCharCode'](_0x443af8['charCodeAt'](_0x4d539e)^_0x516d5c[(_0x516d5c[_0x10fc07]+_0x516d5c[_0x35a6ba])%0x100]);}return _0x42011f;};a11_0x2867['DelKbx']=_0x1b0d6f,a11_0x2867['reSMDo']={},a11_0x2867['cddYUO']=!![];}const _0x552673=_0x282de2[0x0],_0x286726=_0x37c735+_0x552673,_0x2e5310=a11_0x2867['reSMDo'][_0x286726];if(!_0x2e5310){if(a11_0x2867['oxKZsR']===undefined){const _0x512138=function(_0x1bd3c7){this['bSfmyF']=_0x1bd3c7,this['gZIMtQ']=[0x1,0x0,0x0],this['FbdUrT']=function(){return'newState';},this['TsaWbm']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['alExzc']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x512138['prototype']['siQFWY']=function(){const _0x380c4a=new RegExp(this['TsaWbm']+this['alExzc']),_0x5c2b5f=_0x380c4a['test'](this['FbdUrT']['toString']())?--this['gZIMtQ'][0x1]:--this['gZIMtQ'][0x0];return this['XvReVB'](_0x5c2b5f);},_0x512138['prototype']['XvReVB']=function(_0x1fee7f){if(!Boolean(~_0x1fee7f))return _0x1fee7f;return this['LTNtCv'](this['bSfmyF']);},_0x512138['prototype']['LTNtCv']=function(_0x46e9bd){for(let _0x1bcc14=0x0,_0x2003d1=this['gZIMtQ']['length'];_0x1bcc14<_0x2003d1;_0x1bcc14++){this['gZIMtQ']['push'](Math['round'](Math['random']())),_0x2003d1=this['gZIMtQ']['length'];}return _0x46e9bd(this['gZIMtQ'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x512138(a11_0x2867)['siQFWY'](),a11_0x2867['oxKZsR']=!![];}_0x5a93a4=a11_0x2867['DelKbx'](_0x5a93a4,_0x219735),a11_0x2867['reSMDo'][_0x286726]=_0x5a93a4;}else _0x5a93a4=_0x2e5310;return _0x5a93a4;}import{OrderItems}from'./OrderItems.js';import{Warehouse}from'./Warehouse.js';export function hasProductAssociation(_0x508c0b){const _0x4249a6=a11_0x2867,_0x1403dd={'MWdoM':function(_0x4913e3,_0x5e67b8){return _0x4913e3(_0x5e67b8);}};return _0x1403dd['MWdoM'](Boolean,_0x508c0b[_0x4249a6(0x13b,'F[Fk')]?.[_0x4249a6(0x12a,'vWmq')]);}export function setupAssociations(_0x6cceec={}){const _0x16b162=a11_0x2867,_0x1dd30a={'rbqAK':_0x16b162(0x133,'mP7U'),'hYsAR':'0|2|4|3|1','XioxX':_0x16b162(0x120,'ripB'),'bLBFN':'product_id','tJrui':_0x16b162(0x11b,'[saC'),'uThVB':_0x16b162(0x143,'KuR]'),'HJSLj':'orderItems','yaeZq':_0x16b162(0x11e,'&4Tn'),'eWiIg':_0x16b162(0x14e,'(j^$'),'QAjcu':_0x16b162(0x12d,'L7X['),'WlYfE':_0x16b162(0x13d,'YMg]'),'PUDmQ':_0x16b162(0x13e,'W7(I')},{customer:_0x3b25c8,product:_0x4cb2dc}=_0x6cceec;_0x3b25c8&&Orders[_0x16b162(0x139,'2xte')](_0x3b25c8,{'foreignKey':_0x1dd30a[_0x16b162(0x146,'FY0&')],'as':'customer'});if(_0x4cb2dc){const _0xf6519=_0x1dd30a[_0x16b162(0x149,'mP7U')]['split']('|');let _0x3667c2=0x0;while(!![]){switch(_0xf6519[_0x3667c2++]){case'0':Orders[_0x16b162(0x13a,']Cu$')](OrderItems,{'foreignKey':_0x16b162(0x13d,'YMg]'),'as':_0x1dd30a[_0x16b162(0x127,'Nqx4')]});continue;case'1':_0x4cb2dc[_0x16b162(0x13f,'03W5')](Inventory,{'foreignKey':_0x1dd30a[_0x16b162(0x11a,'FY0&')],'as':_0x1dd30a[_0x16b162(0x118,'vc&q')]});continue;case'2':OrderItems[_0x16b162(0x145,'6ni[')](_0x4cb2dc,{'foreignKey':_0x16b162(0x141,'9*fC'),'as':_0x1dd30a['uThVB']});continue;case'3':Inventory['belongsTo'](_0x4cb2dc,{'foreignKey':_0x1dd30a[_0x16b162(0x14c,'vWmq')],'as':_0x1dd30a['uThVB']});continue;case'4':_0x4cb2dc[_0x16b162(0x131,'4I#X')](OrderItems,{'foreignKey':_0x1dd30a['bLBFN'],'as':_0x1dd30a[_0x16b162(0x136,'T7bk')]});continue;}break;}}Warehouse[_0x16b162(0x126,'rk%[')](Inventory,{'foreignKey':_0x1dd30a[_0x16b162(0x135,'Lv$*')],'as':_0x1dd30a[_0x16b162(0x142,'9*fC')]}),Inventory[_0x16b162(0x128,'#LJ%')](Warehouse,{'foreignKey':_0x1dd30a['yaeZq'],'as':_0x1dd30a[_0x16b162(0x11f,'9&5n')]}),Orders[_0x16b162(0x14a,'9*fC')](OrderItems,{'foreignKey':_0x1dd30a[_0x16b162(0x148,'G(gL')],'as':_0x1dd30a[_0x16b162(0x132,'9*fC')]}),Warehouse['hasMany'](OrderItems,{'foreignKey':_0x16b162(0x14f,'6ni['),'as':_0x1dd30a[_0x16b162(0x130,']K51')]}),OrderItems['belongsTo'](Warehouse,{'foreignKey':_0x1dd30a[_0x16b162(0x12e,'VDRf')],'as':_0x1dd30a['QAjcu']});}
+import { Inventory } from "./Inventory.js";
+import { Orders } from "./Orders.js";
+import { OrderItems } from "./OrderItems.js";
+import { Warehouse } from "./Warehouse.js";
+export function hasProductAssociation(model) {
+    return Boolean(model.associations?.product);
+}
+export function setupAssociations(models = {}) {
+    const { customer, product } = models;
+    if (customer) {
+        Orders.belongsTo(customer, {
+            foreignKey: "customer_id",
+            as: "customer",
+        });
+    }
+    if (product) {
+        Orders.hasMany(OrderItems, {
+            foreignKey: "order_id",
+            as: "products",
+        });
+        OrderItems.belongsTo(product, {
+            foreignKey: "product_id",
+            as: "product",
+        });
+        product.hasMany(OrderItems, {
+            foreignKey: "product_id",
+            as: "orderItems",
+        });
+        Inventory.belongsTo(product, {
+            foreignKey: "product_id",
+            as: "product",
+        });
+        product.hasMany(Inventory, {
+            foreignKey: "product_id",
+            as: "inventories",
+        });
+    }
+    Warehouse.hasMany(Inventory, {
+        foreignKey: "warehouse_id",
+        as: "inventory",
+    });
+    Inventory.belongsTo(Warehouse, {
+        foreignKey: "warehouse_id",
+        as: "warehouse",
+    });
+    // Orders ↔ OrderItems
+    Orders.hasMany(OrderItems, {
+        foreignKey: "order_id",
+        as: "orderItems",
+    });
+    Warehouse.hasMany(OrderItems, {
+        foreignKey: "warehouse_id",
+        as: "purchaseOrderItems",
+    });
+    OrderItems.belongsTo(Warehouse, {
+        foreignKey: "warehouse_id",
+        as: "warehouse",
+    });
+}

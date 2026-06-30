@@ -1,1 +1,67 @@
-const a32_0xf31be6=a32_0x5495;(function(_0x2c6c08,_0x43b0f9){const _0x5b6ce3=a32_0x5495,_0x5d535f=_0x2c6c08();while(!![]){try{const _0x3a973b=parseInt(_0x5b6ce3(0x182,'jSxP'))/0x1*(parseInt(_0x5b6ce3(0x175,'A$Kk'))/0x2)+parseInt(_0x5b6ce3(0x188,'Q!xg'))/0x3*(-parseInt(_0x5b6ce3(0x17f,'GYtV'))/0x4)+parseInt(_0x5b6ce3(0x167,'zzUj'))/0x5+-parseInt(_0x5b6ce3(0x16c,'zzUj'))/0x6*(-parseInt(_0x5b6ce3(0x185,'6E^%'))/0x7)+parseInt(_0x5b6ce3(0x168,'$EGN'))/0x8*(parseInt(_0x5b6ce3(0x18d,'&eQ9'))/0x9)+-parseInt(_0x5b6ce3(0x16b,'fFA7'))/0xa*(-parseInt(_0x5b6ce3(0x16d,'bV!3'))/0xb)+parseInt(_0x5b6ce3(0x186,'4ryO'))/0xc*(-parseInt(_0x5b6ce3(0x178,'[a@B'))/0xd);if(_0x3a973b===_0x43b0f9)break;else _0x5d535f['push'](_0x5d535f['shift']());}catch(_0x2d4fa2){_0x5d535f['push'](_0x5d535f['shift']());}}}(a32_0x189c,0xc799c));const a32_0x2c644a=(function(){let _0x28b164=!![];return function(_0xe81894,_0x3beaf7){const _0x5a687a=_0x28b164?function(){const _0x2f6ce2=a32_0x5495;if(_0x3beaf7){const _0x137bd9=_0x3beaf7[_0x2f6ce2(0x184,'AX@1')](_0xe81894,arguments);return _0x3beaf7=null,_0x137bd9;}}:function(){};return _0x28b164=![],_0x5a687a;};}()),a32_0x12ffd9=a32_0x2c644a(this,function(){const _0x4e36b1=a32_0x5495,_0x29a936={'jVGJm':_0x4e36b1(0x17a,'mKm^')};return a32_0x12ffd9[_0x4e36b1(0x171,'A$Kk')]()['search'](_0x29a936[_0x4e36b1(0x17b,'GYtV')])[_0x4e36b1(0x177,'FV&z')]()[_0x4e36b1(0x16e,'[a@B')](a32_0x12ffd9)[_0x4e36b1(0x172,'Q!xg')](_0x29a936[_0x4e36b1(0x18a,'W^r@')]);});a32_0x12ffd9();function a32_0x189c(){const _0x5d7caa=['dtmrWQHOWOKowmk+amo5gW','W49/jSkKWOO','W7LGqmotW6bwWOVcMKG','WQdcQCkGmN3dKCkduWRdRXHsA8k3','nHtcSH7dMgFdIfhdTWDJW7ddUwa','WPzEpqmnySkFdSoR','WR53WRhcMdBdHCkQ','WPz5WPhdMtG','fSkXCZ0AEq','WR7dQSkobSkj','W7fgqHOMW7RdNW','W5W5WO7dTKRdMSolufldPYeXnSoc','WRzbAuHnuXhcVeZdJZKlW4K','wSo3j29CjmolW7JdHqa+bG','W6f5WRNcRX3dVCk0W79dcq','WPtcJmkWWRlcImkdWPnXWQddTZVcNmkQ','WOdcTHJdQCo4AYDhW410exy','WRrjBe5da3BcL1BdHWm','WOddJt3dGComWQZcOqldRq','WOddIuZdQ8ofW4igWPOFWR0i','cdFcSqpdRG','W6urmbKSc1dcNMNdMHuQW5a','AIr0WRdcLwVdNKq','W5mpAqKcBG','W5lcLbtcQmkeWOa/WQaBWOyJWO4','ymouA8o2W6q','l3OvW7BcVu3dTKZdUCoN','bGW5zgZdRmkUW4TvW5a','zSkQWPBcGcNcJtuT','W5lcLxxdS8o4W7WvWOK','DeaaWQldMCorwCoWmmk9','WONcNCkVWQNcLCkBWO0sW6FcV1NdTa','dwaqqmk/','W6tcJcfTcttdUSoeWQK','W7THq8k1W4T+WRtcG3BcTa','WR7dNXvyWQi','vqfNpSoMeSoltCorpCkA','uqjICSk+bCoLF8o3','A1RcScpcQX/cSKxdItxdGq','WP3dUmk/W6KPmv0qWRBcGa'];a32_0x189c=function(){return _0x5d7caa;};return a32_0x189c();}import{OrderItems}from'../../models/OrderItems.js';function a32_0x5495(_0x4e3d6d,_0x5aa66e){_0x4e3d6d=_0x4e3d6d-0x167;const _0x597193=a32_0x189c();let _0x12ffd9=_0x597193[_0x4e3d6d];if(a32_0x5495['hpEdfV']===undefined){var _0x2c644a=function(_0x59e824){const _0x3ab8de='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x18e05b='',_0x405382='',_0x3d5ad3=_0x18e05b+_0x2c644a,_0x25b422=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x165ac5=0x0,_0x70b53c,_0x190058,_0x3fcf86=0x0;_0x190058=_0x59e824['charAt'](_0x3fcf86++);~_0x190058&&(_0x70b53c=_0x165ac5%0x4?_0x70b53c*0x40+_0x190058:_0x190058,_0x165ac5++%0x4)?_0x18e05b+=_0x25b422||_0x3d5ad3['charCodeAt'](_0x3fcf86+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x70b53c>>(-0x2*_0x165ac5&0x6)):_0x165ac5:0x0){_0x190058=_0x3ab8de['indexOf'](_0x190058);}for(let _0x34fdb5=0x0,_0x49442e=_0x18e05b['length'];_0x34fdb5<_0x49442e;_0x34fdb5++){_0x405382+='%'+('00'+_0x18e05b['charCodeAt'](_0x34fdb5)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x405382);};const _0xcb4b2d=function(_0x407273,_0x1bde56){let _0x19a580=[],_0x38b519=0x0,_0x140f50,_0x308d75='';_0x407273=_0x2c644a(_0x407273);let _0xf2f3ee;for(_0xf2f3ee=0x0;_0xf2f3ee<0x100;_0xf2f3ee++){_0x19a580[_0xf2f3ee]=_0xf2f3ee;}for(_0xf2f3ee=0x0;_0xf2f3ee<0x100;_0xf2f3ee++){_0x38b519=(_0x38b519+_0x19a580[_0xf2f3ee]+_0x1bde56['charCodeAt'](_0xf2f3ee%_0x1bde56['length']))%0x100,_0x140f50=_0x19a580[_0xf2f3ee],_0x19a580[_0xf2f3ee]=_0x19a580[_0x38b519],_0x19a580[_0x38b519]=_0x140f50;}_0xf2f3ee=0x0,_0x38b519=0x0;for(let _0x1d01ad=0x0;_0x1d01ad<_0x407273['length'];_0x1d01ad++){_0xf2f3ee=(_0xf2f3ee+0x1)%0x100,_0x38b519=(_0x38b519+_0x19a580[_0xf2f3ee])%0x100,_0x140f50=_0x19a580[_0xf2f3ee],_0x19a580[_0xf2f3ee]=_0x19a580[_0x38b519],_0x19a580[_0x38b519]=_0x140f50,_0x308d75+=String['fromCharCode'](_0x407273['charCodeAt'](_0x1d01ad)^_0x19a580[(_0x19a580[_0xf2f3ee]+_0x19a580[_0x38b519])%0x100]);}return _0x308d75;};a32_0x5495['EmeRgb']=_0xcb4b2d,a32_0x5495['pUVJsh']={},a32_0x5495['hpEdfV']=!![];}const _0x189c47=_0x597193[0x0],_0x5495d5=_0x4e3d6d+_0x189c47,_0x12f264=a32_0x5495['pUVJsh'][_0x5495d5];if(!_0x12f264){if(a32_0x5495['WrblYR']===undefined){const _0x1db7cf=function(_0x422bce){this['YIMOvz']=_0x422bce,this['xLEjhJ']=[0x1,0x0,0x0],this['cYiVew']=function(){return'newState';},this['eNlcjz']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['guidkN']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1db7cf['prototype']['TwLThe']=function(){const _0x2553ec=new RegExp(this['eNlcjz']+this['guidkN']),_0x3763cf=_0x2553ec['test'](this['cYiVew']['toString']())?--this['xLEjhJ'][0x1]:--this['xLEjhJ'][0x0];return this['SAvOzz'](_0x3763cf);},_0x1db7cf['prototype']['SAvOzz']=function(_0x101f57){if(!Boolean(~_0x101f57))return _0x101f57;return this['VNAFZs'](this['YIMOvz']);},_0x1db7cf['prototype']['VNAFZs']=function(_0x4fccac){for(let _0x33fc9d=0x0,_0xf942d8=this['xLEjhJ']['length'];_0x33fc9d<_0xf942d8;_0x33fc9d++){this['xLEjhJ']['push'](Math['round'](Math['random']())),_0xf942d8=this['xLEjhJ']['length'];}return _0x4fccac(this['xLEjhJ'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1db7cf(a32_0x5495)['TwLThe'](),a32_0x5495['WrblYR']=!![];}_0x12ffd9=a32_0x5495['EmeRgb'](_0x12ffd9,_0x5aa66e),a32_0x5495['pUVJsh'][_0x5495d5]=_0x12ffd9;}else _0x12ffd9=_0x12f264;return _0x12ffd9;}import{Orders}from'../../models/Orders.js';import{BaseService}from'../base/base.service.js';import{HttpError}from'../http.js';export class OrderService extends BaseService{constructor(){super(Orders);}async[a32_0xf31be6(0x170,'zzUj')](_0x445c73){const _0x4e086b=a32_0xf31be6,_0x3c9bb9={'iePaY':'orderItems'};return Orders['findByPk'](_0x445c73,{'include':[_0x3c9bb9[_0x4e086b(0x17e,'35MX')]]});}async[a32_0xf31be6(0x187,'EflY')](_0x19a718){return OrderItems['findAll']({'where':{'order_id':_0x19a718}});}async[a32_0xf31be6(0x169,'hG]J')](_0x7a2fba,_0x2886d4=0x0,_0x3dbfbf=0xa,_0x237e7d=![],_0x2baf50){const _0x1cabe5=a32_0xf31be6,_0x5a55c1={'DaDcM':_0x1cabe5(0x179,'0C#t'),'CDZVH':'ASC'},_0x4d3b04={'order_type':_0x7a2fba};_0x2baf50&&(_0x4d3b04['status']=_0x2baf50);const {rows:_0x3c089c,count:_0x3b036f}=await Orders['findAndCountAll']({'where':_0x4d3b04,'include':_0x237e7d?[_0x5a55c1[_0x1cabe5(0x174,'&]nz')]]:[],'offset':_0x2886d4,'limit':_0x3dbfbf,'order':[['id',_0x5a55c1[_0x1cabe5(0x18c,'xD!)')]]]});return{'data':_0x3c089c,'recordsFiltered':_0x3b036f};}async['updateOrderInfo'](_0x3ee1c1,_0x1a8868){const _0x34d8e7=a32_0xf31be6,_0x50a317={'XJmyy':'Order\x20not\x20found'},[_0x1c0373]=await Orders[_0x34d8e7(0x18b,'$EGN')](_0x1a8868,{'where':{'id':_0x3ee1c1}});if(!_0x1c0373)throw new HttpError(0x194,_0x50a317[_0x34d8e7(0x16f,'EflY')]);return Orders['findByPk'](_0x3ee1c1);}}export default new OrderService();
+import { OrderItems } from "../../models/OrderItems.js";
+import { Orders } from "../../models/Orders.js";
+import { BaseService } from "../base/base.service.js";
+import { HttpError } from "../http.js";
+export class OrderService extends BaseService {
+    constructor() {
+        super(Orders);
+    }
+    // async findWithItems(id: number) {
+    //   return Orders.findByPk(id, {
+    //     include: ["orderItems"],
+    //   });
+    // }
+    async findWithItems(id) {
+        return Orders.findByPk(id, {
+            include: ["orderItems"],
+            // include: [
+            //   {
+            //     association: "orderItems",
+            //     // include: [
+            //     //   {
+            //     //     association: "product",
+            //     //   },
+            //     // ],
+            //   },
+            //],
+        });
+    }
+    async findOtherItems(id) {
+        return OrderItems.findAll({
+            where: { order_id: id },
+            // include: ["product"],
+        });
+    }
+    async findByType(orderType, start = 0, length = 10, includeOrderItems = false, status, customerId) {
+        const where = {
+            order_type: orderType,
+        };
+        if (customerId) {
+            where.customer_id = customerId;
+        }
+        if (status) {
+            where.status = status;
+        }
+        const { rows, count } = await Orders.findAndCountAll({
+            where,
+            include: includeOrderItems ? ["orderItems"] : [],
+            offset: start,
+            limit: length,
+            order: [["id", "ASC"]],
+        });
+        return {
+            data: rows,
+            recordsFiltered: count,
+        };
+    }
+    async updateOrderInfo(id, data) {
+        const [count] = await Orders.update(data, {
+            where: { id },
+        });
+        if (!count) {
+            throw new HttpError(404, "Order not found");
+        }
+        return Orders.findByPk(id);
+    }
+}
+export default new OrderService();

@@ -1,1 +1,35 @@
-var a7_0x3ade5b=a7_0x57ec;function a7_0x57ec(_0x201ad2,_0x2cfd9e){_0x201ad2=_0x201ad2-0xce;var _0x246759=a7_0x4191();var _0x1527b0=_0x246759[_0x201ad2];if(a7_0x57ec['PLOlRe']===undefined){var _0x3bc198=function(_0x4b45bb){var _0x1ad6b6='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x1ce577='',_0x4c6f65='',_0x27161e=_0x1ce577+_0x3bc198,_0x2135e6=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(var _0xcf3cce=0x0,_0x59c4a8,_0x342f15,_0x3b0124=0x0;_0x342f15=_0x4b45bb['charAt'](_0x3b0124++);~_0x342f15&&(_0x59c4a8=_0xcf3cce%0x4?_0x59c4a8*0x40+_0x342f15:_0x342f15,_0xcf3cce++%0x4)?_0x1ce577+=_0x2135e6||_0x27161e['charCodeAt'](_0x3b0124+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x59c4a8>>(-0x2*_0xcf3cce&0x6)):_0xcf3cce:0x0){_0x342f15=_0x1ad6b6['indexOf'](_0x342f15);}for(var _0x3095a0=0x0,_0x51dc53=_0x1ce577['length'];_0x3095a0<_0x51dc53;_0x3095a0++){_0x4c6f65+='%'+('00'+_0x1ce577['charCodeAt'](_0x3095a0)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4c6f65);};var _0x18e729=function(_0x21c8ab,_0x12de37){var _0xb651a0=[],_0xca8581=0x0,_0x502066,_0x32a0d1='';_0x21c8ab=_0x3bc198(_0x21c8ab);var _0x580961;for(_0x580961=0x0;_0x580961<0x100;_0x580961++){_0xb651a0[_0x580961]=_0x580961;}for(_0x580961=0x0;_0x580961<0x100;_0x580961++){_0xca8581=(_0xca8581+_0xb651a0[_0x580961]+_0x12de37['charCodeAt'](_0x580961%_0x12de37['length']))%0x100,_0x502066=_0xb651a0[_0x580961],_0xb651a0[_0x580961]=_0xb651a0[_0xca8581],_0xb651a0[_0xca8581]=_0x502066;}_0x580961=0x0,_0xca8581=0x0;for(var _0x93b043=0x0;_0x93b043<_0x21c8ab['length'];_0x93b043++){_0x580961=(_0x580961+0x1)%0x100,_0xca8581=(_0xca8581+_0xb651a0[_0x580961])%0x100,_0x502066=_0xb651a0[_0x580961],_0xb651a0[_0x580961]=_0xb651a0[_0xca8581],_0xb651a0[_0xca8581]=_0x502066,_0x32a0d1+=String['fromCharCode'](_0x21c8ab['charCodeAt'](_0x93b043)^_0xb651a0[(_0xb651a0[_0x580961]+_0xb651a0[_0xca8581])%0x100]);}return _0x32a0d1;};a7_0x57ec['OQSfSD']=_0x18e729,a7_0x57ec['TsiZQy']={},a7_0x57ec['PLOlRe']=!![];}var _0x419186=_0x246759[0x0],_0x57ec57=_0x201ad2+_0x419186,_0x23697e=a7_0x57ec['TsiZQy'][_0x57ec57];if(!_0x23697e){if(a7_0x57ec['eilHlp']===undefined){var _0x4223cd=function(_0x229e0a){this['JGyxOy']=_0x229e0a,this['WHrDrv']=[0x1,0x0,0x0],this['QfmuJx']=function(){return'newState';},this['ztgVSr']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['sTdWrF']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x4223cd['prototype']['tZlEUV']=function(){var _0x1604fa=new RegExp(this['ztgVSr']+this['sTdWrF']),_0x191206=_0x1604fa['test'](this['QfmuJx']['toString']())?--this['WHrDrv'][0x1]:--this['WHrDrv'][0x0];return this['nkPbNJ'](_0x191206);},_0x4223cd['prototype']['nkPbNJ']=function(_0x29793b){if(!Boolean(~_0x29793b))return _0x29793b;return this['ggDGLW'](this['JGyxOy']);},_0x4223cd['prototype']['ggDGLW']=function(_0x51827b){for(var _0x46f65e=0x0,_0x370be4=this['WHrDrv']['length'];_0x46f65e<_0x370be4;_0x46f65e++){this['WHrDrv']['push'](Math['round'](Math['random']())),_0x370be4=this['WHrDrv']['length'];}return _0x51827b(this['WHrDrv'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x4223cd(a7_0x57ec)['tZlEUV'](),a7_0x57ec['eilHlp']=!![];}_0x1527b0=a7_0x57ec['OQSfSD'](_0x1527b0,_0x2cfd9e),a7_0x57ec['TsiZQy'][_0x57ec57]=_0x1527b0;}else _0x1527b0=_0x23697e;return _0x1527b0;}(function(_0x3d8b62,_0x35c835){var _0x2ea5af=a7_0x57ec,_0xfde86e=_0x3d8b62();while(!![]){try{var _0x416dcb=-parseInt(_0x2ea5af(0xe8,'hHM3'))/0x1*(-parseInt(_0x2ea5af(0xd7,'i4C3'))/0x2)+parseInt(_0x2ea5af(0xea,']hnR'))/0x3+-parseInt(_0x2ea5af(0xde,'o%Nk'))/0x4+-parseInt(_0x2ea5af(0xe2,'L3F0'))/0x5+-parseInt(_0x2ea5af(0xe6,'!]Pi'))/0x6+-parseInt(_0x2ea5af(0xd3,'[o!D'))/0x7*(-parseInt(_0x2ea5af(0xda,'J(tu'))/0x8)+parseInt(_0x2ea5af(0xdf,'tILz'))/0x9;if(_0x416dcb===_0x35c835)break;else _0xfde86e['push'](_0xfde86e['shift']());}catch(_0x27c278){_0xfde86e['push'](_0xfde86e['shift']());}}}(a7_0x4191,0x45078));var a7_0x3bc198=(function(){var _0x162ea5=!![];return function(_0x2873a2,_0x1f9ed9){var _0x1dd4e1=_0x162ea5?function(){var _0x24ab90=a7_0x57ec;if(_0x1f9ed9){var _0x13a9e6=_0x1f9ed9[_0x24ab90(0xed,'8sxa')](_0x2873a2,arguments);return _0x1f9ed9=null,_0x13a9e6;}}:function(){};return _0x162ea5=![],_0x1dd4e1;};}()),a7_0x1527b0=a7_0x3bc198(this,function(){var _0x36aae7=a7_0x57ec,_0x37744a={'NCKPU':_0x36aae7(0xce,'M9(*')};return a7_0x1527b0['toString']()[_0x36aae7(0xe5,')XDY')](_0x37744a['NCKPU'])[_0x36aae7(0xe4,'5^%l')]()[_0x36aae7(0xe3,'#AF#')](a7_0x1527b0)[_0x36aae7(0xe1,'#)w1')](_0x37744a[_0x36aae7(0xd1,'#AF#')]);});a7_0x1527b0();import{DataTypes,Model}from'sequelize';function a7_0x4191(){var _0x1b8181=['W7ldUZddNSoIm3RdUIVcTYdcRa','W61fWORcHXn+WQ/dM1JcQ8ol','muO/W4xdQeaAW4H8fmoosmkL','eYT8WQ5J','W71CWPFcNGGvW57cLItdHCkbWOe','WPD0W71ZWRHAnLyMW5S','j3hcS8kOWOVdPehcGCkA','qMiqW4JcLW','WP7cIWOSdq7cSmkoj8okW6qInG','W60mnNxdSSoDW5WoWQneuSkE','WRNcOmorW4VdMmo0ux7cU8oej8kx','WPdcGeeRAHXiiq','WP7dLmoniupdImkW','nmo6W4FcJh/cMSo7WOK8WRVcSG','WRvtBdlcISkdW6adWQK','oKlcMmoBW4i','lmk6ASo4WQpdQ8oPxW','w8oDWOxdV8opcmk6qZ0VWPLOoa','p2FcGsWz','jCkZemkcW7xcJ8o4ySkHW4xcUN0','neS0W4BdRenPW4THhCoOsq','xcJdSSo1W5tcOXBcUCklhCogWPlcPa','WRBdHSoNW5NdISk9WOVdJNZcO2mB','gHLeWOVcOte','zX83WRKRWPdcNXLZx8k7WRb/','B041W6VcTJSwAtJcGdO','W47cIGujgJjMW4u','C0dcPYVcLcC','qmkKW77dSYWGdbjeluNdN8kc','DCoNWOWxW4NdJSkQ','A8kMm2XpWQrYDW','imkKW6BcGSk5FSoq'];a7_0x4191=function(){return _0x1b8181;};return a7_0x4191();}export class Inventory extends Model{static[a7_0x3ade5b(0xd8,'[o!D')](_0x1e0106){var _0x566ae9=a7_0x3ade5b,_0x1b127a={'TuSfz':_0x566ae9(0xd0,'tILz'),'UtbgJ':'ims_inventory','nVtQU':_0x566ae9(0xcf,'6Hkz'),'ZlBeb':'updated_at'};Inventory['init']({'id':{'type':DataTypes[_0x566ae9(0xe7,'NjSb')],'primaryKey':!![],'autoIncrement':!![]},'product_id':{'type':DataTypes[_0x566ae9(0xd6,'Zd(E')],'allowNull':![]},'warehouse_id':{'type':DataTypes['INTEGER'],'allowNull':![]},'available':{'type':DataTypes['INTEGER'],'defaultValue':0x0},'reserved':{'type':DataTypes[_0x566ae9(0xe9,'Z3HN')],'defaultValue':0x0}},{'sequelize':_0x1e0106,'modelName':_0x1b127a['TuSfz'],'tableName':_0x1b127a[_0x566ae9(0xd9,'VHUF')],'timestamps':!![],'createdAt':_0x1b127a[_0x566ae9(0xdc,'NFAq')],'updatedAt':_0x1b127a['ZlBeb']});}}
+import { DataTypes, Model, } from "sequelize";
+export class Inventory extends Model {
+    static initModel(sequelize) {
+        Inventory.init({
+            id: {
+                type: DataTypes.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+            product_id: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+            },
+            warehouse_id: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+            },
+            available: {
+                type: DataTypes.INTEGER,
+                defaultValue: 0,
+            },
+            reserved: {
+                type: DataTypes.INTEGER,
+                defaultValue: 0,
+            },
+        }, {
+            sequelize,
+            modelName: "Inventory",
+            tableName: "ims_inventory",
+            timestamps: true,
+            createdAt: "created_at",
+            updatedAt: "updated_at",
+        });
+    }
+}

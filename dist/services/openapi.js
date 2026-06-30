@@ -1,1 +1,612 @@
-const a31_0x12da64=a31_0x2ae0;(function(_0x3dcd47,_0x354369){const _0x251d34=a31_0x2ae0,_0x525575=_0x3dcd47();while(!![]){try{const _0x2d3d54=parseInt(_0x251d34(0x83,'5TuR'))/0x1+parseInt(_0x251d34(0x108,'2UX^'))/0x2+parseInt(_0x251d34(0x129,'($kt'))/0x3+parseInt(_0x251d34(0x76,'2jbp'))/0x4*(-parseInt(_0x251d34(0x124,'2UX^'))/0x5)+parseInt(_0x251d34(0xf2,'5TuR'))/0x6*(-parseInt(_0x251d34(0xb6,'8N6I'))/0x7)+-parseInt(_0x251d34(0x10c,'bcW@'))/0x8*(parseInt(_0x251d34(0xfb,'!]Vh'))/0x9)+parseInt(_0x251d34(0x8a,'kNqV'))/0xa;if(_0x2d3d54===_0x354369)break;else _0x525575['push'](_0x525575['shift']());}catch(_0x489f65){_0x525575['push'](_0x525575['shift']());}}}(a31_0x137a,0x70d95));const a31_0x852199=(function(){let _0x38d0ee=!![];return function(_0x2095a2,_0x399d7e){const _0x2e9add=_0x38d0ee?function(){const _0x3a45df=a31_0x2ae0;if(_0x399d7e){const _0x4e987f=_0x399d7e[_0x3a45df(0xdc,'&0t$')](_0x2095a2,arguments);return _0x399d7e=null,_0x4e987f;}}:function(){};return _0x38d0ee=![],_0x2e9add;};}()),a31_0x551b93=a31_0x852199(this,function(){const _0x3da9b6=a31_0x2ae0,_0x1d5e5c={'WlYLH':_0x3da9b6(0xd1,'E5[8')};return a31_0x551b93['toString']()[_0x3da9b6(0x9b,'8ql$')](_0x1d5e5c['WlYLH'])[_0x3da9b6(0x10b,'T$!N')]()[_0x3da9b6(0xf4,')LiQ')](a31_0x551b93)[_0x3da9b6(0x10d,'6UhQ')](_0x1d5e5c[_0x3da9b6(0x126,'gUbR')]);});a31_0x551b93();import a31_0x5cbd84 from'./open-api-schema/req-schema.js';import a31_0x3ec134 from'./open-api-schema/res-schema.js';export const queryParam=(_0x3c9994,_0x23a28e,_0x21fe54=![],_0xc1786c={'type':'string'})=>({'name':_0x3c9994,'in':a31_0x12da64(0xdf,'Ki6L'),'required':_0x21fe54,'description':_0x23a28e,'schema':_0xc1786c});function ok(_0x197198){return{'description':'OK','content':{'application/json':{'schema':_0x197198}}};}function created(_0x367810){const _0x5db872=a31_0x12da64,_0x422a54={'cIIYc':'Created'};return{'description':_0x422a54[_0x5db872(0x8b,'(Tb6')],'content':{'application/json':{'schema':_0x367810}}};}function noContent(){const _0x21b0c0=a31_0x12da64,_0x3f94eb={'zKyDJ':_0x21b0c0(0x98,'S18A')};return{'description':_0x3f94eb[_0x21b0c0(0xae,'AGrX')]};}function errorResponse(_0x38674b){const _0x5e0743=a31_0x12da64,_0x4472f4={'rqzuP':'#/components/schemas/ErrorResponse'};return{'description':_0x38674b,'content':{'application/json':{'schema':{'$ref':_0x4472f4[_0x5e0743(0xda,'ny5I')]}}}};}export const pathParam=(_0x377870,_0x5697d6,_0xb08ddf={'type':a31_0x12da64(0x89,'O!Cu')})=>({'name':_0x377870,'in':a31_0x12da64(0x92,'T$!N'),'required':!![],'description':_0x5697d6,'schema':_0xb08ddf});function normalizeServerUrl(_0x30b8d0){const _0x42f118=a31_0x12da64,_0x1a57fa={'ZtIsH':function(_0x1de11c,_0x3134c1){return _0x1de11c===_0x3134c1;}};if(!_0x30b8d0)return undefined;const _0x14ffc4=_0x30b8d0['trim']();if(!_0x14ffc4)return undefined;if(_0x1a57fa[_0x42f118(0xb7,'j6)6')](_0x14ffc4,'/'))return'/';return _0x14ffc4[_0x42f118(0xf8,'Fho]')]('/')?_0x14ffc4[_0x42f118(0xf1,'2jbp')](/\/+$/,''):'/'+_0x14ffc4[_0x42f118(0x109,'!]Vh')](/\/+$/,'');}function objectSchema(_0x284651,_0x144181=[],_0x557e81){const _0x5805fc=a31_0x12da64,_0x14d2a6={'biCPl':_0x5805fc(0x9f,'2jbp')};return{'type':_0x14d2a6[_0x5805fc(0xdb,'6UhQ')],'properties':_0x284651,..._0x144181[_0x5805fc(0x78,')LiQ')]?{'required':_0x144181}:{},..._0x557e81?{'example':_0x557e81}:{}};}function withProductSchema(_0x2c970c){const _0x1050cd=a31_0x12da64,_0x23ab1d={'QdyEP':'object','aAwiD':_0x1050cd(0x74,'v[n1'),'MeUZH':_0x1050cd(0x11c,'2jbp')};return{'allOf':[_0x2c970c,{'type':_0x23ab1d[_0x1050cd(0x7a,'BCZz')],'properties':{'product':{'anyOf':[{'$ref':_0x23ab1d['aAwiD']},{'type':_0x23ab1d[_0x1050cd(0xe9,'@ocs')]}]}}}]};}function withProductsSchema(_0x29bb91){const _0x9fa1ea=a31_0x12da64,_0x45340e={'cBSjR':_0x9fa1ea(0xfd,'HsaL'),'wWOiQ':_0x9fa1ea(0xaf,'$1#Y'),'FIHAe':function(_0x14a790,_0x48c88f){return _0x14a790(_0x48c88f);}};return{'allOf':[_0x29bb91,{'type':_0x45340e[_0x9fa1ea(0xad,'E5[8')],'properties':{'items':{'type':_0x45340e['wWOiQ'],'items':_0x45340e['FIHAe'](withProductSchema,{'type':_0x45340e[_0x9fa1ea(0xd6,'d(2!')],'additionalProperties':!![]})},'products':{'type':_0x45340e['wWOiQ'],'items':_0x45340e[_0x9fa1ea(0xff,'9!QB')](withProductSchema,{'type':_0x45340e[_0x9fa1ea(0xe4,'O!Cu')],'additionalProperties':!![]})}}}]};}function a31_0x137a(){const _0x127f8a=['W4pcGIVdQfFcLLOsE8kEoaRdGG','wCoZWOf3lSocWOe','qxVcQSkOW6SZWPysfrlcNmkUaW','ACkHW4VcJ8o0WRucemk6cCoXwh0','WOnCWQlcGsS','jCo0W4pdKxBcNu0sW5mRjtmxWRD0e8k+WPeJn8o4d8ooeG','WOXGn8kgWPe','FYpdP185gHNcMmk+W68','g8kermoNyW','aghcTSkH','hCkuWRRcUmkwWPr5W6G','WRZdG8oJp8kWW6PpW5aXoK8FW5G','FSoOWO95pSouW4tcSX4mW57cLwZcHNddTmk7WOpcLqiqo8krc8k+bCo8','iWaiW7y','W58IWOqg','u8o+WRzznW','WRS+f8oSW4bwk1pcK8ofeG','wG04W7zIECkq','uCoJiCkaWO/dISkrWRZcVMD6W4Xl','WQfklh0b','W6yTWOylDmkxo2Sa','zCk4W7tdVhC','W5alqCoEW6bvW5fZyCohsdm','xZddRmo7WOm','W6JcPCkWySo9W4tcLG','W6i7Df0E','WPFdKCopaZ8','wCkLAtVdMq','aHiatHKBWRFdTmkjW7y5j8kWW5q+Cw/cQCkoWRpcKmkzDCo+BCkuumoZ','CMhcLei9','xcBdQ8o9WRbHW5a5wthcISkjoW','WRFcUmkNymoXW47cTrRcIYq','qCkSvJxdQmkP','W4qqW4eAW4VcLq','W74PWOXVFW','WQm9hCoxW4y','WRawWOSWCsVdQYtdK8ouoG','WQX3WO7cJqC','AW0IW7jsW6Sn','AJpdVColWPW','WOq7amoHW6LhmwBdKSoEchZcGt7cLefk','WOFdUSo8i8ki','WRJdPmormZ0','W7ddS8o7m8kPWOxcQrtcUbNcR8oJ','W6WSFfqCWR8','W47dNcGTWOe','WP5JW4uehW','imozDCkWWPu','W5G3pLXi','WPjKWQNcSbnt','W6bgW4LKnhBcQWRdMCochtap','pSoDWRpdOCkG','W6ZdVImMWR8','WOCwWOOLzJdcUZxdImojoXS','n1lcL8k4W5W','D8kMsrddUq','vflcPeinW60','rbOPW5nE','ySodW4zk','cSoZxCk+WQu','lrO1W6bR','xaKbWR4GcJVcKSkPh8klqW','W7SNhmo0W6rinMZcGmoyh2S','WRZcJ0iS','W6hdGxOpWPFdG8old2JdLa','l8o0FmkzWP8','cCkNW7xdSCop','BSkPWPxcT8oAia','WRzXWQNcVbvBq1u+nG','WOnGomkGtW','lCkXW6JdKSoTdqLwW5e5WPNcMG','axBcSmkOW6yM','g8oPW68MW6y','bZmsW7yz','WOq4WQ0Cwq','hLhcNHif','WO3dLSoepSkW','W6ZdNd8TWOZdImkF','jmktW5ddTSoF','mSkezL07W6CW','hXCcW7CsWPJdJmkxWQ5z','WQ8GW7rsW4G','i8oytCorWRz4W41QWP4','C8kFWQBcImon','tmo4W6ToW5VcHJiNtNW','WR7dVmoemcW','sSowWPTFeq','rLtcT1Cb','W7hcJ3ONW4m','l8k2W5/dKSo9','FCosW5Dmx8owtq','W7SrW5ldGKm','lmk6WP7cL8kYnGtdU8oUWPa','l8k9WPJcKSk+psC','hCkxW4hdRmkPWO1eW498lq','n8odCmkcWPG','dCk3vCo4W5y','WQJdTLFcRtS','m3VcGG4z','e8kYWOf0nSowWOVcSH1cW5JcGYdcM2FdO8kBW4dcIqHDkmkhua','q8kGzKqV','WQGBW4ToWOlcNHj6WQGloCkTvCkpW4pdPGxdS8oY','t8o+W69CW4FcJq','l8oLW4HQyG','WO9PcmkbtSoOW6K','WQtdGh7cUrBdGeW','WQ9udgmS','W67dSSom','zCo5W4VdGmoPEZNdRCoGWPVcHWO','W7WMWOiyF8krDhWlWQ7cISkX','e152W6BdKG','FmkdW4NdTf8','nMzaW6RdMCknpSoRW6eq','rmkkWRNcSmoG','fCktC8oKvq','W5CYFeGw','bqJdSSoKWOy','gSoevSkKWPC','mWOcW7C','vveYsde','f8oDW5vE','W7xcLSk/DfxcLSkUbXVdQMJdRG','WPZdJSo+EHRdKmoMw13cPI3cVNGyWPeyDIaYW5pcO3tcQ8oFW5pcTxxdNq/dRmoxoL/dQCkNW55ZuhSUWQZcQ8oLWQBcRtHRrSoQjIhcQXSCmSk8zdW4r1/cKmkBbZvYpaL/sK/cSCoKWPO6BguQW6yfCJuDWQlcK1qiWP3dOSoQhCopWOddJ8oNjSotwKVcRmo/gfPAWRealvjZECoJWOWGWQRdHCovxCkwWRVcR8kPEJtcQwpcR8kkW53cKCoVWPXPWOlcS2pdGXpdT8klo8k/j8kWaSonW6KpW4vslCo1tCoRWQmtcmksDmk7W73cUIj5ar/dHGfnqmoEW4tcPSkxW4ddN8kiWO4JhvL7W5y3sCkCuCkAW4NcUCobe8kDWQHh','DJi1W6bI','WR3dMwNcReldPaa8oq','lfHJWRCkWRXxiJVdJHFdP1u','WPldSKNcSJa','WR7dONVcKrC','EmkwWRlcRmo6','hmoxWP/dSCkA','dCoUW7LOua','aSk/umoIW5m','mCoiW5esW4W','uCkyW4KXWPy','WPRdL8oheGS','W5iRFumx','fSogWRBdKmkP','mw/cNJu7','WQddImo6dCk3','W7RcOequW4e','WOjsWOJcSY8','fCkMWO3cKmk3jZdcUSoOWP3cJXqRW4dcKG','kZ0gW6DpCmkOW7NdQmoNWRy1ESkxWQPlWQCDruaTkNe','BmkLvhldV8kZaJCrn8kcC8khemo1WP3dNmoqWP1XEIv2W6DeWQ8PWOfKeCo0WRvuW4ZdS0utsrS1uuHsWR3dNgq','WQ9hWPGpimkfW4e','qGKMWPin','W6FcQmk7jSoXW5i','WP0GeCoUW7rcjYpcGmoufNNcKcNdKaHCW59Sg8oklSoXW4Tu','WOZdMmoOoq','WOmVamoNW6Ljn3dcLW','a8ozW5aAW5S','WQSyW5frW5i','yrtdLSoRWOq','hhhcQSkHW6qXWOm','W7/dVSo2pSo9W5tcKHdcQG8','EdiwW6H4','tSkMvIhdQmkZaJbfn8ka','W4OWBfqjWQLi','A8kGvcBdUCkZvZfiEmkbySkubCo0WOC','wSk+tXNdVW','WP3dLWRcNc90a3VcUCky','aqGRW5C0','dCkGxa','W5vhWOOiWPldIvLiWPuAkCoSwa','WRrcWPldUvjBrei+n8kbaKhcG2qQW5ywWOldJCoPhvbLySooAmocutVcOIZcI8kmW7FdNLrEWP1FWPhdO8oyrSkqW7HEW7TQCJBcLXbbqgRdT3LoW4pdNSonj8oVW5bAjCoNpbD4jKP6reCwW5ddOmkikSozdXH1W6ldOCkAs8oUt8ouASoOWRyFnSkJz1xdKbddPmknq8o0q0r9vSklf18','WOddLCoMoCk4WR4','pmoDnXfiCsbnWQunEbSU','W5xcP3OeW40','WQ7dM8oLlbVdJCo2','WRFcHCk2q8oO','W7G8W5ZdINK','DflcPeqmW7DEW4HCWPtdTXlcQGyVWOPGiCkVWRHM','nL7cS8kDW4C','WOnOk8kvxa','WQLgvaWHWPDuWRDIzICX','WRddS3/cKtS','xMXbWRaQkCo+W4hdPComW6u9Fq','WPyxW4HwW4pcKGu','cfhcPeqDW7zFW5OpWOpdOq','zSonW6fwBmopsSo7','W7ZcR8oGi8kOW6jOW74','e8kZCSoaW5ZcMG','dCkGW6JdJCoMga','WPldJmoZpWZcN8omsG','BfO2Dq4','eSkXW7tdG8o8fW','kduFW4it'];a31_0x137a=function(){return _0x127f8a;};return a31_0x137a();}function crudPaths(_0x3919ad,_0x484d06,_0x588a10,_0x4640a2){const _0x383412=a31_0x12da64,_0x2a6f5f={'ACeIY':function(_0x55a658,_0x4178a8){return _0x55a658(_0x4178a8);},'gDdOu':_0x383412(0x85,'S18A'),'KRLhj':function(_0x55570e,_0x43e287){return _0x55570e(_0x43e287);},'LsCGf':_0x383412(0x9e,'b19O'),'YryRe':function(_0x58ddf0,_0x119052){return _0x58ddf0(_0x119052);},'QmMET':'Invalid\x20request','ORaIu':function(_0x56984c,_0x19902c){return _0x56984c(_0x19902c);},'Saqdn':function(_0x14c2dc,_0x4fc001,_0x13ab0c){return _0x14c2dc(_0x4fc001,_0x13ab0c);},'BCEhO':'Invalid\x20id','KQNXS':function(_0x4a450a,_0x27a98a){return _0x4a450a(_0x27a98a);},'wsoUG':_0x383412(0xaa,'j6)6'),'tldyx':function(_0x417f7c,_0x22bf6e){return _0x417f7c(_0x22bf6e);},'vxMRg':_0x383412(0x10f,'E5[8'),'PzKwb':_0x383412(0xc0,'Gm(B'),'zXiJD':_0x383412(0xb5,'dL1w'),'FyZXh':function(_0x4f0652,_0x3e7e9c){return _0x4f0652(_0x3e7e9c);},'ZGJRW':function(_0xbf968d){return _0xbf968d();},'dmdZW':function(_0x21bcd7,_0x285b8d){return _0x21bcd7(_0x285b8d);}},_0x4cf704={'$ref':_0x383412(0x118,'9@)B')+_0x588a10},_0x31e82c={'$ref':_0x383412(0xbb,'AGrX')+_0x588a10};return{[_0x3919ad]:{'get':{'tags':_0x4640a2,'summary':_0x383412(0xd4,'d(2!')+_0x484d06,'responses':{0xc8:_0x2a6f5f[_0x383412(0xd9,'(Tb6')](ok,{'type':_0x2a6f5f[_0x383412(0x93,'j6)6')]}),0x1f4:_0x2a6f5f[_0x383412(0xa9,'!]Vh')](errorResponse,_0x2a6f5f[_0x383412(0xdd,'ZRxz')])}},'post':{'tags':_0x4640a2,'summary':_0x383412(0xa5,'S18A')+_0x484d06,'requestBody':{'required':!![],'content':{'application/json':{'schema':_0x4cf704}}},'responses':{0xc8:_0x2a6f5f[_0x383412(0xc2,'gUbR')](created,_0x31e82c),0x190:_0x2a6f5f[_0x383412(0x91,'UDWa')](errorResponse,_0x2a6f5f[_0x383412(0xf9,'mc8g')]),0x1f4:_0x2a6f5f[_0x383412(0x7f,'(m8H')](errorResponse,_0x383412(0xc5,'ttoS'))}}},[_0x3919ad+'/{id}']:{'get':{'tags':_0x4640a2,'summary':_0x383412(0xd0,'&0t$')+_0x484d06+_0x383412(0x79,'!]Vh'),'parameters':[_0x2a6f5f[_0x383412(0xee,'&0t$')](pathParam,'id',_0x484d06+_0x383412(0xc3,'bcW@'))],'responses':{0xc8:_0x2a6f5f['ACeIY'](ok,_0x31e82c),0x190:_0x2a6f5f[_0x383412(0xd7,'d(2!')](errorResponse,_0x2a6f5f['BCEhO']),0x194:_0x2a6f5f[_0x383412(0xa0,'&0t$')](errorResponse,_0x2a6f5f[_0x383412(0xcd,'j6)6')]),0x1f4:_0x2a6f5f[_0x383412(0xcb,'Ki6L')](errorResponse,_0x383412(0x95,'@ocs'))}},'put':{'tags':_0x4640a2,'summary':_0x383412(0xc1,'d(2!')+_0x484d06+_0x383412(0xcc,'(m8H'),'parameters':[pathParam('id',_0x2a6f5f[_0x383412(0xe1,'dlye')],{'type':_0x2a6f5f[_0x383412(0xbf,'ny5I')]})],'requestBody':{'required':!![],'content':{'application/json':{'schema':{'$ref':'#/components/reqSchemas/'+_0x588a10+'-update'}}}},'responses':{0xc8:_0x2a6f5f[_0x383412(0xc7,'9@)B')],0x190:_0x2a6f5f[_0x383412(0x107,'d(2!')](errorResponse,'Invalid\x20request'),0x194:_0x2a6f5f[_0x383412(0xe0,'(Tb6')](errorResponse,_0x2a6f5f[_0x383412(0x7b,'W641')]),0x1f4:_0x2a6f5f['FyZXh'](errorResponse,_0x2a6f5f['LsCGf'])}},'delete':{'tags':_0x4640a2,'summary':_0x383412(0xe8,'ri!6')+_0x484d06+_0x383412(0xea,'5TuR'),'parameters':[pathParam('id',_0x484d06+_0x383412(0xfa,')LiQ'))],'responses':{0xcc:_0x2a6f5f[_0x383412(0xa6,'b19O')](noContent),0x190:errorResponse(_0x2a6f5f[_0x383412(0x99,'j6)6')]),0x194:errorResponse(_0x2a6f5f[_0x383412(0x9a,'b19O')]),0x1f4:_0x2a6f5f['dmdZW'](errorResponse,_0x2a6f5f[_0x383412(0x11b,'b^##')])}}}};}function a31_0x2ae0(_0x528f36,_0x4f4e82){_0x528f36=_0x528f36-0x70;const _0x2ef395=a31_0x137a();let _0x551b93=_0x2ef395[_0x528f36];if(a31_0x2ae0['hPCLHx']===undefined){var _0x852199=function(_0x33d018){const _0x117574='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0xc90974='',_0x1db75f='',_0x52389a=_0xc90974+_0x852199,_0x325970=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x18f3f5=0x0,_0x32efb4,_0x44bb82,_0x37fb4c=0x0;_0x44bb82=_0x33d018['charAt'](_0x37fb4c++);~_0x44bb82&&(_0x32efb4=_0x18f3f5%0x4?_0x32efb4*0x40+_0x44bb82:_0x44bb82,_0x18f3f5++%0x4)?_0xc90974+=_0x325970||_0x52389a['charCodeAt'](_0x37fb4c+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x32efb4>>(-0x2*_0x18f3f5&0x6)):_0x18f3f5:0x0){_0x44bb82=_0x117574['indexOf'](_0x44bb82);}for(let _0x507eb9=0x0,_0x365004=_0xc90974['length'];_0x507eb9<_0x365004;_0x507eb9++){_0x1db75f+='%'+('00'+_0xc90974['charCodeAt'](_0x507eb9)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1db75f);};const _0x46f101=function(_0x36535c,_0x26415b){let _0x49f18c=[],_0x2e1e26=0x0,_0x1c57ec,_0x1cacd3='';_0x36535c=_0x852199(_0x36535c);let _0x1a1764;for(_0x1a1764=0x0;_0x1a1764<0x100;_0x1a1764++){_0x49f18c[_0x1a1764]=_0x1a1764;}for(_0x1a1764=0x0;_0x1a1764<0x100;_0x1a1764++){_0x2e1e26=(_0x2e1e26+_0x49f18c[_0x1a1764]+_0x26415b['charCodeAt'](_0x1a1764%_0x26415b['length']))%0x100,_0x1c57ec=_0x49f18c[_0x1a1764],_0x49f18c[_0x1a1764]=_0x49f18c[_0x2e1e26],_0x49f18c[_0x2e1e26]=_0x1c57ec;}_0x1a1764=0x0,_0x2e1e26=0x0;for(let _0x5dd944=0x0;_0x5dd944<_0x36535c['length'];_0x5dd944++){_0x1a1764=(_0x1a1764+0x1)%0x100,_0x2e1e26=(_0x2e1e26+_0x49f18c[_0x1a1764])%0x100,_0x1c57ec=_0x49f18c[_0x1a1764],_0x49f18c[_0x1a1764]=_0x49f18c[_0x2e1e26],_0x49f18c[_0x2e1e26]=_0x1c57ec,_0x1cacd3+=String['fromCharCode'](_0x36535c['charCodeAt'](_0x5dd944)^_0x49f18c[(_0x49f18c[_0x1a1764]+_0x49f18c[_0x2e1e26])%0x100]);}return _0x1cacd3;};a31_0x2ae0['mPMPST']=_0x46f101,a31_0x2ae0['hdhFCP']={},a31_0x2ae0['hPCLHx']=!![];}const _0x137a9b=_0x2ef395[0x0],_0x2ae0f1=_0x528f36+_0x137a9b,_0x4f8cbe=a31_0x2ae0['hdhFCP'][_0x2ae0f1];if(!_0x4f8cbe){if(a31_0x2ae0['thhBnr']===undefined){const _0x33a568=function(_0x3396d7){this['jatVmR']=_0x3396d7,this['FoWdHu']=[0x1,0x0,0x0],this['SsBYjU']=function(){return'newState';},this['fesxgZ']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['dcYEve']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x33a568['prototype']['HbPQbM']=function(){const _0x2fbbe6=new RegExp(this['fesxgZ']+this['dcYEve']),_0x1e696b=_0x2fbbe6['test'](this['SsBYjU']['toString']())?--this['FoWdHu'][0x1]:--this['FoWdHu'][0x0];return this['wbBkyv'](_0x1e696b);},_0x33a568['prototype']['wbBkyv']=function(_0x44e675){if(!Boolean(~_0x44e675))return _0x44e675;return this['IHBCER'](this['jatVmR']);},_0x33a568['prototype']['IHBCER']=function(_0x477f14){for(let _0x5cd038=0x0,_0xf6586a=this['FoWdHu']['length'];_0x5cd038<_0xf6586a;_0x5cd038++){this['FoWdHu']['push'](Math['round'](Math['random']())),_0xf6586a=this['FoWdHu']['length'];}return _0x477f14(this['FoWdHu'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x33a568(a31_0x2ae0)['HbPQbM'](),a31_0x2ae0['thhBnr']=!![];}_0x551b93=a31_0x2ae0['mPMPST'](_0x551b93,_0x4f4e82),a31_0x2ae0['hdhFCP'][_0x2ae0f1]=_0x551b93;}else _0x551b93=_0x4f8cbe;return _0x551b93;}export function createAutoPoolOpenApiDocument(_0x2e680e={}){const _0x29caa4=a31_0x12da64,_0xc92b97={'ccTBl':function(_0x4205e8,_0x8893c0){return _0x4205e8(_0x8893c0);},'Aellp':'3.1.0','kZeaY':_0x29caa4(0x11e,'HsaL'),'ZEtRN':_0x29caa4(0x86,'BCZz'),'eUBaP':_0x29caa4(0xd2,'E5[8'),'YFMuY':_0x29caa4(0x84,'Ki6L'),'kkKFd':'All\x20crud\x20operations\x20for\x20Order\x20management','BFGfp':_0x29caa4(0x9c,'O!Cu'),'wwwKc':'All\x20crud\x20operations\x20for\x20Warehouses\x20management','DuJim':_0x29caa4(0x127,'ttoS'),'xssAs':_0x29caa4(0xe7,')LiQ'),'eZFiC':function(_0x4409ba,_0x27b988,_0x3c3ccc,_0x5e2034,_0x57f0f3){return _0x4409ba(_0x27b988,_0x3c3ccc,_0x5e2034,_0x57f0f3);},'bLyXV':_0x29caa4(0x10a,'$1#Y'),'MgUTz':_0x29caa4(0xed,'W641'),'eoWqu':_0x29caa4(0x70,'5TuR'),'QbEvu':_0x29caa4(0xbd,'!]Vh'),'Ojikp':_0x29caa4(0xfc,'O!Cu'),'FHSeX':function(_0x30fdde,_0x2ea1d2,_0x566e33,_0x15f21e){return _0x30fdde(_0x2ea1d2,_0x566e33,_0x15f21e);},'pOtEp':'order_type','egDDf':_0x29caa4(0xa8,'mc8g'),'tlQiE':_0x29caa4(0x10e,'b19O'),'nSRMt':_0x29caa4(0xbe,'NBth'),'JJRiy':_0x29caa4(0xf6,')LiQ'),'ZoqBe':_0x29caa4(0x114,'AGrX'),'wXarH':_0x29caa4(0xeb,'W641'),'PKUOZ':_0x29caa4(0xc8,'CEE9'),'BoHVt':'draw','BdtDP':_0x29caa4(0xe6,'2UX^'),'baHbk':_0x29caa4(0xf5,'Ki6L'),'ujONV':_0x29caa4(0x103,'$1#Y'),'gduEm':_0x29caa4(0x111,'b19O'),'UGQtE':_0x29caa4(0x11f,'AGrX'),'maFJi':_0x29caa4(0xe5,'dL1w'),'WVtdy':_0x29caa4(0x8d,'kNqV'),'JoXYA':'Fetch\x20Order\x20Items','zQpyj':'This\x20api\x20is\x20used\x20fetch\x20order\x20items\x20by\x20order\x20id\x20you\x20will\x20product\x20info\x20as\x20well','MnLAE':function(_0x5d3d6d,_0x54915e,_0x24f90b){return _0x5d3d6d(_0x54915e,_0x24f90b);},'GiPHu':_0x29caa4(0x80,'W641'),'XJiPB':function(_0x331a74,_0x49181a){return _0x331a74(_0x49181a);},'xPyPs':function(_0xc5ae20,_0x53b3e9,_0x487df0,_0x29635e,_0x5d8c48){return _0xc5ae20(_0x53b3e9,_0x487df0,_0x29635e,_0x5d8c48);},'CPyjG':_0x29caa4(0x96,'W641')},_0x897e60=_0xc92b97[_0x29caa4(0x122,'AGrX')](normalizeServerUrl,_0x2e680e[_0x29caa4(0x77,'5TuR')]);return{'openapi':_0xc92b97[_0x29caa4(0x71,'Ki6L')],'info':{'title':_0x2e680e['title']??_0xc92b97[_0x29caa4(0xd3,'UDWa')],'version':_0x2e680e[_0x29caa4(0x7e,'UDWa')]??_0xc92b97['ZEtRN'],'description':_0x2e680e[_0x29caa4(0x7c,'kNqV')]??_0xc92b97['eUBaP']},'tags':[{'name':_0xc92b97[_0x29caa4(0x8e,'2jbp')],'description':_0xc92b97['kkKFd']},{'name':_0xc92b97[_0x29caa4(0x94,'2UX^')],'description':_0xc92b97[_0x29caa4(0xf7,')LiQ')]},{'name':_0xc92b97['DuJim'],'description':_0xc92b97['xssAs']}],'servers':_0x2e680e[_0x29caa4(0x100,'E5[8')]??(_0x897e60?[{'url':_0x897e60}]:undefined),'components':{'reqSchemas':a31_0x5cbd84,'resSchemas':a31_0x3ec134},'paths':{..._0xc92b97[_0x29caa4(0xb3,'!Mzi')](crudPaths,_0xc92b97[_0x29caa4(0x117,'O!Cu')],_0xc92b97[_0x29caa4(0x110,'v[n1')],_0xc92b97[_0x29caa4(0x7d,'O!Cu')],[_0xc92b97['BFGfp']]),..._0xc92b97[_0x29caa4(0x119,'($kt')](crudPaths,_0xc92b97[_0x29caa4(0x105,'Gm(B')],_0xc92b97[_0x29caa4(0xb9,'d(2!')],_0xc92b97['YFMuY'],[_0xc92b97[_0x29caa4(0xa3,'dlye')]]),'orders/type/{order_type}':{'get':{'tags':[_0xc92b97[_0x29caa4(0xc9,'8ql$')]],'summary':_0xc92b97[_0x29caa4(0xb1,'b19O')],'description':_0xc92b97[_0x29caa4(0xef,'!]Vh')],'parameters':[_0xc92b97[_0x29caa4(0x88,'hvCc')](pathParam,_0xc92b97[_0x29caa4(0x101,'5TuR')],_0xc92b97[_0x29caa4(0x9d,'Gm(B')],{'type':_0xc92b97[_0x29caa4(0x73,')LiQ')]}),_0xc92b97[_0x29caa4(0xf3,'UDWa')](queryParam,_0xc92b97[_0x29caa4(0xab,'8ql$')],_0xc92b97[_0x29caa4(0xc6,'CEE9')],![],{'type':_0xc92b97[_0x29caa4(0xcf,'v[n1')],'enum':[_0xc92b97[_0x29caa4(0xe2,'bcW@')]]}),_0xc92b97['eZFiC'](queryParam,_0xc92b97[_0x29caa4(0x8f,')LiQ')],_0xc92b97['wXarH'],![],{'type':_0xc92b97[_0x29caa4(0xba,'dlye')],'enum':[_0xc92b97[_0x29caa4(0xa2,'kNqV')]]}),_0xc92b97[_0x29caa4(0x82,'E5[8')](queryParam,_0xc92b97['BoHVt'],_0xc92b97[_0x29caa4(0xca,'b^##')],![],{'type':_0xc92b97[_0x29caa4(0xb0,'9!QB')],'default':0x1}),_0xc92b97[_0x29caa4(0xd8,'8ql$')](queryParam,'start',_0xc92b97['ujONV'],![],{'type':_0xc92b97[_0x29caa4(0xa4,'HsaL')],'default':0x0}),queryParam(_0xc92b97['gduEm'],_0xc92b97[_0x29caa4(0x75,'$1#Y')],![],{'type':_0xc92b97['baHbk'],'default':0xa})],'responses':{0xc8:_0xc92b97['ccTBl'](created,a31_0x3ec134[_0xc92b97['YFMuY']]),0x190:_0xc92b97[_0x29caa4(0x128,'9@)B')](errorResponse,_0xc92b97[_0x29caa4(0xb8,'6UhQ')]),0x1f4:_0xc92b97['ccTBl'](errorResponse,_0xc92b97[_0x29caa4(0xa1,'mc8g')])}}},'/orders/{id}/items':{'get':{'tags':[_0xc92b97['YFMuY']],'summary':_0xc92b97[_0x29caa4(0x72,'E5[8')],'description':_0xc92b97[_0x29caa4(0x12a,'(m8H')],'parameters':[_0xc92b97[_0x29caa4(0x87,'j6)6')](pathParam,'id',_0xc92b97[_0x29caa4(0xde,'E5[8')])],'responses':{0xc8:_0xc92b97[_0x29caa4(0x104,'2jbp')](ok,'')}}},..._0xc92b97[_0x29caa4(0x112,'mc8g')](crudPaths,_0xc92b97[_0x29caa4(0x8c,'S18A')],_0xc92b97[_0x29caa4(0xf0,'(m8H')],_0xc92b97[_0x29caa4(0xbc,'Jh[R')],[_0xc92b97['DuJim']])}};}export function createAutoPoolOpenApiConfig(_0x587aa9={}){const _0x13150d=a31_0x12da64,_0x1d8bf7={'fwHay':_0x13150d(0x97,'9!QB'),'SQIuV':_0x13150d(0x115,'2jbp'),'iNvQi':function(_0x22487b,_0x539af1){return _0x22487b(_0x539af1);}},_0x38a0b6=_0x587aa9[_0x13150d(0xb2,'T$!N')]?.[_0x13150d(0xac,'NBth')]??_0x587aa9[_0x13150d(0xb4,'dL1w')]??_0x1d8bf7[_0x13150d(0x102,'!Mzi')];return{'path':_0x587aa9[_0x13150d(0x123,'W641')]??_0x1d8bf7['SQIuV'],'document':_0x1d8bf7[_0x13150d(0xe3,'9!QB')](createAutoPoolOpenApiDocument,{..._0x587aa9['openApi'],'prefixPath':_0x38a0b6})};}export function registerOpenApiJsonRoute(_0x2c7d5e,_0x3b9b08,_0x46bea0={}){const _0x2264d0=a31_0x12da64,_0x5039d6={'IaTcK':_0x2264d0(0xfe,'VrBp')},_0x138236=_0x46bea0[_0x2264d0(0x121,'ttoS')]??_0x5039d6[_0x2264d0(0x81,'bcW@')];_0x2c7d5e['get'](_0x138236,(_0x4a2c45,_0xd43617)=>{const _0x4431c5=_0x2264d0;if(_0xd43617[_0x4431c5(0xce,'mc8g')])return _0xd43617[_0x4431c5(0xec,'HsaL')](0xc8)[_0x4431c5(0x120,'mc8g')](_0x3b9b08);return _0xd43617[_0x4431c5(0x90,'$1#Y')]?.(0xc8)['json'](_0x3b9b08);});}
+import reqSchemas from "./open-api-schema/req-schema.js";
+import resSchemas from "./open-api-schema/res-schema.js";
+export const queryParam = (name, description, required = false, schema = { type: "string" }) => ({
+    name,
+    in: "query",
+    required,
+    description,
+    schema,
+});
+function ok(schema) {
+    return {
+        description: "OK",
+        content: {
+            "application/json": {
+                schema,
+            },
+        },
+    };
+}
+function created(schema) {
+    return {
+        description: "Created",
+        content: {
+            "application/json": {
+                schema,
+            },
+        },
+    };
+}
+function noContent() {
+    return {
+        description: "No Content",
+    };
+}
+function errorResponse(description) {
+    return {
+        description,
+        content: {
+            "application/json": {
+                schema: { $ref: "#/components/schemas/ErrorResponse" },
+            },
+        },
+    };
+}
+// function pathParam(name: string, description: string) {
+//   return {
+//     name,
+//     description,
+//   };
+// }
+export const pathParam = (name, description, schema = { type: "string" }) => ({
+    name,
+    in: "path",
+    required: true,
+    description,
+    schema,
+});
+function normalizeServerUrl(prefixPath) {
+    if (!prefixPath) {
+        return undefined;
+    }
+    const trimmed = prefixPath.trim();
+    if (!trimmed) {
+        return undefined;
+    }
+    if (trimmed === "/") {
+        return "/";
+    }
+    return trimmed.startsWith("/")
+        ? trimmed.replace(/\/+$/, "")
+        : `/${trimmed.replace(/\/+$/, "")}`;
+}
+function objectSchema(properties, required = [], example) {
+    return {
+        type: "object",
+        properties,
+        ...(required.length ? { required } : {}),
+        ...(example ? { example } : {}),
+    };
+}
+function withProductSchema(baseSchema) {
+    return {
+        allOf: [
+            baseSchema,
+            {
+                type: "object",
+                properties: {
+                    product: {
+                        anyOf: [{ $ref: "#/components/schemas/Product" }, { type: "null" }],
+                    },
+                },
+            },
+        ],
+    };
+}
+function withProductsSchema(baseSchema) {
+    return {
+        allOf: [
+            baseSchema,
+            {
+                type: "object",
+                properties: {
+                    items: {
+                        type: "array",
+                        items: withProductSchema({
+                            type: "object",
+                            additionalProperties: true,
+                        }),
+                    },
+                    products: {
+                        type: "array",
+                        items: withProductSchema({
+                            type: "object",
+                            additionalProperties: true,
+                        }),
+                    },
+                },
+            },
+        ],
+    };
+}
+function crudPaths(path, reqTitle, schema, tags) {
+    const requestSchemaRef = { $ref: `#/components/reqSchemas/${schema}` };
+    const responseSchemaRef = {
+        $ref: `#/components/resSchemas/${schema}`,
+    };
+    return {
+        [path]: {
+            get: {
+                tags: tags,
+                summary: `List All ${reqTitle}`,
+                responses: {
+                    200: ok({ type: "array" }),
+                    500: errorResponse("Server error"),
+                },
+            },
+            post: {
+                tags: tags,
+                summary: `Create ${reqTitle}`,
+                requestBody: {
+                    required: true,
+                    content: {
+                        "application/json": {
+                            schema: requestSchemaRef,
+                        },
+                    },
+                },
+                responses: {
+                    200: created(responseSchemaRef),
+                    400: errorResponse("Invalid request"),
+                    500: errorResponse("Server error"),
+                },
+            },
+        },
+        [`${path}/{id}`]: {
+            get: {
+                tags: tags,
+                summary: `Get ${reqTitle} by id`,
+                parameters: [pathParam("id", `${reqTitle} id`)],
+                responses: {
+                    200: ok(responseSchemaRef),
+                    400: errorResponse("Invalid id"),
+                    404: errorResponse("Not found"),
+                    500: errorResponse("Server error"),
+                },
+            },
+            put: {
+                tags: tags,
+                summary: `Update ${reqTitle} info`,
+                parameters: [pathParam("id", "Order Id", { type: "integer" })],
+                requestBody: {
+                    required: true,
+                    content: {
+                        "application/json": {
+                            schema: { $ref: `#/components/reqSchemas/${schema}-update` },
+                        },
+                    },
+                },
+                responses: {
+                    200: "success",
+                    400: errorResponse("Invalid request"),
+                    404: errorResponse("Not found"),
+                    500: errorResponse("Server error"),
+                },
+            },
+            delete: {
+                tags: tags,
+                summary: `Delete ${reqTitle} by id`,
+                parameters: [pathParam("id", `${reqTitle} id`)],
+                responses: {
+                    204: noContent(),
+                    400: errorResponse("Invalid id"),
+                    404: errorResponse("Not found"),
+                    500: errorResponse("Server error"),
+                },
+            },
+        },
+    };
+}
+export function createAutoPoolOpenApiDocument(options = {}) {
+    const prefixServerUrl = normalizeServerUrl(options.prefixPath);
+    return {
+        openapi: "3.1.0",
+        info: {
+            title: options.title ?? "Stock Pro API",
+            version: options.version ?? "1.0.0",
+            description: options.description ??
+                "Api documentation for the Stock pro routes, product CRUD, and inventory-management actions. Product details in the docs reflect a configurable example model and may differ in host apps or tests.",
+        },
+        tags: [
+            {
+                name: "Orders",
+                description: "All crud operations for Order management",
+            },
+            {
+                name: "Warehouses",
+                description: "All crud operations for Warehouses management",
+            },
+            {
+                name: "Inventory",
+                description: "All crud operations for Inventories management",
+            },
+        ],
+        servers: options.servers ??
+            (prefixServerUrl ? [{ url: prefixServerUrl }] : undefined),
+        components: {
+            reqSchemas,
+            resSchemas,
+        },
+        paths: {
+            ...crudPaths("/warehouses", "Warehouse", "Warehouse", ["Warehouses"]),
+            ...crudPaths("/orders", "Orders", "Orders", ["Orders"]),
+            "orders/type/{order_type}": {
+                get: {
+                    tags: ["Orders"],
+                    summary: "List orders by type",
+                    description: "URI /orders/type/{order_type}?status={status}&include={orderItems} \n status and include query params are optional",
+                    parameters: [
+                        pathParam("order_type", "Order type", { type: "string" }),
+                        queryParam("status", "Filter by status", false, {
+                            type: "string",
+                            enum: ["status"],
+                        }),
+                        queryParam("include", "Include related resources", false, {
+                            type: "string",
+                            enum: ["orderItems"],
+                        }),
+                        queryParam("draw", "DataTables draw counter", false, {
+                            type: "integer",
+                            default: 1,
+                        }),
+                        queryParam("start", "Starting record index", false, {
+                            type: "integer",
+                            default: 0,
+                        }),
+                        queryParam("length", "Number of records to return", false, {
+                            type: "integer",
+                            default: 10,
+                        }),
+                    ],
+                    responses: {
+                        200: created(resSchemas["Orders"]),
+                        400: errorResponse("Invalid request"),
+                        500: errorResponse("Server error"),
+                    },
+                },
+            },
+            "/orders/{id}/items": {
+                get: {
+                    tags: ["Orders"],
+                    summary: "Fetch Order Items",
+                    description: "This api is used fetch order items by order id you will product info as well",
+                    parameters: [pathParam("id", "Purchase order id")],
+                    responses: {
+                        200: ok(""),
+                    },
+                },
+            },
+            ...crudPaths("/inventories", "Inventory", "Inventory", ["Inventory"]),
+            // ...crudPaths("/products", "Product", "products", "Product"),
+            // "/inventories/warehouse/{warehouseId}": {
+            //   get: {
+            //     summary: "List inventory by warehouse",
+            //     parameters: [pathParam("warehouseId", "Warehouse id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: { $ref: "#/components/schemas/Inventory" },
+            //       }),
+            //       400: errorResponse("Invalid warehouse id"),
+            //     },
+            //   },
+            // },
+            // "/inventories/product/{productId}": {
+            //   get: {
+            //     summary: "List inventory by product",
+            //     parameters: [pathParam("productId", "Product id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: { $ref: "#/components/schemas/Inventory" },
+            //       }),
+            //       400: errorResponse("Invalid product id"),
+            //     },
+            //   },
+            // },
+            // "/inventories/product/{productId}/warehouse/{warehouseId}": {
+            //   get: {
+            //     summary: "Get inventory by product and warehouse",
+            //     parameters: [
+            //       pathParam("productId", "Product id"),
+            //       pathParam("warehouseId", "Warehouse id"),
+            //     ],
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Inventory" }),
+            //       400: errorResponse("Invalid ids"),
+            //       404: errorResponse("Not found"),
+            //     },
+            //   },
+            // },
+            // "/inventories/adjust-stock": {
+            //   post: {
+            //     summary: "Adjust inventory stock",
+            //     requestBody: {
+            //       required: true,
+            //       content: {
+            //         "application/json": {
+            //           schema: { $ref: "#/components/schemas/AdjustStockRequest" },
+            //         },
+            //       },
+            //     },
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Inventory" }),
+            //       400: errorResponse("Invalid request"),
+            //       404: errorResponse("Inventory not found"),
+            //     },
+            //   },
+            // },
+            // ...crudPaths(
+            //   "/purchase-order-items",
+            //   "OrderItems",
+            //   "purchase-order-items",
+            //   "OrderItems",
+            // ),
+            // "/purchase-order-items/by-order/{orderId}": {
+            //   get: {
+            //     summary: "List purchase order items by order",
+            //     parameters: [pathParam("orderId", "Purchase order id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: { $ref: "#/components/schemas/OrderItems" },
+            //       }),
+            //     },
+            //   },
+            // },
+            // ...crudPaths("/sales-orders", "Orders", "sales-orders", "Orders"),
+            // "/sales-orders/{id}/items": {
+            //   get: {
+            //     summary: "Get sales order with items",
+            //     parameters: [pathParam("id", "Sales order id")],
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Orders" }),
+            //     },
+            //   },
+            // },
+            // ...crudPaths(
+            //   "/sales-order-items",
+            //   "OrderItems",
+            //   "sales-order-items",
+            //   "OrderItems",
+            // ),
+            // "/sales-order-items/by-order/{orderId}": {
+            //   get: {
+            //     summary: "List sales order items by order",
+            //     parameters: [pathParam("orderId", "Sales order id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: { $ref: "#/components/schemas/OrderItems" },
+            //       }),
+            //     },
+            //   },
+            // },
+            // ...crudPaths(
+            //   "/sales-order-item-allocations",
+            //   "SalesOrderItemAllocation",
+            //   "sales-order-item-allocations",
+            //   "SalesOrderItemAllocation",
+            // ),
+            // "/sales-order-item-allocations/by-warehouse/{warehouseId}": {
+            //   get: {
+            //     summary: "List allocations by warehouse",
+            //     parameters: [pathParam("warehouseId", "Warehouse id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: { $ref: "#/components/schemas/SalesOrderItemAllocation" },
+            //       }),
+            //     },
+            //   },
+            // },
+            // "/sales-order-item-allocations/by-order-item/{orderItemId}": {
+            //   get: {
+            //     summary: "List allocations by sales order item",
+            //     parameters: [pathParam("orderItemId", "Sales order item id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: { $ref: "#/components/schemas/SalesOrderItemAllocation" },
+            //       }),
+            //     },
+            //   },
+            // },
+            // "/query/sales-order-items/{salesOrderItemId}/products": {
+            //   get: {
+            //     summary: "Get sales order item with product",
+            //     parameters: [pathParam("salesOrderItemId", "Sales order item id")],
+            //     responses: {
+            //       200: ok(
+            //         withProductSchema({
+            //           $ref: "#/components/schemas/OrderItems",
+            //         }),
+            //       ),
+            //       404: errorResponse("Not found"),
+            //       400: errorResponse("Invalid sales order item id"),
+            //     },
+            //   },
+            // },
+            // "/query/sales-orders/by-business/{businessId}/products": {
+            //   get: {
+            //     summary: "List sales orders with products",
+            //     parameters: [pathParam("businessId", "Business id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: withProductsSchema({
+            //           $ref: "#/components/schemas/Orders",
+            //         }),
+            //       }),
+            //       400: errorResponse("Invalid business id"),
+            //     },
+            //   },
+            // },
+            // "/query/sales-orders/{salesOrderId}/products": {
+            //   get: {
+            //     summary: "Get sales order with products",
+            //     parameters: [pathParam("salesOrderId", "Sales order id")],
+            //     responses: {
+            //       200: ok(
+            //         withProductsSchema({ $ref: "#/components/schemas/Orders" }),
+            //       ),
+            //       404: errorResponse("Not found"),
+            //       400: errorResponse("Invalid sales order id"),
+            //     },
+            //   },
+            // },
+            // "/query/purchase-order-items/{purchaseOrderItemId}/products": {
+            //   get: {
+            //     summary: "Get purchase order item with product",
+            //     parameters: [
+            //       pathParam("purchaseOrderItemId", "Purchase order item id"),
+            //     ],
+            //     responses: {
+            //       200: ok(
+            //         withProductSchema({
+            //           $ref: "#/components/schemas/OrderItems",
+            //         }),
+            //       ),
+            //       404: errorResponse("Not found"),
+            //       400: errorResponse("Invalid purchase order item id"),
+            //     },
+            //   },
+            // },
+            // "/query/purchase-orders/products": {
+            //   post: {
+            //     summary: "List purchase orders with products",
+            //     requestBody: {
+            //       required: true,
+            //       content: {
+            //         "application/json": {
+            //           schema: objectSchema(
+            //             {
+            //               businessId: { type: "integer", minimum: 1 },
+            //               createdBy: { type: "integer", minimum: 1 },
+            //             },
+            //             [],
+            //           ),
+            //         },
+            //       },
+            //     },
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: withProductsSchema({
+            //           $ref: "#/components/schemas/Orders",
+            //         }),
+            //       }),
+            //       400: errorResponse("Invalid request"),
+            //     },
+            //   },
+            // },
+            // "/query/purchase-orders/{purchaseOrderId}/products": {
+            //   get: {
+            //     summary: "Get purchase order with products",
+            //     parameters: [pathParam("purchaseOrderId", "Purchase order id")],
+            //     responses: {
+            //       200: ok(
+            //         withProductsSchema({
+            //           $ref: "#/components/schemas/Orders",
+            //         }),
+            //       ),
+            //       404: errorResponse("Not found"),
+            //       400: errorResponse("Invalid purchase order id"),
+            //     },
+            //   },
+            // },
+            // "/query/inventory/{productId}/products": {
+            //   get: {
+            //     summary: "List inventory with products",
+            //     parameters: [pathParam("productId", "Product id")],
+            //     responses: {
+            //       200: ok({
+            //         type: "array",
+            //         items: withProductSchema({
+            //           $ref: "#/components/schemas/Inventory",
+            //         }),
+            //       }),
+            //       400: errorResponse("Invalid product id"),
+            //     },
+            //   },
+            // },
+            // "/inventory-management/purchase-orders/{purchaseOrderId}/receive": {
+            //   post: {
+            //     summary: "Receive a purchase order",
+            //     parameters: [pathParam("purchaseOrderId", "Purchase order id")],
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Orders" }),
+            //     },
+            //   },
+            // },
+            // "/inventory-management/sales-orders/{salesOrderId}/allocate": {
+            //   post: {
+            //     summary: "Allocate inventory for a sales order",
+            //     parameters: [pathParam("salesOrderId", "Sales order id")],
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Orders" }),
+            //     },
+            //   },
+            // },
+            // "/inventory-management/sales-orders/{salesOrderId}/ship": {
+            //   post: {
+            //     summary: "Mark a sales order as shipped",
+            //     parameters: [pathParam("salesOrderId", "Sales order id")],
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Orders" }),
+            //     },
+            //   },
+            // },
+            // "/inventory-management/sales-orders/{salesOrderId}/cancel": {
+            //   post: {
+            //     summary: "Cancel a sales order",
+            //     parameters: [pathParam("salesOrderId", "Sales order id")],
+            //     responses: {
+            //       200: ok({ $ref: "#/components/schemas/Orders" }),
+            //     },
+            //   },
+            // },
+            // "/inventory-management/stock/transfer": {
+            //   post: {
+            //     summary: "Transfer stock between warehouses",
+            //     requestBody: {
+            //       required: true,
+            //       content: {
+            //         "application/json": {
+            //           schema: { $ref: "#/components/schemas/TransferStockRequest" },
+            //         },
+            //       },
+            //     },
+            //     responses: {
+            //       200: ok({
+            //         type: "object",
+            //         properties: {
+            //           source: { $ref: "#/components/schemas/Inventory" },
+            //           target: { $ref: "#/components/schemas/Inventory" },
+            //         },
+            //       }),
+            //     },
+            //   },
+            // },
+        },
+    };
+}
+export function createAutoPoolOpenApiConfig(options = {}) {
+    const prefixPath = options.openApi?.prefixPath ?? options.prefixPath ?? "/api";
+    return {
+        path: options.openApiPath ?? "/openapi.json",
+        document: createAutoPoolOpenApiDocument({
+            ...options.openApi,
+            prefixPath,
+        }),
+    };
+}
+export function registerOpenApiJsonRoute(target, document, options = {}) {
+    const path = options.path ?? "/openapi.json";
+    target.get(path, (_request, replyOrResponse) => {
+        if (replyOrResponse.code) {
+            return replyOrResponse.code(200).send(document);
+        }
+        return replyOrResponse.status?.(200).json(document);
+    });
+}

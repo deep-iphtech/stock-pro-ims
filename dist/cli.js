@@ -1,2 +1,175 @@
 #!/usr/bin/env node
-function a0_0x1fdc(_0xe9fd6b,_0x2ec54f){_0xe9fd6b=_0xe9fd6b-0xae;const _0x3817bb=a0_0x522a();let _0x10d1b5=_0x3817bb[_0xe9fd6b];if(a0_0x1fdc['IPhzhd']===undefined){var _0x21896c=function(_0x523136){const _0x22fc59='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x581b2d='',_0x2691b0='',_0x5dedd6=_0x581b2d+_0x21896c,_0x26fc90=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0xd7c72b=0x0,_0xef7f03,_0x4773a5,_0x16ec27=0x0;_0x4773a5=_0x523136['charAt'](_0x16ec27++);~_0x4773a5&&(_0xef7f03=_0xd7c72b%0x4?_0xef7f03*0x40+_0x4773a5:_0x4773a5,_0xd7c72b++%0x4)?_0x581b2d+=_0x26fc90||_0x5dedd6['charCodeAt'](_0x16ec27+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0xef7f03>>(-0x2*_0xd7c72b&0x6)):_0xd7c72b:0x0){_0x4773a5=_0x22fc59['indexOf'](_0x4773a5);}for(let _0x21fdb7=0x0,_0x253bef=_0x581b2d['length'];_0x21fdb7<_0x253bef;_0x21fdb7++){_0x2691b0+='%'+('00'+_0x581b2d['charCodeAt'](_0x21fdb7)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2691b0);};const _0x13b9b3=function(_0xb6edda,_0x51a5d4){let _0x1736e5=[],_0x240357=0x0,_0x341799,_0x4f95e7='';_0xb6edda=_0x21896c(_0xb6edda);let _0x5f0745;for(_0x5f0745=0x0;_0x5f0745<0x100;_0x5f0745++){_0x1736e5[_0x5f0745]=_0x5f0745;}for(_0x5f0745=0x0;_0x5f0745<0x100;_0x5f0745++){_0x240357=(_0x240357+_0x1736e5[_0x5f0745]+_0x51a5d4['charCodeAt'](_0x5f0745%_0x51a5d4['length']))%0x100,_0x341799=_0x1736e5[_0x5f0745],_0x1736e5[_0x5f0745]=_0x1736e5[_0x240357],_0x1736e5[_0x240357]=_0x341799;}_0x5f0745=0x0,_0x240357=0x0;for(let _0x392aff=0x0;_0x392aff<_0xb6edda['length'];_0x392aff++){_0x5f0745=(_0x5f0745+0x1)%0x100,_0x240357=(_0x240357+_0x1736e5[_0x5f0745])%0x100,_0x341799=_0x1736e5[_0x5f0745],_0x1736e5[_0x5f0745]=_0x1736e5[_0x240357],_0x1736e5[_0x240357]=_0x341799,_0x4f95e7+=String['fromCharCode'](_0xb6edda['charCodeAt'](_0x392aff)^_0x1736e5[(_0x1736e5[_0x5f0745]+_0x1736e5[_0x240357])%0x100]);}return _0x4f95e7;};a0_0x1fdc['PuQIuu']=_0x13b9b3,a0_0x1fdc['jXfNxX']={},a0_0x1fdc['IPhzhd']=!![];}const _0x522acb=_0x3817bb[0x0],_0x1fdc8f=_0xe9fd6b+_0x522acb,_0x36706=a0_0x1fdc['jXfNxX'][_0x1fdc8f];if(!_0x36706){if(a0_0x1fdc['nUXklH']===undefined){const _0x1ce373=function(_0x237f0c){this['ldjPuv']=_0x237f0c,this['jYktMT']=[0x1,0x0,0x0],this['QZXjmb']=function(){return'newState';},this['WqGUnn']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['ufZNbp']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1ce373['prototype']['lcbqDf']=function(){const _0x5a4b50=new RegExp(this['WqGUnn']+this['ufZNbp']),_0x3b9724=_0x5a4b50['test'](this['QZXjmb']['toString']())?--this['jYktMT'][0x1]:--this['jYktMT'][0x0];return this['QqNrZW'](_0x3b9724);},_0x1ce373['prototype']['QqNrZW']=function(_0x5504ae){if(!Boolean(~_0x5504ae))return _0x5504ae;return this['RzzFyx'](this['ldjPuv']);},_0x1ce373['prototype']['RzzFyx']=function(_0x214f16){for(let _0x4296f8=0x0,_0x26b850=this['jYktMT']['length'];_0x4296f8<_0x26b850;_0x4296f8++){this['jYktMT']['push'](Math['round'](Math['random']())),_0x26b850=this['jYktMT']['length'];}return _0x214f16(this['jYktMT'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1ce373(a0_0x1fdc)['lcbqDf'](),a0_0x1fdc['nUXklH']=!![];}_0x10d1b5=a0_0x1fdc['PuQIuu'](_0x10d1b5,_0x2ec54f),a0_0x1fdc['jXfNxX'][_0x1fdc8f]=_0x10d1b5;}else _0x10d1b5=_0x36706;return _0x10d1b5;}const a0_0x2dbc9d=a0_0x1fdc;(function(_0x41d2c7,_0x486114){const _0xf26023=a0_0x1fdc,_0x4529d1=_0x41d2c7();while(!![]){try{const _0x17572b=-parseInt(_0xf26023(0x12c,'%aTQ'))/0x1+parseInt(_0xf26023(0xd2,'zaq]'))/0x2*(-parseInt(_0xf26023(0xb0,'Iz#w'))/0x3)+-parseInt(_0xf26023(0xf9,'k1AS'))/0x4*(-parseInt(_0xf26023(0x129,'pKJv'))/0x5)+-parseInt(_0xf26023(0x137,'#POA'))/0x6*(parseInt(_0xf26023(0xf1,'zcct'))/0x7)+parseInt(_0xf26023(0xfd,'4)EU'))/0x8*(-parseInt(_0xf26023(0x132,'*VA)'))/0x9)+-parseInt(_0xf26023(0xe6,'aKHv'))/0xa*(-parseInt(_0xf26023(0xcc,'%aTQ'))/0xb)+parseInt(_0xf26023(0xbf,'xyTa'))/0xc;if(_0x17572b===_0x486114)break;else _0x4529d1['push'](_0x4529d1['shift']());}catch(_0x4c9bc4){_0x4529d1['push'](_0x4529d1['shift']());}}}(a0_0x522a,0x18ef5));import{createAutoPool,syncAutoPoolData}from'./init.js';import{createAutoPoolExpressRouter,registerAutoPoolFastifyRoutes}from'./services/index.js';function a0_0x522a(){const _0x4407be=['WQZcPSk4','W5uNuvqxtSo5WOL2WOmpz8kDWPDQWP0','BMn2jKe','W6yIWQVcKCks','q0npg2VdJW','gXyusY3dLMBcQ8kDcJO','eY8IyCoA','WP/dTCkDWOhcSa','WPxcN8kUu1S','WQpcOJnMWRK','n8oGWPdcUmkf','nHFdLCoAvCo6W7dcPCk1bq','W6pdMCoODLZcQSk/','ymoLW74Vn8kdWPq','mCotWOrkiGldN8ooWO5lW5RcQNinW6/cU8ov','iSoDW7jjW5fm','e0xdI8o4W4S','hCoxwZFcHmkWW77cQhBcGCkqW4e','gXJcGSoKWOLgW7ZcHSkKtYa','W6BcTXxdRM9BDG','DqVdKITwWQK','hmoBnby','beVcICkiDa','icev','WQSowmogW7ZdHSkdkmoP','cfBdMa/dJG','W45aW5yCWQBcSbjHpCor','A8kvW7fgW5iDW6i','W7NcHL1GhJq','frCSumkG','D2mRW78y','xSkTbuRdIW','xSo4W68SW4ugW7NdK3W/','tSkrpCoaW4e','rCkEW45XW74','rCklg3VdMmoO','t8k+E1/dGa','WRddR8k5','s8k0W6DsW7u','xgSv','vSkCWRRdJmkwWRZdIa','WQBcVKacW4PtuSkZW601','m01Jq8kgDazJWQijW6i','mLTxtSkC','h0zNvSkK','DWqhgSka','WPdcNJfOWQu','FmkCW75eW4i','WQziW4rUiCkrW4NdKmoo','iLRdSZFdR8kFWQNdL8kuwdK','uSk1WRZdTCkP','orFdNa','DmkKzKZdPCosW5VdIetcP8oBW6v7pYXzDCoUwSouoSoxa0v+eWddNJrNEGvKW4pdOX7dO0y','fti+AmobWQ8tlmoiW6i','WQxdGr46s3qm','WRPuWODLcSk+W53dKSkQ','AmkvW6m','WRtcLY17WOpcRCoOW5W','W6pdOJLEW4PGACk1W74lpa','bsKXFmoCWRSujmoiW6i','w0LYcg3dJKRcOG','lmoXpmkPW4VdVfpcImk/WOfAW6O','gmoroHq','hCosxtJcJ8o3W6NcRNNcTSk9','uXNdLeFdPCk4Es4CWOxcQSk/','l3aWW6j2vCoZW5RcRCkJWQiGzCklkSkbFCoWWQC','W4dcT2DDlq','WRpcSXXHWR4','WRpcVCk+uwNcGmovWPJdMNK','tfZcMN13jCkfomkcpKldPIpcJSoBbZPlWO0HW4ZcIqLoWRW9','FIyiESkIWPddPa','xqFdHZ5gWQVdU8kYW77dUSoFimoVWQtcS8keW4OJC8oxmSovWOVcKSkxWQbqW6lcKJ1sW7COWROnsmoGeCo+WR7dLX3cRGpcLmkB','kSo9BehdUmoc','gmosutZcHCoKW6xcJ0pcSCk5','pZXoW4VcGa','W57dQI0Wl3/dPf8','s0zb','W5uGWQbIaa','j8o3vWafWQJdLCoPfCoaWPK','ESkRySoJWPO','W6tcP8kIW7fBxa','CSkypSo3W64','WRVdJ2TScZ9FW7ddM8kpj3m1oNq2WP4zWRGDW5BdRwjHAJVcMG/cH8oXWPzRWPxcJW','iZrCW6xcIG','nNRdSahdRq','FsWYpSk/','W7dcQHFdQM9A','AZuxkSkh','W6nAW7tdOSonFfRdNMnMaSkX','WP/cOrK','W7tcM8ksA3pcP8ou','pWdcQqT1','W60CEhuw','lvFcKw4hW7BcUCoRW5hdTSoPo8kP','W7xdV8oUgINdG8oKWRpdNfVcIZ0','hG0QASoN','emkaawddJSoVW4O','aCozW5GjnSkGWQWOW6dcISonl0v4W5BcRa','mthcObTtW58y','iLBcM8kQBW','ExxcS3Ld','A8khomo6','F1W2WOrZ','jMZdSSotW4e','WP/dUSkSW4Xb','WQJcMq0','uX7dMutcOCoBrIyIWQm','mSoJmb/dOSkhW63dLuhdVG','WRDHW4qpWRxcPN8cACkzWQnupSk7WQZcQ8kGrbRcS8oBnSkmWPVdPSkIW7BdU8kedKhcQSokW5roW6xdNCkHWQrJyYZdNu7dPSk3DmkjbmoQW4RdI8oYuCo/rCohst7cTSoIemoquKhcUmkAdSocW7erasBdVqVdH8oOWOldJHXcWQD0yqCsW4KgwSozcwDeW61qCetdVYBcImo+s8ougNTxWOVdKdTytmkYW49oWOVdQvOPWP/cH0hdNca4WRyyW7LQW7ZdU8kxwre7W7hcKhvKW5pcLmoIWP7dKmk+W4BcTNeKW5tdIwCln8okWQ7cVvPKm8kJgSkEW6DzrCkOk1JdIJBdLYBcNmkdWPurghX5WRBcL0PEW6XMj8k+W4aAW5JcJ8oKgmkcW6BcKq8EWQdcVmocFCkFkSo1W5PVotpcMCkiWOxcL8o3sdqzWOtcHK9CWOWklCktiCoyW4m6WPe0W6xdTr/cMSosseFcKrlcPtmZp8o4oCo2WPpcRmofb8krj8krWOldS2WDlmoIWPfibMu8W6xdGCo0WR5KWPLdpCoXWOJcHSokwgqxgSkgW4PpWQizr8kIAwtcIMBdJSkqWP9rW4XtFmojBZyrzSk/W6SIzSk8W40xE1hcI055nmktW4JdO8k9D8kDg8kHW4JcI8kIqqa2WOOetI4lW4vIW4dcG8oCWPRdIMW3WQ/dPCkeW5/dSCoDW503aSoTbrvVDmoAWPqXW7hdRrtdLSoaemohfmoFWQZcLIShmfu0W6incCovzeKkcmoNdLDPW6RcQCkFWONcJSolWQeBWQ54FNCepmkpW6SttmkRWOtdMWFcQ2tcSmoVW6v9jNCRW5dcSSktlSoHjd/cGSkGW47dUZNcOJ5JWPJcP8kSWQldI1FdQ1RdUtFcGCobW4JcS8kHzCk0AN3cSstcU8k+WQ5vWRj/qwSPtSkhtCosdSoAqLCNWOn6uCotr2qdW6nTeSkIj8opW6iiW74DWRuHWPpcMbpcQmo9W5HoWOjsx1Ctfs1gamofycnkW61ysvtdICoXzKSsWR3dMNLYwSo1wCkbF2yIwhFcJKz7WOGRWRfAW5RdJ8k+WOVcTmk8gSk1eCo+oNBdJd3cQrVdMvepwCo8W5rXWQhcTbVdJSoTW5xcPcm5dmo0WQZdN8ktW4VdOq','cwddO8oCW7K','bte5BCon','FaZdLW','t8k0W4BcSmkkWQONW7ej','WQ7dOGBdS2roBcVdUG','qKDq','eeJcIb7cPmoOBbC','W7ibWP10','ECkGW79+W50','CSkanSoMW78WWP3dPCoXnW','kCoWtfFdVSkAW4JdJK7dRSksWQPTzZfeDmo4rCkfoSorhWWOhaddGsL0ErHMWOS','lZ5j','W6BcN0j9dW','zmk5mIpdSSo9W5KOW7dcT8oPWPy','W5rAW5qcWQFcPYb7','sSk9WQFcHSkuWQyXW4i','xbHbW5CB','kZbD','W5dcNvX7cxPvW6RdL8kFBJa8k34TWPunW6TmWOldRxmQzs3cIrpdNSoXWP1HWO0','W4VcVsddPvi','ESkIafrjWQi','teRcI0Lcfqe','AHBdGcTgWRq','k35/BCk7eJmcAYK','eGxcLW','jeZcNWpcV8oRDKmJWOVcVCktWOatvSoXWO/dR8odvSkkx8ouW6jbWOfgimk8bmo9Ere','FSkMhq','d0JcNWtcT8oQAG','W5frW5KjWQBcQW'];a0_0x522a=function(){return _0x4407be;};return a0_0x522a();}import a0_0x344f23 from'node:readline/promises';import{stdin as a0_0x2b7bf6,stdout as a0_0x5690b4}from'node:process';const KNOWN_ENVS=new Set([a0_0x2dbc9d(0x116,'lZbQ'),'production','test']),KNOWN_SERVERS=new Set(['express',a0_0x2dbc9d(0xc4,'&P#d')]);async function askToCreateTables(){const _0x2b223b=a0_0x2dbc9d,_0x310bc1={'tbRZF':'Required\x20tables\x20are\x20missing.\x20Create\x20default\x20Auto\x20Pool\x20tables?\x20(y/N):\x20','sKbnO':_0x2b223b(0x111,'L2qx')},_0x2d02ed=a0_0x344f23['createInterface']({'input':a0_0x2b7bf6,'output':a0_0x5690b4}),_0x1b6b6b=await _0x2d02ed['question'](_0x310bc1['tbRZF']);return _0x2d02ed[_0x2b223b(0xb1,'pKJv')](),['y',_0x310bc1[_0x2b223b(0x12f,'V1xk')]][_0x2b223b(0xdd,'VWoA')](_0x1b6b6b['trim']()[_0x2b223b(0x126,'[(g7')]());}function printHelp(){const _0x3abf5a=a0_0x2dbc9d;console[_0x3abf5a(0xe7,'Ifa@')](_0x3abf5a(0xce,'VWoA'));}function readValue(_0x2d3fe9,_0x49068f,_0x41e51c){const _0x35010e=a0_0x2dbc9d,_0x31cc57={'IeffV':function(_0x20929c,_0x4fb9af){return _0x20929c+_0x4fb9af;}},_0xeee3f0=_0x2d3fe9[_0x31cc57[_0x35010e(0xf6,'zaq]')](_0x49068f,0x1)];if(!_0xeee3f0||_0xeee3f0[_0x35010e(0x10c,'X9jF')]('-'))throw new Error(_0x41e51c+_0x35010e(0xfa,'Ef#1'));return _0xeee3f0;}function parseArgs(_0x94ed83){const _0xeeb94a=a0_0x2dbc9d,_0x1d6f1b={'HrEyX':'development','XRhvl':function(_0x1d7e53,_0x1eea35){return _0x1d7e53<_0x1eea35;},'PfOgT':function(_0x314bd8,_0x19a167){return _0x314bd8===_0x19a167;},'aEyNu':_0xeeb94a(0xb2,'L2qx'),'iIAGW':function(_0x19c571,_0x39cd1c){return _0x19c571===_0x39cd1c;},'MrNyx':function(_0x27de57){return _0x27de57();},'uxQwP':function(_0x574c0f,_0x244409,_0x28f4d6,_0x24ccfe){return _0x574c0f(_0x244409,_0x28f4d6,_0x24ccfe);},'VpfXv':_0xeeb94a(0xfb,'uIV5'),'FEPHo':function(_0x2d5986,_0x516f68){return _0x2d5986===_0x516f68;},'wrktA':_0xeeb94a(0xd3,'ZMZk'),'JnYVY':function(_0x59fd50,_0x13a734){return _0x59fd50===_0x13a734;},'dkfGZ':'--server','aQvKZ':function(_0x3e92f4,_0x3495c4){return _0x3e92f4===_0x3495c4;},'YOXDl':'-server','IJPts':function(_0x3cfb3e,_0x12caa2,_0x33b65e,_0x5ac192){return _0x3cfb3e(_0x12caa2,_0x33b65e,_0x5ac192);},'esBhv':_0xeeb94a(0x123,'p@7I'),'RSMEq':_0xeeb94a(0x104,'qJIF')};let _0x34be4e=process.env.NODE_ENV??_0x1d6f1b[_0xeeb94a(0xe2,'ZMZk')],_0x392f3e,_0xea8c11=!![],_0x1bfa98;for(let _0x6b648b=0x0;_0x1d6f1b['XRhvl'](_0x6b648b,_0x94ed83[_0xeeb94a(0xf0,'zcct')]);_0x6b648b+=0x1){const _0x518436=_0x94ed83[_0x6b648b];(_0x1d6f1b[_0xeeb94a(0x11a,'V1xk')](_0x518436,_0x1d6f1b['aEyNu'])||_0x1d6f1b[_0xeeb94a(0xcf,'[^6u')](_0x518436,'-h'))&&(_0x1d6f1b['MrNyx'](printHelp),process[_0xeeb94a(0xd6,'p@7I')](0x0));if(_0x1d6f1b[_0xeeb94a(0x119,'aKHv')](_0x518436,'--env')||_0x1d6f1b['iIAGW'](_0x518436,'-e')){_0x34be4e=_0x1d6f1b['uxQwP'](readValue,_0x94ed83,_0x6b648b,_0x518436),_0x6b648b+=0x1;continue;}if(_0x518436[_0xeeb94a(0xd8,'&9Mz')](_0x1d6f1b[_0xeeb94a(0xca,'L2qx')])){_0x34be4e=_0x518436[_0xeeb94a(0xfc,'[^6u')](_0xeeb94a(0x134,'3k6i')[_0xeeb94a(0xeb,'VWoA')]);continue;}if(_0x518436==='--config'||_0x1d6f1b[_0xeeb94a(0xc9,'[^6u')](_0x518436,'-c')){_0x392f3e=_0x1d6f1b[_0xeeb94a(0xb9,'aKHv')](readValue,_0x94ed83,_0x6b648b,_0x518436),_0x6b648b+=0x1;continue;}if(_0x518436[_0xeeb94a(0x127,'ujgo')](_0x1d6f1b[_0xeeb94a(0x10a,'v!6t')])){_0x392f3e=_0x518436[_0xeeb94a(0xb3,'&9Mz')](_0x1d6f1b[_0xeeb94a(0xdf,'5L65')][_0xeeb94a(0xe3,'Iz#w')]);continue;}if(_0x1d6f1b[_0xeeb94a(0x10e,'uIV5')](_0x518436,_0x1d6f1b[_0xeeb94a(0xb5,'aqLj')])||_0x1d6f1b[_0xeeb94a(0x11e,'3iiU')](_0x518436,_0x1d6f1b['YOXDl'])){const _0x26b61b=_0x1d6f1b[_0xeeb94a(0xee,'^Scm')](readValue,_0x94ed83,_0x6b648b,_0x518436);if(!KNOWN_SERVERS[_0xeeb94a(0xe9,'Iz#w')](_0x26b61b))throw new Error('Unknown\x20server:\x20'+_0x26b61b+_0xeeb94a(0xb4,'sFP#'));_0x1bfa98=_0x26b61b,_0x6b648b+=0x1;continue;}if(_0x518436[_0xeeb94a(0x106,'VWoA')](_0x1d6f1b[_0xeeb94a(0x117,'lZbQ')])||_0x518436['startsWith']('-server=')){const _0x298482=_0x518436[_0xeeb94a(0xdb,'sFP#')]('=',0x2)[0x1];if(!KNOWN_SERVERS[_0xeeb94a(0xda,'aqLj')](_0x298482))throw new Error(_0xeeb94a(0xed,'dJoW')+_0x298482+_0xeeb94a(0xd9,'3k6i'));_0x1bfa98=_0x298482;continue;}if(_0x518436===_0x1d6f1b[_0xeeb94a(0x109,'*VA)')]){_0xea8c11=![];continue;}if(_0x518436[_0xeeb94a(0x130,'zS0i')]('-')&&KNOWN_ENVS[_0xeeb94a(0xcb,'V1xk')](_0x518436['slice'](0x1))){_0x34be4e=_0x518436[_0xeeb94a(0x11b,'uIV5')](0x1);continue;}throw new Error(_0xeeb94a(0xc3,'k1AS')+_0x518436);}return{'env':_0x34be4e,'configPath':_0x392f3e,'sync':_0xea8c11,'server':_0x1bfa98};}async function startExpressServer(_0x4a6f41){const _0x4b4518=a0_0x2dbc9d,_0x1ed0b9={'kJFlh':_0x4b4518(0xf2,'ujgo'),'UXIIV':_0x4b4518(0x114,'3iiU'),'wOmEv':function(_0x450ab6,_0x28391f){return _0x450ab6(_0x28391f);},'IcEKU':function(_0x922c51){return _0x922c51();},'IsNQB':function(_0x2adca5,_0x393819,_0x4985c2){return _0x2adca5(_0x393819,_0x4985c2);},'DDpuR':'/api'},_0x3c18ed=await import(_0x1ed0b9[_0x4b4518(0x12e,'sFP#')]),_0x327ea2=_0x3c18ed[_0x4b4518(0x107,'uIV5')]??_0x3c18ed,_0x1b5e26=await _0x1ed0b9[_0x4b4518(0xb6,'([e$')](createAutoPool,{'env':_0x4a6f41[_0x4b4518(0xd4,'^Scm')],'configPath':_0x4a6f41[_0x4b4518(0xf7,'N18h')],'sync':_0x4a6f41['sync']}),_0x1a2ffc=_0x1ed0b9[_0x4b4518(0x105,'([e$')](_0x327ea2);_0x1a2ffc['use'](_0x327ea2[_0x4b4518(0xc7,'&9Mz')]()),_0x1a2ffc[_0x4b4518(0xbb,'#POA')](await _0x1ed0b9['IsNQB'](createAutoPoolExpressRouter,_0x1b5e26,{'prefixPath':_0x1ed0b9[_0x4b4518(0x112,'uIV5')]})),_0x1a2ffc[_0x4b4518(0x124,'uIV5')]('/',(_0x3fe484,_0x407682)=>_0x407682['redirect']('/api/ims-storyboard'));const _0x3345ab=_0x1ed0b9[_0x4b4518(0x10b,'4)EU')](Number,process.env.PORT??0xbb8),_0x5f3090=process.env.HOST;await new Promise((_0x21f67e,_0x470cff)=>{const _0x584580=_0x4b4518,_0x96a8b1=_0x5f3090?_0x1a2ffc[_0x584580(0x100,'xyTa')](_0x3345ab,_0x5f3090,_0x21f67e):_0x1a2ffc[_0x584580(0x108,'sFP#')](_0x3345ab,_0x21f67e);_0x96a8b1['on'](_0x1ed0b9['kJFlh'],_0x470cff);}),console[_0x4b4518(0xec,'zS0i')](_0x4b4518(0x131,'Z&m2')+(_0x5f3090?'http://'+_0x5f3090+':'+_0x3345ab:'http://localhost:'+_0x3345ab));}async function startFastifyServer(_0x2da52a,_0x3ddde6){const _0x4dab6f=a0_0x2dbc9d,_0x1c803e={'mUBOn':_0x4dab6f(0xf8,'pfh5'),'eELrk':function(_0x4f59aa,_0x356d52){return _0x4f59aa(_0x356d52);},'xctiP':function(_0x489237,_0x123cef){return _0x489237*_0x123cef;},'MJZAF':function(_0x140b5f,_0x2f2f74,_0x262aad,_0x3831eb){return _0x140b5f(_0x2f2f74,_0x262aad,_0x3831eb);},'PpZLB':function(_0x12251b,_0x2186e9){return _0x12251b(_0x2186e9);},'GADka':_0x4dab6f(0x122,'sFP#')},_0x23de0b=await import(_0x1c803e[_0x4dab6f(0xbe,'dJoW')]),_0x592bbe=_0x23de0b['default']??_0x23de0b,_0x22871f=_0x1c803e['eELrk'](_0x592bbe,{'logger':!![],'bodyLimit':_0x1c803e[_0x4dab6f(0x136,'aqLj')](_0x1c803e['xctiP'](0xa,0x400),0x400)});_0x22871f[_0x4dab6f(0x103,'*VA)')]('/',async(_0x39fed4,_0x4bac2f)=>_0x4bac2f[_0x4dab6f(0xd5,'%aTQ')](_0x4dab6f(0x12d,'v!6t'))),await _0x1c803e['MJZAF'](registerAutoPoolFastifyRoutes,_0x22871f,_0x3ddde6,{'prefixPath':'/api'});const _0x4aaa43=_0x1c803e[_0x4dab6f(0xc5,'o@Lb')](Number,process.env.PORT??0xbbd),_0x328302=process.env.HOST??_0x1c803e['GADka'];await _0x22871f[_0x4dab6f(0x10f,'4)EU')]({'host':_0x328302,'port':_0x4aaa43}),console[_0x4dab6f(0x11f,'N18h')](_0x4dab6f(0xe8,'%aTQ')+_0x328302+':'+_0x4aaa43);}async function main(){const _0x3724d3=a0_0x2dbc9d,_0x58a10f={'hPzdO':_0x3724d3(0xba,'02NW'),'vPhYz':function(_0x4b1c8d,_0x46cdc8,_0x57f24c){return _0x4b1c8d(_0x46cdc8,_0x57f24c);},'FYUFV':function(_0x16d158){return _0x16d158();},'HnrpN':function(_0x5c5c55,_0xbcab60){return _0x5c5c55(_0xbcab60);},'cZMiH':function(_0x52a9ae,_0x1e3f9e){return _0x52a9ae(_0x1e3f9e);},'lqMvB':function(_0x31fb9b){return _0x31fb9b();},'UVqpF':'Aborted.\x20Tables\x20not\x20created.','tbLFW':function(_0x217eca,_0x6f710e){return _0x217eca(_0x6f710e);},'OejTJ':_0x3724d3(0x133,'xyTa'),'vmHnY':function(_0x27cf2d,_0x4a474d){return _0x27cf2d===_0x4a474d;},'ahzWY':_0x3724d3(0xff,'ZMZk'),'kMFgz':function(_0x5b5e32,_0xaa2082){return _0x5b5e32===_0xaa2082;},'pQYvQ':_0x3724d3(0xe4,'5m3j'),'hiQJN':function(_0x206d05,_0x28f70a,_0x250a06){return _0x206d05(_0x28f70a,_0x250a06);}},_0x475211=(function(){let _0x21736a=!![];return function(_0x93b9cf,_0x18b5be){const _0x3245c6=_0x21736a?function(){if(_0x18b5be){const _0x1fdc45=_0x18b5be['apply'](_0x93b9cf,arguments);return _0x18b5be=null,_0x1fdc45;}}:function(){};return _0x21736a=![],_0x3245c6;};}()),_0x2d14d8=_0x58a10f[_0x3724d3(0xd7,'uIV5')](_0x475211,this,function(){const _0xdddfbb=_0x3724d3;return _0x2d14d8[_0xdddfbb(0x128,'zcct')]()['search'](_0x58a10f[_0xdddfbb(0xbd,'&P#d')])[_0xdddfbb(0x125,'V1xk')]()[_0xdddfbb(0x11d,'([e$')](_0x2d14d8)['search'](_0x58a10f[_0xdddfbb(0xc1,'ujgo')]);});_0x58a10f[_0x3724d3(0xc8,'iby!')](_0x2d14d8);const _0x42cafa=_0x58a10f[_0x3724d3(0x110,'3k6i')](parseArgs,process[_0x3724d3(0x12a,'au9i')][_0x3724d3(0xd0,'ujgo')](0x2)),_0x466e27=await _0x58a10f[_0x3724d3(0xf5,'V1xk')](createAutoPool,{'env':_0x42cafa[_0x3724d3(0x113,'iby!')],'configPath':_0x42cafa[_0x3724d3(0x121,'ujgo')],'sync':_0x42cafa['sync']});if(!_0x466e27[_0x3724d3(0xe5,'xyTa')]['productsTableExists']){const _0x599337=await _0x58a10f['lqMvB'](askToCreateTables);!_0x599337&&(console[_0x3724d3(0xae,'^Scm')](_0x58a10f[_0x3724d3(0xf4,'zS0i')]),process['exit'](0x1)),await _0x58a10f[_0x3724d3(0xef,'0sFz')](syncAutoPoolData,!![]),console['log'](_0x58a10f[_0x3724d3(0x10d,'&9Mz')]);}if(_0x58a10f[_0x3724d3(0x102,'o@Lb')](_0x42cafa[_0x3724d3(0xb8,'ZMZk')],_0x58a10f['ahzWY'])){await _0x58a10f[_0x3724d3(0x118,'lZbQ')](startExpressServer,_0x42cafa);return;}if(_0x58a10f['kMFgz'](_0x42cafa['server'],_0x58a10f[_0x3724d3(0xc6,'Z&m2')]))return await _0x58a10f['hiQJN'](startFastifyServer,_0x42cafa,_0x466e27);console['log'](_0x3724d3(0x120,'3k6i')+_0x42cafa[_0x3724d3(0xd1,'xyTa')]+'\x22');}main()[a0_0x2dbc9d(0xb7,'aKHv')](async _0x172ca4=>{const _0x530fbe=a0_0x2dbc9d,_0x9a19e1={'BYTbx':_0x530fbe(0xfe,'Ifa@'),'vOtoO':function(_0x86a096,_0x1a5fe6){return _0x86a096 instanceof _0x1a5fe6;}};console[_0x530fbe(0xe0,'aqLj')](_0x9a19e1[_0x530fbe(0xaf,'p@7I')],_0x172ca4),console['error'](_0x530fbe(0xe1,'sFP#')),console[_0x530fbe(0xf3,'6e(L')](_0x9a19e1['vOtoO'](_0x172ca4,Error)?_0x172ca4[_0x530fbe(0xea,'%aTQ')]:_0x172ca4),process[_0x530fbe(0x101,'au9i')](0x1);});
+import { createAutoPool, syncAutoPoolData } from "./init.js";
+import { createAutoPoolExpressRouter, registerAutoPoolFastifyRoutes, } from "./services/index.js";
+import readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
+const KNOWN_ENVS = new Set(["development", "production", "test"]);
+const KNOWN_SERVERS = new Set(["express", "fastify"]);
+async function askToCreateTables() {
+    const rl = readline.createInterface({ input, output });
+    const answer = await rl.question("Required tables are missing. Create default Auto Pool tables? (y/N): ");
+    rl.close();
+    return ["y", "yes"].includes(answer.trim().toLowerCase());
+}
+function printHelp() {
+    console.log(`
+Usage:
+  stock-pro-ims -development
+  stock-pro-ims -production
+  stock-pro-ims -test
+  stock-pro-ims -server fastify
+  stock-pro-ims -server express
+
+Options:
+  -development          Use development config
+  -production           Use production config
+  -test                 Use test config
+  --env <name>          Use any custom config key
+  --config <path>       Use a specific config file
+  --no-sync             Register models and authenticate without creating tables
+  --server <name>       Start the HTTP server (express or fastify)
+  --help                Show this help
+`);
+}
+function readValue(args, index, flag) {
+    const value = args[index + 1];
+    if (!value || value.startsWith("-")) {
+        throw new Error(`${flag} requires a value`);
+    }
+    return value;
+}
+function parseArgs(args) {
+    let env = process.env.NODE_ENV ?? "development";
+    let configPath;
+    let sync = true;
+    let server;
+    for (let i = 0; i < args.length; i += 1) {
+        const arg = args[i];
+        if (arg === "--help" || arg === "-h") {
+            printHelp();
+            process.exit(0);
+        }
+        if (arg === "--env" || arg === "-e") {
+            env = readValue(args, i, arg);
+            i += 1;
+            continue;
+        }
+        if (arg.startsWith("--env=")) {
+            env = arg.slice("--env=".length);
+            continue;
+        }
+        if (arg === "--config" || arg === "-c") {
+            configPath = readValue(args, i, arg);
+            i += 1;
+            continue;
+        }
+        if (arg.startsWith("--config=")) {
+            configPath = arg.slice("--config=".length);
+            continue;
+        }
+        if (arg === "--server" || arg === "-server") {
+            const value = readValue(args, i, arg);
+            if (!KNOWN_SERVERS.has(value)) {
+                throw new Error(`Unknown server: ${value}. Expected "express" or "fastify".`);
+            }
+            server = value;
+            i += 1;
+            continue;
+        }
+        if (arg.startsWith("--server=") || arg.startsWith("-server=")) {
+            const value = arg.split("=", 2)[1];
+            if (!KNOWN_SERVERS.has(value)) {
+                throw new Error(`Unknown server: ${value}. Expected "express" or "fastify".`);
+            }
+            server = value;
+            continue;
+        }
+        if (arg === "--no-sync") {
+            sync = false;
+            continue;
+        }
+        if (arg.startsWith("-") && KNOWN_ENVS.has(arg.slice(1))) {
+            env = arg.slice(1);
+            continue;
+        }
+        throw new Error(`Unknown option: ${arg}`);
+    }
+    return { env, configPath, sync, server };
+}
+async function startExpressServer(options) {
+    const expressModule = await import("express");
+    const express = expressModule.default ?? expressModule;
+    const db = await createAutoPool({
+        env: options.env,
+        configPath: options.configPath,
+        sync: options.sync,
+    });
+    const app = express();
+    app.use(express.json());
+    app.use(await createAutoPoolExpressRouter(db, {
+        prefixPath: "/api",
+    }));
+    app.get("/", (_req, res) => res.redirect("/api/ims-storyboard"));
+    const port = Number(process.env.PORT ?? 3000);
+    const host = process.env.HOST;
+    await new Promise((resolve, reject) => {
+        const server = host
+            ? app.listen(port, host, resolve)
+            : app.listen(port, resolve);
+        server.on("error", reject);
+    });
+    console.log(`Express server running at ${host ? `http://${host}:${port}` : `http://localhost:${port}`}`);
+}
+async function startFastifyServer(options, db) {
+    const fastifyModule = await import("fastify");
+    const Fastify = fastifyModule.default ?? fastifyModule;
+    // const db = await createAutoPool({
+    //   env: options.env,
+    //   configPath: options.configPath,
+    //   sync: options.sync,
+    // });
+    const app = Fastify({ logger: true, bodyLimit: 10 * 1024 * 1024 });
+    app.get("/", async (_request, reply) => reply.redirect("/api/ims-storyboard"));
+    await registerAutoPoolFastifyRoutes(app, db, {
+        prefixPath: "/api",
+    });
+    const port = Number(process.env.PORT ?? 3005);
+    const host = process.env.HOST ?? "0.0.0.0";
+    await app.listen({
+        host,
+        port,
+    });
+    console.log(`Fastify server running at http://${host}:${port}`);
+}
+async function main() {
+    const options = parseArgs(process.argv.slice(2));
+    const db = await createAutoPool({
+        env: options.env,
+        configPath: options.configPath,
+        sync: options.sync,
+    });
+    // ❗ handle missing tables here (CLI responsibility)
+    if (!db.status.productsTableExists) {
+        const shouldCreate = await askToCreateTables();
+        if (!shouldCreate) {
+            console.log("Aborted. Tables not created.");
+            process.exit(1);
+        }
+        await syncAutoPoolData(true);
+        console.log("Default Auto Pool tables created successfully.");
+    }
+    if (options.server === "express") {
+        await startExpressServer(options);
+        return;
+    }
+    if (options.server === "fastify") {
+        return await startFastifyServer(options, db);
+    }
+    console.log(`stock-pro-ims models initialized for "${options.env}"`);
+}
+main().catch(async (error) => {
+    console.log("error======", error);
+    console.error("Error initializing stock-pro-ims:");
+    console.error(error instanceof Error ? error.message : error);
+    process.exit(1);
+});

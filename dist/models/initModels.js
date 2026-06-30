@@ -1,1 +1,38 @@
-(function(_0x2090db,_0x4d9ad7){const _0xb8d952=a13_0x1b8d,_0x1cc801=_0x2090db();while(!![]){try{const _0x4832d3=-parseInt(_0xb8d952(0x1b1,'04MI'))/0x1+-parseInt(_0xb8d952(0x1a9,'qrf@'))/0x2*(parseInt(_0xb8d952(0x1ae,'B18H'))/0x3)+parseInt(_0xb8d952(0x1a7,'y]PQ'))/0x4*(parseInt(_0xb8d952(0x1b5,'9TSN'))/0x5)+-parseInt(_0xb8d952(0x1a1,'dniX'))/0x6+parseInt(_0xb8d952(0x1b7,'A^BJ'))/0x7+parseInt(_0xb8d952(0x1ba,'D%UT'))/0x8*(parseInt(_0xb8d952(0x1b3,'ktOB'))/0x9)+parseInt(_0xb8d952(0x1a2,'ecID'))/0xa*(-parseInt(_0xb8d952(0x19d,'Z^a@'))/0xb);if(_0x4832d3===_0x4d9ad7)break;else _0x1cc801['push'](_0x1cc801['shift']());}catch(_0x2bf0a2){_0x1cc801['push'](_0x1cc801['shift']());}}}(a13_0x2ea5,0x1994c));function a13_0x1b8d(_0x22e22a,_0x2f468b){_0x22e22a=_0x22e22a-0x19a;const _0x498e5f=a13_0x2ea5();let _0x1a66c2=_0x498e5f[_0x22e22a];if(a13_0x1b8d['nGVqju']===undefined){var _0x5aade2=function(_0x314967){const _0x5ca606='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3e1e9d='',_0x3d84f8='',_0x5539fe=_0x3e1e9d+_0x5aade2,_0x5786ae=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3ca91b=0x0,_0x387e68,_0xe33072,_0x45d09e=0x0;_0xe33072=_0x314967['charAt'](_0x45d09e++);~_0xe33072&&(_0x387e68=_0x3ca91b%0x4?_0x387e68*0x40+_0xe33072:_0xe33072,_0x3ca91b++%0x4)?_0x3e1e9d+=_0x5786ae||_0x5539fe['charCodeAt'](_0x45d09e+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x387e68>>(-0x2*_0x3ca91b&0x6)):_0x3ca91b:0x0){_0xe33072=_0x5ca606['indexOf'](_0xe33072);}for(let _0x42b371=0x0,_0x33e3ee=_0x3e1e9d['length'];_0x42b371<_0x33e3ee;_0x42b371++){_0x3d84f8+='%'+('00'+_0x3e1e9d['charCodeAt'](_0x42b371)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3d84f8);};const _0x5f16b3=function(_0x3e5490,_0x82b917){let _0x33e0e3=[],_0x422411=0x0,_0x23f0ca,_0x443f04='';_0x3e5490=_0x5aade2(_0x3e5490);let _0x2b4ecf;for(_0x2b4ecf=0x0;_0x2b4ecf<0x100;_0x2b4ecf++){_0x33e0e3[_0x2b4ecf]=_0x2b4ecf;}for(_0x2b4ecf=0x0;_0x2b4ecf<0x100;_0x2b4ecf++){_0x422411=(_0x422411+_0x33e0e3[_0x2b4ecf]+_0x82b917['charCodeAt'](_0x2b4ecf%_0x82b917['length']))%0x100,_0x23f0ca=_0x33e0e3[_0x2b4ecf],_0x33e0e3[_0x2b4ecf]=_0x33e0e3[_0x422411],_0x33e0e3[_0x422411]=_0x23f0ca;}_0x2b4ecf=0x0,_0x422411=0x0;for(let _0x312248=0x0;_0x312248<_0x3e5490['length'];_0x312248++){_0x2b4ecf=(_0x2b4ecf+0x1)%0x100,_0x422411=(_0x422411+_0x33e0e3[_0x2b4ecf])%0x100,_0x23f0ca=_0x33e0e3[_0x2b4ecf],_0x33e0e3[_0x2b4ecf]=_0x33e0e3[_0x422411],_0x33e0e3[_0x422411]=_0x23f0ca,_0x443f04+=String['fromCharCode'](_0x3e5490['charCodeAt'](_0x312248)^_0x33e0e3[(_0x33e0e3[_0x2b4ecf]+_0x33e0e3[_0x422411])%0x100]);}return _0x443f04;};a13_0x1b8d['PucygM']=_0x5f16b3,a13_0x1b8d['xqmHso']={},a13_0x1b8d['nGVqju']=!![];}const _0x2ea510=_0x498e5f[0x0],_0x1b8d09=_0x22e22a+_0x2ea510,_0xd4dfc0=a13_0x1b8d['xqmHso'][_0x1b8d09];if(!_0xd4dfc0){if(a13_0x1b8d['jqeiLG']===undefined){const _0x29082f=function(_0xac9021){this['aZQZGO']=_0xac9021,this['vUXQig']=[0x1,0x0,0x0],this['qBXbTD']=function(){return'newState';},this['hFYXVj']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['tNQSBB']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x29082f['prototype']['RtHkkQ']=function(){const _0x32c6bb=new RegExp(this['hFYXVj']+this['tNQSBB']),_0x120347=_0x32c6bb['test'](this['qBXbTD']['toString']())?--this['vUXQig'][0x1]:--this['vUXQig'][0x0];return this['PQrBnw'](_0x120347);},_0x29082f['prototype']['PQrBnw']=function(_0x12ebb5){if(!Boolean(~_0x12ebb5))return _0x12ebb5;return this['aqCEUz'](this['aZQZGO']);},_0x29082f['prototype']['aqCEUz']=function(_0x1c5283){for(let _0xa9200f=0x0,_0x30a51a=this['vUXQig']['length'];_0xa9200f<_0x30a51a;_0xa9200f++){this['vUXQig']['push'](Math['round'](Math['random']())),_0x30a51a=this['vUXQig']['length'];}return _0x1c5283(this['vUXQig'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x29082f(a13_0x1b8d)['RtHkkQ'](),a13_0x1b8d['jqeiLG']=!![];}_0x1a66c2=a13_0x1b8d['PucygM'](_0x1a66c2,_0x2f468b),a13_0x1b8d['xqmHso'][_0x1b8d09]=_0x1a66c2;}else _0x1a66c2=_0xd4dfc0;return _0x1a66c2;}function a13_0x2ea5(){const _0x508e0e=['W5lcO8oUBvTEWPRdOSkdW4pcUCkEW6y','ffldJ8o5sIzjWQ/dOSoBW5zB','eSkmwCoWkmkuW7pdQq','W7L1weqocdS','v8o2cmkXfG','xYNcHX7cLCkRW6rDWPrOAG','WPpdI8oEW7/cIIeMyvZdQXG','W6iPWQpcNSkbWQ9dW5K','umk/W47dMSo3','vCkzuv3dVWpdSmkGW7umW4RdSY0','eX/cUxBcL8kjWQfJxq','WP9iW7yMWRWnigPfW5hcO2e','qmoTz2hcIriBka','W5JdUSosbfC','g8kdW7tcIgBdJW','WQ3cSmkQwHpdT0hdQ0HWWP0q','l8oNWRdcPSkVWQCFWQNdHrnEWRFdKW','W74uean9iqdcNLtdLJq','rGZcKCk6cgrRWP7dGCoFW5m','WQ1IW7/cH8kTW6NdMSoPW7e','WQe5WPJdSGlcVmomiSoLkuK','W5LzW4FcGa','W47cKrlcGGldR3q','W4ZdSLJdIxpcMwu1W7NdNNFdRq','xCoPnd/cG0lcLa','W53dV3hdUWScW4hcUgVdHmokfG','W4/dNCkdW4exW5JdK2VdIdn+jSov','WQLTofBcKCkUza','W65AW6lcHmoD','wSkleCodoxpdPXG','Ev5qWOhcGdu','W6DTdxKCnrPyoZxdQSok','F8kIW7ddVmoL','wSkiC8o/k0FdOYOs'];a13_0x2ea5=function(){return _0x508e0e;};return a13_0x2ea5();}const a13_0x5aade2=(function(){let _0x28dc88=!![];return function(_0x13a652,_0x10151b){const _0x2d4171=_0x28dc88?function(){const _0x55da3b=a13_0x1b8d;if(_0x10151b){const _0x179a4a=_0x10151b[_0x55da3b(0x1b8,'&1VV')](_0x13a652,arguments);return _0x10151b=null,_0x179a4a;}}:function(){};return _0x28dc88=![],_0x2d4171;};}()),a13_0x1a66c2=a13_0x5aade2(this,function(){const _0x50348a=a13_0x1b8d,_0x42124f={'DzKgr':_0x50348a(0x1a3,'RY9%')};return a13_0x1a66c2[_0x50348a(0x1a4,'qw9I')]()[_0x50348a(0x1b6,'&*CA')](_0x42124f[_0x50348a(0x1a5,'y]PQ')])[_0x50348a(0x19f,'jL3)')]()[_0x50348a(0x1aa,'s^rT')](a13_0x1a66c2)[_0x50348a(0x1a6,'8c]U')](_0x42124f[_0x50348a(0x1b4,'XmFK')]);});a13_0x1a66c2();import{Inventory}from'./Inventory.js';import{Warehouse}from'./Warehouse.js';import{Orders}from'./Orders.js';import{OrderItems}from'./OrderItems.js';import{setupAssociations}from'./associations.js';const modelsToSync=[Warehouse,Inventory,Orders,OrderItems];export const autoPoolModels={'Warehouse':Warehouse,'Inventory':Inventory,'Orders':Orders,'OrderItems':OrderItems};let initializedFor;export function initializeAutoPoolData(_0x491a58,_0x10b83d={}){const _0x133d91=a13_0x1b8d,_0x5d41a9={'NmNJk':function(_0x2de777,_0x300f58){return _0x2de777===_0x300f58;},'QTWjP':function(_0x53ad8c,_0x423665){return _0x53ad8c(_0x423665);}};if(_0x5d41a9[_0x133d91(0x1a0,'&1VV')](initializedFor,_0x491a58))return{'sequelize':_0x491a58,...autoPoolModels};for(const _0x2aadc9 of modelsToSync){_0x2aadc9[_0x133d91(0x1ab,'H(yF')](_0x491a58);}return _0x5d41a9[_0x133d91(0x19c,'$xP1')](setupAssociations,_0x10b83d),initializedFor=_0x491a58,{'sequelize':_0x491a58,...autoPoolModels};}export async function syncAutoPoolData(_0x4df69b=![]){const _0x33d3f0=a13_0x1b8d;if(!_0x4df69b)return;const _0x3c9270=_0x4df69b===!![]?{}:_0x4df69b;for(const _0x1799b8 of modelsToSync){await _0x1799b8[_0x33d3f0(0x1ad,'XmFK')]({..._0x3c9270,'alter':!![]});}}
+import { Inventory } from "./Inventory.js";
+import { Warehouse } from "./Warehouse.js";
+import { Orders } from "./Orders.js";
+import { OrderItems } from "./OrderItems.js";
+import { setupAssociations } from "./associations.js";
+const modelsToSync = [Warehouse, Inventory, Orders, OrderItems];
+export const autoPoolModels = {
+    Warehouse,
+    Inventory,
+    Orders,
+    OrderItems,
+};
+let initializedFor;
+export function initializeAutoPoolData(sequelize, externalModels = {}) {
+    if (initializedFor === sequelize) {
+        return {
+            sequelize,
+            ...autoPoolModels,
+        };
+    }
+    for (const model of modelsToSync) {
+        model.initModel(sequelize);
+    }
+    setupAssociations(externalModels);
+    initializedFor = sequelize;
+    return {
+        sequelize,
+        ...autoPoolModels,
+    };
+}
+export async function syncAutoPoolData(options = false) {
+    if (!options)
+        return;
+    const syncOptions = options === true ? {} : options;
+    for (const model of modelsToSync) {
+        await model.sync({ ...syncOptions, alter: true });
+    }
+}

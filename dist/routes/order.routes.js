@@ -1,1 +1,75 @@
-(function(_0xce837,_0x2e9d46){const _0x21d949=a17_0x2f33,_0x292ba9=_0xce837();while(!![]){try{const _0x27949d=parseInt(_0x21d949(0x18b,'4IQ7'))/0x1*(parseInt(_0x21d949(0x16a,'[e#U'))/0x2)+parseInt(_0x21d949(0x165,'3BAF'))/0x3+-parseInt(_0x21d949(0x186,'r2QJ'))/0x4+parseInt(_0x21d949(0x17b,'J*]S'))/0x5+parseInt(_0x21d949(0x164,'1Vj1'))/0x6*(-parseInt(_0x21d949(0x185,'eY8&'))/0x7)+parseInt(_0x21d949(0x180,'K7oZ'))/0x8+-parseInt(_0x21d949(0x193,'SPb!'))/0x9;if(_0x27949d===_0x2e9d46)break;else _0x292ba9['push'](_0x292ba9['shift']());}catch(_0x500d27){_0x292ba9['push'](_0x292ba9['shift']());}}}(a17_0x102b,0x59225));function a17_0x2f33(_0x23f8bd,_0xcfecb3){_0x23f8bd=_0x23f8bd-0x164;const _0x2d39de=a17_0x102b();let _0x4ab141=_0x2d39de[_0x23f8bd];if(a17_0x2f33['BmhGRM']===undefined){var _0xb26e96=function(_0x20753e){const _0x4b5877='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0xae5417='',_0x29e113='',_0x16c100=_0xae5417+_0xb26e96,_0x2a4d34=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x1e1bd5=0x0,_0x1567d0,_0x5b14a7,_0x29eb16=0x0;_0x5b14a7=_0x20753e['charAt'](_0x29eb16++);~_0x5b14a7&&(_0x1567d0=_0x1e1bd5%0x4?_0x1567d0*0x40+_0x5b14a7:_0x5b14a7,_0x1e1bd5++%0x4)?_0xae5417+=_0x2a4d34||_0x16c100['charCodeAt'](_0x29eb16+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x1567d0>>(-0x2*_0x1e1bd5&0x6)):_0x1e1bd5:0x0){_0x5b14a7=_0x4b5877['indexOf'](_0x5b14a7);}for(let _0x505e0c=0x0,_0x3fa4ec=_0xae5417['length'];_0x505e0c<_0x3fa4ec;_0x505e0c++){_0x29e113+='%'+('00'+_0xae5417['charCodeAt'](_0x505e0c)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x29e113);};const _0x2fd385=function(_0x1f03ea,_0x25dbc2){let _0x49b764=[],_0x181006=0x0,_0x1f8241,_0x1bd280='';_0x1f03ea=_0xb26e96(_0x1f03ea);let _0x297911;for(_0x297911=0x0;_0x297911<0x100;_0x297911++){_0x49b764[_0x297911]=_0x297911;}for(_0x297911=0x0;_0x297911<0x100;_0x297911++){_0x181006=(_0x181006+_0x49b764[_0x297911]+_0x25dbc2['charCodeAt'](_0x297911%_0x25dbc2['length']))%0x100,_0x1f8241=_0x49b764[_0x297911],_0x49b764[_0x297911]=_0x49b764[_0x181006],_0x49b764[_0x181006]=_0x1f8241;}_0x297911=0x0,_0x181006=0x0;for(let _0x10a0b0=0x0;_0x10a0b0<_0x1f03ea['length'];_0x10a0b0++){_0x297911=(_0x297911+0x1)%0x100,_0x181006=(_0x181006+_0x49b764[_0x297911])%0x100,_0x1f8241=_0x49b764[_0x297911],_0x49b764[_0x297911]=_0x49b764[_0x181006],_0x49b764[_0x181006]=_0x1f8241,_0x1bd280+=String['fromCharCode'](_0x1f03ea['charCodeAt'](_0x10a0b0)^_0x49b764[(_0x49b764[_0x297911]+_0x49b764[_0x181006])%0x100]);}return _0x1bd280;};a17_0x2f33['iEdpjF']=_0x2fd385,a17_0x2f33['HWrCWL']={},a17_0x2f33['BmhGRM']=!![];}const _0x102bd6=_0x2d39de[0x0],_0x2f3372=_0x23f8bd+_0x102bd6,_0x3998ac=a17_0x2f33['HWrCWL'][_0x2f3372];if(!_0x3998ac){if(a17_0x2f33['UxlgSw']===undefined){const _0x579426=function(_0x20f766){this['newKdU']=_0x20f766,this['AxoAHB']=[0x1,0x0,0x0],this['Jauljb']=function(){return'newState';},this['NfGQgv']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['BZGDFn']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x579426['prototype']['TIcnxq']=function(){const _0x53f3f2=new RegExp(this['NfGQgv']+this['BZGDFn']),_0x17ba70=_0x53f3f2['test'](this['Jauljb']['toString']())?--this['AxoAHB'][0x1]:--this['AxoAHB'][0x0];return this['qoYMGc'](_0x17ba70);},_0x579426['prototype']['qoYMGc']=function(_0x20453f){if(!Boolean(~_0x20453f))return _0x20453f;return this['upKhui'](this['newKdU']);},_0x579426['prototype']['upKhui']=function(_0x1b1e20){for(let _0x5c181c=0x0,_0x17edbc=this['AxoAHB']['length'];_0x5c181c<_0x17edbc;_0x5c181c++){this['AxoAHB']['push'](Math['round'](Math['random']())),_0x17edbc=this['AxoAHB']['length'];}return _0x1b1e20(this['AxoAHB'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x579426(a17_0x2f33)['TIcnxq'](),a17_0x2f33['UxlgSw']=!![];}_0x4ab141=a17_0x2f33['iEdpjF'](_0x4ab141,_0xcfecb3),a17_0x2f33['HWrCWL'][_0x2f3372]=_0x4ab141;}else _0x4ab141=_0x3998ac;return _0x4ab141;}function a17_0x102b(){const _0x4d9f0b=['eqeSyCkGq8oZW5jGhx7dSZpcPW','oSo7eshcTq','WRC3W5XQWQiVW5e','mrfgu8khW7jBW6OQWRLkg8og','scKtWOm5WRflArldQmklFW','lgOrWQFcQmkEcuTly3y','wSokWOH7ia','rCoba8kHFW','C0qqe8oCWQm','WQ/cHWHUbSkiWPu','WQ0VW5rNWR4','WRNdReRdVCoZ','W6ZdVNOpcG','WOdcNIFcTCon','W5amWOedo8oFtSoBW5/cULzP','F8oZWR9EfW','lmolWReRW5a','W7PVWQq/W73cPZddTc5ntCovEq','x0GqfahcQ8kp','WPhdTSotW7HoqgZdO0BdT8ozWQKh','W7xdNSoXWOba','WPtdMNNdQMZcIvtdVhVdJ8oTx8oR','C0xcNSolW5u','W67cM8kPW5NcTa','zCoPWPpdSvRcMNJdJ0DyW5xcMq','C1TTWQSs','vZKyW4NdQG','W5abWOCfomoCcSopW6VcVefCW6i','WPNdPCozWOfnW6NcUq','WRK8W4S','zmkFW7jSWOrJv8oaW6emoYBcUG','W5RcJ8kOW4/cTW','WOzEWRHuWR4qrCoDDmkJW5pcSCk5fCk+','W5pdOcFdMmk/W4FdHmkmr2a','gmkpW5K9ymkNDIvYiWdcVCkl','uM5wWO4','CeadeSoA','WR1QW5WysSkTjGe','WQNcICkIWP9rdrDUldTFW73dP8kCqSoGW7VdPLenl0dcS8kZ','gwbqWOSHWQ8lj8ojW41KWPjJW5VcSvWr','cKSFmtG','WOFcSSkEW5qCWQRdV8kjW4JdKdVdUhC','wSokWOH9iCoT','u2zxWRKU','bb4Pzmkg','qgpcNZRcNq1s','W7W1WRLEamoXFJ/dKM9AWQzG','x0bQk8oehSkWWP45FshcSG'];a17_0x102b=function(){return _0x4d9f0b;};return a17_0x102b();}const a17_0xb26e96=(function(){let _0x157df1=!![];return function(_0x1a2664,_0x3e62e4){const _0x2b29d5=_0x157df1?function(){const _0x4a7cad=a17_0x2f33;if(_0x3e62e4){const _0x44a286=_0x3e62e4[_0x4a7cad(0x16c,'DxVt')](_0x1a2664,arguments);return _0x3e62e4=null,_0x44a286;}}:function(){};return _0x157df1=![],_0x2b29d5;};}()),a17_0x4ab141=a17_0xb26e96(this,function(){const _0x51af33=a17_0x2f33,_0x596af4={'DCRei':_0x51af33(0x181,'kpjG')};return a17_0x4ab141[_0x51af33(0x177,'K7oZ')]()[_0x51af33(0x18a,'eY8&')](_0x596af4['DCRei'])['toString']()['constructor'](a17_0x4ab141)['search'](_0x596af4[_0x51af33(0x18d,'e5cV')]);});a17_0x4ab141();import{createCrudRoutes}from'../services/http.js';import a17_0x379fb2 from'../services/orders/order.service.js';import{createPurchaseOrderWithItems}from'../controllers/order.controller.js';import{Orders}from'../models/Orders.js';import{createOrderValidationSchema,fetchOrderByTypeSchema,updateOrderInfoSchema}from'../validations/order.schema.js';export function buildOrderRoutes(_0x374893){const _0x189673=a17_0x2f33,_0x1f3655={'YjqQS':function(_0x26773d,_0x37ed11){return _0x26773d(_0x37ed11);},'svkai':function(_0x2848fd,_0x15ca83){return _0x2848fd(_0x15ca83);},'xZwrh':function(_0x52cd7a,_0x1b22c0){return _0x52cd7a===_0x1b22c0;},'ETODV':_0x189673(0x173,'g!#]'),'CTZeh':function(_0xd80cec,_0x531806){return _0xd80cec(_0x531806);},'VMVWC':function(_0x200383,_0x29bc12){return _0x200383+_0x29bc12;},'mytGP':_0x189673(0x16e,'J*]S'),'JmTWB':_0x189673(0x16f,'BH2G'),'cGVIM':_0x189673(0x187,'jjBr'),'eiuVj':_0x189673(0x179,'5qVU'),'JzKEX':function(_0x8fd55c,_0x1efc32){return _0x8fd55c+_0x1efc32;},'bMbgU':_0x189673(0x178,'kh$A')};return[..._0x1f3655[_0x189673(0x17e,'kpjG')](createCrudRoutes,{'prefix':_0x1f3655[_0x189673(0x18e,'DyGB')](_0x374893,_0x1f3655['mytGP']),'service':a17_0x379fb2,'createBody':_0x6a2560=>createOrderValidationSchema[_0x189673(0x176,'eY8&')](_0x6a2560),'createHandler':(_0x40ed9b,{db:_0x9ca322})=>createPurchaseOrderWithItems(_0x9ca322,_0x40ed9b),'updateBody':_0x43562f=>updateOrderInfoSchema[_0x189673(0x192,'I70L')](_0x43562f)}),{'method':_0x1f3655['JmTWB'],'path':_0x1f3655[_0x189673(0x169,'C5OU')](_0x374893,_0x1f3655[_0x189673(0x183,'n8C3')]),'handler':async({params:_0x511612})=>{const _0x58cea3=_0x189673,{id:_0x38f168}=_0x511612,_0x222cb4=await a17_0x379fb2['findWithItems'](_0x1f3655[_0x58cea3(0x189,'MWNR')](Number,_0x38f168));return{'success':!![],'data':_0x222cb4};}},{'method':_0x1f3655['JmTWB'],'path':_0x1f3655[_0x189673(0x191,'IH40')](_0x374893,_0x1f3655[_0x189673(0x17d,'5qVU')]),'handler':async({params:_0x1db1b0})=>{const _0x4ee8ad=_0x189673,{id:_0x36f004}=_0x1db1b0,_0x57d67d=await a17_0x379fb2[_0x4ee8ad(0x182,'kpjG')](_0x1f3655['svkai'](Number,_0x36f004));return{'success':!![],'data':_0x57d67d};}},{'method':_0x1f3655['JmTWB'],'path':_0x1f3655[_0x189673(0x18f,')Y5g')](_0x374893,_0x1f3655['bMbgU']),'handler':async({params:_0x2bbef6,query:_0x10293d})=>{const _0x5a8552=_0x189673,{order_type:_0x43a740}=fetchOrderByTypeSchema[_0x5a8552(0x171,'^qy]')](_0x2bbef6),_0x3f0f65=_0x1f3655['xZwrh'](_0x10293d[_0x5a8552(0x184,'BH2G')],_0x1f3655[_0x5a8552(0x16b,'5qVU')]),_0x3c7505=_0x10293d[_0x5a8552(0x17c,'IH40')],_0x5e3b1b=_0x1f3655[_0x5a8552(0x18c,'BH2G')](Number,_0x10293d['draw']??0x1),_0x5f5383=_0x1f3655[_0x5a8552(0x166,'J*]S')](Number,_0x10293d[_0x5a8552(0x188,'IH40')]??0x0),_0x1c6c5c=_0x1f3655[_0x5a8552(0x168,'d!0%')](Number,_0x10293d['length']??0xa),_0x575414=await Orders[_0x5a8552(0x17a,'1Vj1')](),_0x23f63b=await a17_0x379fb2['findByType'](_0x43a740,_0x5f5383,_0x1c6c5c,_0x3f0f65,_0x3c7505);return{'success':!![],'draw':_0x5e3b1b,'recordsTotal':_0x575414,'recordsFiltered':_0x23f63b[_0x5a8552(0x172,'s%08')],'data':_0x23f63b[_0x5a8552(0x175,'5qVU')]};}}];}
+import { createCrudRoutes, getHeader, } from "../services/http.js";
+import OrderService from "../services/orders/order.service.js";
+import { createPurchaseOrderWithItems } from "../controllers/order.controller.js";
+import { Orders } from "../models/Orders.js";
+import { createOrderValidationSchema, fetchOrderByTypeSchema, updateOrderInfoSchema, } from "../validations/order.schema.js";
+import { getTokenInfo } from "../utils/decodeJWT.js";
+export function buildOrderRoutes(defaultPath) {
+    return [
+        ...createCrudRoutes({
+            prefix: defaultPath + "/orders",
+            service: OrderService,
+            createBody: (body) => createOrderValidationSchema.parse(body),
+            createHandler: (payload, { db }) => createPurchaseOrderWithItems(db, payload),
+            updateBody: (body) => updateOrderInfoSchema.parse(body),
+        }),
+        {
+            method: "get",
+            path: defaultPath + "/orders/:id",
+            handler: async ({ params }) => {
+                const { id } = params;
+                const data = await OrderService.findWithItems(Number(id));
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/:id/items",
+            handler: async ({ params }) => {
+                const { id } = params;
+                const data = await OrderService.findOtherItems(Number(id));
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/type/:order_type",
+            handler: async ({ params, query, request }) => {
+                const { order_type } = fetchOrderByTypeSchema.parse(params);
+                const includeOrderItems = query.include === "orderItems";
+                const status = query.status;
+                const draw = Number(query.draw ?? 1);
+                const start = Number(query.start ?? 0);
+                const length = Number(query.length ?? 10);
+                const totalRecords = await Orders.count();
+                const authHeader = getHeader(request, "authorization");
+                let customerId;
+                if (authHeader?.startsWith("Bearer ")) {
+                    const token = authHeader.split(" ")[1];
+                    const result = getTokenInfo(token);
+                    if (!result.valid || !result.data) {
+                        return {
+                            success: false,
+                            message: "Invalid token",
+                        };
+                    }
+                    customerId = result.data.id;
+                }
+                const result = await OrderService.findByType(order_type, start, length, includeOrderItems, status, customerId);
+                return {
+                    success: true,
+                    draw,
+                    recordsTotal: totalRecords,
+                    recordsFiltered: result.recordsFiltered,
+                    data: result.data,
+                };
+            },
+        },
+    ];
+}
