@@ -2,7 +2,6 @@ import { Inventory } from "./Inventory.js";
 import { Warehouse } from "./Warehouse.js";
 import { Orders } from "./Orders.js";
 import { OrderItems } from "./OrderItems.js";
-import { setupAssociations } from "./associations.js";
 const modelsToSync = [Warehouse, Inventory, Orders, OrderItems];
 export const autoPoolModels = {
     Warehouse,
@@ -21,7 +20,7 @@ export function initializeAutoPoolData(sequelize, externalModels = {}) {
     for (const model of modelsToSync) {
         model.initModel(sequelize);
     }
-    setupAssociations(externalModels);
+    // setupAssociations(externalModels);
     initializedFor = sequelize;
     return {
         sequelize,
