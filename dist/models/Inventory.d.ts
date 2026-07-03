@@ -3,7 +3,10 @@ export declare class Inventory extends Model<InferAttributes<Inventory>, InferCr
     id: CreationOptional<number>;
     product_id: number;
     warehouse_id: number;
-    available: CreationOptional<number>;
-    reserved: CreationOptional<number>;
+    available_qty: CreationOptional<number>;
+    reserved_qty: CreationOptional<number>;
+    purchase_qty: CreationOptional<number>;
+    created_at: CreationOptional<Date>;
+    updated_at: Date | null;
     static initModel(sequelize: Sequelize): void;
 }

@@ -4,6 +4,7 @@ export declare const fetchOrderByTypeSchema: z.ZodObject<{
         sales: "sales";
         purchase: "purchase";
     }>;
+    customer_id: z.ZodOptional<z.ZodNumber>;
 }, z.core.$strip>;
 export declare const updateOrderInfoSchema: z.ZodObject<{
     status: z.ZodOptional<z.ZodNullable<z.ZodEnum<{
