@@ -1,1 +1,192 @@
-const a32_0x37108f=a32_0x1645;(function(_0x47e657,_0x31fdb4){const _0x27a02c=a32_0x1645,_0x4a9f3f=_0x47e657();while(!![]){try{const _0x9d3707=-parseInt(_0x27a02c(0x173,'l@VH'))/0x1*(parseInt(_0x27a02c(0x162,'l)nm'))/0x2)+-parseInt(_0x27a02c(0x16c,'EarQ'))/0x3+parseInt(_0x27a02c(0x171,'Uh^l'))/0x4+-parseInt(_0x27a02c(0x17e,'O4oq'))/0x5+parseInt(_0x27a02c(0x186,'x9xP'))/0x6+parseInt(_0x27a02c(0x180,'&v9R'))/0x7+parseInt(_0x27a02c(0x16d,'N1^i'))/0x8*(-parseInt(_0x27a02c(0x178,'l@VH'))/0x9);if(_0x9d3707===_0x31fdb4)break;else _0x4a9f3f['push'](_0x4a9f3f['shift']());}catch(_0x4e8ad5){_0x4a9f3f['push'](_0x4a9f3f['shift']());}}}(a32_0x1e15,0xd01fd));const a32_0x252a8d=(function(){let _0x3a10ba=!![];return function(_0xeef490,_0x7295d1){const _0x23a00f=_0x3a10ba?function(){if(_0x7295d1){const _0x2b1bbf=_0x7295d1['apply'](_0xeef490,arguments);return _0x7295d1=null,_0x2b1bbf;}}:function(){};return _0x3a10ba=![],_0x23a00f;};}()),a32_0x4baabb=a32_0x252a8d(this,function(){const _0x37ebe4=a32_0x1645,_0x56876d={'wECBM':_0x37ebe4(0x160,'66y]')};return a32_0x4baabb[_0x37ebe4(0x175,'x9xP')]()[_0x37ebe4(0x167,'rkpZ')](_0x56876d[_0x37ebe4(0x17a,'N1^i')])[_0x37ebe4(0x17d,'VikO')]()[_0x37ebe4(0x161,'S^kF')](a32_0x4baabb)[_0x37ebe4(0x16f,'E*EL')](_0x56876d[_0x37ebe4(0x165,'7hmJ')]);});a32_0x4baabb();function a32_0x1e15(){const _0x128643=['rrdcKCk3WPaFeGu','W73dLSkMWRVdISk+sNa+W5ddGSoC','WOBcGmooW4e1W7hcNG','qCkpsLP1W4y','WQ3dVaOeWPxdIW','z8k6yN5cW7C','lmkOcCotjCkatcpcSmkPF3e','WOejAaddUq','WOOWWRq3tSkSWPC','W6/cQ8o1rmkH','WPKeCCowwWqAWOe','tSo5BWZcKCkJC8kyimo5W4/cJSkbEfO','wSoNy8kImG','WOPrW5vfo8o6W4tdISo/WOxcNttdTa','fmouWPad','W4NcN8o5W4KA','fCkeuW','nCo2W6hcMLmmbGxdSSoOW482WQS','irNcJ8kixHu4aa','rCkJW7OWWRldH8oepCozWRFcGSohW5i','uCofkmkBwmk0ivT3imkRW4e5WQeW','W6qmbSkLs8oqxCoKsNNcJSk0fa','ySkQWRJdHIjzxa','WPbVzCoveq','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','W6jyWO8kWQHu','WPXgzcpdK8kaWOW1xSkKov0','W5rDfSkthLHaWQbuW59dFSoZ','ldldQdFdICo9v3ZdNCoitWiSw8k7WP1ZpCkcvCofW5SFW5hdTCkhWRtcQ006W7dcPCo4W6n9W6JdJZ/dLY85A8oMwmoNW7LMWOa0b1FdSSo7W61mFSkAWP7cOuaMW5rBrwJdUCo+khpdTSk9W5eNnIJdQCkZiSocW6tdVwSmWQJdOCkVWRVdNmodx8o3rCkAWRtcSqRcLIHsrctdQ2O5W5/dRK4zvIWzfvyZDSoTiKJcSbVcLCo7W41EWP7dMCotW5BdPXT2W5xcOCo+C8kkewz6W5dcPmkwW7iUrSkcvh3dNSkshCoKasNdVSkbWPjbW55RifJdQ8oQisBcJx7dU1hdMSo0lSkTWORdQcS3W63dSuxdImk3tSo3uYddU8kzBg1/FqNdTCoeW7pcJweHvmouy8oywWhcVmobWPpcS8k0WRuXf8k3WO/cPW5gsCkbW7SDBSktWONdRSoRWOq2WR19WRHKW4irWQzTW4C5W6xdIxefDttdI3ldG8khwCkdkmoczqdcM8oSWOxcNWVcHueDWQZcICo7W64muuzcDrBdIxXmWRKnW4NcUgZcTSkdCmkCCuGudmoJAgBcNWBcMI7dQJ8TWPCyW5tcKIxdTCoWaSkzsriRW6vGxu/cQIPCyqZcGbqDlmkYW6DmWPjNWOCYWRi8WQa7h8osm0znWOFcPSk/WPpcQCk5mvhdI8oVomk7lSopW4GkWRj0fbhcJ8kUFxtdI8oEW5lcP8khW5JdMSojvmokquCwW7BdG8knW4C/W5H5W6z0pmkUESoIa8oEW4WOWQxcRmkOWR/dO1hcRCkXWP3dSKhdJ8o2W6NdI8k9gYHBbCkanNuNdeLKhSkyW5hdJSkIsqdcL8oAmmo2W5FcP8ooW7WUWPdcSCopW5FdNgZdOu0sDJFcOHKoWRG/WQH2l8omW4WmWPa/eMr2W7RdSMdcO2rpl8oFWPzRW73cNSkHnSk7jfqbWRhdH8kpWQa/WR7cSxFdNLyuWOGXWPBdOCo5W5adWOn1W5iKB8ouW6FcQCoSFJrTW4jDsY5QWPyLACodufRcH8kqWOBdR8o+FWjAB8ojdfJdHq8LWPmowapcHCkdbuhdRIiNW5hdTZ3dTJ3dLSkXW5DAW6ddQW8mW57cKmkauCovnbLpW4RcGtGpWOekt8oAlH4qBGJdJqtcNx5ZWRVdUde8bvOTW68iWRtcLCkoWQS+ACksW7RdIGDLvSk0E2KfW7jPEqFcNmkeumk3W63dQSoxWPOKWOxdMHdcTSo2oSkxW6OWfeKooCoeW7SPW4JcGCkCW4ldQGmWW51xrvC4WRfamCokFhhdJmkmW7/cNCogiCowqM01WQOqWOOSWPVdUM/cKspdSmkQWRTggWVdSmoZu8ogWQddRSkdcJrMW55HWO1nW6m','W53cTCopW6uJWQ3dS8oCBay','wJX3aI90WPpcIsa6owj1','sCoPWQ0SW5WlW7G','mmorWQDdW7y','W79aCCkZDhPnjttdGY7cJW','W6dcS8osx8k4W5XmqmkxW47cQG','WRSyeSkgbmkcWQZcUCkjW5JdRL1V','EqBcSILytW','FCklWRRcI8kHWP3dK8o7WRRcJmkZcSoP','yCoNwSkNmG','zSoDk8o5pW','i8knyCoYBLS','qSoEW5hdJdiYaa','fCo2W4hdOYiAjmoNlGS','h8kcwSoXgvnNFvtdQSotlCoobKe'];a32_0x1e15=function(){return _0x128643;};return a32_0x1e15();}import{Op,QueryTypes}from'sequelize';import{OrderItems}from'../../models/OrderItems.js';import{Orders}from'../../models/Orders.js';import{BaseService}from'../base/base.service.js';function a32_0x1645(_0x97a4ff,_0x1aa099){_0x97a4ff=_0x97a4ff-0x160;const _0x27d0b4=a32_0x1e15();let _0x4baabb=_0x27d0b4[_0x97a4ff];if(a32_0x1645['bnylLg']===undefined){var _0x252a8d=function(_0x5ce33e){const _0x2969e3='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2d486f='',_0x2acec2='',_0x46282a=_0x2d486f+_0x252a8d,_0x2c7fe0=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3dc77a=0x0,_0x3c0619,_0xd0e8db,_0x5b0f5b=0x0;_0xd0e8db=_0x5ce33e['charAt'](_0x5b0f5b++);~_0xd0e8db&&(_0x3c0619=_0x3dc77a%0x4?_0x3c0619*0x40+_0xd0e8db:_0xd0e8db,_0x3dc77a++%0x4)?_0x2d486f+=_0x2c7fe0||_0x46282a['charCodeAt'](_0x5b0f5b+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x3c0619>>(-0x2*_0x3dc77a&0x6)):_0x3dc77a:0x0){_0xd0e8db=_0x2969e3['indexOf'](_0xd0e8db);}for(let _0x58fdad=0x0,_0x102530=_0x2d486f['length'];_0x58fdad<_0x102530;_0x58fdad++){_0x2acec2+='%'+('00'+_0x2d486f['charCodeAt'](_0x58fdad)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2acec2);};const _0x4f8c19=function(_0x439ae2,_0x2efcc9){let _0x1d5e12=[],_0x1b23f2=0x0,_0x252470,_0x2d1a77='';_0x439ae2=_0x252a8d(_0x439ae2);let _0x4e8a42;for(_0x4e8a42=0x0;_0x4e8a42<0x100;_0x4e8a42++){_0x1d5e12[_0x4e8a42]=_0x4e8a42;}for(_0x4e8a42=0x0;_0x4e8a42<0x100;_0x4e8a42++){_0x1b23f2=(_0x1b23f2+_0x1d5e12[_0x4e8a42]+_0x2efcc9['charCodeAt'](_0x4e8a42%_0x2efcc9['length']))%0x100,_0x252470=_0x1d5e12[_0x4e8a42],_0x1d5e12[_0x4e8a42]=_0x1d5e12[_0x1b23f2],_0x1d5e12[_0x1b23f2]=_0x252470;}_0x4e8a42=0x0,_0x1b23f2=0x0;for(let _0x1d5cc1=0x0;_0x1d5cc1<_0x439ae2['length'];_0x1d5cc1++){_0x4e8a42=(_0x4e8a42+0x1)%0x100,_0x1b23f2=(_0x1b23f2+_0x1d5e12[_0x4e8a42])%0x100,_0x252470=_0x1d5e12[_0x4e8a42],_0x1d5e12[_0x4e8a42]=_0x1d5e12[_0x1b23f2],_0x1d5e12[_0x1b23f2]=_0x252470,_0x2d1a77+=String['fromCharCode'](_0x439ae2['charCodeAt'](_0x1d5cc1)^_0x1d5e12[(_0x1d5e12[_0x4e8a42]+_0x1d5e12[_0x1b23f2])%0x100]);}return _0x2d1a77;};a32_0x1645['gDfzMW']=_0x4f8c19,a32_0x1645['zqTBfr']={},a32_0x1645['bnylLg']=!![];}const _0x1e15e4=_0x27d0b4[0x0],_0x1645b8=_0x97a4ff+_0x1e15e4,_0x1dba5c=a32_0x1645['zqTBfr'][_0x1645b8];if(!_0x1dba5c){if(a32_0x1645['BfnpBv']===undefined){const _0x10845d=function(_0x2e04d5){this['MQFCiB']=_0x2e04d5,this['mSBQRm']=[0x1,0x0,0x0],this['KNJdHg']=function(){return'newState';},this['qUvWSi']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['QBaIQv']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x10845d['prototype']['ikFnVH']=function(){const _0x353ac3=new RegExp(this['qUvWSi']+this['QBaIQv']),_0x4b3416=_0x353ac3['test'](this['KNJdHg']['toString']())?--this['mSBQRm'][0x1]:--this['mSBQRm'][0x0];return this['LuouKL'](_0x4b3416);},_0x10845d['prototype']['LuouKL']=function(_0x558c52){if(!Boolean(~_0x558c52))return _0x558c52;return this['TGKBBw'](this['MQFCiB']);},_0x10845d['prototype']['TGKBBw']=function(_0x1b565f){for(let _0x3dbeae=0x0,_0x439879=this['mSBQRm']['length'];_0x3dbeae<_0x439879;_0x3dbeae++){this['mSBQRm']['push'](Math['round'](Math['random']())),_0x439879=this['mSBQRm']['length'];}return _0x1b565f(this['mSBQRm'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x10845d(a32_0x1645)['ikFnVH'](),a32_0x1645['BfnpBv']=!![];}_0x4baabb=a32_0x1645['gDfzMW'](_0x4baabb,_0x1aa099),a32_0x1645['zqTBfr'][_0x1645b8]=_0x4baabb;}else _0x4baabb=_0x1dba5c;return _0x4baabb;}import{HttpError}from'../http.js';export class OrderService extends BaseService{constructor(){super(Orders);}async['findWithItems'](_0x47c578){const _0x5c5294=a32_0x1645,_0x537e94={'DBdEs':_0x5c5294(0x169,'3B1p')};return Orders[_0x5c5294(0x16b,'Fpqc')](_0x47c578,{'include':[_0x537e94[_0x5c5294(0x18b,'O4oq')]]});}async['findOtherItems'](_0x194ad3){const _0x444ff5=a32_0x1645;return OrderItems[_0x444ff5(0x181,'kwTa')]({'where':{'order_id':_0x194ad3}});}async['findByType'](_0x125044,_0x59fa43=0x0,_0x38fcb1=0xa,_0x3021a4=![],_0x18ea49,_0x9a5993,_0x2cfa2d,_0x2662f5='id',_0x8ed190='asc'){const _0x4cdb6a=a32_0x1645,_0x5569b={'BWUFh':_0x4cdb6a(0x188,'N1^i')},_0x4c3242={'order_type':_0x125044};_0x9a5993&&(_0x4c3242['customer_id']=_0x9a5993);_0x18ea49&&(_0x4c3242['status']=_0x18ea49);_0x2cfa2d&&(_0x4c3242[Op['or']]=[{'order_number':{[Op['like']]:'%'+_0x2cfa2d+'%'}},{'status':{[Op[_0x4cdb6a(0x179,'XZfT')]]:'%'+_0x2cfa2d+'%'}}]);const {rows:_0x2cb0f3,count:_0x50583f}=await Orders[_0x4cdb6a(0x16a,'xV%V')]({'where':_0x4c3242,'include':_0x3021a4?['orderItems']:[],'distinct':!![],'col':'id','offset':_0x59fa43,'limit':_0x38fcb1,'order':[[_0x2662f5,_0x8ed190]]});return console[_0x4cdb6a(0x17b,'xV%V')](_0x5569b[_0x4cdb6a(0x182,'&v9R')],_0x50583f),{'data':_0x2cb0f3,'recordsFiltered':_0x50583f};}async[a32_0x37108f(0x17f,'mF8)')](_0xcd4dd2,_0xd560e4){const _0x163a58=a32_0x37108f,_0x4396d2={'lwIhm':_0x163a58(0x176,'&faZ')},[_0x272fbb]=await Orders[_0x163a58(0x16e,'c&L]')](_0xd560e4,{'where':{'id':_0xcd4dd2}});if(!_0x272fbb)throw new HttpError(0x194,_0x4396d2[_0x163a58(0x174,'S^kF')]);return Orders['findByPk'](_0xcd4dd2);}async['getAccountReceivable'](_0x5b407f){const _0x5985b6=a32_0x37108f,_0x56cbb1={'PSILQ':function(_0xba2d4f,_0x3ddb43){return _0xba2d4f??_0x3ddb43;}},_0x28dd76=_0x5985b6(0x183,'kCBX'),_0x598301=await _0x5b407f[_0x5985b6(0x166,'fzlN')](_0x28dd76,{'type':QueryTypes[_0x5985b6(0x170,'c&L]')]}),_0x291172=_0x598301?.[0x0]?.[_0x5985b6(0x184,'E)C(')];return _0x56cbb1['PSILQ'](_0x291172,{'grand_total_amount_due':0x0,'data':[]});}async['getAccountPayable'](_0x3efd27){const _0x2c97e9=a32_0x37108f,_0x4e145b={'LEzGM':function(_0x2b9e3c,_0x383df2){return _0x2b9e3c??_0x383df2;}},_0x277db6=_0x2c97e9(0x187,'9Npu'),_0x42ac48=await _0x3efd27[_0x2c97e9(0x172,'tgDH')](_0x277db6,{'type':QueryTypes['SELECT']}),_0x242aeb=_0x42ac48?.[0x0]?.[_0x2c97e9(0x163,'ck4y')];return _0x4e145b[_0x2c97e9(0x177,'7hmJ')](_0x242aeb,{'grand_total_amount_due':0x0,'data':[]});}}export default new OrderService();
+import { Op, QueryTypes } from "sequelize";
+import { OrderItems } from "../../models/OrderItems.js";
+import { Orders } from "../../models/Orders.js";
+import { BaseService } from "../base/base.service.js";
+import { HttpError } from "../http.js";
+export class OrderService extends BaseService {
+    constructor() {
+        super(Orders);
+    }
+    // async findWithItems(id: number) {
+    //   return Orders.findByPk(id, {
+    //     include: ["orderItems"],
+    //   });
+    // }
+    async findWithItems(id) {
+        return Orders.findByPk(id, {
+            include: ["orderItems"],
+            // include: [
+            //   {
+            //     association: "orderItems",
+            //     // include: [
+            //     //   {
+            //     //     association: "product",
+            //     //   },
+            //     // ],
+            //   },
+            //],
+        });
+    }
+    async findOtherItems(id) {
+        return OrderItems.findAll({
+            where: { order_id: id },
+            // include: ["product"],
+        });
+    }
+    async deleteOrderItems(ids) {
+        return await OrderItems.destroy({
+            where: {
+                id: {
+                    [Op.in]: ids,
+                },
+            },
+            force: true,
+        });
+    }
+    async updateOrderItems(orderItemInfo) { }
+    async findByType(orderType, start = 0, length = 10, includeOrderItems = false, status, customerId, search, orderColumn = "id", orderDir = "asc") {
+        const where = {
+            order_type: orderType,
+        };
+        if (customerId) {
+            where.customer_id = customerId;
+        }
+        if (status) {
+            where.status = status;
+        }
+        if (search) {
+            where[Op.or] = [
+                {
+                    order_number: {
+                        [Op.like]: `%${search}%`,
+                    },
+                },
+                {
+                    status: {
+                        [Op.like]: `%${search}%`,
+                    },
+                },
+            ];
+        }
+        const { rows, count } = await Orders.findAndCountAll({
+            where,
+            include: includeOrderItems ? ["orderItems"] : [],
+            distinct: true,
+            col: "id",
+            offset: start,
+            limit: length,
+            order: [[orderColumn, orderDir]],
+        });
+        return {
+            data: rows,
+            recordsFiltered: count,
+        };
+    }
+    async updateOrderInfo(id, data) {
+        const [count] = await Orders.update(data, {
+            where: { id },
+        });
+        if (!count) {
+            throw new HttpError(404, "Order not found");
+        }
+        return Orders.findByPk(id);
+    }
+    async getAccountReceivable(sequelize) {
+        const query = `
+     WITH order_totals AS (
+    SELECT
+        o.id AS order_id,
+        o.customer_id,
+        o.created_at,
+        (
+            COALESCE(SUM(oi.quantity * oi.price), 0)
+            + COALESCE(o.shipping_charges, 0)
+            - COALESCE(o.discount, 0)
+        ) AS amount_due
+    FROM ims_orders o
+    LEFT JOIN ims_order_items oi
+        ON oi.order_id = o.id
+    WHERE o.payment_status <> 'paid'
+      AND o.order_type = 'sales'
+    GROUP BY
+        o.id,
+        o.customer_id,
+        o.created_at,
+        o.shipping_charges,
+        o.discount
+),
+customer_totals AS (
+    SELECT
+        customer_id,
+        ROUND(SUM(amount_due), 2) AS total_amount_due,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 0 AND 5 THEN 1 END) AS orders_1_5_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 6 AND 10 THEN 1 END) AS orders_6_10_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 11 AND 14 THEN 1 END) AS orders_11_14_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 15 AND 29 THEN 1 END) AS orders_15_29_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date >= 30 THEN 1 END) AS orders_30_plus_days
+    FROM order_totals
+    GROUP BY customer_id
+)
+SELECT
+    json_build_object(
+        'grand_total_amount_due',
+        COALESCE(SUM(total_amount_due), 0),
+
+        'data',
+        COALESCE(json_agg(customer_totals), '[]'::json)
+    ) AS result
+FROM customer_totals;
+      `;
+        const rows = await sequelize.query(query, {
+            type: QueryTypes.SELECT,
+        });
+        const result = rows?.[0]?.result;
+        return (result ?? {
+            grand_total_amount_due: 0,
+            data: [],
+        });
+    }
+    async getAccountPayable(sequelize) {
+        const query = `
+   SELECT
+  json_build_object(
+    'grand_total_amount_due',
+    COALESCE(SUM(amount_due), 0),
+
+    'data',
+    COALESCE(json_agg(customer_totals), '[]'::json)
+  ) AS result
+FROM (
+  SELECT
+    customer_id,
+    ROUND(SUM(amount_due), 2) AS amount_due
+  FROM (
+    SELECT
+      o.customer_id,
+      (
+        COALESCE((
+          SELECT SUM(oi.quantity * oi.price)
+          FROM ims_order_items oi
+          WHERE oi.order_id = o.id
+        ), 0)
+        + COALESCE(o.shipping_charges, 0)
+        - COALESCE(o.discount, 0)
+      ) AS amount_due
+    FROM ims_orders o
+    WHERE o.payment_status <> 'paid'
+      AND o.order_type = 'purchase'
+  ) order_level
+  GROUP BY customer_id
+) customer_totals;
+  `;
+        const rows = await sequelize.query(query, {
+            type: QueryTypes.SELECT,
+        });
+        const result = rows?.[0]?.result;
+        return (result ?? {
+            grand_total_amount_due: 0,
+            data: [],
+        });
+    }
+}
+export default new OrderService();

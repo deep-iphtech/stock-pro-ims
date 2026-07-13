@@ -63,7 +63,7 @@ declare const reqSchemas: {
             };
             readonly status: {
                 readonly type: "string";
-                readonly example: "draft";
+                readonly example: "1";
             };
             readonly notes: {
                 readonly type: "string";

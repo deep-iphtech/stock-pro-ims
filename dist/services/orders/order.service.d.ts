@@ -19,6 +19,8 @@ export declare class OrderService extends BaseService<Orders> {
     constructor();
     findWithItems(id: number): Promise<Orders | null>;
     findOtherItems(id: number): Promise<OrderItems[]>;
+    deleteOrderItems(ids: number[]): Promise<number>;
+    updateOrderItems(orderItemInfo: []): Promise<void>;
     findByType(orderType: string, start?: number, length?: number, includeOrderItems?: boolean, status?: string, customerId?: number, search?: string, orderColumn?: string, orderDir?: "asc" | "desc"): Promise<{
         data: Orders[];
         recordsFiltered: number;

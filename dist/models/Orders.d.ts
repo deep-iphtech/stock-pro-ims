@@ -4,7 +4,7 @@ export declare class Orders extends Model<InferAttributes<Orders>, InferCreation
     customer_id: number;
     order_number?: string;
     order_type: CreationOptional<"sales" | "purchase">;
-    status: CreationOptional<"draft" | "pending" | "approved" | "received" | "cancelled">;
+    status: CreationOptional<"0" | "1" | "2" | "3" | "4" | "5" | "6" | "7">;
     shipping_charges: CreationOptional<number>;
     shipment_tracking_number: string | null;
     order_meta: any;

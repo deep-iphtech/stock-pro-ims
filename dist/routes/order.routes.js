@@ -1,1 +1,154 @@
-(function(_0x4219de,_0x1075d1){const _0x1df4bc=a17_0x1419,_0x1d9825=_0x4219de();while(!![]){try{const _0x1aec6c=-parseInt(_0x1df4bc(0x228,'Dmq)'))/0x1*(-parseInt(_0x1df4bc(0x207,'@Y8V'))/0x2)+parseInt(_0x1df4bc(0x23e,'#RRp'))/0x3*(-parseInt(_0x1df4bc(0x224,'Pnks'))/0x4)+parseInt(_0x1df4bc(0x201,'#47S'))/0x5*(-parseInt(_0x1df4bc(0x209,'nL(o'))/0x6)+parseInt(_0x1df4bc(0x210,'3MXV'))/0x7*(-parseInt(_0x1df4bc(0x229,'8Tn&'))/0x8)+parseInt(_0x1df4bc(0x1e9,'8Tn&'))/0x9*(-parseInt(_0x1df4bc(0x20a,'^N#!'))/0xa)+-parseInt(_0x1df4bc(0x21c,'^N#!'))/0xb*(parseInt(_0x1df4bc(0x222,'MMV!'))/0xc)+parseInt(_0x1df4bc(0x20b,'4gXS'))/0xd;if(_0x1aec6c===_0x1075d1)break;else _0x1d9825['push'](_0x1d9825['shift']());}catch(_0x49b724){_0x1d9825['push'](_0x1d9825['shift']());}}}(a17_0x3649,0xc130b));const a17_0x492458=(function(){let _0x2afd4a=!![];return function(_0x36eb80,_0x38adf5){const _0x27865a=_0x2afd4a?function(){const _0x3316b9=a17_0x1419;if(_0x38adf5){const _0x5b3fe4=_0x38adf5[_0x3316b9(0x218,'bv7y')](_0x36eb80,arguments);return _0x38adf5=null,_0x5b3fe4;}}:function(){};return _0x2afd4a=![],_0x27865a;};}()),a17_0x5701b4=a17_0x492458(this,function(){const _0x12cad2=a17_0x1419,_0x34c45e={'oxtZf':'(((.+)+)+)+$'};return a17_0x5701b4[_0x12cad2(0x1ee,'@cuO')]()[_0x12cad2(0x203,'#RRp')](_0x34c45e[_0x12cad2(0x20c,'Kuaq')])[_0x12cad2(0x211,'DLrZ')]()[_0x12cad2(0x23a,'*4V8')](a17_0x5701b4)['search'](_0x34c45e[_0x12cad2(0x21e,'Vnn1')]);});a17_0x5701b4();import{createCrudRoutes,getHeader}from'../services/http.js';import a17_0x529503 from'../services/orders/order.service.js';import{createPurchaseOrderWithItems}from'../controllers/order.controller.js';import{Orders}from'../models/Orders.js';function a17_0x3649(){const _0x55e174=['b1pcO8kFsXORW6xdJ2ZdVa','nCogdWldL8kIW7uJW7pcISkd','WPC5WOhdU3pcRJddJ8om','EYjp','AvBcQ3erWRnZW6jnW4XZW4RcTW','W5xcJ8oQod7dMSo4','ACobhmkPFhxdNempWQ3cQIldONHgWPNdIgqbWP7dS8oKDq','W4m/WPapWOtdOSoHWPxcVtxcMq','W5tdNSkBwK85W5lcIgxdGHS','W5RdKmkyWOeHlmkmaY0GW48','WPW9WQKgWOe','suvLWO7cTv/dGW','WRGhWPGMWQy','WO8MgCk1qcVdT8o9','r8kIa8oGuW','b8oWxmkIW7W','mCoLWPPc','oSoHg0fgWRxcMd3dG8kvva','FCk7qa','W7VdISopWO0p','rePYWOm','WP0NWQxdJ2y','lN9rcSowo8oPya','W5xdGmkfWPi6kq','Emouoe3cKW','WPRdQSoeWROZkxBdGXxcTrK','nXpcVYBdUq','WQGHWRSpWQS','z0u4W5D/W7Kq','rCoeW7RcKSklW4rbWPFdNmorWO4hWP0','eCkHW68','jCkpW7Crja','qSk2tdtdStaSE8khgIRcIsO','W4G3WPfwW5/dH8oHWQ/cHq','WPxcNSoecs3dPa','uCotyWu+','mZVcSbJdJ8ohvq','WPdcMSojeIO','D8ouW647erZdSCk6','WPO4WPDHBCoidYxdP2K5W6evW5W','zSo/W6rJWQdcMMO','WQddJmkuWRuXtmkVWQfG','oG3dSI13W6iWWRH1W45XW4hcQSke','WPFdPehdS8ow','W6/dN8oxWPqr','nConWR/cR8kC','W5nus8kfWPFcH3O+W4yxw8oqWRlcG8kjW45FgSoeW4C','bxdcLCoDi0NdI8kOgW','W5VcG1BdVrtdICkHW7m','dmoxWO9mW7i','AghcI8okWQq','WQBcSSoEltS','W4ZdJmkWWOddHW','zK7cLCo1WOy','fhWFBmkMp1msW7rN','wepcQfyQ','W7RcI8oaWRKl','W5JdLmkzuKTQWO7dLvxdRau1BSoN','ba7cNaFdRq','WQFdJSkuW6PafmkKWPHwvGeJ','rSk3gmo1CW','n8ohrmkMeq','iSoRb0tcSCo2FLHmhCoKjSomWQGaWQZdUSowCZFdM8ogW6tdUCk+C8kCW7a1W6RcMfJdGd1BieZcPq','W4v4W5FcRZhdVgtdICowWQJdVfdcMW','WOL3W4LwW4u','W700y3ZcJmk+oSkOWRe','aCkMW7yBka','vmkUdmobfSkrWPSHFSoGmmomW5G','FSkSvCoX','iSkbW7yE','eCoyhCkhqW','WO7cLSotW4D9bCklmYaHW50','W5xdN8kCw0WOW7xcLK/dJa8','qcddGmoikfNdUCkIe8kkBCkoWPhdPeq','hmk6hfLpusldTSoIzba','W4dcNMhdRbq','eCo+sCkgsW','WP7cKSopga4','leS+W5i','aCoWb8klvW','p8oshwaH','d0r0WOBcPuNdLCkaW69/bN0LWO/dSmoUqmkZW5XvqI4oeCofea','WOdcKSolhWZdTCoLW64JsG','a8oKdxlcOG','ifdcT3eJWQH0WQu+W5fYWOJcRCkFW5ZdILO','W5/dKCkExenRW7VcLMVdKI8q','peVcILy2WOXo','p8o5e3iv'];a17_0x3649=function(){return _0x55e174;};return a17_0x3649();}import{createOrderValidationSchema,fetchOrderByTypeSchema,updateOrderInfoSchema}from'../validations/order.schema.js';function a17_0x1419(_0x3e9637,_0x2719c7){_0x3e9637=_0x3e9637-0x1e9;const _0x40bdb4=a17_0x3649();let _0x5701b4=_0x40bdb4[_0x3e9637];if(a17_0x1419['aBdqLD']===undefined){var _0x492458=function(_0x22a295){const _0x45a367='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x545d55='',_0x42eddc='',_0x31ef59=_0x545d55+_0x492458,_0x3bf9ca=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x5d2572=0x0,_0xda30e4,_0x493801,_0x15a5b6=0x0;_0x493801=_0x22a295['charAt'](_0x15a5b6++);~_0x493801&&(_0xda30e4=_0x5d2572%0x4?_0xda30e4*0x40+_0x493801:_0x493801,_0x5d2572++%0x4)?_0x545d55+=_0x3bf9ca||_0x31ef59['charCodeAt'](_0x15a5b6+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0xda30e4>>(-0x2*_0x5d2572&0x6)):_0x5d2572:0x0){_0x493801=_0x45a367['indexOf'](_0x493801);}for(let _0x48b3f1=0x0,_0x4d306d=_0x545d55['length'];_0x48b3f1<_0x4d306d;_0x48b3f1++){_0x42eddc+='%'+('00'+_0x545d55['charCodeAt'](_0x48b3f1)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x42eddc);};const _0x3885f6=function(_0x123876,_0x1646d3){let _0x4f5dc9=[],_0x5dd8ea=0x0,_0x2e9f75,_0x47d09d='';_0x123876=_0x492458(_0x123876);let _0x4514d6;for(_0x4514d6=0x0;_0x4514d6<0x100;_0x4514d6++){_0x4f5dc9[_0x4514d6]=_0x4514d6;}for(_0x4514d6=0x0;_0x4514d6<0x100;_0x4514d6++){_0x5dd8ea=(_0x5dd8ea+_0x4f5dc9[_0x4514d6]+_0x1646d3['charCodeAt'](_0x4514d6%_0x1646d3['length']))%0x100,_0x2e9f75=_0x4f5dc9[_0x4514d6],_0x4f5dc9[_0x4514d6]=_0x4f5dc9[_0x5dd8ea],_0x4f5dc9[_0x5dd8ea]=_0x2e9f75;}_0x4514d6=0x0,_0x5dd8ea=0x0;for(let _0x591a51=0x0;_0x591a51<_0x123876['length'];_0x591a51++){_0x4514d6=(_0x4514d6+0x1)%0x100,_0x5dd8ea=(_0x5dd8ea+_0x4f5dc9[_0x4514d6])%0x100,_0x2e9f75=_0x4f5dc9[_0x4514d6],_0x4f5dc9[_0x4514d6]=_0x4f5dc9[_0x5dd8ea],_0x4f5dc9[_0x5dd8ea]=_0x2e9f75,_0x47d09d+=String['fromCharCode'](_0x123876['charCodeAt'](_0x591a51)^_0x4f5dc9[(_0x4f5dc9[_0x4514d6]+_0x4f5dc9[_0x5dd8ea])%0x100]);}return _0x47d09d;};a17_0x1419['rKuyme']=_0x3885f6,a17_0x1419['hQSHJo']={},a17_0x1419['aBdqLD']=!![];}const _0x3649ac=_0x40bdb4[0x0],_0x1419e5=_0x3e9637+_0x3649ac,_0x63cc2c=a17_0x1419['hQSHJo'][_0x1419e5];if(!_0x63cc2c){if(a17_0x1419['GIPWih']===undefined){const _0x384eb1=function(_0x1a10c6){this['oewOps']=_0x1a10c6,this['IROCMv']=[0x1,0x0,0x0],this['qeCgKt']=function(){return'newState';},this['WwIOGA']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['Dzdfyv']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x384eb1['prototype']['CbbQEV']=function(){const _0xc3c6c1=new RegExp(this['WwIOGA']+this['Dzdfyv']),_0x579890=_0xc3c6c1['test'](this['qeCgKt']['toString']())?--this['IROCMv'][0x1]:--this['IROCMv'][0x0];return this['QAhwBz'](_0x579890);},_0x384eb1['prototype']['QAhwBz']=function(_0x390dc3){if(!Boolean(~_0x390dc3))return _0x390dc3;return this['ugWHMS'](this['oewOps']);},_0x384eb1['prototype']['ugWHMS']=function(_0x559ecb){for(let _0x1e7533=0x0,_0x1acb96=this['IROCMv']['length'];_0x1e7533<_0x1acb96;_0x1e7533++){this['IROCMv']['push'](Math['round'](Math['random']())),_0x1acb96=this['IROCMv']['length'];}return _0x559ecb(this['IROCMv'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x384eb1(a17_0x1419)['CbbQEV'](),a17_0x1419['GIPWih']=!![];}_0x5701b4=a17_0x1419['rKuyme'](_0x5701b4,_0x2719c7),a17_0x1419['hQSHJo'][_0x1419e5]=_0x5701b4;}else _0x5701b4=_0x63cc2c;return _0x5701b4;}import{getTokenInfo}from'../utils/decodeJWT.js';export function buildOrderRoutes(_0x5c5df4){const _0xb765d2=a17_0x1419,_0x4f4fb9={'wiIKA':function(_0x3d1ef7,_0x14cb1a){return _0x3d1ef7(_0x14cb1a);},'hRDPn':function(_0x4646ef,_0x1b7e82){return _0x4646ef(_0x1b7e82);},'KTpGA':function(_0x21b125,_0x3e80bd){return _0x21b125===_0x3e80bd;},'luonl':'orderItems','OZbFy':function(_0x3bbdf0,_0x38183f){return _0x3bbdf0(_0x38183f);},'GFtdx':'asc','rIhfp':_0xb765d2(0x1f1,'AvB^'),'FMnLS':'email','gOjbL':_0xb765d2(0x23b,'eayx'),'WvsJZ':function(_0x3bdcc3,_0x4a3a36,_0x23c6bd){return _0x3bdcc3(_0x4a3a36,_0x23c6bd);},'xNrJG':'authorization','NOySY':function(_0x3a8222,_0x1b7a73){return _0x3a8222(_0x1b7a73);},'dfaPx':_0xb765d2(0x205,'v5Pu'),'jhxKA':_0xb765d2(0x1fe,'v])K'),'SSxkf':function(_0x2f252f,_0x356bcd){return _0x2f252f+_0x356bcd;},'AWGNs':_0xb765d2(0x1fd,'6Vx5'),'uPMmG':_0xb765d2(0x1f3,'z)CY'),'xgbyF':_0xb765d2(0x1fa,'rPzO'),'hyJBZ':function(_0x251180,_0x25a95d){return _0x251180+_0x25a95d;},'ilAUa':_0xb765d2(0x232,']&h2'),'aDYES':function(_0xa21b19,_0x2f10c1){return _0xa21b19+_0x2f10c1;},'dePlj':_0xb765d2(0x235,'4gXS'),'ZZaJG':_0xb765d2(0x21f,'S51z')};return[..._0x4f4fb9[_0xb765d2(0x1f4,'rPzO')](createCrudRoutes,{'prefix':_0x4f4fb9[_0xb765d2(0x1eb,'c*&(')](_0x5c5df4,_0x4f4fb9[_0xb765d2(0x20e,'[MS7')]),'service':a17_0x529503,'createBody':_0x4d045a=>createOrderValidationSchema[_0xb765d2(0x22d,'Pnks')](_0x4d045a),'createHandler':(_0x25e6e9,{db:_0x48883b})=>createPurchaseOrderWithItems(_0x48883b,_0x25e6e9),'updateBody':_0x336554=>updateOrderInfoSchema[_0xb765d2(0x234,'#47S')](_0x336554)}),{'method':_0x4f4fb9[_0xb765d2(0x21b,'v5Pu')],'path':_0x4f4fb9['SSxkf'](_0x5c5df4,_0x4f4fb9['xgbyF']),'handler':async({params:_0x134807})=>{const _0x5ea8a2=_0xb765d2,{id:_0x45f44d}=_0x134807,_0x269df0=await a17_0x529503[_0x5ea8a2(0x23d,'4gXS')](_0x4f4fb9[_0x5ea8a2(0x1ed,'c*&(')](Number,_0x45f44d));return{'success':!![],'data':_0x269df0};}},{'method':_0x4f4fb9[_0xb765d2(0x204,'X2j2')],'path':_0x4f4fb9[_0xb765d2(0x215,'J4Eq')](_0x5c5df4,_0x4f4fb9[_0xb765d2(0x1f6,'eayx')]),'handler':async({db:_0x2d21f0})=>{const _0x41bcf2=_0xb765d2,_0x2f6748=await a17_0x529503[_0x41bcf2(0x20f,'oqLO')](_0x2d21f0['sequelize']);return{'success':!![],'data':_0x2f6748};}},{'method':_0x4f4fb9[_0xb765d2(0x1f9,'S51z')],'path':_0x4f4fb9[_0xb765d2(0x212,'AvB^')](_0x5c5df4,_0xb765d2(0x23f,'NvhG')),'handler':async({db:_0x10aeba})=>{const _0x18c6fc=await a17_0x529503['getAccountPayable'](_0x10aeba['sequelize']);return{'success':!![],'data':_0x18c6fc};}},{'method':_0x4f4fb9['uPMmG'],'path':_0x4f4fb9['aDYES'](_0x5c5df4,_0x4f4fb9['dePlj']),'handler':async({params:_0x240491})=>{const _0x3ce164=_0xb765d2,{id:_0x45756d}=_0x240491,_0x4d1aa1=await a17_0x529503[_0x3ce164(0x208,'HXP!')](_0x4f4fb9[_0x3ce164(0x1f0,')v66')](Number,_0x45756d));return{'success':!![],'data':_0x4d1aa1};}},{'method':_0xb765d2(0x1ff,'6[R0'),'path':_0x4f4fb9[_0xb765d2(0x231,'tA4U')](_0x5c5df4,_0x4f4fb9[_0xb765d2(0x20d,'rPzO')]),'handler':async({params:_0xad6912,query:_0x5d8b6a,request:_0x432d99})=>{const _0x22bca5=_0xb765d2,{order_type:_0x42db33}=fetchOrderByTypeSchema['parse'](_0xad6912),_0x1596cd=_0x4f4fb9[_0x22bca5(0x214,'8Tn&')](_0x5d8b6a[_0x22bca5(0x1ec,']&h2')],_0x4f4fb9[_0x22bca5(0x230,'AX8$')]),_0x2dc019=_0x5d8b6a['status'],_0x172fae=Number(_0x5d8b6a[_0x22bca5(0x225,'z)CY')]??0x1),_0x31e937=_0x4f4fb9[_0x22bca5(0x238,'tA4U')](Number,_0x5d8b6a[_0x22bca5(0x22e,'8Tn&')]??0x0),_0x534d23=_0x4f4fb9['hRDPn'](Number,_0x5d8b6a[_0x22bca5(0x1f8,'Dmq)')]??0xa),_0x4f6f56=await Orders[_0x22bca5(0x200,'@Y8V')](),_0x590caa=_0x5d8b6a,_0x4baaf8=_0x590caa['search']?.[_0x22bca5(0x213,'y&UC')]??'',_0x11b3c8=_0x4f4fb9[_0x22bca5(0x1ef,'ER5X')](Number,_0x590caa[_0x22bca5(0x219,'^N#!')]?.[0x0]?.['column']??0x0),_0x35493f=_0x590caa[_0x22bca5(0x22c,'DLrZ')]?.[0x0]?.[_0x22bca5(0x23c,'3!*r')]??_0x4f4fb9[_0x22bca5(0x223,'@Y8V')],_0x3d7765=['id',_0x4f4fb9['rIhfp'],_0x4f4fb9[_0x22bca5(0x1fb,'v5Pu')],_0x4f4fb9[_0x22bca5(0x1fc,'c*&(')]],_0x325bb5=_0x3d7765[_0x11b3c8]??'id',_0x4d7cb5=_0x4f4fb9[_0x22bca5(0x227,'NvhG')](getHeader,_0x432d99,_0x4f4fb9[_0x22bca5(0x216,'y&UC')]);let _0x106677=_0x4f4fb9[_0x22bca5(0x21d,'ER5X')](Number,_0x5d8b6a[_0x22bca5(0x239,'e!yo')]);if(_0x4d7cb5?.[_0x22bca5(0x217,'@)dH')](_0x4f4fb9['dfaPx'])){const _0x49ff4a=_0x4d7cb5[_0x22bca5(0x221,'s3*S')]('\x20')[0x1],_0x21fde1=getTokenInfo(_0x49ff4a);if(!_0x21fde1[_0x22bca5(0x206,'#RRp')]||!_0x21fde1[_0x22bca5(0x22f,'6Vx5')])return{'success':![],'message':_0x4f4fb9['jhxKA']};_0x106677=_0x21fde1[_0x22bca5(0x1f5,']&h2')]?.[_0x22bca5(0x1ea,'Dmq)')];}const _0x1dab87=await a17_0x529503[_0x22bca5(0x233,'#RRp')](_0x42db33,_0x31e937,_0x534d23,_0x1596cd,_0x2dc019,_0x106677,_0x4baaf8,_0x325bb5,_0x35493f);return{'success':!![],'draw':_0x172fae,'recordsTotal':_0x4f6f56,'recordsFiltered':_0x1dab87[_0x22bca5(0x22a,'3MXV')],'data':_0x1dab87[_0x22bca5(0x226,'@Y8V')]};}}];}
+import { createCrudRoutes, getHeader, } from "../services/http.js";
+import OrderService from "../services/orders/order.service.js";
+import { createPurchaseOrderWithItems } from "../controllers/order.controller.js";
+import { Orders } from "../models/Orders.js";
+import { createOrderValidationSchema, crudOnOrderItems, fetchOrderByTypeSchema, updateOrderInfoSchema, } from "../validations/order.schema.js";
+import { getTokenInfo } from "../utils/decodeJWT.js";
+import orderItemService from "../services/orders/orderItem.service.js";
+export function buildOrderRoutes(defaultPath) {
+    return [
+        ...createCrudRoutes({
+            prefix: defaultPath + "/orders",
+            service: OrderService,
+            createBody: (body) => createOrderValidationSchema.parse(body),
+            createHandler: (payload, { db }) => createPurchaseOrderWithItems(db, payload),
+            updateBody: (body) => updateOrderInfoSchema.parse(body),
+        }),
+        {
+            method: "get",
+            path: defaultPath + "/orders/:id",
+            handler: async ({ params }) => {
+                const { id } = params;
+                const data = await OrderService.findWithItems(Number(id));
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/account-receivable",
+            handler: async ({ db }) => {
+                const data = await OrderService.getAccountReceivable(db.sequelize);
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/account-payable",
+            handler: async ({ db }) => {
+                const data = await OrderService.getAccountPayable(db.sequelize);
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/:id/items",
+            handler: async ({ params }) => {
+                const { id } = params;
+                const data = await OrderService.findOtherItems(Number(id));
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "post",
+            path: defaultPath + "/orders/update-items",
+            handler: async ({ body, db }) => {
+                const payload = crudOnOrderItems.parse(body);
+                const { remove_items, update_items } = payload;
+                let data = {};
+                if (remove_items) {
+                    data = await OrderService.deleteOrderItems(remove_items);
+                }
+                const transaction = await db.sequelize.transaction();
+                if (update_items) {
+                    try {
+                        await Promise.all(update_items.map(async (item) => {
+                            const { id, ...data } = item;
+                            let updated = 1;
+                            if (id) {
+                                const [affectedRows] = await orderItemService.update(data, {
+                                    where: { id },
+                                    transaction,
+                                });
+                                updated = affectedRows;
+                            }
+                            else {
+                                await orderItemService.create(data, transaction);
+                            }
+                            if (id && !updated) {
+                                throw new Error(`Order item ${id} not found.`);
+                            }
+                        }));
+                        await transaction.commit();
+                        return {
+                            success: true,
+                            message: "Order items updated successfully.",
+                        };
+                    }
+                    catch (err) {
+                        await transaction.rollback();
+                        return {
+                            success: false,
+                            message: err.message,
+                        };
+                    }
+                }
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/orders/type/:order_type/:customer_id?",
+            handler: async ({ params, query, request }) => {
+                const { order_type } = fetchOrderByTypeSchema.parse(params);
+                const includeOrderItems = query.include === "orderItems";
+                const status = query.status;
+                const draw = Number(query.draw ?? 1);
+                const start = Number(query.start ?? 0);
+                const length = Number(query.length ?? 10);
+                const totalRecords = await Orders.count();
+                const q = query;
+                const search = q.search?.value ?? "";
+                const orderColumnIndex = Number(q.order?.[0]?.column ?? 0);
+                const orderDir = q.order?.[0]?.dir ?? "asc";
+                const columns = ["id", "name", "email", "createdAt"];
+                const orderColumn = columns[orderColumnIndex] ?? "id";
+                const authHeader = getHeader(request, "authorization");
+                let customerId = Number(query.customer_id);
+                if (authHeader?.startsWith("Bearer ")) {
+                    const token = authHeader.split(" ")[1];
+                    const result = getTokenInfo(token);
+                    if (!result.valid || !result.data) {
+                        return {
+                            success: false,
+                            message: "Invalid token",
+                        };
+                    }
+                    customerId = result.data?.customer_id;
+                }
+                const result = await OrderService.findByType(order_type, start, length, includeOrderItems, status, customerId, search, orderColumn, orderDir);
+                return {
+                    success: true,
+                    draw,
+                    recordsTotal: totalRecords,
+                    recordsFiltered: result.recordsFiltered,
+                    data: result.data,
+                };
+            },
+        },
+    ];
+}
