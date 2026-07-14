@@ -70,7 +70,7 @@ declare const reqSchemas: {
             };
             readonly payment_status: {
                 readonly type: "string";
-                readonly example: "pending";
+                readonly example: "0";
             };
             readonly paid_at: {
                 readonly type: "date";

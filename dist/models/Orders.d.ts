@@ -11,7 +11,7 @@ export declare class Orders extends Model<InferAttributes<Orders>, InferCreation
     discount: number | null;
     notes: string | null;
     total_amount: string | null;
-    payment_status: CreationOptional<"pending" | "partial" | "paid">;
+    payment_status: CreationOptional<"0" | "1" | "2">;
     paid_at: Date | null;
     created_at: CreationOptional<Date>;
     updated_at: Date | null;
