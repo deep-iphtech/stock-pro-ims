@@ -6,6 +6,10 @@ export declare const fetchOrderByTypeSchema: z.ZodObject<{
     }>;
     customer_id: z.ZodOptional<z.ZodNumber>;
 }, z.core.$strip>;
+export declare const fetchOpenPurchaseOrderSchema: z.ZodObject<{
+    qty: z.ZodNumber;
+    product_id: z.ZodNumber;
+}, z.core.$strict>;
 export declare const updateOrderInfoSchema: z.ZodObject<{
     status: z.ZodOptional<z.ZodNullable<z.ZodEnum<{
         0: "0";

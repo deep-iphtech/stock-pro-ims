@@ -39,7 +39,7 @@ declare const reqSchemas: {
             };
         };
     };
-    readonly InventoryCreateRequest: {
+    readonly "create-inventory": {
         example?: Record<string, unknown> | undefined;
         required?: string[] | undefined;
         type: string;
@@ -126,6 +126,12 @@ declare const reqSchemas: {
                 readonly additionalProperties: true;
             };
         };
+    };
+    readonly "open-purchase-orders": {
+        example?: Record<string, unknown> | undefined;
+        required?: string[] | undefined;
+        type: string;
+        properties: Record<string, unknown>;
     };
     readonly PurchaseOrderCreateItemRequest: {
         example?: Record<string, unknown> | undefined;

@@ -3,6 +3,7 @@ import { Sequelize } from "sequelize";
 export declare class InventoryManagementService {
     private sequelize;
     constructor(sequelize: Sequelize);
+    reduceInventory(productId: number, qtyAllocation: string, transaction?: any): Promise<void>;
     private receivePurchaseOrderInternal;
     private allocateSalesOrderInternal;
     private shipSalesOrderInternal;
