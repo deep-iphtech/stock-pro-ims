@@ -1,1 +1,232 @@
-function a32_0x1d59(_0x2e93a9,_0x99bd0d){_0x2e93a9=_0x2e93a9-0xc9;const _0x474a15=a32_0x469b();let _0xe761b3=_0x474a15[_0x2e93a9];if(a32_0x1d59['auSpmQ']===undefined){var _0x2b7801=function(_0x326288){const _0x5560ce='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2276bc='',_0x111a3e='',_0x3845b2=_0x2276bc+_0x2b7801,_0x2b3a78=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x5dcffa=0x0,_0x5e81d3,_0x10213e,_0xb80d1=0x0;_0x10213e=_0x326288['charAt'](_0xb80d1++);~_0x10213e&&(_0x5e81d3=_0x5dcffa%0x4?_0x5e81d3*0x40+_0x10213e:_0x10213e,_0x5dcffa++%0x4)?_0x2276bc+=_0x2b3a78||_0x3845b2['charCodeAt'](_0xb80d1+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x5e81d3>>(-0x2*_0x5dcffa&0x6)):_0x5dcffa:0x0){_0x10213e=_0x5560ce['indexOf'](_0x10213e);}for(let _0x157440=0x0,_0x149875=_0x2276bc['length'];_0x157440<_0x149875;_0x157440++){_0x111a3e+='%'+('00'+_0x2276bc['charCodeAt'](_0x157440)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x111a3e);};const _0x3d141b=function(_0x149cfd,_0x2f1b3c){let _0x39a92e=[],_0x34053d=0x0,_0x1e5509,_0x1ccfd3='';_0x149cfd=_0x2b7801(_0x149cfd);let _0x10827d;for(_0x10827d=0x0;_0x10827d<0x100;_0x10827d++){_0x39a92e[_0x10827d]=_0x10827d;}for(_0x10827d=0x0;_0x10827d<0x100;_0x10827d++){_0x34053d=(_0x34053d+_0x39a92e[_0x10827d]+_0x2f1b3c['charCodeAt'](_0x10827d%_0x2f1b3c['length']))%0x100,_0x1e5509=_0x39a92e[_0x10827d],_0x39a92e[_0x10827d]=_0x39a92e[_0x34053d],_0x39a92e[_0x34053d]=_0x1e5509;}_0x10827d=0x0,_0x34053d=0x0;for(let _0x447518=0x0;_0x447518<_0x149cfd['length'];_0x447518++){_0x10827d=(_0x10827d+0x1)%0x100,_0x34053d=(_0x34053d+_0x39a92e[_0x10827d])%0x100,_0x1e5509=_0x39a92e[_0x10827d],_0x39a92e[_0x10827d]=_0x39a92e[_0x34053d],_0x39a92e[_0x34053d]=_0x1e5509,_0x1ccfd3+=String['fromCharCode'](_0x149cfd['charCodeAt'](_0x447518)^_0x39a92e[(_0x39a92e[_0x10827d]+_0x39a92e[_0x34053d])%0x100]);}return _0x1ccfd3;};a32_0x1d59['rdbZSZ']=_0x3d141b,a32_0x1d59['JycOWu']={},a32_0x1d59['auSpmQ']=!![];}const _0x469b68=_0x474a15[0x0],_0x1d5920=_0x2e93a9+_0x469b68,_0xae28b3=a32_0x1d59['JycOWu'][_0x1d5920];if(!_0xae28b3){if(a32_0x1d59['WhePKX']===undefined){const _0x31832b=function(_0x1b7c79){this['Kqzvon']=_0x1b7c79,this['aNPplx']=[0x1,0x0,0x0],this['tIvuaH']=function(){return'newState';},this['SCWCaV']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['lgVFYk']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x31832b['prototype']['yDzdIy']=function(){const _0x10399f=new RegExp(this['SCWCaV']+this['lgVFYk']),_0xf27b86=_0x10399f['test'](this['tIvuaH']['toString']())?--this['aNPplx'][0x1]:--this['aNPplx'][0x0];return this['lBWBxH'](_0xf27b86);},_0x31832b['prototype']['lBWBxH']=function(_0x4d653c){if(!Boolean(~_0x4d653c))return _0x4d653c;return this['JaTPML'](this['Kqzvon']);},_0x31832b['prototype']['JaTPML']=function(_0x55e0fc){for(let _0x30827b=0x0,_0x315108=this['aNPplx']['length'];_0x30827b<_0x315108;_0x30827b++){this['aNPplx']['push'](Math['round'](Math['random']())),_0x315108=this['aNPplx']['length'];}return _0x55e0fc(this['aNPplx'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x31832b(a32_0x1d59)['yDzdIy'](),a32_0x1d59['WhePKX']=!![];}_0xe761b3=a32_0x1d59['rdbZSZ'](_0xe761b3,_0x99bd0d),a32_0x1d59['JycOWu'][_0x1d5920]=_0xe761b3;}else _0xe761b3=_0xae28b3;return _0xe761b3;}const a32_0x41e094=a32_0x1d59;(function(_0xfc4fe0,_0x2013fc){const _0x7c441d=a32_0x1d59,_0x522c26=_0xfc4fe0();while(!![]){try{const _0x12dcc8=-parseInt(_0x7c441d(0xd3,'cT#B'))/0x1*(-parseInt(_0x7c441d(0xfc,'bFYw'))/0x2)+-parseInt(_0x7c441d(0xf2,'*%]3'))/0x3*(parseInt(_0x7c441d(0xd0,'Dbp^'))/0x4)+parseInt(_0x7c441d(0xdc,'L1TN'))/0x5+-parseInt(_0x7c441d(0xe0,'wn7R'))/0x6*(-parseInt(_0x7c441d(0xd6,'wn7R'))/0x7)+-parseInt(_0x7c441d(0xdb,'sHW2'))/0x8+parseInt(_0x7c441d(0xea,'Dbp^'))/0x9*(-parseInt(_0x7c441d(0xda,'dgIo'))/0xa)+-parseInt(_0x7c441d(0xe4,'21yE'))/0xb;if(_0x12dcc8===_0x2013fc)break;else _0x522c26['push'](_0x522c26['shift']());}catch(_0x4bf57e){_0x522c26['push'](_0x522c26['shift']());}}}(a32_0x469b,0x1ba40));function a32_0x469b(){const _0x35b91e=['h8oEwSkOmgq','sthcNCk9BW','WPeEgCoZoCoPtwS','dSkGk8k9lSoLjWi','W7tdISoobmoegLxcKMSnaL3cISoJnCo1','W6FcJs8YyIH7WP4Yw8ot','WO1UW4XrySkwWPRdKWddVCor','WQuGW4NdKrjm','WQHczW3dUtVdV04aWRmHW7qVBI4','W7NdHSotqWit','WQBcMCksvmkfsNhcQKKDbeC','W6xdNSoACe97gW','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','utSgjSkT','WRusq8o4W4uQWQdcO2nQW4hdOW','pG7dJSkjWOBcIW','saLutdRdUdaBWRr8W6HA','WQhcSSoYWQFcTq','W6/dQ00MWOVdItxcIX0dWPL8iCksW7byWRJdMSoHtmk1mXS','mg3dGWRcQHddMW','W5ZcT8o9WRTXWR7dUCosWRqD','wg1vWOTun2DNcmotiCkc','WOObk3hcH8kWx8kF','W6unW6xdSsPxpW','rvpdVmoucqRcQCo4WPpcMG','W6/cKfSJWQdcOa3dUmk0W6pdImoPzG','WPJcOWzBW6CQWQSWWRu','vCklk8o2CqxdJSknW57dM8oAaa','EL3cJCojW5/dISkyiSoFW6fyW50','fSobW4PYm8og','nhtdQ8ox','urCNkmkQW5NdVSowmmkNdZbHWOP1WO3cHmo8g8kU','WOSlBZpdJSoxy8kixGldHYa','WPOadmoFwfG','gvGrchJcRWG','WOmyjmoJcCo5C2C','W5VcV8o0WRGgW4BcH8oYWQyyW4JcS8o+','uSkvFmkcW7/dVq','wwJdJZ3cQW','W5JcNZOQbrD0WOWMwCkCWQldNmkfj2ddN8kElCkTW7iPW73dKsX1iSo9dMdcSefuW4/dL8oVtCk/k2xdM10OW5jvWPJdRCoXlSo1W5fJWO9pW5T8WOuJWQWYAYz1W4JdNSkhqJNcL2aVhbpcIchcQCoRnmk+vdFcPq41rHKuWOiYumk2WQa6WQf1W5xdS31cWOmbDmoXW5dcPHDiBSoPW7DGWPmimc3dKCoVW5ruW4BdLMnEiw99sSo8W7DdW5q6m8oYqqBcTColW7q6WPmCW6naWRa5W7qtFCk8W6ayWPW9W6RcPeC4lZSsDSo8WPlcJ8o9WPpdImo2nSkjW6HoA3tcJdldVCk0xYWkWPOqEmoWWRdcU8kBkg9CW63cPMDqt8kwW67cVt7dSmoZCCk7lCkKW54JBMFcHCkjWPa/W7iQW4/cUCkSAaZdSxGExalcV8ogWQ15a8oIWORdHG5icCkpq8oEfmkPW57dU1bLuCkLEcuMxsXHv3FcJCoSuSoHpmkZcmo2wYbFW4NdP8k7lCo3WQ9uW6DJW4XAumobn1ldTCkar8kBFeBdPL7dJ3lcSsLPqhOlW6hcT1SgCfhdGCoaW4GkiCkyW7BdJmkaWPidnMv/jxtcH8kPW5tcQ8kpWReBWP7cLSk9csZdQCkfemo4mSkAWQJcIXKyrSk0WOC0vqVdIajsWQnJW5TMWONcQgBcHSkGv8ohWPxdSc53FmopWPFdM2tcKMhdOdVcMSkHzqNdVtPJBSkkW5xdRNxcUZKkW6NdHsKAW7iUw8kfWRS6W4baWQDRW6hcJffqWO/dJ3C2WQtdKsH/WRGyjCkpW5nmdmovW6rowSkNwc5RESorWPzHWPr+qvJdSGDkW6JdKcpcTmoQnSkfW600WQlcTCocW4qshMLLwXrQWQ1mh8kHomkfWOaipaZdNt1fW57cP8koruDbW4hcUblcPhpcGMJdP2JdO8kbWQ8Plmkru8kEtSkzALmDWQTuBSovrLNcLCkztmo+tbtcU8kuqeTrW5lcMSkMW4GFbLpdISoph8ovWRTreddcVSk2kSo8W5JcHCkeq8ofW5JdV8kKW7rLWPFcIXiwFmkTWQjrnvLkxhnuWRCDDdemESk/W7K3WQWNWOe2rJVcG8k0WO06CmodW5/cSrddPcLbcSoGWQSlvSoMWPJcQSk+tdCJemo/WP8xWOzDh8obAd3cTHDYvCkFrSkvnCojd2e8WQ0DWPLofhxdGhq0nSkpW6jYoSoGoCoDW4WMW4y1W67cNZezWRNdLmk8DIzIW4T1CWnPrCoGWOC+uSocWRxcP8oRW5S3WQ44xamtrmkIW5eWCx9Qi8oOaSkahd9cWRK7yqazBCkAbbtcRq','WRa9W4BdGtbwbmoTW7ZcObukW6a','pb7dJ8kFWOlcNSkadq','saXBt0tcJZOGWPLz','W5bdF8k/F8o6yfVcTh7dTa','t8o9pSk+nCoA','kGldK8kyWQVcK8kF','WQ56gmkakmoxWQq','wqa3dmk7W7pdPCogm8kG','jSkgWO0','eK8ggxJcIquKWRbE','DmkSWQnDhmoiW6y','W4tdPvjWW7S7WR4zWPBdMa','W4KzmY7cSCo+nWmvW7RcSuldMSk1WOfOcG','WPHxW4fbrW','WR9rActdOa'];a32_0x469b=function(){return _0x35b91e;};return a32_0x469b();}const a32_0x2b7801=(function(){let _0xe0063e=!![];return function(_0x4577f6,_0x1176a2){const _0x11cbad=_0xe0063e?function(){const _0x580c76=a32_0x1d59;if(_0x1176a2){const _0x5e1df0=_0x1176a2[_0x580c76(0xd1,'iv9G')](_0x4577f6,arguments);return _0x1176a2=null,_0x5e1df0;}}:function(){};return _0xe0063e=![],_0x11cbad;};}()),a32_0xe761b3=a32_0x2b7801(this,function(){const _0x3a22ca=a32_0x1d59,_0xfad0dc={'ouczj':_0x3a22ca(0xd5,'0O@C')};return a32_0xe761b3['toString']()[_0x3a22ca(0xc9,'&drt')](_0xfad0dc['ouczj'])[_0x3a22ca(0xf9,'n%Fz')]()[_0x3a22ca(0xfd,'RLB$')](a32_0xe761b3)[_0x3a22ca(0xec,'H^#m')](_0xfad0dc['ouczj']);});a32_0xe761b3();import{Op,QueryTypes}from'sequelize';import{OrderItems}from'../../models/OrderItems.js';import{Orders}from'../../models/Orders.js';import{BaseService}from'../base/base.service.js';import{HttpError}from'../http.js';export class OrderService extends BaseService{constructor(){super(Orders);}async[a32_0x41e094(0xe8,'yV1b')](_0xe0c198){const _0x28a6ab=a32_0x41e094,_0x469332={'amFep':_0x28a6ab(0xef,'a)vK')};return Orders[_0x28a6ab(0xe3,'n%Fz')](_0xe0c198,{'include':[_0x469332[_0x28a6ab(0xf8,'tv(H')]]});}async['findOtherItems'](_0x222067){const _0x59b1d6=a32_0x41e094;return OrderItems[_0x59b1d6(0xcb,'pRDV')]({'where':{'order_id':_0x222067}});}async[a32_0x41e094(0xfb,'2CUK')](_0x551cff){const _0x8682be=a32_0x41e094;return await OrderItems[_0x8682be(0xe2,'Dbp^')]({'where':{'id':{[Op['in']]:_0x551cff}},'force':!![]});}async[a32_0x41e094(0xd2,'!iWr')](_0x4b291d,_0xe084ce){const _0x4e4c12=a32_0x41e094,_0x141d87={'bckHm':_0x4e4c12(0xe9,'L1TN'),'vVccQ':_0x4e4c12(0xf3,'dgIo')};return await Orders[_0x4e4c12(0xed,'L1TN')]({'where':{'order_type':_0x141d87[_0x4e4c12(0xf6,'u78I')],'status':'1'},'include':[{'model':OrderItems,'as':_0x141d87[_0x4e4c12(0xf5,'RLB$')],'required':!![],'where':{'product_id':_0x4b291d,'quantity':_0xe084ce}}]});}async[a32_0x41e094(0xd8,'JtM7')](_0x39c40b,_0x2b19a6=0x0,_0x190257=0xa,_0x3fca2b=![],_0x2ee5e8,_0x25c92f,_0x432cef,_0x167444='id',_0x31c647=a32_0x41e094(0xf0,'*%]3')){const _0x183cc1=a32_0x41e094,_0x1fb275={'gIUOd':_0x183cc1(0xf1,'Dbp^')},_0x8a6dd8={'order_type':_0x39c40b};_0x25c92f&&(_0x8a6dd8['customer_id']=_0x25c92f);_0x2ee5e8&&(_0x8a6dd8[_0x183cc1(0xfe,'yV1b')]=_0x2ee5e8);_0x432cef&&(_0x8a6dd8[Op['or']]=[{'order_number':{[Op[_0x183cc1(0xde,'XdfP')]]:'%'+_0x432cef+'%'}},{'status':{[Op['like']]:'%'+_0x432cef+'%'}}]);const {rows:_0x1d1a8a,count:_0x2ee0fe}=await Orders['findAndCountAll']({'where':_0x8a6dd8,'include':_0x3fca2b?[_0x1fb275[_0x183cc1(0xcd,'a)vK')]]:[],'distinct':!![],'col':'id','offset':_0x2b19a6,'limit':_0x190257,'order':[[_0x167444,_0x31c647]]});return{'data':_0x1d1a8a,'recordsFiltered':_0x2ee0fe};}async[a32_0x41e094(0xff,'u78I')](_0x260bd8,_0x364732){const _0x12c8e7=a32_0x41e094,_0x3aa15b={'bsgcu':'Order\x20not\x20found'},[_0x2ffe0b]=await Orders[_0x12c8e7(0xe5,'ja^b')](_0x364732,{'where':{'id':_0x260bd8}});if(!_0x2ffe0b)throw new HttpError(0x194,_0x3aa15b['bsgcu']);return Orders['findByPk'](_0x260bd8);}async[a32_0x41e094(0xdf,'a)vK')](_0x4a4c01){const _0x3f5155=a32_0x41e094,_0x5b8d38={'QcJGP':function(_0x3df970,_0x2d7259){return _0x3df970??_0x2d7259;}},_0x2deaf1=_0x3f5155(0xcc,'XdfP'),_0x3fb9e2=await _0x4a4c01['query'](_0x2deaf1,{'type':QueryTypes[_0x3f5155(0xf7,'VL[o')]}),_0x443e4b=_0x3fb9e2?.[0x0]?.[_0x3f5155(0xe1,'Ft5w')];return _0x5b8d38[_0x3f5155(0xe6,'cT#B')](_0x443e4b,{'grand_total_amount_due':0x0,'data':[]});}async[a32_0x41e094(0xf4,']!X@')](_0x3f9140){const _0x22f6b9=a32_0x41e094,_0x8a7617=_0x22f6b9(0xe7,'bFYw'),_0x49655d=await _0x3f9140['query'](_0x8a7617,{'type':QueryTypes[_0x22f6b9(0xdd,'ocGh')]}),_0x32bbb3=_0x49655d?.[0x0]?.[_0x22f6b9(0xcf,'L1TN')];return _0x32bbb3??{'grand_total_amount_due':0x0,'data':[]};}}export default new OrderService();
+import { Op, QueryTypes } from "sequelize";
+import { OrderItems } from "../../models/OrderItems.js";
+import { Orders } from "../../models/Orders.js";
+import { BaseService } from "../base/base.service.js";
+import { HttpError } from "../http.js";
+export class OrderService extends BaseService {
+    constructor() {
+        super(Orders);
+    }
+    // async findWithItems(id: number) {
+    //   return Orders.findByPk(id, {
+    //     include: ["orderItems"],
+    //   });
+    // }
+    async findWithItems(id) {
+        return Orders.findByPk(id, {
+            include: ["orderItems"],
+            // include: [
+            //   {
+            //     association: "orderItems",
+            //     // include: [
+            //     //   {
+            //     //     association: "product",
+            //     //   },
+            //     // ],
+            //   },
+            //],
+        });
+    }
+    async findOtherItems(id) {
+        return OrderItems.findAll({
+            where: { order_id: id },
+            // include: ["product"],
+        });
+    }
+    async deleteOrderItems(ids) {
+        return await OrderItems.destroy({
+            where: {
+                id: {
+                    [Op.in]: ids,
+                },
+            },
+            force: true,
+        });
+    }
+    async fetchOpenPurchaseOrders(product_id, qty) {
+        return await Orders.findAll({
+            where: {
+                order_type: "purchase",
+                status: "1",
+            },
+            include: [
+                {
+                    model: OrderItems,
+                    as: "orderItems",
+                    required: true,
+                    where: {
+                        product_id,
+                        quantity: qty,
+                    },
+                },
+            ],
+        });
+    }
+    async findByType(orderType, start = 0, length = 10, includeOrderItems = false, status, customerId, search, orderColumn = "id", orderDir = "asc") {
+        const where = {
+            order_type: orderType,
+        };
+        if (customerId) {
+            where.customer_id = customerId;
+        }
+        if (status) {
+            where.status = status;
+        }
+        const ORDER_TYPES = ["sales", "purchase"];
+        const statusMap = {
+            cancelled: "0",
+            created: "1",
+            draft: "2",
+            confirmed: "3",
+            shipment: "4",
+            ready: "5",
+            shipped: "6",
+            completed: "7",
+        };
+        const paymentMap = {
+            pending: "0",
+            paid: "1",
+            partial: "2",
+        };
+        if (search) {
+            const keyword = search.trim().toLowerCase();
+            const filters = [
+                {
+                    order_number: {
+                        [Op.like]: `%${keyword}%`,
+                    },
+                },
+            ];
+            if (ORDER_TYPES.includes(keyword)) {
+                filters.push({ order_type: keyword });
+            }
+            if (statusMap[keyword]) {
+                filters.push({ status: statusMap[keyword] });
+            }
+            if (paymentMap[keyword]) {
+                filters.push({ payment_status: paymentMap[keyword] });
+            }
+            where[Op.or] = filters;
+        }
+        const { rows, count } = await Orders.findAndCountAll({
+            where,
+            include: includeOrderItems ? ["orderItems"] : [],
+            distinct: true,
+            col: "id",
+            offset: start,
+            limit: length,
+            order: [[orderColumn, orderDir]],
+        });
+        return {
+            data: rows,
+            recordsFiltered: count,
+        };
+    }
+    async updateOrderInfo(id, data) {
+        const [count] = await Orders.update(data, {
+            where: { id },
+        });
+        if (!count) {
+            throw new HttpError(404, "Order not found");
+        }
+        return Orders.findByPk(id);
+    }
+    async getAccountReceivable(sequelize) {
+        const query = `
+     WITH order_totals AS (
+    SELECT
+        o.id AS order_id,
+        o.customer_id,
+        o.created_at,
+        (
+            COALESCE(SUM(oi.quantity * oi.price), 0)
+            + COALESCE(o.shipping_charges, 0)
+            - COALESCE(o.discount, 0)
+        ) AS amount_due
+    FROM ims_orders o
+    LEFT JOIN ims_order_items oi
+        ON oi.order_id = o.id
+    WHERE o.payment_status <> 'paid'
+      AND o.order_type = 'sales'
+    GROUP BY
+        o.id,
+        o.customer_id,
+        o.created_at,
+        o.shipping_charges,
+        o.discount
+),
+customer_totals AS (
+    SELECT
+        customer_id,
+        ROUND(SUM(amount_due), 2) AS total_amount_due,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 0 AND 5 THEN 1 END) AS orders_1_5_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 6 AND 10 THEN 1 END) AS orders_6_10_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 11 AND 14 THEN 1 END) AS orders_11_14_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date BETWEEN 15 AND 29 THEN 1 END) AS orders_15_29_days,
+        COUNT(CASE WHEN CURRENT_DATE - created_at::date >= 30 THEN 1 END) AS orders_30_plus_days
+    FROM order_totals
+    GROUP BY customer_id
+)
+SELECT
+    json_build_object(
+        'grand_total_amount_due',
+        COALESCE(SUM(total_amount_due), 0),
+
+        'data',
+        COALESCE(json_agg(customer_totals), '[]'::json)
+    ) AS result
+FROM customer_totals;
+      `;
+        const rows = await sequelize.query(query, {
+            type: QueryTypes.SELECT,
+        });
+        const result = rows?.[0]?.result;
+        return (result ?? {
+            grand_total_amount_due: 0,
+            data: [],
+        });
+    }
+    async getAccountPayable(sequelize) {
+        const query = `
+   SELECT
+  json_build_object(
+    'grand_total_amount_due',
+    COALESCE(SUM(amount_due), 0),
+
+    'data',
+    COALESCE(json_agg(customer_totals), '[]'::json)
+  ) AS result
+FROM (
+  SELECT
+    customer_id,
+    ROUND(SUM(amount_due), 2) AS amount_due
+  FROM (
+    SELECT
+      o.customer_id,
+      (
+        COALESCE((
+          SELECT SUM(oi.quantity * oi.price)
+          FROM ims_order_items oi
+          WHERE oi.order_id = o.id
+        ), 0)
+        + COALESCE(o.shipping_charges, 0)
+        - COALESCE(o.discount, 0)
+      ) AS amount_due
+    FROM ims_orders o
+    WHERE o.payment_status <> 'paid'
+      AND o.order_type = 'purchase'
+  ) order_level
+  GROUP BY customer_id
+) customer_totals;
+  `;
+        const rows = await sequelize.query(query, {
+            type: QueryTypes.SELECT,
+        });
+        const result = rows?.[0]?.result;
+        return (result ?? {
+            grand_total_amount_due: 0,
+            data: [],
+        });
+    }
+}
+export default new OrderService();

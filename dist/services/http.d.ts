@@ -2,7 +2,7 @@ import type { AutoPoolDB } from "../core/types.js";
 import { Middleware } from "./index.js";
 import { Sequelize } from "sequelize";
 import { FastifyRequest } from "fastify";
-export type HttpMethod = "get" | "post" | "put" | "patch" | "delete";
+export type HttpMethod = "get" | "post" | "put" | "patch" | "delete" | "options";
 export type FrameworkRequest = Request | FastifyRequest;
 export declare function getHeader(request: FrameworkRequest, name: string): string | undefined;
 export type RouteContext = {

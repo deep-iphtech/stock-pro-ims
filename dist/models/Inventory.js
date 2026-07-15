@@ -1,1 +1,52 @@
-var a7_0x245ab3=a7_0x57df;(function(_0x32329a,_0xffa97c){var _0x85f3b3=a7_0x57df,_0x1cb7ba=_0x32329a();while(!![]){try{var _0x2b2c23=parseInt(_0x85f3b3(0xb8,'4!y6'))/0x1*(-parseInt(_0x85f3b3(0xb3,'OAD8'))/0x2)+-parseInt(_0x85f3b3(0xc8,'QcxZ'))/0x3+parseInt(_0x85f3b3(0xba,'TeNi'))/0x4*(parseInt(_0x85f3b3(0xaf,'U]qH'))/0x5)+-parseInt(_0x85f3b3(0xc3,'bEiu'))/0x6+parseInt(_0x85f3b3(0xb1,'Ro4f'))/0x7+-parseInt(_0x85f3b3(0xc2,'2T0G'))/0x8*(parseInt(_0x85f3b3(0xd1,'oeUr'))/0x9)+parseInt(_0x85f3b3(0xb2,'2T0G'))/0xa;if(_0x2b2c23===_0xffa97c)break;else _0x1cb7ba['push'](_0x1cb7ba['shift']());}catch(_0x1c5478){_0x1cb7ba['push'](_0x1cb7ba['shift']());}}}(a7_0x41f1,0x69445));var a7_0xe2f54d=(function(){var _0x5e96d6=!![];return function(_0x57ce84,_0x359ff8){var _0x41ab00=_0x5e96d6?function(){var _0x5f558f=a7_0x57df;if(_0x359ff8){var _0x4e7656=_0x359ff8[_0x5f558f(0xcb,'cG29')](_0x57ce84,arguments);return _0x359ff8=null,_0x4e7656;}}:function(){};return _0x5e96d6=![],_0x41ab00;};}()),a7_0x2b4030=a7_0xe2f54d(this,function(){var _0x81e2f3=a7_0x57df,_0x2259c4={'aqVzN':_0x81e2f3(0xc7,'rurH')};return a7_0x2b4030['toString']()['search'](_0x2259c4['aqVzN'])[_0x81e2f3(0xd0,'bEiu')]()[_0x81e2f3(0xb9,'DvoJ')](a7_0x2b4030)[_0x81e2f3(0xcf,'O)RI')](_0x81e2f3(0xc9,'QcxZ'));});a7_0x2b4030();function a7_0x57df(_0x480ad9,_0x25c7fe){_0x480ad9=_0x480ad9-0xae;var _0x300a53=a7_0x41f1();var _0x2b4030=_0x300a53[_0x480ad9];if(a7_0x57df['XjCzhu']===undefined){var _0xe2f54d=function(_0x4745ac){var _0x3b7423='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x5e63a1='',_0x313198='',_0x23d947=_0x5e63a1+_0xe2f54d,_0x29ace6=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(var _0x2a2e6=0x0,_0x161d65,_0x6f0a6a,_0x3257be=0x0;_0x6f0a6a=_0x4745ac['charAt'](_0x3257be++);~_0x6f0a6a&&(_0x161d65=_0x2a2e6%0x4?_0x161d65*0x40+_0x6f0a6a:_0x6f0a6a,_0x2a2e6++%0x4)?_0x5e63a1+=_0x29ace6||_0x23d947['charCodeAt'](_0x3257be+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x161d65>>(-0x2*_0x2a2e6&0x6)):_0x2a2e6:0x0){_0x6f0a6a=_0x3b7423['indexOf'](_0x6f0a6a);}for(var _0x3cb908=0x0,_0x2af894=_0x5e63a1['length'];_0x3cb908<_0x2af894;_0x3cb908++){_0x313198+='%'+('00'+_0x5e63a1['charCodeAt'](_0x3cb908)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x313198);};var _0x9a50e5=function(_0x48818e,_0x39623a){var _0x415dd7=[],_0xb70f27=0x0,_0xcb5ad9,_0x3e1053='';_0x48818e=_0xe2f54d(_0x48818e);var _0x373cbe;for(_0x373cbe=0x0;_0x373cbe<0x100;_0x373cbe++){_0x415dd7[_0x373cbe]=_0x373cbe;}for(_0x373cbe=0x0;_0x373cbe<0x100;_0x373cbe++){_0xb70f27=(_0xb70f27+_0x415dd7[_0x373cbe]+_0x39623a['charCodeAt'](_0x373cbe%_0x39623a['length']))%0x100,_0xcb5ad9=_0x415dd7[_0x373cbe],_0x415dd7[_0x373cbe]=_0x415dd7[_0xb70f27],_0x415dd7[_0xb70f27]=_0xcb5ad9;}_0x373cbe=0x0,_0xb70f27=0x0;for(var _0x6424fa=0x0;_0x6424fa<_0x48818e['length'];_0x6424fa++){_0x373cbe=(_0x373cbe+0x1)%0x100,_0xb70f27=(_0xb70f27+_0x415dd7[_0x373cbe])%0x100,_0xcb5ad9=_0x415dd7[_0x373cbe],_0x415dd7[_0x373cbe]=_0x415dd7[_0xb70f27],_0x415dd7[_0xb70f27]=_0xcb5ad9,_0x3e1053+=String['fromCharCode'](_0x48818e['charCodeAt'](_0x6424fa)^_0x415dd7[(_0x415dd7[_0x373cbe]+_0x415dd7[_0xb70f27])%0x100]);}return _0x3e1053;};a7_0x57df['GVBjwU']=_0x9a50e5,a7_0x57df['MxvkgP']={},a7_0x57df['XjCzhu']=!![];}var _0x41f1c6=_0x300a53[0x0],_0x57dff6=_0x480ad9+_0x41f1c6,_0x251c0f=a7_0x57df['MxvkgP'][_0x57dff6];if(!_0x251c0f){if(a7_0x57df['CPywWj']===undefined){var _0x41a694=function(_0x3febdb){this['boLtPh']=_0x3febdb,this['lRBWkR']=[0x1,0x0,0x0],this['XzbXCG']=function(){return'newState';},this['vkVnfL']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['OideBE']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x41a694['prototype']['TBitsg']=function(){var _0x28dd38=new RegExp(this['vkVnfL']+this['OideBE']),_0x2c673d=_0x28dd38['test'](this['XzbXCG']['toString']())?--this['lRBWkR'][0x1]:--this['lRBWkR'][0x0];return this['qYkOdH'](_0x2c673d);},_0x41a694['prototype']['qYkOdH']=function(_0x5c7fd2){if(!Boolean(~_0x5c7fd2))return _0x5c7fd2;return this['KmIuvR'](this['boLtPh']);},_0x41a694['prototype']['KmIuvR']=function(_0x5e7939){for(var _0x30906e=0x0,_0x5f32b7=this['lRBWkR']['length'];_0x30906e<_0x5f32b7;_0x30906e++){this['lRBWkR']['push'](Math['round'](Math['random']())),_0x5f32b7=this['lRBWkR']['length'];}return _0x5e7939(this['lRBWkR'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x41a694(a7_0x57df)['TBitsg'](),a7_0x57df['CPywWj']=!![];}_0x2b4030=a7_0x57df['GVBjwU'](_0x2b4030,_0x25c7fe),a7_0x57df['MxvkgP'][_0x57dff6]=_0x2b4030;}else _0x2b4030=_0x251c0f;return _0x2b4030;}import{DataTypes,Model}from'sequelize';function a7_0x41f1(){var _0x2edf2f=['m1yYy2Cda289dmopW7RcKq','WR04s2CQWRrtfCkVW5lcRSkHrG','p3XrpSkZiSoVEHJdS8ofnW','AZVcJr0','WPHtWQe5cMrp','qmoMA0rVW6S/WQq4vmk+kWm','W6jTWPNcMhtdSConW4VcVX/dQdpcNa','qmk9dZWkWRnL','hWRcTmo2WQBdJ8ouW60hsCkU','W5G0pfFdMadcQa','W6utW6BdUq7cK8k8','WPG8oLhdJG','WOShWRa','W5NcTWxdUmoH','nsVcJSoaWPxdUmoZ','W7qArx/cJHdcRX10zW','fv0baa','WR46sgiLW7qQcCkgW6xcTW','w8o2vHBcVmkEzCkrut1TW6al','wJpdQgeTpCosWRK','WOChWPVcV8kSFmk9zSkxp8oZDX0','WRpdTcboWQVcN8ozA8keBCocF8od','W7LYWOtcHMRdRSosWQxdGh/cT0q','nCkIaCknW7VdUem/WPxdRSkoWOq','kCkYg8kvW6ldPa5IW5NcSmoJW5i','DmoNFsJdK1ZcSq','WQVcKNW3W6e','W6ZcHGrEamkbWQuJW4q','WPHGW67cOW','W6NcIeuAW54','WQHClSkbv8of','hmkUmfldU8obp8kX','WRhdT3OxW5pdGCk5EG','rauWsmomuCoY','l8kkiuT7WPVdVG','WQpdPmkExutcSaOAWOlcPCooiG','W5qoyxDsfSkBFh0UW5pcN8ou','yICuwmoBWPr7ACk3WPtcMW'];a7_0x41f1=function(){return _0x2edf2f;};return a7_0x41f1();}export class Inventory extends Model{static[a7_0x245ab3(0xcc,'VRvX')](_0x242323){var _0x258766=a7_0x245ab3,_0x16555c={'tALWY':_0x258766(0xc0,'jH)1'),'nLUaE':'Inventory','aNPfw':'ims_inventory'};Inventory[_0x258766(0xb4,'[!zY')]({'id':{'type':DataTypes[_0x258766(0xd3,'HI0u')],'primaryKey':!![],'autoIncrement':!![]},'product_id':{'type':DataTypes[_0x258766(0xd2,'OAD8')],'allowNull':![]},'warehouse_id':{'type':DataTypes['INTEGER'],'allowNull':![]},'available_qty':{'type':DataTypes[_0x258766(0xbf,'DvoJ')],'defaultValue':0x0},'purchase_qty':{'type':DataTypes[_0x258766(0xca,'3lK[')],'defaultValue':0x0},'reserved_qty':{'type':DataTypes[_0x258766(0xb5,']TYO')],'defaultValue':0x0},'created_at':{'type':DataTypes[_0x258766(0xcd,'V%dn')],'allowNull':![],'defaultValue':DataTypes[_0x258766(0xbd,'X4[v')]},'updated_at':{'type':DataTypes[_0x258766(0xc1,'NjqT')],'allowNull':!![],'defaultValue':null}},{'sequelize':_0x242323,'modelName':_0x16555c[_0x258766(0xce,'oeUr')],'tableName':_0x16555c[_0x258766(0xbe,'Nv$t')],'timestamps':![],'hooks':{'beforeUpdate':_0x524fc2=>{var _0x1d7628=_0x258766;_0x524fc2['setDataValue'](_0x16555c[_0x1d7628(0xbc,'TeNi')],new Date());}}});}}
+import { DataTypes, Model, } from "sequelize";
+export class Inventory extends Model {
+    static initModel(sequelize) {
+        Inventory.init({
+            id: {
+                type: DataTypes.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+            product_id: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+            },
+            warehouse_id: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+            },
+            available_qty: {
+                type: DataTypes.INTEGER,
+                defaultValue: 0,
+            },
+            purchase_qty: {
+                type: DataTypes.INTEGER,
+                defaultValue: 0,
+            },
+            reserved_qty: {
+                type: DataTypes.INTEGER,
+                defaultValue: 0,
+            },
+            created_at: {
+                type: DataTypes.DATE,
+                allowNull: false,
+                defaultValue: DataTypes.NOW,
+            },
+            updated_at: {
+                type: DataTypes.DATE,
+                allowNull: true,
+                defaultValue: null,
+            },
+        }, {
+            sequelize,
+            modelName: "Inventory",
+            tableName: "ims_inventory",
+            timestamps: false,
+            hooks: {
+                beforeUpdate: (purchaseOrder) => {
+                    purchaseOrder.setDataValue("updated_at", new Date());
+                },
+            },
+        });
+    }
+}

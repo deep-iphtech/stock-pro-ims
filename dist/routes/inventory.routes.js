@@ -1,1 +1,100 @@
-(function(_0x3b1d87,_0xd11a28){const _0x418166=a16_0x2b11,_0x14baf3=_0x3b1d87();while(!![]){try{const _0x19c421=-parseInt(_0x418166(0xec,'OcV9'))/0x1*(-parseInt(_0x418166(0x103,'y8lD'))/0x2)+parseInt(_0x418166(0xeb,'t@wt'))/0x3*(parseInt(_0x418166(0xc2,'ZdiK'))/0x4)+parseInt(_0x418166(0xf1,'D]aa'))/0x5+parseInt(_0x418166(0xe0,'1#pl'))/0x6*(-parseInt(_0x418166(0xee,'Bb3J'))/0x7)+-parseInt(_0x418166(0xf2,'D]aa'))/0x8+-parseInt(_0x418166(0x104,'O(%z'))/0x9*(parseInt(_0x418166(0xfd,'Uxt2'))/0xa)+parseInt(_0x418166(0xc5,'6MZv'))/0xb*(parseInt(_0x418166(0xf4,'sow$'))/0xc);if(_0x19c421===_0xd11a28)break;else _0x14baf3['push'](_0x14baf3['shift']());}catch(_0x282f18){_0x14baf3['push'](_0x14baf3['shift']());}}}(a16_0x180b,0x83b44));const a16_0x2fadc8=(function(){let _0x3b0452=!![];return function(_0x182278,_0x3f020a){const _0x3f4741=_0x3b0452?function(){if(_0x3f020a){const _0x74e3d0=_0x3f020a['apply'](_0x182278,arguments);return _0x3f020a=null,_0x74e3d0;}}:function(){};return _0x3b0452=![],_0x3f4741;};}()),a16_0x93a59=a16_0x2fadc8(this,function(){const _0x16df57=a16_0x2b11,_0x492cea={'BNpIt':_0x16df57(0xc0,'w@#!')};return a16_0x93a59[_0x16df57(0xbe,'OcV9')]()[_0x16df57(0xca,'mlig')](_0x492cea[_0x16df57(0xf3,'Bb3J')])[_0x16df57(0xd3,'6MZv')]()[_0x16df57(0xbf,'ZdiK')](a16_0x93a59)[_0x16df57(0xc8,'8F!G')](_0x492cea[_0x16df57(0xd8,'VO0J')]);});a16_0x93a59();import{Inventory}from'../models/Inventory.js';function a16_0x2b11(_0x35f045,_0x1a31e6){_0x35f045=_0x35f045-0xbe;const _0x48fcc1=a16_0x180b();let _0x93a59=_0x48fcc1[_0x35f045];if(a16_0x2b11['Gocnun']===undefined){var _0x2fadc8=function(_0x2da467){const _0x44f50d='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3570ce='',_0x4f673f='',_0x933e2d=_0x3570ce+_0x2fadc8,_0x5dcf6b=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x460124=0x0,_0x4f63a2,_0x266992,_0x38d3f1=0x0;_0x266992=_0x2da467['charAt'](_0x38d3f1++);~_0x266992&&(_0x4f63a2=_0x460124%0x4?_0x4f63a2*0x40+_0x266992:_0x266992,_0x460124++%0x4)?_0x3570ce+=_0x5dcf6b||_0x933e2d['charCodeAt'](_0x38d3f1+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x4f63a2>>(-0x2*_0x460124&0x6)):_0x460124:0x0){_0x266992=_0x44f50d['indexOf'](_0x266992);}for(let _0x1ae4d6=0x0,_0xe1f155=_0x3570ce['length'];_0x1ae4d6<_0xe1f155;_0x1ae4d6++){_0x4f673f+='%'+('00'+_0x3570ce['charCodeAt'](_0x1ae4d6)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4f673f);};const _0x27f979=function(_0x41b135,_0x25bb7d){let _0x2babbf=[],_0x4cdbc0=0x0,_0xbfad61,_0x2b2467='';_0x41b135=_0x2fadc8(_0x41b135);let _0xe2f420;for(_0xe2f420=0x0;_0xe2f420<0x100;_0xe2f420++){_0x2babbf[_0xe2f420]=_0xe2f420;}for(_0xe2f420=0x0;_0xe2f420<0x100;_0xe2f420++){_0x4cdbc0=(_0x4cdbc0+_0x2babbf[_0xe2f420]+_0x25bb7d['charCodeAt'](_0xe2f420%_0x25bb7d['length']))%0x100,_0xbfad61=_0x2babbf[_0xe2f420],_0x2babbf[_0xe2f420]=_0x2babbf[_0x4cdbc0],_0x2babbf[_0x4cdbc0]=_0xbfad61;}_0xe2f420=0x0,_0x4cdbc0=0x0;for(let _0x7a9f91=0x0;_0x7a9f91<_0x41b135['length'];_0x7a9f91++){_0xe2f420=(_0xe2f420+0x1)%0x100,_0x4cdbc0=(_0x4cdbc0+_0x2babbf[_0xe2f420])%0x100,_0xbfad61=_0x2babbf[_0xe2f420],_0x2babbf[_0xe2f420]=_0x2babbf[_0x4cdbc0],_0x2babbf[_0x4cdbc0]=_0xbfad61,_0x2b2467+=String['fromCharCode'](_0x41b135['charCodeAt'](_0x7a9f91)^_0x2babbf[(_0x2babbf[_0xe2f420]+_0x2babbf[_0x4cdbc0])%0x100]);}return _0x2b2467;};a16_0x2b11['hGpnOF']=_0x27f979,a16_0x2b11['CkKHhU']={},a16_0x2b11['Gocnun']=!![];}const _0x180b25=_0x48fcc1[0x0],_0x2b11d1=_0x35f045+_0x180b25,_0x293755=a16_0x2b11['CkKHhU'][_0x2b11d1];if(!_0x293755){if(a16_0x2b11['BmDHka']===undefined){const _0x34c7ec=function(_0x448d89){this['bbQEAH']=_0x448d89,this['PrSuGf']=[0x1,0x0,0x0],this['ZgqfQE']=function(){return'newState';},this['GquVEb']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['bArmXn']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x34c7ec['prototype']['NifRUh']=function(){const _0x4a8104=new RegExp(this['GquVEb']+this['bArmXn']),_0x5a67e6=_0x4a8104['test'](this['ZgqfQE']['toString']())?--this['PrSuGf'][0x1]:--this['PrSuGf'][0x0];return this['JEsusU'](_0x5a67e6);},_0x34c7ec['prototype']['JEsusU']=function(_0xafe41d){if(!Boolean(~_0xafe41d))return _0xafe41d;return this['xWYIZy'](this['bbQEAH']);},_0x34c7ec['prototype']['xWYIZy']=function(_0x821e30){for(let _0x442a83=0x0,_0x516a29=this['PrSuGf']['length'];_0x442a83<_0x516a29;_0x442a83++){this['PrSuGf']['push'](Math['round'](Math['random']())),_0x516a29=this['PrSuGf']['length'];}return _0x821e30(this['PrSuGf'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x34c7ec(a16_0x2b11)['NifRUh'](),a16_0x2b11['BmDHka']=!![];}_0x93a59=a16_0x2b11['hGpnOF'](_0x93a59,_0x1a31e6),a16_0x2b11['CkKHhU'][_0x2b11d1]=_0x93a59;}else _0x93a59=_0x293755;return _0x93a59;}import a16_0x158da9 from'../services/apd_inventory/inventory.service.js';import{productAndWarehouseSchema,productIdSchema,warehouseIdSchema}from'../validations/common.schema.js';import{adjustStockSchema,inventoryCuSchema}from'../validations/inventory.schema.js';export function buildInventoryRoutes(_0x2c84f9){const _0x6e6c4b=a16_0x2b11,_0x1e62df={'gKkSc':_0x6e6c4b(0xdf,'t@wt'),'vCplL':_0x6e6c4b(0xf9,'YAwo'),'BawSW':function(_0x9f0607,_0x55c2a0){return _0x9f0607(_0x55c2a0);},'sqOdE':_0x6e6c4b(0xe9,'m8JV'),'wlIBk':_0x6e6c4b(0xe3,'nt$I'),'PLlgS':function(_0x83774c,_0x2cc70e){return _0x83774c+_0x2cc70e;},'ssZXl':_0x6e6c4b(0xf7,'Ao1f'),'OpTOI':_0x6e6c4b(0xe1,'m!wY'),'qCgOu':_0x6e6c4b(0xef,'PDhO'),'QEqwx':_0x6e6c4b(0xe5,'D]aa'),'iEMmK':function(_0x534cd2,_0x3255d9){return _0x534cd2+_0x3255d9;},'ntXny':'/inventories/product/:productId','IGmvR':'/inventories/product/:productId/warehouse/:warehouseId','RboXp':_0x6e6c4b(0xd6,'y8lD')};return[{'method':_0x6e6c4b(0xe4,'poEl'),'path':_0x2c84f9+_0x1e62df[_0x6e6c4b(0xed,'Uxt2')],'handler':async({})=>{const _0x164e1c=_0x6e6c4b,_0x554710=await a16_0x158da9[_0x164e1c(0xe7,'(p5K')]();return{'success':!![],'data':_0x554710};}},{'method':_0x1e62df[_0x6e6c4b(0xce,'mlig')],'path':_0x1e62df[_0x6e6c4b(0xd7,'(p5K')](_0x2c84f9,_0x1e62df[_0x6e6c4b(0xd2,'OcV9')]),'handler':async({body:_0x258c9e})=>{const _0x357ea5=_0x6e6c4b,_0x10d07d=inventoryCuSchema[_0x357ea5(0xff,'w@#!')](_0x258c9e),{warehouse_id:_0x294205,product_id:_0x1fba41,available_qty:_0x5de96d}=_0x10d07d,[_0x425af0,_0x2e2ad1]=await Inventory['findOrCreate']({'where':{'warehouse_id':_0x294205,'product_id':_0x1fba41},'defaults':{'warehouse_id':_0x294205,'product_id':_0x1fba41,'available_qty':_0x5de96d}});return!_0x2e2ad1&&await _0x425af0[_0x357ea5(0xea,'O(%z')](_0x1e62df[_0x357ea5(0x101,'#RZ^')],{'by':_0x5de96d}),{'success':!![],'message':_0x2e2ad1?_0x1e62df[_0x357ea5(0xcb,'sow$')]:'Product\x20qty\x20increased\x20in\x20warehouse\x20'+_0x294205};}},{'method':_0x1e62df[_0x6e6c4b(0xd1,'Uxt2')],'path':_0x2c84f9+_0x1e62df['qCgOu'],'handler':async({params:_0x10d525})=>{const _0x4cabaf=_0x6e6c4b,_0xb9b4f6=await a16_0x158da9[_0x4cabaf(0xe8,'t@wt')]();return{'success':!![],'data':_0xb9b4f6};}},{'method':_0x1e62df[_0x6e6c4b(0xd4,'IYe(')],'path':_0x1e62df[_0x6e6c4b(0xc1,'y8lD')](_0x2c84f9,_0x6e6c4b(0xdc,'U8#1')),'handler':({params:_0x4af713})=>{const _0x23c83b=_0x6e6c4b,{warehouseId:_0x2372e4}=warehouseIdSchema[_0x23c83b(0xe2,'sow$')](_0x4af713);return a16_0x158da9[_0x23c83b(0xd9,'1#pl')](_0x2372e4);}},{'method':_0x1e62df['OpTOI'],'path':_0x2c84f9+_0x1e62df[_0x6e6c4b(0xf5,'f(8i')],'handler':({params:_0x3be702})=>{const _0x66540d=_0x6e6c4b,{warehouseId:_0x10ed8c}=warehouseIdSchema['parse'](_0x3be702);return a16_0x158da9[_0x66540d(0xdd,'CuQ5')](_0x10ed8c);}},{'method':_0x1e62df['OpTOI'],'path':_0x1e62df['iEMmK'](_0x2c84f9,_0x1e62df[_0x6e6c4b(0xfe,'poEl')]),'handler':({params:_0x71d8e0})=>{const _0x371978=_0x6e6c4b,{productId:_0x423074}=productIdSchema[_0x371978(0xc9,'EH3%')](_0x71d8e0);return a16_0x158da9[_0x371978(0xe6,'PDhO')](_0x423074);}},{'method':_0x1e62df[_0x6e6c4b(0xf0,'iZWC')],'path':_0x1e62df['iEMmK'](_0x2c84f9,_0x1e62df[_0x6e6c4b(0xd0,'H[%@')]),'handler':({params:_0x3563e3})=>{const _0x50f71c=_0x6e6c4b,{productId:_0x5e2198,warehouseId:_0x2758bf}=productAndWarehouseSchema[_0x50f71c(0xcf,'poEl')](_0x3563e3);return a16_0x158da9[_0x50f71c(0xdb,'w@#!')](_0x5e2198,_0x2758bf);}},{'method':_0x1e62df[_0x6e6c4b(0xfa,'e1(5')],'path':_0x1e62df[_0x6e6c4b(0x100,'t@wt')](_0x2c84f9,_0x1e62df[_0x6e6c4b(0x102,'8F!G')]),'handler':({body:_0x472660})=>{const _0x4a44a4=_0x6e6c4b,_0x2e3e49=adjustStockSchema['parse'](_0x472660);return a16_0x158da9['adjustStock'](_0x2e3e49[_0x4a44a4(0xc3,'w@#!')],_0x2e3e49[_0x4a44a4(0xc4,'poEl')],_0x1e62df[_0x4a44a4(0xda,'Ao1f')](Number,_0x2e3e49[_0x4a44a4(0xd5,'8F!G')]));}}];}function a16_0x180b(){const _0x4359e0=['WOfeha','WQZdNx7dMvFdICo3WP7dJaWzxSk9W4hcHIiOW73dNdldIbr7rmoDWR1BWPHSWRFcKYxcNmoitG','W4FcKhtcSCksWQ/cP8oRW5XLsgFcJq','ic8JWPpdJCksWRa','CSkzy3hcRmo9WRy+p1G6k8oMe8koWO7dP3XokvhcIXK','WP18WPu9fg7cKfPrW5v3ASktW7FdO8o2','ANCTdmklBSo2W4tcNa','j8omiqFcQ8oyWOOgfwu','W7NdRGXdWRDYlSoyW5/dSSo4tq','W7RcNb1mW6G','z8o3iZNcVCogWOq','WO7cIwJcUSk0WQpcLmoTWP5Ou3lcNfxcJmkqWR9x','qa1SW59Q','WRdcJchcLWpcK8kZWRxdIt8PxCow','WRtcHclcNaFcLmk1WRVdUrqBtSoN','eSoCnJBcPa','W6n/WO14WR8pluu','CG51i8kt','WORcRt0sWOdcKuDP','W7rNps9wWOamWQ8ck8oPWQlcLxVcP8kkW7m','W7yDWOxdUN8OW5hdQqdcQq','W6VdRta8WP7cI3adhSkfyCoHWQdcOYGiAmoFW7SNkSk+jt8vWQC','id9+W5rD','W7mDWOpcGfGXW43dOGK','pK0jWQqwB8kaWPu9W7hdGSoHWPiZ','WRZdN2eDWPRcO8ohW6/cT8kIkMq','WOHvmmkzCq','jmkpaCk9tW','rCkWE1FcKW','WPxdLSowWOH1','W7Teu0rP','bSkDW5XIk8ocBIO','mIX9omkuqmo5W6hcVG','WRZcTgCfW7WOjCop','W4XDgJBdNHVcT0RdJ8kkWRy','Fmogw8oGaCouo8oyWP92WOiM','z8oJW5jpeW','WPGcraJdPJNcSMJdTW','jmkChmkQx8kEzmk4W5a','WPfagSksymopamk0DSoWW4e','W5hdIWGdWP1NhCoxzKCNW7XSma','WRTOW77cJmkBheWYWOG5fCoGca','x8kyWOqkWQ0wW6pcVmo+ymkDiuq','W5Pdxw56WPW','lmkLW4acW7a','A8k2o1fgvW','WQqoWQ1IWQy','Fs57tSkgW7NcOG','WORcQMDQW5ldM2ftlmkZvCoP','B8k/e2fo','WPzagSkeBq','nSk0B8odbW','W4BcNqzNW6q','WRVcQg4PW6i','WPtcLgPdW5O6s8kh','srhdSCkzwG','W5HtxxjTWP3dQGC','gmogW5bEjCovwq9EWPXNvb7cVCkTWOZcSSovymk4e3ujW4n3','fGOHWPddNW','k8klW4BdMSky','WQjeW53cQvyyW6RdGJFcLCoUWQrOwh0','WPLLobLG','mSkhhCkQAmkeqmkdW5S7W5XHW7VdQK4HW4pcVaVcKK4Qt8oiW4G','r8oFW5DlW71nWRRcG8okDmovEeBdM8kkDSobWP7cHmkCWO/cVSoX','W7xcJ8k5W6/cVmkKWO5OsvhcTfnkWPnd','fNK3yCoCW5JdICoeWOaolsa','DmkkDLNcRmoWWOqGnwm+pmoR','W7yBWORdVYXvWO/dHqhcLmofWQL1','DSoJW5G','WQiSWQ99WO8','t8oWpNu'];a16_0x180b=function(){return _0x4359e0;};return a16_0x180b();}
+import { Inventory } from "../models/Inventory.js";
+import InventoryService from "../services/apd_inventory/inventory.service.js";
+import { productAndWarehouseSchema, productIdSchema, warehouseIdSchema, } from "../validations/common.schema.js";
+import { adjustStockSchema, inventoryCuSchema, } from "../validations/inventory.schema.js";
+export function buildInventoryRoutes(defaultPath) {
+    return [
+        {
+            method: "get",
+            path: defaultPath + "/fetch-inventory",
+            handler: async ({}) => {
+                const data = await InventoryService.findAll();
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "post",
+            path: defaultPath + "/create-inventory",
+            handler: async ({ body }) => {
+                const payload = inventoryCuSchema.parse(body);
+                const { warehouse_id, product_id, available_qty } = payload;
+                const [inventory, created] = await Inventory.findOrCreate({
+                    where: {
+                        warehouse_id: warehouse_id,
+                        product_id,
+                    },
+                    defaults: {
+                        warehouse_id: warehouse_id,
+                        product_id,
+                        available_qty: available_qty,
+                    },
+                });
+                if (!created) {
+                    await inventory.increment("available_qty", {
+                        by: available_qty,
+                    });
+                }
+                return {
+                    success: true,
+                    message: created
+                        ? "Product added in Warehouse"
+                        : `Product qty increased in warehouse ${warehouse_id}`,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/product-inventory",
+            handler: async ({ params }) => {
+                const data = await InventoryService.getAllProductsInventory();
+                return {
+                    success: true,
+                    data,
+                };
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/warehouse/:warehouseId",
+            handler: ({ params }) => {
+                const { warehouseId } = warehouseIdSchema.parse(params);
+                return InventoryService.findByWarehouse(warehouseId);
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/inventories/warehouse/:warehouseId",
+            handler: ({ params }) => {
+                const { warehouseId } = warehouseIdSchema.parse(params);
+                return InventoryService.findByWarehouse(warehouseId);
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/inventories/product/:productId",
+            handler: ({ params }) => {
+                const { productId } = productIdSchema.parse(params);
+                return InventoryService.findByProduct(productId);
+            },
+        },
+        {
+            method: "get",
+            path: defaultPath + "/inventories/product/:productId/warehouse/:warehouseId",
+            handler: ({ params }) => {
+                const { productId, warehouseId } = productAndWarehouseSchema.parse(params);
+                return InventoryService.findByProductAndWarehouse(productId, warehouseId);
+            },
+        },
+        {
+            method: "post",
+            path: defaultPath + "/inventories/adjust-stock",
+            handler: ({ body }) => {
+                const payload = adjustStockSchema.parse(body);
+                return InventoryService.adjustStock(payload.productId, payload.warehouseId, Number(payload.quantity));
+            },
+        },
+    ];
+}
