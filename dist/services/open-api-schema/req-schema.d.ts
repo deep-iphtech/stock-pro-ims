@@ -39,7 +39,7 @@ declare const reqSchemas: {
             };
         };
     };
-    readonly "create-inventory": {
+    readonly "adjust-inventory": {
         example?: Record<string, unknown> | undefined;
         required?: string[] | undefined;
         type: string;
@@ -111,6 +111,16 @@ declare const reqSchemas: {
             };
         };
         readonly required: readonly ["customer_id", "order_type", "products"];
+    };
+    readonly "order-pay-res": {
+        readonly type: "object";
+        readonly properties: {
+            readonly customer_id: {
+                readonly type: "integer";
+                readonly example: 1;
+            };
+        };
+        readonly required: readonly ["customer_id"];
     };
     readonly "Orders-update": {
         readonly type: "object";

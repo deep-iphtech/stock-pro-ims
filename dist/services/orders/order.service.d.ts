@@ -17,6 +17,8 @@ type AccountReceivableResult = {
 };
 export declare class OrderService extends BaseService<Orders> {
     constructor();
+    ordersReceivable(customerId: number): Promise<Orders[]>;
+    ordersPayable(customerId: number): Promise<Orders[]>;
     findWithItems(id: number): Promise<Orders | null>;
     findOtherItems(id: number): Promise<OrderItems[]>;
     deleteOrderItems(ids: number[]): Promise<number>;

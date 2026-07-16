@@ -1,4 +1,7 @@
 import { z } from "zod";
+export declare const customerIdSchema: z.ZodObject<{
+    customer_id: z.ZodNumber;
+}, z.core.$strip>;
 export declare const fetchOrderByTypeSchema: z.ZodObject<{
     order_type: z.ZodEnum<{
         sales: "sales";
