@@ -9,6 +9,7 @@ export declare class InventoryService extends BaseService<Inventory> {
         data: Inventory[];
     }>;
     findByWarehouse(warehouseId: number): Promise<Inventory[]>;
+    inventoryByProduct(productId: number): Promise<Inventory | null>;
     findByProduct(productId: number): Promise<Inventory[]>;
     findByProductAndWarehouse(productId: number, warehouseId: number): Promise<Inventory | null>;
     adjustStock(productId: number, warehouseId: number, quantity: number): Promise<Inventory>;

@@ -4,7 +4,7 @@ export declare const warehouseIdSchema: z.ZodObject<{
     warehouseId: z.ZodCoercedNumber<unknown>;
 }, z.core.$strip>;
 export declare const productIdSchema: z.ZodObject<{
-    productId: z.ZodCoercedNumber<unknown>;
+    product_id: z.ZodNumber;
 }, z.core.$strip>;
 export declare const orderIdSchema: z.ZodObject<{
     id: z.ZodNumber;
