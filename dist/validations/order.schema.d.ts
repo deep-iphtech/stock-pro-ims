@@ -37,6 +37,7 @@ export declare const PurchaseOrderCreateItemBody: z.ZodObject<{
 }, z.core.$loose>;
 export declare const updateOrderItem: z.ZodObject<{
     id: z.ZodOptional<z.ZodNumber>;
+    product_id: z.ZodNumber;
     quantity: z.ZodOptional<z.ZodNumber>;
     price: z.ZodDefault<z.ZodNumber>;
     warehouse_id: z.ZodOptional<z.ZodNullable<z.ZodNumber>>;
@@ -46,6 +47,7 @@ export declare const crudOnOrderItems: z.ZodObject<{
     remove_items: z.ZodOptional<z.ZodArray<z.ZodNumber>>;
     update_items: z.ZodOptional<z.ZodArray<z.ZodObject<{
         id: z.ZodOptional<z.ZodNumber>;
+        product_id: z.ZodNumber;
         quantity: z.ZodOptional<z.ZodNumber>;
         price: z.ZodDefault<z.ZodNumber>;
         warehouse_id: z.ZodOptional<z.ZodNullable<z.ZodNumber>>;
