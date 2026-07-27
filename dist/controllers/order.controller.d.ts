@@ -1,8 +1,8 @@
 import { AutoPoolDB } from "../core/types.js";
 import { createOrderBody } from "../types/order.js";
-type CreatePurchaseOrderResult = {
+type CreateOrderResult = {
     order_id: number;
     order_number?: string;
 };
-export declare function createPurchaseOrderWithItems(db: AutoPoolDB, payload: createOrderBody): Promise<CreatePurchaseOrderResult>;
+export declare function createOrder(db: AutoPoolDB, payload: createOrderBody): Promise<CreateOrderResult>;
 export {};
