@@ -24,6 +24,7 @@ export declare class OrderService extends BaseService<Orders> {
         draw: number;
         recordsTotal: number;
         recordsFiltered: number;
+        totalAccountsReceivable: number;
         data: object[];
     }>;
     getAccountPayable(sequelize: Sequelize, { draw, start, length, search, }: {
