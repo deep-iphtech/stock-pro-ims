@@ -1,1 +1,62 @@
-(function(_0x5233c7,_0x7c0a3b){const _0x589cd1=a2_0x1f84,_0x1f041d=_0x5233c7();while(!![]){try{const _0x552914=-parseInt(_0x589cd1(0x127,'CX1U'))/0x1+-parseInt(_0x589cd1(0x133,'CX1U'))/0x2+parseInt(_0x589cd1(0x138,'NH8f'))/0x3+-parseInt(_0x589cd1(0x12f,')Sso'))/0x4+-parseInt(_0x589cd1(0x125,'sYG9'))/0x5*(-parseInt(_0x589cd1(0x12c,'JjLF'))/0x6)+parseInt(_0x589cd1(0x120,'akx8'))/0x7+-parseInt(_0x589cd1(0x12a,'XGkj'))/0x8*(parseInt(_0x589cd1(0x136,'XGkj'))/0x9);if(_0x552914===_0x7c0a3b)break;else _0x1f041d['push'](_0x1f041d['shift']());}catch(_0x33d52e){_0x1f041d['push'](_0x1f041d['shift']());}}}(a2_0x1dce,0x6bad5));const a2_0x596db5=(function(){let _0x5cd4e9=!![];return function(_0x4377f9,_0x11c26c){const _0x5c79cf=_0x5cd4e9?function(){const _0x16b998=a2_0x1f84;if(_0x11c26c){const _0x28079a=_0x11c26c[_0x16b998(0x11a,'PjxC')](_0x4377f9,arguments);return _0x11c26c=null,_0x28079a;}}:function(){};return _0x5cd4e9=![],_0x5c79cf;};}()),a2_0x1d2d54=a2_0x596db5(this,function(){const _0x25beeb=a2_0x1f84,_0x50f153={'YkwCn':'(((.+)+)+)+$'};return a2_0x1d2d54[_0x25beeb(0x12e,'nNaZ')]()[_0x25beeb(0x11f,'6j^v')](_0x50f153[_0x25beeb(0x121,'BqXq')])[_0x25beeb(0x11c,'oMUc')]()[_0x25beeb(0x11d,'fWhQ')](a2_0x1d2d54)[_0x25beeb(0x12b,'rd6q')](_0x50f153[_0x25beeb(0x126,'VZHe')]);});a2_0x1d2d54();import{Orders}from'../models/Orders.js';function a2_0x1dce(){const _0x4662c6=['fYdcJ8ks','rbtdQSoqW7bhW5RcQW','cCoUW4RdImkYDa','vhxcV00UW6CHua','gCkOv8kSW5JcLmk4WQCr','W4vTWP3dIs7cPbBdQW','WOFcVCk2WPNcTJtcTLjnW6rvea','WOtdSmkbDSk9mSo1WQK7WRNcLtddN8kmFf5uAu0','W5b1cmkJWP0LkSkJmsS','WOdcOYC','WOpdRCo/qrn5W6ddSxhdSCoVda','wSkhW5hcKgm','WOZcUtWXlfXMoSkyWO4','rXJcTCkVWOCJWQdcGSk7qXP9qG','W6lcTSkFumoiuSkvWRWxa05l','W5avW4JdIvrDW6hdR8k0W7VdTmos','eSoUWRPlW64','xCo9fmoVWO/dJ8kqWPOZWO7cTCkz','WRZcLYJcVSoqW6hdP0q','cCkIsmkQW4NcISkKWR4aWOFcHG','E8oUdvxcRCkcz8kfW5JcN1RdTaC','xLjXpWdcOa','xeNcOCkXW47cQSkDWRfNrWD/aG','WQWfW4mEW4C','WQVdVhrGuSkAWOhdIW','WQJcNGVcRcBcGYpcLq','vSoTDmkTuZxcPtqTWRe','W7NdJ0TGW6hdR8kdWQnPySo6aCkg','WOpdOMjnsa','WOxdP8o+sXb5W4tdIu/dQSoteq','wK3cPmk7W4pcQmo8WPXMCI1b'];a2_0x1dce=function(){return _0x4662c6;};return a2_0x1dce();}function a2_0x1f84(_0x29e3a9,_0x35e8b7){_0x29e3a9=_0x29e3a9-0x11a;const _0x2dacc9=a2_0x1dce();let _0x1d2d54=_0x2dacc9[_0x29e3a9];if(a2_0x1f84['EwIxTw']===undefined){var _0x596db5=function(_0x567050){const _0x2337f2='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x9b7f0a='',_0x284e3f='',_0xb91ef0=_0x9b7f0a+_0x596db5,_0x3e0705=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x565dc2=0x0,_0xf73441,_0x2ea3eb,_0x4b127f=0x0;_0x2ea3eb=_0x567050['charAt'](_0x4b127f++);~_0x2ea3eb&&(_0xf73441=_0x565dc2%0x4?_0xf73441*0x40+_0x2ea3eb:_0x2ea3eb,_0x565dc2++%0x4)?_0x9b7f0a+=_0x3e0705||_0xb91ef0['charCodeAt'](_0x4b127f+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0xf73441>>(-0x2*_0x565dc2&0x6)):_0x565dc2:0x0){_0x2ea3eb=_0x2337f2['indexOf'](_0x2ea3eb);}for(let _0x58311e=0x0,_0x1e2b64=_0x9b7f0a['length'];_0x58311e<_0x1e2b64;_0x58311e++){_0x284e3f+='%'+('00'+_0x9b7f0a['charCodeAt'](_0x58311e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x284e3f);};const _0x56426b=function(_0x1deccf,_0x3718d1){let _0x580ed8=[],_0x304fff=0x0,_0x145298,_0x22165e='';_0x1deccf=_0x596db5(_0x1deccf);let _0x2bf067;for(_0x2bf067=0x0;_0x2bf067<0x100;_0x2bf067++){_0x580ed8[_0x2bf067]=_0x2bf067;}for(_0x2bf067=0x0;_0x2bf067<0x100;_0x2bf067++){_0x304fff=(_0x304fff+_0x580ed8[_0x2bf067]+_0x3718d1['charCodeAt'](_0x2bf067%_0x3718d1['length']))%0x100,_0x145298=_0x580ed8[_0x2bf067],_0x580ed8[_0x2bf067]=_0x580ed8[_0x304fff],_0x580ed8[_0x304fff]=_0x145298;}_0x2bf067=0x0,_0x304fff=0x0;for(let _0x318a9c=0x0;_0x318a9c<_0x1deccf['length'];_0x318a9c++){_0x2bf067=(_0x2bf067+0x1)%0x100,_0x304fff=(_0x304fff+_0x580ed8[_0x2bf067])%0x100,_0x145298=_0x580ed8[_0x2bf067],_0x580ed8[_0x2bf067]=_0x580ed8[_0x304fff],_0x580ed8[_0x304fff]=_0x145298,_0x22165e+=String['fromCharCode'](_0x1deccf['charCodeAt'](_0x318a9c)^_0x580ed8[(_0x580ed8[_0x2bf067]+_0x580ed8[_0x304fff])%0x100]);}return _0x22165e;};a2_0x1f84['nLoQpN']=_0x56426b,a2_0x1f84['nrqBDD']={},a2_0x1f84['EwIxTw']=!![];}const _0x1dce5e=_0x2dacc9[0x0],_0x1f8479=_0x29e3a9+_0x1dce5e,_0x1acdee=a2_0x1f84['nrqBDD'][_0x1f8479];if(!_0x1acdee){if(a2_0x1f84['Whyxvy']===undefined){const _0x3f111d=function(_0x1269bc){this['IIOIRz']=_0x1269bc,this['mYLlKl']=[0x1,0x0,0x0],this['lnOWgf']=function(){return'newState';},this['dpiSGI']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['iVilou']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x3f111d['prototype']['TtetFE']=function(){const _0xdbdfea=new RegExp(this['dpiSGI']+this['iVilou']),_0x42330e=_0xdbdfea['test'](this['lnOWgf']['toString']())?--this['mYLlKl'][0x1]:--this['mYLlKl'][0x0];return this['eNtMwf'](_0x42330e);},_0x3f111d['prototype']['eNtMwf']=function(_0x33fb7a){if(!Boolean(~_0x33fb7a))return _0x33fb7a;return this['QvjzUK'](this['IIOIRz']);},_0x3f111d['prototype']['QvjzUK']=function(_0x3a7dc3){for(let _0x33095e=0x0,_0xafd76b=this['mYLlKl']['length'];_0x33095e<_0xafd76b;_0x33095e++){this['mYLlKl']['push'](Math['round'](Math['random']())),_0xafd76b=this['mYLlKl']['length'];}return _0x3a7dc3(this['mYLlKl'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x3f111d(a2_0x1f84)['TtetFE'](),a2_0x1f84['Whyxvy']=!![];}_0x1d2d54=a2_0x1f84['nLoQpN'](_0x1d2d54,_0x35e8b7),a2_0x1f84['nrqBDD'][_0x1f8479]=_0x1d2d54;}else _0x1d2d54=_0x1acdee;return _0x1d2d54;}export async function createOrder(_0x1a2b94,_0x4f8d94){const _0x182be6=a2_0x1f84,{products:_0x47f569,..._0x37a7ca}=_0x4f8d94;return _0x1a2b94[_0x182be6(0x12d,'fWhQ')]['transaction'](async _0x44e3e4=>{const _0x3e8af3=_0x182be6,_0x406964=await Orders['create']({'order_number':_0x3e8af3(0x129,'0Y*#')+Date[_0x3e8af3(0x132,'&)s0')]()+_0x37a7ca['customer_id'],..._0x37a7ca},{'transaction':_0x44e3e4});return await _0x1a2b94['OrderItems'][_0x3e8af3(0x135,'&)s0')](_0x47f569['map'](_0x3398d0=>({'order_id':_0x406964['id'],'product_id':_0x3398d0[_0x3e8af3(0x124,'y92D')],'quantity':_0x3398d0[_0x3e8af3(0x122,'VZHe')],'price':_0x3398d0[_0x3e8af3(0x134,'I5H[')],'warehouse_id':_0x3398d0['warehouse_id'],'quantity_allocation':_0x3398d0?.[_0x3e8af3(0x130,'$d!O')]})),{'transaction':_0x44e3e4}),{'success':!![],'order_id':_0x406964['id'],'order_number':_0x406964['order_number'],'created_at':_0x406964[_0x3e8af3(0x131,'RggP')]};});}
+import { Op } from "sequelize";
+import { Orders } from "../models/Orders.js";
+export async function createOrder(db, payload) {
+    const { products, ...orderInfo } = payload;
+    return db.sequelize.transaction(async (transaction) => {
+        const fiveDaysAgo = new Date();
+        fiveDaysAgo.setDate(fiveDaysAgo.getDate() - 5);
+        // Check whether any product with the same quantity was ordered
+        // by the same customer in the last 5 days.
+        const duplicateItem = await db.OrderItems.findOne({
+            where: {
+                product_id: {
+                    [Op.in]: products.map((item) => item.product_id),
+                },
+                quantity: {
+                    [Op.in]: products.map((item) => item.quantity),
+                },
+            },
+            include: [
+                {
+                    model: Orders,
+                    as: "order", // change this to your actual association alias
+                    required: true,
+                    where: {
+                        customer_id: orderInfo.customer_id,
+                        created_at: {
+                            [Op.gte]: fiveDaysAgo,
+                        },
+                    },
+                },
+            ],
+            transaction,
+        });
+        if (duplicateItem) {
+            return {
+                success: false,
+                message: `Seems Duplicate order. Product with product_id ${duplicateItem.product_id} having quantity ${duplicateItem.quantity} was already ordered by you (same customer) on ${duplicateItem.created_at}.`,
+                order_id: null,
+                order_number: null,
+                created_at: null,
+            };
+        }
+        const order = await Orders.create({
+            order_number: `ORD-${Date.now()}${orderInfo.customer_id}`,
+            ...orderInfo,
+        }, { transaction });
+        await db.OrderItems.bulkCreate(products.map((item) => ({
+            order_id: order.id,
+            product_id: item.product_id,
+            quantity: item.quantity,
+            price: item.price,
+            warehouse_id: item.warehouse_id,
+            quantity_allocation: item.quantity_allocation,
+        })), { transaction });
+        return {
+            success: true,
+            order_id: order.id,
+            order_number: order.order_number,
+            created_at: order.created_at,
+        };
+    });
+}

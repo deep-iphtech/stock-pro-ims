@@ -1,1 +1,48 @@
-function a11_0x58f2(){var _0x13c901=['dNKZo8kvW5ZcLGdcIW','WPNdPfvE','jaxcPSofWRe','hmkgW5RdOae+fa','WQlcRJBcMNBcTCk6c3tdJa','WQSyW6hcJSoRW7LXWOZdO8ozWP7cNCkj','bh8XtSo0WQ/dIY3cV1BdMq/cGa','W7/cGbrZWP/dGKhcSSkQWRyIACkO','h2yRwCoQWRhdLwldTXdcOf8','WP7cNJpcPahcJSkD','p8klc8kgWQ51CmowWP9apJ3dUG','WPtcVqxcSW','lHbYASoO','W7ldOCojhCo0ztmVW7miihy','y8owsmoSW6KTmmo7WQ9+pt/dRw8','cMDlW4/dNCkO','qHldQCk8','x8oXeSk9W5ZcKSoYAfO','umohjCk1W5e','sCoiWOrgWObjW7BcKf98WOG7WOi','WQhdNu83W6hcMr3cG8kU','mSoFDSoBW40lkq','WR7cHZGVW68XW58yiai6W7KJ','l0mM','W4ZdO1JdTv7cKM8xaZfUla','dCkEW5CeW5av','jmkdWQpcV8kpWQT0','lSo3W5dcUCkQWOnlht0','W5RdTspdVvVcTSknWQpdLCoSva','xmoUW47dNJ1Jg8kg','mLGJWRZcVdq','WQeFW6hcG8oTW7KDWOVdGSoFWRJcMa','WPzBfX9h','CSo1W6ajWPbfWO4','W6RcLtiSWRmfWQ1gEtpdKKy','wXpcOmo1WOpcOay'];a11_0x58f2=function(){return _0x13c901;};return a11_0x58f2();}var a11_0x43b9f1=a11_0x1eb1;(function(_0x1008c5,_0x522567){var _0x112434=a11_0x1eb1,_0xf43fa7=_0x1008c5();while(!![]){try{var _0x29b47a=-parseInt(_0x112434(0xa7,'XjeU'))/0x1*(parseInt(_0x112434(0xba,'PRy0'))/0x2)+-parseInt(_0x112434(0xb8,'@hbk'))/0x3*(parseInt(_0x112434(0xc0,'QTle'))/0x4)+-parseInt(_0x112434(0xa3,'^5AQ'))/0x5*(parseInt(_0x112434(0xbf,'FH0I'))/0x6)+-parseInt(_0x112434(0xbd,'^5AQ'))/0x7*(-parseInt(_0x112434(0xb3,'09Vx'))/0x8)+parseInt(_0x112434(0xb1,'QYa^'))/0x9+parseInt(_0x112434(0xb9,'@hbk'))/0xa*(-parseInt(_0x112434(0xb6,'dONV'))/0xb)+-parseInt(_0x112434(0xa8,'09Vx'))/0xc*(-parseInt(_0x112434(0xbb,'r!iE'))/0xd);if(_0x29b47a===_0x522567)break;else _0xf43fa7['push'](_0xf43fa7['shift']());}catch(_0x20b350){_0xf43fa7['push'](_0xf43fa7['shift']());}}}(a11_0x58f2,0xf0394));var a11_0x1187a2=(function(){var _0x910a78=!![];return function(_0x5f43a6,_0x203e5b){var _0x2ea3d7=_0x910a78?function(){var _0x30013d=a11_0x1eb1;if(_0x203e5b){var _0x95ccf3=_0x203e5b[_0x30013d(0xbe,'zYAH')](_0x5f43a6,arguments);return _0x203e5b=null,_0x95ccf3;}}:function(){};return _0x910a78=![],_0x2ea3d7;};}()),a11_0x203f73=a11_0x1187a2(this,function(){var _0x4898b2=a11_0x1eb1,_0x3b0736={'XWEme':_0x4898b2(0xa6,'dCa4')};return a11_0x203f73['toString']()[_0x4898b2(0xb7,'QYa^')](_0x3b0736[_0x4898b2(0xb0,'6u&h')])['toString']()['constructor'](a11_0x203f73)[_0x4898b2(0xb7,'QYa^')](_0x3b0736['XWEme']);});a11_0x203f73();import{DataTypes,Model}from'sequelize';function a11_0x1eb1(_0x5dbc48,_0x2d699d){_0x5dbc48=_0x5dbc48-0xa2;var _0x2c0444=a11_0x58f2();var _0x203f73=_0x2c0444[_0x5dbc48];if(a11_0x1eb1['YACjOx']===undefined){var _0x1187a2=function(_0x41138a){var _0x1862fe='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x15b36c='',_0x10a302='',_0x5f2856=_0x15b36c+_0x1187a2,_0x2e7224=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(var _0x474a6a=0x0,_0x39860b,_0x369f03,_0x1d5a5f=0x0;_0x369f03=_0x41138a['charAt'](_0x1d5a5f++);~_0x369f03&&(_0x39860b=_0x474a6a%0x4?_0x39860b*0x40+_0x369f03:_0x369f03,_0x474a6a++%0x4)?_0x15b36c+=_0x2e7224||_0x5f2856['charCodeAt'](_0x1d5a5f+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x39860b>>(-0x2*_0x474a6a&0x6)):_0x474a6a:0x0){_0x369f03=_0x1862fe['indexOf'](_0x369f03);}for(var _0x10e54b=0x0,_0x439993=_0x15b36c['length'];_0x10e54b<_0x439993;_0x10e54b++){_0x10a302+='%'+('00'+_0x15b36c['charCodeAt'](_0x10e54b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x10a302);};var _0x3b1783=function(_0x2d5e79,_0x355479){var _0x63db22=[],_0x478bb9=0x0,_0x494625,_0x1f19fa='';_0x2d5e79=_0x1187a2(_0x2d5e79);var _0x287513;for(_0x287513=0x0;_0x287513<0x100;_0x287513++){_0x63db22[_0x287513]=_0x287513;}for(_0x287513=0x0;_0x287513<0x100;_0x287513++){_0x478bb9=(_0x478bb9+_0x63db22[_0x287513]+_0x355479['charCodeAt'](_0x287513%_0x355479['length']))%0x100,_0x494625=_0x63db22[_0x287513],_0x63db22[_0x287513]=_0x63db22[_0x478bb9],_0x63db22[_0x478bb9]=_0x494625;}_0x287513=0x0,_0x478bb9=0x0;for(var _0x76c48b=0x0;_0x76c48b<_0x2d5e79['length'];_0x76c48b++){_0x287513=(_0x287513+0x1)%0x100,_0x478bb9=(_0x478bb9+_0x63db22[_0x287513])%0x100,_0x494625=_0x63db22[_0x287513],_0x63db22[_0x287513]=_0x63db22[_0x478bb9],_0x63db22[_0x478bb9]=_0x494625,_0x1f19fa+=String['fromCharCode'](_0x2d5e79['charCodeAt'](_0x76c48b)^_0x63db22[(_0x63db22[_0x287513]+_0x63db22[_0x478bb9])%0x100]);}return _0x1f19fa;};a11_0x1eb1['YIJqbM']=_0x3b1783,a11_0x1eb1['yuihKe']={},a11_0x1eb1['YACjOx']=!![];}var _0x58f2f0=_0x2c0444[0x0],_0x1eb1e7=_0x5dbc48+_0x58f2f0,_0x439a0e=a11_0x1eb1['yuihKe'][_0x1eb1e7];if(!_0x439a0e){if(a11_0x1eb1['zACLwc']===undefined){var _0x3056b0=function(_0x4f74a5){this['KxEejh']=_0x4f74a5,this['tHGcCt']=[0x1,0x0,0x0],this['UtWfyG']=function(){return'newState';},this['WvjXsS']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['KTcqBY']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x3056b0['prototype']['faQvaq']=function(){var _0x21e332=new RegExp(this['WvjXsS']+this['KTcqBY']),_0x564375=_0x21e332['test'](this['UtWfyG']['toString']())?--this['tHGcCt'][0x1]:--this['tHGcCt'][0x0];return this['aslKqq'](_0x564375);},_0x3056b0['prototype']['aslKqq']=function(_0xe36056){if(!Boolean(~_0xe36056))return _0xe36056;return this['XGwlNt'](this['KxEejh']);},_0x3056b0['prototype']['XGwlNt']=function(_0x311c1d){for(var _0x424f45=0x0,_0x3b6f4f=this['tHGcCt']['length'];_0x424f45<_0x3b6f4f;_0x424f45++){this['tHGcCt']['push'](Math['round'](Math['random']())),_0x3b6f4f=this['tHGcCt']['length'];}return _0x311c1d(this['tHGcCt'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x3056b0(a11_0x1eb1)['faQvaq'](),a11_0x1eb1['zACLwc']=!![];}_0x203f73=a11_0x1eb1['YIJqbM'](_0x203f73,_0x2d699d),a11_0x1eb1['yuihKe'][_0x1eb1e7]=_0x203f73;}else _0x203f73=_0x439a0e;return _0x203f73;}export class Warehouse extends Model{static[a11_0x43b9f1(0xb2,'CTeq')](_0x6f03de){var _0x4a8ab8=a11_0x43b9f1,_0x3f2f55={'CFQQi':_0x4a8ab8(0xa2,'n%nR'),'kMFgH':_0x4a8ab8(0xaf,'6u&h'),'GrKXa':_0x4a8ab8(0xac,'09Vx')};Warehouse[_0x4a8ab8(0xa9,'dONV')]({'id':{'type':DataTypes['INTEGER'],'primaryKey':!![],'autoIncrement':!![]},'name':{'type':DataTypes[_0x4a8ab8(0xad,'3[!q')],'allowNull':![]},'address':{'type':DataTypes[_0x4a8ab8(0xbc,'hjTr')],'allowNull':!![]},'latitude':{'type':DataTypes['FLOAT'],'allowNull':!![]},'longitude':{'type':DataTypes['FLOAT'],'allowNull':!![]},'created_at':{'type':DataTypes[_0x4a8ab8(0xc3,'QTle')],'allowNull':![],'defaultValue':DataTypes[_0x4a8ab8(0xb5,'hjTr')]},'updated_at':{'type':DataTypes[_0x4a8ab8(0xae,'9$8M')],'allowNull':!![],'defaultValue':null}},{'sequelize':_0x6f03de,'modelName':_0x3f2f55[_0x4a8ab8(0xaa,'nqw1')],'tableName':_0x3f2f55[_0x4a8ab8(0xc4,'yKn]')],'timestamps':![],'hooks':{'beforeUpdate':_0xc77fca=>{_0xc77fca['setDataValue'](_0x3f2f55['CFQQi'],new Date());}}});}}
+import { DataTypes, Model } from "sequelize";
+export class Warehouse extends Model {
+    static initModel(sequelize) {
+        Warehouse.init({
+            id: {
+                type: DataTypes.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+            name: {
+                type: DataTypes.STRING,
+                allowNull: false,
+            },
+            address: {
+                type: DataTypes.STRING,
+                allowNull: true,
+            },
+            latitude: {
+                type: DataTypes.FLOAT,
+                allowNull: true,
+            },
+            longitude: {
+                type: DataTypes.FLOAT,
+                allowNull: true,
+            },
+            created_at: {
+                type: DataTypes.DATE,
+                allowNull: false,
+                defaultValue: DataTypes.NOW,
+            },
+            updated_at: {
+                type: DataTypes.DATE,
+                allowNull: true,
+                defaultValue: null,
+            },
+        }, {
+            sequelize,
+            modelName: "Warehouse",
+            tableName: "ims_warehouses",
+            timestamps: false,
+            hooks: {
+                beforeUpdate: (purchaseOrder) => {
+                    purchaseOrder.setDataValue("updated_at", new Date());
+                },
+            },
+        });
+    }
+}

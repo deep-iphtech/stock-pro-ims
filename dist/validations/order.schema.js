@@ -1,1 +1,74 @@
-const a44_0x1363d2=a44_0x5059;(function(_0x6c710e,_0x3dc368){const _0x1e1543=a44_0x5059,_0x407142=_0x6c710e();while(!![]){try{const _0x2443e3=-parseInt(_0x1e1543(0x11e,'XE1z'))/0x1*(parseInt(_0x1e1543(0xfa,'r#ud'))/0x2)+parseInt(_0x1e1543(0xf2,'07xT'))/0x3+parseInt(_0x1e1543(0x115,'y6^m'))/0x4*(-parseInt(_0x1e1543(0xfd,'y6^m'))/0x5)+parseInt(_0x1e1543(0x102,'!EZI'))/0x6+parseInt(_0x1e1543(0xe1,'(fbz'))/0x7*(parseInt(_0x1e1543(0xee,'&qX@'))/0x8)+parseInt(_0x1e1543(0x124,'I13p'))/0x9+-parseInt(_0x1e1543(0xff,'y6^m'))/0xa*(parseInt(_0x1e1543(0xd8,'rSHH'))/0xb);if(_0x2443e3===_0x3dc368)break;else _0x407142['push'](_0x407142['shift']());}catch(_0x4c01f5){_0x407142['push'](_0x407142['shift']());}}}(a44_0x269e,0x2f69a));function a44_0x269e(){const _0xccd257=['xmkEW44','vYhcMsvDcq','xsLlpCkUpG','W7JcUmogu8oB','xX7cMw3dI8omW7u','iSohdmk+W77cQW','imoMWQlcRbRdGmo+W7C','W5G2WOpdO8o+W4jDkW','WOuaomouDmkmv0e','WPaitSoinbW','dSk/ySkIdgy','iSowh8kLW77cTW','W4FcN2tdTNK5W7HibwiN','WRRcN8o5vmkapCo8W7GcWO7dIq0','tg1bd8oA','WQtcUmoRWQnzgSoNcG','e381W4Phuc4','W4qCW5rdaW','nCo4WQqxmmo8W6eDm8kpCCoJ','W4XAfSkEyvJdUY0sWPZcI8o9','BXFdM8k3W6Sb','yCkiW50aW5Sskca','y8krW4C','rNZcIZKyBmoknfFcRWpdLW','WRucW6xdT8osW70','ECk3WPRcOZJdVG','W4RcHwBdQwWPW6fo','W6uwW7RcRW','qSkntx7dUwFdLXS','DSo/W5TzE8kEy0K','W4FcLG9xW7P2qJa','WOP9WQtcL8oVWOldRsFcN1ZcPCkx','mmoshCkGW6q','e8kQCmkIdw02WPi','W4tcKgSkWOTsBsBdJCoCWOK','WP7dO8ohaCo5W4NdMSkt','W4dcNwWnW61SqtBdKmoO','ymonWRldKmkjW5y','lH1G','WOn2W5VcV8kNWPHfiHKSW5K9','qmkxtMhdVq','WQxdMSkRW6JdSW','DX8coCoBaSobWRSCWO/cGMe','W53cOmkfumkOWPddRSkSpmkpy8ke','WQXTWPDNsXG','uL8YW71m','W5WLW6hdIa','W5yPW77dGmk1W44','W6tcOSoBq8owW5ddUse','ySkWWOpcSG','W43dImkcBmkz','BJTPtxG','WOFcS8k8ys7dLW','pSosgCkLW7lcRrxcKW','WQGwW6tdSmoe','CHBdHmk8W6au','WRfSWOHSqa0','W7hdSMhdKmkEWQVcUMG','W4lcKYv3W51Vyqe','ta9pWPtdLuy','wJjQimkYmmotWPa','WPOeuCoa','vbNcLwNdNCou','W4qMWONdPSoXW4u','WQhdRgDOqmoVW5hcOG','pmkFemorWOGTWRZcQa','pCkAcCoAWOiX','WQZdG37dQ8kjWRlcQa','vXtcKh/dMW','j0rdza','gSkbeSozWOSQWRNdPcSky8oTySkQbtVcS8okW7fowSoBWPj4o8oHFSkVCX/cNmo+W6SnWQ/cKfpdGSkgW5WMBa','qCospmkdW7aMWORcLG','CSkYW6zCEmkH','W7JcHCo1WQ7cR8kRlmoDiYlcUfqp','nYVdJw1fmSoPBwBcQbFdV8ojgSo4WPlcJ8omyxRdGSkeW4GVW6bMWOtcICo2WQNcOH1jWPijgmoRWOdcUSksW6vfW7VdNmoNhtnKWQXhW5O','WPidsG','W7VcP8oDsCorW5/dQYG','nCo3y8olyHxcI8oseKZdGG','W7OJW7D3WPBcGs1hWRddRq','WR7cN8kcWQjp'];a44_0x269e=function(){return _0xccd257;};return a44_0x269e();}const a44_0xb77e02=(function(){let _0x41300a=!![];return function(_0x4d41d5,_0x4d39a4){const _0x174f7b=_0x41300a?function(){const _0x4e31f4=a44_0x5059;if(_0x4d39a4){const _0x1c0300=_0x4d39a4[_0x4e31f4(0xfb,'0(rz')](_0x4d41d5,arguments);return _0x4d39a4=null,_0x1c0300;}}:function(){};return _0x41300a=![],_0x174f7b;};}()),a44_0x3c5e6b=a44_0xb77e02(this,function(){const _0x2f821f=a44_0x5059,_0x5ef7ed={'mtfFm':_0x2f821f(0xe8,'xXQL')};return a44_0x3c5e6b[_0x2f821f(0x117,'Gx6N')]()['search'](_0x5ef7ed['mtfFm'])['toString']()[_0x2f821f(0xe7,'c7Nq')](a44_0x3c5e6b)[_0x2f821f(0xe0,'0(rz')](_0x2f821f(0xed,'fJtz'));});a44_0x3c5e6b();import{z}from'zod';import{positiveInt}from'./common.schema.js';export const customerIdSchema=z[a44_0x1363d2(0x10a,'r#ud')]({'customer_id':z[a44_0x1363d2(0x116,'xUCX')]()[a44_0x1363d2(0x126,'&qX@')](0x1)});export const fetchOrderByTypeSchema=z[a44_0x1363d2(0xdc,'Y*3m')]({'order_type':z[a44_0x1363d2(0x118,'&qX@')]([a44_0x1363d2(0x111,'kSH]'),a44_0x1363d2(0xfe,'@7L0')]),'customer_id':z[a44_0x1363d2(0x113,'Zl*h')]()[a44_0x1363d2(0x11c,'[uvl')]()});export const fetchOpenPurchaseOrderSchema=z[a44_0x1363d2(0xe4,'&qX@')]({'qty':positiveInt,'product_id':positiveInt})[a44_0x1363d2(0xe6,'0(rz')]();export const updateOrderInfoSchema=z[a44_0x1363d2(0x123,'fJtz')]({'status':z[a44_0x1363d2(0xf6,'Ow)[')](['0','1','2','3','4','5','6','7'])['nullable']()['optional'](),'shipment_tracking_number':z[a44_0x1363d2(0xdd,'Gx6N')]()['nullable']()[a44_0x1363d2(0x122,'p$Jl')](),'order_meta':z['object']()['nullable']()[a44_0x1363d2(0x11b,'fLBm')]()})[a44_0x1363d2(0x11f,'bq8L')]();export const PurchaseOrderCreateItemBody=z[a44_0x1363d2(0xf4,'(fbz')]({'id':z[a44_0x1363d2(0xef,'gUW&')]()[a44_0x1363d2(0x114,'XE1z')](),'product_id':positiveInt,'quantity':positiveInt,'price':z[a44_0x1363d2(0x11d,'[uvl')]()[a44_0x1363d2(0xdf,'bq8L')](0x0),'warehouse_id':positiveInt[a44_0x1363d2(0xf5,'c7Nq')]()['optional'](),'quantity_allocation':z[a44_0x1363d2(0x107,'Zl*h')]()[a44_0x1363d2(0xe5,'v%]g')](_0x426a47=>_0x426a47[a44_0x1363d2(0xec,'PdeZ')](',')[a44_0x1363d2(0x10d,'yC$g')](_0x2cd841=>/^\d+:\d+$/[a44_0x1363d2(0x10c,'(fbz')](_0x2cd841)),{'message':'Invalid\x20format.\x20Expected\x20id:count,id:count'})[a44_0x1363d2(0xf7,'QR%B')]()[a44_0x1363d2(0xd7,'ZeCg')]()})['loose']();function a44_0x5059(_0x5e6b72,_0x2be947){_0x5e6b72=_0x5e6b72-0xd7;const _0x50a2cc=a44_0x269e();let _0x3c5e6b=_0x50a2cc[_0x5e6b72];if(a44_0x5059['FQMRSr']===undefined){var _0xb77e02=function(_0x28f602){const _0x566925='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4b44d9='',_0x484c9b='',_0x473e82=_0x4b44d9+_0xb77e02,_0x494fb3=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x1a6730=0x0,_0xe9884d,_0x35e48f,_0x521e40=0x0;_0x35e48f=_0x28f602['charAt'](_0x521e40++);~_0x35e48f&&(_0xe9884d=_0x1a6730%0x4?_0xe9884d*0x40+_0x35e48f:_0x35e48f,_0x1a6730++%0x4)?_0x4b44d9+=_0x494fb3||_0x473e82['charCodeAt'](_0x521e40+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0xe9884d>>(-0x2*_0x1a6730&0x6)):_0x1a6730:0x0){_0x35e48f=_0x566925['indexOf'](_0x35e48f);}for(let _0x2b518a=0x0,_0x5270fb=_0x4b44d9['length'];_0x2b518a<_0x5270fb;_0x2b518a++){_0x484c9b+='%'+('00'+_0x4b44d9['charCodeAt'](_0x2b518a)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x484c9b);};const _0x332495=function(_0x5e46f5,_0x33d0a8){let _0x35f531=[],_0x5e5084=0x0,_0x2b9e23,_0x4db6b4='';_0x5e46f5=_0xb77e02(_0x5e46f5);let _0x56d35b;for(_0x56d35b=0x0;_0x56d35b<0x100;_0x56d35b++){_0x35f531[_0x56d35b]=_0x56d35b;}for(_0x56d35b=0x0;_0x56d35b<0x100;_0x56d35b++){_0x5e5084=(_0x5e5084+_0x35f531[_0x56d35b]+_0x33d0a8['charCodeAt'](_0x56d35b%_0x33d0a8['length']))%0x100,_0x2b9e23=_0x35f531[_0x56d35b],_0x35f531[_0x56d35b]=_0x35f531[_0x5e5084],_0x35f531[_0x5e5084]=_0x2b9e23;}_0x56d35b=0x0,_0x5e5084=0x0;for(let _0x814631=0x0;_0x814631<_0x5e46f5['length'];_0x814631++){_0x56d35b=(_0x56d35b+0x1)%0x100,_0x5e5084=(_0x5e5084+_0x35f531[_0x56d35b])%0x100,_0x2b9e23=_0x35f531[_0x56d35b],_0x35f531[_0x56d35b]=_0x35f531[_0x5e5084],_0x35f531[_0x5e5084]=_0x2b9e23,_0x4db6b4+=String['fromCharCode'](_0x5e46f5['charCodeAt'](_0x814631)^_0x35f531[(_0x35f531[_0x56d35b]+_0x35f531[_0x5e5084])%0x100]);}return _0x4db6b4;};a44_0x5059['ulMAco']=_0x332495,a44_0x5059['TZHUZa']={},a44_0x5059['FQMRSr']=!![];}const _0x269ec3=_0x50a2cc[0x0],_0x5059f5=_0x5e6b72+_0x269ec3,_0x2fd2f2=a44_0x5059['TZHUZa'][_0x5059f5];if(!_0x2fd2f2){if(a44_0x5059['LJAbos']===undefined){const _0x5deeb2=function(_0x3ff63d){this['GXVvYr']=_0x3ff63d,this['TbetoX']=[0x1,0x0,0x0],this['MVQMAx']=function(){return'newState';},this['fHAQhM']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['SOatOR']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x5deeb2['prototype']['avwjgd']=function(){const _0x30a8cc=new RegExp(this['fHAQhM']+this['SOatOR']),_0x41c70e=_0x30a8cc['test'](this['MVQMAx']['toString']())?--this['TbetoX'][0x1]:--this['TbetoX'][0x0];return this['wSgQcE'](_0x41c70e);},_0x5deeb2['prototype']['wSgQcE']=function(_0x4b0646){if(!Boolean(~_0x4b0646))return _0x4b0646;return this['BKqQtQ'](this['GXVvYr']);},_0x5deeb2['prototype']['BKqQtQ']=function(_0x4aa704){for(let _0x4387ea=0x0,_0x1c9752=this['TbetoX']['length'];_0x4387ea<_0x1c9752;_0x4387ea++){this['TbetoX']['push'](Math['round'](Math['random']())),_0x1c9752=this['TbetoX']['length'];}return _0x4aa704(this['TbetoX'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5deeb2(a44_0x5059)['avwjgd'](),a44_0x5059['LJAbos']=!![];}_0x3c5e6b=a44_0x5059['ulMAco'](_0x3c5e6b,_0x2be947),a44_0x5059['TZHUZa'][_0x5059f5]=_0x3c5e6b;}else _0x3c5e6b=_0x2fd2f2;return _0x3c5e6b;}export const updateOrderItem=z[a44_0x1363d2(0xf4,'(fbz')]({'id':z[a44_0x1363d2(0xf3,'kSH]')]()[a44_0x1363d2(0xf8,'eZcK')](),'product_id':positiveInt,'quantity':positiveInt[a44_0x1363d2(0xfc,'v%]g')](),'price':z[a44_0x1363d2(0x10f,'qvJb')]()['default'](0x0),'warehouse_id':positiveInt[a44_0x1363d2(0xe2,'!EZI')]()[a44_0x1363d2(0x122,'p$Jl')](),'quantity_allocation':z[a44_0x1363d2(0x112,'gUW&')]()[a44_0x1363d2(0x11a,'!EZI')](_0x341761=>_0x341761[a44_0x1363d2(0xe9,'!!UE')](',')['every'](_0x49d8b8=>/^\d+:\d+$/['test'](_0x49d8b8)),{'message':a44_0x1363d2(0x121,'[uvl')})[a44_0x1363d2(0xea,'@J#C')]()['optional']()})[a44_0x1363d2(0x104,'I13p')]();export const crudOnOrderItems=z['object']({'remove_items':z['array'](z['number']())[a44_0x1363d2(0xf1,'p3]!')](0x1)['optional'](),'update_items':z[a44_0x1363d2(0x10e,'yQ9S')](updateOrderItem)[a44_0x1363d2(0xdb,'&ey9')](0x1)[a44_0x1363d2(0x110,'0(rz')]()})[a44_0x1363d2(0x103,'QR%B')]()[a44_0x1363d2(0x100,'4@qo')](({remove_items:_0x1541d1,update_items:_0x4bd00a})=>_0x1541d1!==undefined||_0x4bd00a!==undefined,{'message':a44_0x1363d2(0x125,'07xT')});export const createOrderValidationSchema=z[a44_0x1363d2(0x119,'bq8L')]({'order_type':z[a44_0x1363d2(0x109,'r#ud')]([a44_0x1363d2(0x108,'XCO%'),a44_0x1363d2(0x10b,'ZeCg')]),'customer_id':positiveInt,'status':z[a44_0x1363d2(0x120,'L8nU')](['0','1','2','3','4','5','6','7'])[a44_0x1363d2(0xf0,'p3]!')](),'products':z[a44_0x1363d2(0xda,'*UHt')](PurchaseOrderCreateItemBody)[a44_0x1363d2(0x101,'&1ub')](0x1)})[a44_0x1363d2(0xde,'ZeCg')]();
+import { z } from "zod";
+import { positiveInt } from "./common.schema.js";
+export const customerIdSchema = z.object({
+    customer_id: z.number().min(1),
+});
+export const fetchOrderByTypeSchema = z.object({
+    order_type: z.enum(["sales", "purchase"]),
+    customer_id: z.number().optional(),
+});
+export const fetchOpenPurchaseOrderSchema = z
+    .object({
+    qty: positiveInt,
+    product_id: positiveInt,
+})
+    .strict();
+export const updateOrderInfoSchema = z
+    .object({
+    status: z
+        .enum(["0", "1", "2", "3", "4", "5", "6", "7"])
+        .nullable()
+        .optional(),
+    shipment_tracking_number: z.string().nullable().optional(),
+    order_meta: z.object().nullable().optional(),
+})
+    .loose();
+export const PurchaseOrderCreateItemBody = z
+    .object({
+    id: z.number().optional(),
+    product_id: positiveInt,
+    quantity: positiveInt,
+    price: z.number().default(0),
+    warehouse_id: positiveInt.nullable().optional(),
+    quantity_allocation: z
+        .string()
+        .refine((value) => value.split(",").every((item) => /^\d+:\d+$/.test(item)), {
+        message: "Invalid format. Expected id:count,id:count",
+    })
+        .nullable()
+        .optional(),
+})
+    .loose();
+export const updateOrderItem = z
+    .object({
+    id: z.number().optional(),
+    product_id: positiveInt,
+    quantity: positiveInt.optional(),
+    price: z.number().default(0),
+    warehouse_id: positiveInt.nullable().optional(),
+    quantity_allocation: z
+        .string()
+        .refine((value) => value.split(",").every((item) => /^\d+:\d+$/.test(item)), {
+        message: "Invalid format. Expected id:count,id:count",
+    })
+        .nullable()
+        .optional(),
+})
+    .loose();
+export const crudOnOrderItems = z
+    .object({
+    remove_items: z.array(z.number()).min(1).optional(),
+    update_items: z.array(updateOrderItem).min(1).optional(),
+})
+    .loose()
+    .refine(({ remove_items, update_items }) => remove_items !== undefined || update_items !== undefined, {
+    message: "Invalid Payload. At least one operation is required",
+});
+export const createOrderValidationSchema = z
+    .object({
+    order_type: z.enum(["sales", "purchase"]),
+    customer_id: positiveInt,
+    status: z.enum(["0", "1", "2", "3", "4", "5", "6", "7"]).optional(),
+    products: z.array(PurchaseOrderCreateItemBody).min(1),
+})
+    .loose();

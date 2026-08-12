@@ -1,1 +1,743 @@
-const a32_0x2db4d0=a32_0x12d0;(function(_0x4f54dc,_0x4c794d){const _0x131c76=a32_0x12d0,_0x67bfd9=_0x4f54dc();while(!![]){try{const _0x37abf6=-parseInt(_0x131c76(0x18d,'JrRN'))/0x1*(parseInt(_0x131c76(0x198,'cICM'))/0x2)+parseInt(_0x131c76(0x16f,'(wap'))/0x3*(parseInt(_0x131c76(0x193,'epbn'))/0x4)+-parseInt(_0x131c76(0x139,'cICM'))/0x5*(-parseInt(_0x131c76(0x14d,'(wap'))/0x6)+parseInt(_0x131c76(0x17c,'JrRN'))/0x7+parseInt(_0x131c76(0x171,'Xq@O'))/0x8*(parseInt(_0x131c76(0x136,'cICM'))/0x9)+-parseInt(_0x131c76(0x18f,'cICM'))/0xa+parseInt(_0x131c76(0x18b,'Mo]i'))/0xb*(-parseInt(_0x131c76(0x13f,'aIly'))/0xc);if(_0x37abf6===_0x4c794d)break;else _0x67bfd9['push'](_0x67bfd9['shift']());}catch(_0x386122){_0x67bfd9['push'](_0x67bfd9['shift']());}}}(a32_0xf84f,0xacd19));function a32_0xf84f(){const _0x5409c4=['WPhcR2ZcHmo6ffKh','WOzwW7RcP8o0WPhcQmkjma','WRVdR2SfW64yqmkE','W5NcUmoXW6y','pWrGWPZdN8oF','WOxdIHLfhf8','W44zvb/dQSo6W4ju','etBcT2ddNSoeWQldRa','WPhdUvasd8kiyKZcPum','WQW8W4ZdGLm','W5hcUbrlnmkw','rvjY','FbdcR2/dTmor','WPBcTe3cMCoMgG','W6KyCmoYWQq','WO7dRa0wDd0PaJLNW6Pnimk2wCooW6qvWOldGCkcg8kzh1ZcQSovsd/dPmonzGO1b8oAW4/cK8oEoL8KWQldLsyeW4ZcQJn3WRy','WPtdVCkUlmkvW4W','WOpdHGDfge7cGG','wg7cK8kTA1C3WQvu','W5pcKemrtbVdIw3cQtlcUSkeFq','kbFdRJtcICkrW6a','WOLyAIFdG8o2','bdfMtJtcQCkCW5PhvCk6W5e/kSkqWRxcNSozW6hdUGhdMW','W4BcRrjhD8kfC2FcKq','WPJdLdrDWRbp','WPpcR2JdQmk+W6LQrCom','iMFdP1XpoSojtmkAW7a','W4VcGmk4jCoRCa','qSkaAWb0vCotW7XyWP8W','W6abt8owWQfb','jLGPW6xdMCk+rq','W5XncSo2WRtdRg4iWOi6','e8o9tXdcL8kv','veu3WRJdVSo+','Fqq8W7RdMSkttSkY','bXW1tXldQa','W5/cMuSutrlcT0JcGa/cTmkt','WPncW6/cRmkTWOZcTCkD','WO5RoZRcImoOjSkrsSo7jK9c','WPdcQ8kAW6/dKsJdOa','WP7cOgJdQmo0W7HX','WRZdIImDW7pcMIv1tYVcH1/dK8kqW4JcGmkrDmkItG','W5RcLxieW6KAh8ojWR/cPX/dHG','WPtdLdxdPSolmahcVgJcLG','W5FcKKzyWRi','vupcNLOMhaXyWPFcLH9VEConW7XyW5JcKCoOCa','WOTzW7RcP8k+WOdcSW','WOG6ueVdK8kwCa','WO3dIc7dP8oznGC','FuCQW4tcGmoHWOZdH3FdINC','W4XlhCo+WQ7dRG','bSkpWQVcTtTfit0','WOTLoJ3cJCkfwCkpDSommW','W5m8DMNdM8k5za','WP9MWRBcQ8oa','WOTIvv3dMCkLwSkO','WOBdQColW5lcL8ktc8kH','WPfdW7ZcQ8k3WOi','WOZcRKVcLCoVgeu','nJeHx8kcWOpdImk2','EmkUWOr9eCoNlW','W5FcQ8oJFmonWPBdNu3cOCoRW7tdQSkjpW','W4ZcUqTap8kd','WPncBcVdISo0W4i','WP/cQZW+DGCG','WP98WQFcO8ouW6tdMq','iMBcLHmVWQ3dSG','W67cPGanAYWQtaTOW6XBz8kQt8ovW6q','icaJsmkfWPRdMmkHCvOgW7i','cMyqW4pdKmkZBSkhW67cImoaWQxdSa','W5NcRmoWW68','WQLRfmolWQdcKYK','WOtcUM7dPmo9W7O','nJvKvtxcUa','W755WORcNN8WwmkJBt4','W4KzlxNcMSkOWObYsSoXfCo3fa','W5/cPHOyCce','WP7dVWXHW67dKCk2rmociqGE','qSkADGDVsSodW61ZWPKM','WOr3WQFcP8oAW60','W4XAdSoLWQpdOq','WPBcT8kkW6/dHbldPMhdIGO','jx3cJXqTWRO','pCosqY7cGGS','ohZcKb8MWQ8','W6aJvhJdIMvP','ySkHWPX9bq','nWGizSkKW4/cQG','jmo2W7/cMdNdJSoJW6BdHG','WP/dJXvaWQXbhSoi','WPFdKIJdQ8oqna','frHfWOBdNq','BrhcRM/dTmotWO8lW6VcGSor','pmodrsBcHqa','xCotWR7cQJHOkG','WO4hFJxcK8o/fG','lrioASkTW40','W4lcGfSovaldMWVdPeJdM8oK','WOxdLsPy','W5/cN8kZW5fEvCoW','WPjZWQFcO8kEW7xdGNJcRG','WQreW7zJCCk9sq','frO1rWu'];a32_0xf84f=function(){return _0x5409c4;};return a32_0xf84f();}const a32_0x4cbb5f=(function(){let _0x574bb5=!![];return function(_0x3b38ee,_0x4d5f99){const _0x3b8f8f=_0x574bb5?function(){const _0x3e994e=a32_0x12d0;if(_0x4d5f99){const _0x76acff=_0x4d5f99[_0x3e994e(0x172,'0W0)')](_0x3b38ee,arguments);return _0x4d5f99=null,_0x76acff;}}:function(){};return _0x574bb5=![],_0x3b8f8f;};}()),a32_0x53d62a=a32_0x4cbb5f(this,function(){const _0xcd43d3=a32_0x12d0,_0x23a464={'YhWsl':_0xcd43d3(0x163,'JrRN')};return a32_0x53d62a[_0xcd43d3(0x169,'bWgx')]()[_0xcd43d3(0x152,'&qZ[')](_0x23a464[_0xcd43d3(0x195,'I!!#')])[_0xcd43d3(0x15b,'epbn')]()[_0xcd43d3(0x185,'RHVQ')](a32_0x53d62a)['search'](_0x23a464[_0xcd43d3(0x15d,'HA$X')]);});a32_0x53d62a();function a32_0x12d0(_0x3d49a9,_0x1d8080){_0x3d49a9=_0x3d49a9-0x133;const _0x3cd0d4=a32_0xf84f();let _0x53d62a=_0x3cd0d4[_0x3d49a9];if(a32_0x12d0['SvvuJI']===undefined){var _0x4cbb5f=function(_0x5e7009){const _0xcd4d10='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x225aa1='',_0x32e796='',_0x28e159=_0x225aa1+_0x4cbb5f,_0x5e54f5=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x57993a=0x0,_0x287892,_0x42c43c,_0x407ef2=0x0;_0x42c43c=_0x5e7009['charAt'](_0x407ef2++);~_0x42c43c&&(_0x287892=_0x57993a%0x4?_0x287892*0x40+_0x42c43c:_0x42c43c,_0x57993a++%0x4)?_0x225aa1+=_0x5e54f5||_0x28e159['charCodeAt'](_0x407ef2+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x287892>>(-0x2*_0x57993a&0x6)):_0x57993a:0x0){_0x42c43c=_0xcd4d10['indexOf'](_0x42c43c);}for(let _0x1f524e=0x0,_0x44c98e=_0x225aa1['length'];_0x1f524e<_0x44c98e;_0x1f524e++){_0x32e796+='%'+('00'+_0x225aa1['charCodeAt'](_0x1f524e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x32e796);};const _0x371452=function(_0x418218,_0x48b701){let _0x1bdd97=[],_0x590e33=0x0,_0x269d9b,_0x3e1389='';_0x418218=_0x4cbb5f(_0x418218);let _0x151161;for(_0x151161=0x0;_0x151161<0x100;_0x151161++){_0x1bdd97[_0x151161]=_0x151161;}for(_0x151161=0x0;_0x151161<0x100;_0x151161++){_0x590e33=(_0x590e33+_0x1bdd97[_0x151161]+_0x48b701['charCodeAt'](_0x151161%_0x48b701['length']))%0x100,_0x269d9b=_0x1bdd97[_0x151161],_0x1bdd97[_0x151161]=_0x1bdd97[_0x590e33],_0x1bdd97[_0x590e33]=_0x269d9b;}_0x151161=0x0,_0x590e33=0x0;for(let _0x363334=0x0;_0x363334<_0x418218['length'];_0x363334++){_0x151161=(_0x151161+0x1)%0x100,_0x590e33=(_0x590e33+_0x1bdd97[_0x151161])%0x100,_0x269d9b=_0x1bdd97[_0x151161],_0x1bdd97[_0x151161]=_0x1bdd97[_0x590e33],_0x1bdd97[_0x590e33]=_0x269d9b,_0x3e1389+=String['fromCharCode'](_0x418218['charCodeAt'](_0x363334)^_0x1bdd97[(_0x1bdd97[_0x151161]+_0x1bdd97[_0x590e33])%0x100]);}return _0x3e1389;};a32_0x12d0['HrQcvT']=_0x371452,a32_0x12d0['UiQfhS']={},a32_0x12d0['SvvuJI']=!![];}const _0xf84f45=_0x3cd0d4[0x0],_0x12d0e1=_0x3d49a9+_0xf84f45,_0x4a8694=a32_0x12d0['UiQfhS'][_0x12d0e1];if(!_0x4a8694){if(a32_0x12d0['enEmGq']===undefined){const _0x1e81e8=function(_0x3eb455){this['FVCvKq']=_0x3eb455,this['aisKcv']=[0x1,0x0,0x0],this['JznzRB']=function(){return'newState';},this['djBueK']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['jEibwl']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1e81e8['prototype']['UUdseb']=function(){const _0x1613f1=new RegExp(this['djBueK']+this['jEibwl']),_0x299271=_0x1613f1['test'](this['JznzRB']['toString']())?--this['aisKcv'][0x1]:--this['aisKcv'][0x0];return this['gtOPUs'](_0x299271);},_0x1e81e8['prototype']['gtOPUs']=function(_0x5e4f68){if(!Boolean(~_0x5e4f68))return _0x5e4f68;return this['mhqkDL'](this['FVCvKq']);},_0x1e81e8['prototype']['mhqkDL']=function(_0x4e727e){for(let _0x1cbb5f=0x0,_0x3b6dfb=this['aisKcv']['length'];_0x1cbb5f<_0x3b6dfb;_0x1cbb5f++){this['aisKcv']['push'](Math['round'](Math['random']())),_0x3b6dfb=this['aisKcv']['length'];}return _0x4e727e(this['aisKcv'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1e81e8(a32_0x12d0)['UUdseb'](),a32_0x12d0['enEmGq']=!![];}_0x53d62a=a32_0x12d0['HrQcvT'](_0x53d62a,_0x1d8080),a32_0x12d0['UiQfhS'][_0x12d0e1]=_0x53d62a;}else _0x53d62a=_0x4a8694;return _0x53d62a;}import{objectSchema}from'../../utils/open-api.js';const resSchemas={'Warehouse':{'type':a32_0x2db4d0(0x189,'Ofxa'),'properties':{'id':{'type':a32_0x2db4d0(0x199,'tvxV')},'name':{'type':a32_0x2db4d0(0x181,'epbn')},'created_at':{'type':a32_0x2db4d0(0x15c,'tvxV'),'format':a32_0x2db4d0(0x182,'gdIO')},'updated_at':{'type':a32_0x2db4d0(0x13b,'T!Ep'),'format':'date-time'}}},'WarehouseCreateRequest':objectSchema({'name':{'type':'string','example':'Central\x20Warehouse'}},[a32_0x2db4d0(0x16c,'y!$5')],{'name':'Central\x20Warehouse'}),'WarehouseUpdateRequest':objectSchema({'name':{'type':a32_0x2db4d0(0x156,'Vk(U'),'example':a32_0x2db4d0(0x145,'Te1Y')}},[],{'name':'Central\x20Warehouse'}),'Inventory':{'type':a32_0x2db4d0(0x16e,'JrRN'),'properties':{'id':{'type':'integer'},'product_id':{'type':a32_0x2db4d0(0x17a,'JrRN')},'warehouse_id':{'type':'integer'},'available':{'type':a32_0x2db4d0(0x199,'tvxV')},'reserved':{'type':a32_0x2db4d0(0x157,'rDtu')},'created_at':{'type':a32_0x2db4d0(0x15f,'IOkJ'),'format':a32_0x2db4d0(0x180,'Xq@O')},'updated_at':{'type':a32_0x2db4d0(0x14a,'gdIO'),'format':'date-time'}}},'InventoryCreateRequest':objectSchema({'product_id':{'type':a32_0x2db4d0(0x17d,'V409'),'minimum':0x1,'example':0x65},'warehouse_id':{'type':a32_0x2db4d0(0x197,'T!Ep'),'minimum':0x1,'example':0x1},'available':{'type':a32_0x2db4d0(0x143,'6JrL'),'example':0xfa},'reserved':{'type':a32_0x2db4d0(0x17d,'V409'),'example':0xa}},[a32_0x2db4d0(0x194,'tvxV'),'warehouse_id'],{'product_id':0x65,'warehouse_id':0x1,'available':0xfa,'reserved':0xa}),'InventoryUpdateRequest':objectSchema({'product_id':{'type':a32_0x2db4d0(0x165,'3TQA'),'minimum':0x1,'example':0x65},'warehouse_id':{'type':a32_0x2db4d0(0x197,'T!Ep'),'minimum':0x1,'example':0x1},'available':{'type':a32_0x2db4d0(0x137,'cICM'),'example':0xf0},'reserved':{'type':a32_0x2db4d0(0x13e,'PJGW'),'example':0xc}},[],{'available':0xf0,'reserved':0xc}),'Orders':{'type':a32_0x2db4d0(0x186,'I7t7'),'properties':{'customer_id':{'type':a32_0x2db4d0(0x161,'dXnM')},'order_type':{'type':a32_0x2db4d0(0x16d,'HA$X'),'example':a32_0x2db4d0(0x158,'PJGW')},'products':{'type':a32_0x2db4d0(0x168,'vk8M'),'items':{'type':'object','properties':{'product_id':{'type':a32_0x2db4d0(0x149,'RXwf')},'quantity':{'type':a32_0x2db4d0(0x190,'JRL[')},'quantity_allocation':{'type':a32_0x2db4d0(0x14a,'gdIO'),'example':a32_0x2db4d0(0x174,'vk8M')}}}}},'required':[a32_0x2db4d0(0x150,'RHVQ'),a32_0x2db4d0(0x153,'JRL['),'products']},'PurchaseOrderCreateItemRequest':objectSchema({'product_id':{'type':a32_0x2db4d0(0x161,'dXnM'),'minimum':0x1,'example':0x7d5},'quantity':{'type':a32_0x2db4d0(0x167,'UNBV'),'example':0x32},'pricing_tier':{'type':'string','enum':[a32_0x2db4d0(0x179,'aIly'),a32_0x2db4d0(0x17b,'iHM]'),'distributor'],'example':a32_0x2db4d0(0x155,'IOkJ')},'price':{'type':'number','example':0x0},'warehouse_id':{'type':a32_0x2db4d0(0x141,'(wap'),'minimum':0x1,'example':0x1}},[a32_0x2db4d0(0x183,'0O[@'),a32_0x2db4d0(0x18e,'T!Ep'),'pricing_tier','price',a32_0x2db4d0(0x146,'(PVn')],{'product_id':0x7d5,'quantity':0x32,'pricing_tier':a32_0x2db4d0(0x151,'6JrL'),'price':0x0,'warehouse_id':0x1}),'PurchaseOrderCreateRequest':objectSchema({'order_number':{'type':a32_0x2db4d0(0x173,'Xq@O'),'example':a32_0x2db4d0(0x170,'V409')},'business_id':{'type':a32_0x2db4d0(0x187,'Mo]i'),'minimum':0x1,'example':0xc},'status':{'type':a32_0x2db4d0(0x14b,'Rd%C'),'enum':['0','1','2','3','4','5','6','7'],'example':'1'},'shipping_charges':{'type':a32_0x2db4d0(0x154,'Vk(U'),'example':0x19},'notes':{'type':[a32_0x2db4d0(0x17e,'(wap'),a32_0x2db4d0(0x148,'y!$5')],'example':'Initial\x20stock\x20replenishment'},'created_by':{'type':a32_0x2db4d0(0x191,'gdIO'),'minimum':0x1,'example':0x3},'payment_status':{'type':'string','enum':['0','1','2'],'example':'0'},'paid_at':{'type':[a32_0x2db4d0(0x175,'FGZW'),a32_0x2db4d0(0x164,'epbn')],'format':a32_0x2db4d0(0x166,'6JrL'),'example':null},'items':{'type':a32_0x2db4d0(0x177,'ml)P'),'minItems':0x1,'items':{'$ref':a32_0x2db4d0(0x178,'Te1Y')}}},[a32_0x2db4d0(0x15e,'FGZW'),a32_0x2db4d0(0x188,'&qZ['),a32_0x2db4d0(0x138,'6JrL')],{'business_id':0xc,'created_by':0x3,'items':[{'product_id':0x7d5,'quantity':0x32,'pricing_tier':a32_0x2db4d0(0x14e,'Te1Y'),'price':0x0,'warehouse_id':0x1}]}),'PurchaseOrderUpdateRequest':objectSchema({'order_number':{'type':a32_0x2db4d0(0x18c,'vk8M'),'example':a32_0x2db4d0(0x16b,'epbn')},'business_id':{'type':a32_0x2db4d0(0x191,'gdIO'),'minimum':0x1,'example':0xc},'status':{'type':a32_0x2db4d0(0x184,'T2(M'),'enum':['0','1','2','3','4','5','6','7'],'example':'approved'},'shipping_charges':{'type':a32_0x2db4d0(0x140,'Xq@O'),'example':0x19},'notes':{'type':['string','null'],'example':a32_0x2db4d0(0x17f,'Rd%C')},'created_by':{'type':a32_0x2db4d0(0x13c,'bWgx'),'minimum':0x1,'example':0x3},'payment_status':{'type':'string','enum':['0','1','2'],'example':'2'},'paid_at':{'type':[a32_0x2db4d0(0x134,'&qZ['),'null'],'format':a32_0x2db4d0(0x15a,'WrJL'),'example':a32_0x2db4d0(0x196,'1g!$')}},[],{'status':a32_0x2db4d0(0x13d,'(PVn'),'payment_status':'2','paid_at':a32_0x2db4d0(0x192,'I!!#')}),'OrderItems':{'type':'object','properties':{'id':{'type':a32_0x2db4d0(0x144,'Vk(U')},'purchase_order_id':{'type':'integer'},'product_id':{'type':a32_0x2db4d0(0x160,'k5gG')},'quantity':{'type':a32_0x2db4d0(0x13c,'bWgx')},'pricing_tier':{'type':'string'},'price':{'type':a32_0x2db4d0(0x18a,'k[Yd')},'warehouse_id':{'type':a32_0x2db4d0(0x159,'ox]4')},'created_at':{'type':a32_0x2db4d0(0x176,'bWgx'),'format':a32_0x2db4d0(0x16a,'T!Ep')},'updated_at':{'type':a32_0x2db4d0(0x162,'ox]4'),'format':'date-time'}}}};export default resSchemas;
+import { objectSchema } from "../../utils/open-api.js";
+const resSchemas = {
+    Warehouse: {
+        type: "object",
+        properties: {
+            id: { type: "integer" },
+            name: { type: "string" },
+            created_at: { type: "string", format: "date-time" },
+            updated_at: { type: "string", format: "date-time" },
+        },
+    },
+    WarehouseCreateRequest: objectSchema({
+        name: {
+            type: "string",
+            example: "Central Warehouse",
+        },
+    }, ["name"], {
+        name: "Central Warehouse",
+    }),
+    WarehouseUpdateRequest: objectSchema({
+        name: {
+            type: "string",
+            example: "Central Warehouse",
+        },
+    }, [], {
+        name: "Central Warehouse",
+    }),
+    Inventory: {
+        type: "object",
+        properties: {
+            id: { type: "integer" },
+            product_id: { type: "integer" },
+            warehouse_id: { type: "integer" },
+            available: { type: "integer" },
+            reserved: { type: "integer" },
+            created_at: { type: "string", format: "date-time" },
+            updated_at: { type: "string", format: "date-time" },
+        },
+    },
+    InventoryCreateRequest: objectSchema({
+        product_id: {
+            type: "integer",
+            minimum: 1,
+            example: 101,
+        },
+        warehouse_id: {
+            type: "integer",
+            minimum: 1,
+            example: 1,
+        },
+        available: {
+            type: "integer",
+            example: 250,
+        },
+        reserved: {
+            type: "integer",
+            example: 10,
+        },
+    }, ["product_id", "warehouse_id"], {
+        product_id: 101,
+        warehouse_id: 1,
+        available: 250,
+        reserved: 10,
+    }),
+    InventoryUpdateRequest: objectSchema({
+        product_id: {
+            type: "integer",
+            minimum: 1,
+            example: 101,
+        },
+        warehouse_id: {
+            type: "integer",
+            minimum: 1,
+            example: 1,
+        },
+        available: {
+            type: "integer",
+            example: 240,
+        },
+        reserved: {
+            type: "integer",
+            example: 12,
+        },
+    }, [], {
+        available: 240,
+        reserved: 12,
+    }),
+    Orders: {
+        type: "object",
+        properties: {
+            customer_id: {
+                type: "integer",
+            },
+            order_type: {
+                type: "string",
+                example: "sales",
+            },
+            products: {
+                type: "array",
+                items: {
+                    type: "object",
+                    properties: {
+                        product_id: {
+                            type: "integer",
+                        },
+                        quantity: {
+                            type: "integer",
+                        },
+                        quantity_allocation: {
+                            type: "string",
+                            example: "1:5",
+                        },
+                    },
+                },
+            },
+        },
+        required: ["customer_id", "order_type", "products"],
+    },
+    PurchaseOrderCreateItemRequest: objectSchema({
+        product_id: {
+            type: "integer",
+            minimum: 1,
+            example: 2005,
+        },
+        quantity: {
+            type: "integer",
+            example: 50,
+        },
+        pricing_tier: {
+            type: "string",
+            enum: ["retail", "wholesale", "distributor"],
+            example: "retail",
+        },
+        price: {
+            type: "number",
+            example: 0,
+        },
+        warehouse_id: {
+            type: "integer",
+            minimum: 1,
+            example: 1,
+        },
+    }, ["product_id", "quantity", "pricing_tier", "price", "warehouse_id"], {
+        product_id: 2005,
+        quantity: 50,
+        pricing_tier: "retail",
+        price: 0,
+        warehouse_id: 1,
+    }),
+    PurchaseOrderCreateRequest: objectSchema({
+        order_number: {
+            type: "string",
+            example: "PO-10001",
+        },
+        business_id: {
+            type: "integer",
+            minimum: 1,
+            example: 12,
+        },
+        status: {
+            type: "string",
+            enum: ["0", "1", "2", "3", "4", "5", "6", "7"],
+            example: "1",
+        },
+        shipping_charges: {
+            type: "number",
+            example: 25,
+        },
+        notes: {
+            type: ["string", "null"],
+            example: "Initial stock replenishment",
+        },
+        created_by: {
+            type: "integer",
+            minimum: 1,
+            example: 3,
+        },
+        payment_status: {
+            type: "string",
+            enum: ["0", "1", "2"],
+            example: "0",
+        },
+        paid_at: {
+            type: ["string", "null"],
+            format: "date-time",
+            example: null,
+        },
+        items: {
+            type: "array",
+            minItems: 1,
+            items: {
+                $ref: "#/components/schemas/PurchaseOrderCreateItemRequest",
+            },
+        },
+    }, ["business_id", "created_by", "items"], {
+        business_id: 12,
+        created_by: 3,
+        items: [
+            {
+                product_id: 2005,
+                quantity: 50,
+                pricing_tier: "retail",
+                price: 0,
+                warehouse_id: 1,
+            },
+        ],
+    }),
+    PurchaseOrderUpdateRequest: objectSchema({
+        order_number: {
+            type: "string",
+            example: "PO-10001",
+        },
+        business_id: {
+            type: "integer",
+            minimum: 1,
+            example: 12,
+        },
+        status: {
+            type: "string",
+            enum: ["0", "1", "2", "3", "4", "5", "6", "7"],
+            example: "approved",
+        },
+        shipping_charges: {
+            type: "number",
+            example: 25,
+        },
+        notes: {
+            type: ["string", "null"],
+            example: "Approved for receiving",
+        },
+        created_by: {
+            type: "integer",
+            minimum: 1,
+            example: 3,
+        },
+        payment_status: {
+            type: "string",
+            enum: ["0", "1", "2"],
+            example: "2",
+        },
+        paid_at: {
+            type: ["string", "null"],
+            format: "date-time",
+            example: "2026-06-05T10:30:00Z",
+        },
+    }, [], {
+        status: "approved",
+        payment_status: "2",
+        paid_at: "2026-06-05T10:30:00Z",
+    }),
+    OrderItems: {
+        type: "object",
+        properties: {
+            id: { type: "integer" },
+            purchase_order_id: { type: "integer" },
+            product_id: { type: "integer" },
+            quantity: { type: "integer" },
+            pricing_tier: { type: "string" },
+            price: { type: "number" },
+            warehouse_id: { type: "integer" },
+            created_at: { type: "string", format: "date-time" },
+            updated_at: { type: "string", format: "date-time" },
+        },
+    },
+    // PurchaseOrderItemCreateRequest: objectSchema(
+    //   {
+    //     purchase_order_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 1001,
+    //     },
+    //     product_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 2005,
+    //     },
+    //     quantity: {
+    //       type: "integer",
+    //       example: 50,
+    //     },
+    //     pricing_tier: {
+    //       type: "string",
+    //       enum: ["retail", "wholesale", "distributor"],
+    //       example: "wholesale",
+    //     },
+    //     price: {
+    //       type: "number",
+    //       example: 12.5,
+    //     },
+    //     warehouse_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 1,
+    //     },
+    //   },
+    //   [
+    //     "purchase_order_id",
+    //     "product_id",
+    //     "quantity",
+    //     "pricing_tier",
+    //     "price",
+    //     "warehouse_id",
+    //   ],
+    //   {
+    //     purchase_order_id: 1001,
+    //     product_id: 2005,
+    //     quantity: 50,
+    //     pricing_tier: "wholesale",
+    //     price: 12.5,
+    //     warehouse_id: 1,
+    //   },
+    // ),
+    // PurchaseOrderItemUpdateRequest: objectSchema(
+    //   {
+    //     purchase_order_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 1001,
+    //     },
+    //     product_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 2005,
+    //     },
+    //     quantity: {
+    //       type: "integer",
+    //       example: 48,
+    //     },
+    //     pricing_tier: {
+    //       type: "string",
+    //       enum: ["retail", "wholesale", "distributor"],
+    //       example: "wholesale",
+    //     },
+    //     price: {
+    //       type: "number",
+    //       example: 12.5,
+    //     },
+    //     warehouse_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 1,
+    //     },
+    //   },
+    //   [],
+    //   {
+    //     quantity: 48,
+    //     price: 12.5,
+    //   },
+    // ),
+    // SalesOrderCreateRequest: objectSchema(
+    //   {
+    //     order_number: {
+    //       type: "string",
+    //       example: "SO-20001",
+    //     },
+    //     business_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 12,
+    //     },
+    //     status: {
+    //       type: "string",
+    //       enum: [
+    //         "draft",
+    //         "pending",
+    //         "confirmed",
+    //         "processing",
+    //         "shipped",
+    //         "completed",
+    //         "cancelled",
+    //       ],
+    //       example: "draft",
+    //     },
+    //     invoice_date: {
+    //       type: "string",
+    //       format: "date",
+    //       example: "2026-06-05",
+    //     },
+    //     shipping_charges: {
+    //       type: "number",
+    //       example: 15,
+    //     },
+    //     notes: {
+    //       type: ["string", "null"],
+    //       example: "Deliver before end of week",
+    //     },
+    //     created_by: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 7,
+    //     },
+    //     payment_status: {
+    //       type: "string",
+    //       enum: ["pending", "partial", "paid"],
+    //       example: "pending",
+    //     },
+    //     paid_at: {
+    //       type: ["string", "null"],
+    //       format: "date",
+    //       example: null,
+    //     },
+    //     drop_ship_contact: {
+    //       type: ["string", "null"],
+    //       example: "Jane Doe",
+    //     },
+    //     shipping_address: {
+    //       type: ["string", "null"],
+    //       example: "12 Market St, Mumbai, MH 400001",
+    //     },
+    //   },
+    //   ["order_number", "invoice_date", "created_by"],
+    //   {
+    //     order_number: "SO-20001",
+    //     business_id: 12,
+    //     status: "draft",
+    //     invoice_date: "2026-06-05",
+    //     shipping_charges: 15,
+    //     notes: "Deliver before end of week",
+    //     created_by: 7,
+    //     payment_status: "pending",
+    //     paid_at: null,
+    //     drop_ship_contact: "Jane Doe",
+    //     shipping_address: "12 Market St, Mumbai, MH 400001",
+    //   },
+    // ),
+    // SalesOrderUpdateRequest: objectSchema(
+    //   {
+    //     order_number: {
+    //       type: "string",
+    //       example: "SO-20001",
+    //     },
+    //     business_id: {
+    //       type: ["integer", "null"],
+    //       minimum: 1,
+    //       example: 12,
+    //     },
+    //     status: {
+    //       type: "string",
+    //       enum: [
+    //         "draft",
+    //         "pending",
+    //         "confirmed",
+    //         "processing",
+    //         "shipped",
+    //         "completed",
+    //         "cancelled",
+    //       ],
+    //       example: "confirmed",
+    //     },
+    //     invoice_date: {
+    //       type: "string",
+    //       format: "date",
+    //       example: "2026-06-05",
+    //     },
+    //     shipping_charges: {
+    //       type: "number",
+    //       example: 15,
+    //     },
+    //     notes: {
+    //       type: ["string", "null"],
+    //       example: "Customer confirmed delivery slot",
+    //     },
+    //     created_by: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 7,
+    //     },
+    //     payment_status: {
+    //       type: "string",
+    //       enum: ["pending", "partial", "paid"],
+    //       example: "partial",
+    //     },
+    //     paid_at: {
+    //       type: ["string", "null"],
+    //       format: "date",
+    //       example: "2026-06-05",
+    //     },
+    //     drop_ship_contact: {
+    //       type: ["string", "null"],
+    //       example: "Jane Doe",
+    //     },
+    //     shipping_address: {
+    //       type: ["string", "null"],
+    //       example: "12 Market St, Mumbai, MH 400001",
+    //     },
+    //   },
+    //   [],
+    //   {
+    //     status: "confirmed",
+    //     payment_status: "partial",
+    //     notes: "Customer confirmed delivery slot",
+    //   },
+    // ),
+    // SalesOrderItemCreateRequest: objectSchema(
+    //   {
+    //     sales_order_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 5001,
+    //     },
+    //     product_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 2005,
+    //     },
+    //     quantity: {
+    //       type: "integer",
+    //       example: 10,
+    //     },
+    //     pricing_tier: {
+    //       type: "string",
+    //       enum: ["retail", "wholesale", "distributor"],
+    //       example: "retail",
+    //     },
+    //     price: {
+    //       type: "number",
+    //       example: 19.99,
+    //     },
+    //   },
+    //   ["sales_order_id", "product_id", "quantity", "pricing_tier", "price"],
+    //   {
+    //     sales_order_id: 5001,
+    //     product_id: 2005,
+    //     quantity: 10,
+    //     pricing_tier: "retail",
+    //     price: 19.99,
+    //   },
+    // ),
+    // SalesOrderItemUpdateRequest: objectSchema(
+    //   {
+    //     sales_order_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 5001,
+    //     },
+    //     product_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 2005,
+    //     },
+    //     quantity: {
+    //       type: "integer",
+    //       example: 12,
+    //     },
+    //     pricing_tier: {
+    //       type: "string",
+    //       enum: ["retail", "wholesale", "distributor"],
+    //       example: "retail",
+    //     },
+    //     price: {
+    //       type: "number",
+    //       example: 19.99,
+    //     },
+    //   },
+    //   [],
+    //   {
+    //     quantity: 12,
+    //     price: 19.99,
+    //   },
+    // ),
+    // SalesOrderItemAllocation: {
+    //   type: "object",
+    //   properties: {
+    //     id: { type: "integer" },
+    //     sales_order_item_id: { type: "integer" },
+    //     warehouse_id: { type: "integer" },
+    //     quantity: { type: "integer" },
+    //     created_at: { type: "string", format: "date-time" },
+    //     updated_at: { type: "string", format: "date-time" },
+    //   },
+    // },
+    // SalesOrderItemAllocationCreateRequest: objectSchema(
+    //   {
+    //     sales_order_item_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 8001,
+    //     },
+    //     warehouse_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 1,
+    //     },
+    //     quantity: {
+    //       type: "integer",
+    //       example: 10,
+    //     },
+    //   },
+    //   ["sales_order_item_id", "warehouse_id", "quantity"],
+    //   {
+    //     sales_order_item_id: 8001,
+    //     warehouse_id: 1,
+    //     quantity: 10,
+    //   },
+    // ),
+    // SalesOrderItemAllocationUpdateRequest: objectSchema(
+    //   {
+    //     sales_order_item_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 8001,
+    //     },
+    //     warehouse_id: {
+    //       type: "integer",
+    //       minimum: 1,
+    //       example: 1,
+    //     },
+    //     quantity: {
+    //       type: "integer",
+    //       example: 10,
+    //     },
+    //   },
+    //   [],
+    //   {
+    //     quantity: 10,
+    //   },
+    // ),
+    // ErrorResponse: {
+    //   type: "object",
+    //   properties: {
+    //     message: { type: "string" },
+    //   },
+    //   required: ["message"],
+    // },
+    // AdjustStockRequest: {
+    //   type: "object",
+    //   required: ["productId", "warehouseId", "quantity"],
+    //   properties: {
+    //     productId: { type: "integer", minimum: 1, example: 101 },
+    //     warehouseId: { type: "integer", minimum: 1, example: 1 },
+    //     quantity: { type: "integer", example: 25 },
+    //   },
+    //   example: {
+    //     productId: 101,
+    //     warehouseId: 1,
+    //     quantity: 25,
+    //   },
+    // },
+    // TransferStockRequest: {
+    //   type: "object",
+    //   required: [
+    //     "productId",
+    //     "sourceWarehouseId",
+    //     "targetWarehouseId",
+    //     "quantity",
+    //   ],
+    //   properties: {
+    //     productId: { type: "integer", minimum: 1, example: 101 },
+    //     sourceWarehouseId: { type: "integer", minimum: 1, example: 1 },
+    //     targetWarehouseId: { type: "integer", minimum: 1, example: 2 },
+    //     quantity: { type: "integer", example: 25 },
+    //   },
+    //   example: {
+    //     productId: 101,
+    //     sourceWarehouseId: 1,
+    //     targetWarehouseId: 2,
+    //     quantity: 25,
+    //   },
+    // },
+    // Product: {
+    //   type: "object",
+    //   description:
+    //     "Example product shape shown in Swagger. The actual product model comes from the host app or test setup and may differ.",
+    //   properties: {
+    //     id: { type: "integer", minimum: 1, example: 1 },
+    //     name: { type: "string", example: "Sample Product" },
+    //     sku: { type: "string", example: "SKU-001" },
+    //     description: {
+    //       type: "string",
+    //       example: "Sample product used for testing",
+    //     },
+    //     price: { type: "number", example: 99.99 },
+    //     created_at: { type: "string", format: "date-time" },
+    //     updated_at: { type: "string", format: "date-time" },
+    //   },
+    //   required: ["id"],
+    //   additionalProperties: true,
+    //   example: {
+    //     id: 1,
+    //     name: "Sample Product",
+    //     sku: "SKU-001",
+    //     description: "Sample product used for testing",
+    //     price: 99.99,
+    //     created_at: "2026-06-09T00:00:00Z",
+    //     updated_at: "2026-06-09T00:00:00Z",
+    //   },
+    // },
+    // ProductCreateRequest: objectSchema(
+    //   {
+    //     name: {
+    //       type: "string",
+    //       example: "Sample Product",
+    //     },
+    //     sku: {
+    //       type: "string",
+    //       example: "SKU-001",
+    //     },
+    //     description: {
+    //       type: "string",
+    //       example: "Sample product used for testing",
+    //     },
+    //     price: {
+    //       type: "number",
+    //       example: 99.99,
+    //     },
+    //   },
+    //   [],
+    //   {
+    //     name: "Sample Product",
+    //     sku: "SKU-001",
+    //     description: "Sample product used for testing",
+    //     price: 99.99,
+    //   },
+    // ),
+    // ProductUpdateRequest: objectSchema(
+    //   {
+    //     name: {
+    //       type: "string",
+    //       example: "Sample Product",
+    //     },
+    //     sku: {
+    //       type: "string",
+    //       example: "SKU-001",
+    //     },
+    //     description: {
+    //       type: "string",
+    //       example: "Sample product used for testing",
+    //     },
+    //     price: {
+    //       type: "number",
+    //       example: 99.99,
+    //     },
+    //   },
+    //   [],
+    //   {
+    //     name: "Sample Product",
+    //     sku: "SKU-001",
+    //     description: "Sample product used for testing",
+    //     price: 99.99,
+    //   },
+    // ),
+};
+export default resSchemas;

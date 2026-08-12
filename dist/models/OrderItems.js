@@ -1,1 +1,62 @@
-function a9_0x4140(_0x519cc2,_0x1d24e2){_0x519cc2=_0x519cc2-0x113;var _0x4908ca=a9_0x1979();var _0x24d39d=_0x4908ca[_0x519cc2];if(a9_0x4140['ZUgpGV']===undefined){var _0xa58494=function(_0x200498){var _0x3c6dec='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x10b954='',_0x28d2cd='',_0x6c2f61=_0x10b954+_0xa58494,_0x2fa5e1=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(var _0xefc7da=0x0,_0x19ff87,_0x452a0c,_0x316756=0x0;_0x452a0c=_0x200498['charAt'](_0x316756++);~_0x452a0c&&(_0x19ff87=_0xefc7da%0x4?_0x19ff87*0x40+_0x452a0c:_0x452a0c,_0xefc7da++%0x4)?_0x10b954+=_0x2fa5e1||_0x6c2f61['charCodeAt'](_0x316756+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x19ff87>>(-0x2*_0xefc7da&0x6)):_0xefc7da:0x0){_0x452a0c=_0x3c6dec['indexOf'](_0x452a0c);}for(var _0x20dfd3=0x0,_0x20f395=_0x10b954['length'];_0x20dfd3<_0x20f395;_0x20dfd3++){_0x28d2cd+='%'+('00'+_0x10b954['charCodeAt'](_0x20dfd3)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x28d2cd);};var _0x12a927=function(_0x2c8f0a,_0x565da2){var _0x2e65ef=[],_0x2bf59f=0x0,_0x7b8de0,_0x10a995='';_0x2c8f0a=_0xa58494(_0x2c8f0a);var _0x51ffc4;for(_0x51ffc4=0x0;_0x51ffc4<0x100;_0x51ffc4++){_0x2e65ef[_0x51ffc4]=_0x51ffc4;}for(_0x51ffc4=0x0;_0x51ffc4<0x100;_0x51ffc4++){_0x2bf59f=(_0x2bf59f+_0x2e65ef[_0x51ffc4]+_0x565da2['charCodeAt'](_0x51ffc4%_0x565da2['length']))%0x100,_0x7b8de0=_0x2e65ef[_0x51ffc4],_0x2e65ef[_0x51ffc4]=_0x2e65ef[_0x2bf59f],_0x2e65ef[_0x2bf59f]=_0x7b8de0;}_0x51ffc4=0x0,_0x2bf59f=0x0;for(var _0x16a537=0x0;_0x16a537<_0x2c8f0a['length'];_0x16a537++){_0x51ffc4=(_0x51ffc4+0x1)%0x100,_0x2bf59f=(_0x2bf59f+_0x2e65ef[_0x51ffc4])%0x100,_0x7b8de0=_0x2e65ef[_0x51ffc4],_0x2e65ef[_0x51ffc4]=_0x2e65ef[_0x2bf59f],_0x2e65ef[_0x2bf59f]=_0x7b8de0,_0x10a995+=String['fromCharCode'](_0x2c8f0a['charCodeAt'](_0x16a537)^_0x2e65ef[(_0x2e65ef[_0x51ffc4]+_0x2e65ef[_0x2bf59f])%0x100]);}return _0x10a995;};a9_0x4140['spGHwc']=_0x12a927,a9_0x4140['rWVJbX']={},a9_0x4140['ZUgpGV']=!![];}var _0x1979ba=_0x4908ca[0x0],_0x414091=_0x519cc2+_0x1979ba,_0x5a91f5=a9_0x4140['rWVJbX'][_0x414091];if(!_0x5a91f5){if(a9_0x4140['UMjPMB']===undefined){var _0x5d8c6f=function(_0x185f4b){this['KBMWPg']=_0x185f4b,this['xKzGgW']=[0x1,0x0,0x0],this['yjeXRN']=function(){return'newState';},this['xBZccK']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['xgucWy']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x5d8c6f['prototype']['aQsyYf']=function(){var _0x41d56e=new RegExp(this['xBZccK']+this['xgucWy']),_0x471ef2=_0x41d56e['test'](this['yjeXRN']['toString']())?--this['xKzGgW'][0x1]:--this['xKzGgW'][0x0];return this['edSTEJ'](_0x471ef2);},_0x5d8c6f['prototype']['edSTEJ']=function(_0x13dff4){if(!Boolean(~_0x13dff4))return _0x13dff4;return this['OiqstT'](this['KBMWPg']);},_0x5d8c6f['prototype']['OiqstT']=function(_0x42086c){for(var _0x5ce0fa=0x0,_0x447e1b=this['xKzGgW']['length'];_0x5ce0fa<_0x447e1b;_0x5ce0fa++){this['xKzGgW']['push'](Math['round'](Math['random']())),_0x447e1b=this['xKzGgW']['length'];}return _0x42086c(this['xKzGgW'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x5d8c6f(a9_0x4140)['aQsyYf'](),a9_0x4140['UMjPMB']=!![];}_0x24d39d=a9_0x4140['spGHwc'](_0x24d39d,_0x1d24e2),a9_0x4140['rWVJbX'][_0x414091]=_0x24d39d;}else _0x24d39d=_0x5a91f5;return _0x24d39d;}function a9_0x1979(){var _0x1d25c1=['WPSGWR3dUbBcLwi','W4mIWOtdGsa','W6hcHNVcSSkmrq','WQyDW7RcH8kpnWurW5HvW47cLuVcJ8k2','rLRdPSomWPKp','reZcNMX2','W4CaWQ4AWPrZWPtdJCoHWOhcM34lW68','oGvIfhuJar7dS8kSWRBdQSoItq','W5HlW7pdLqe','WPW0WQFdH1KRB3ddQLCIW5JdQW','W4/dQ8ojWPpcNrjRW47dN8ocWOHeWP0','WRFcGSkUDSkyW6bO','ymkEW4a1WRFdKSkhcHu8W6LVka','WRO7a8oifmohW6e','WRFcJCkPu8kx','ACoJgSkfW4xcICok','W4ddT8oyd8oIWPyCAKxdMevYoa','WOCAbmo5iCoRW50N','W6ldT8oyrCo/WRKLW5uMWOasCti','Cmo9lMJcMSodiG','WPlcRSo9rSoNWQZdMuZdQmoLW5e8','WP4NhHtcRW','rxOa','W5fEW5hdLXhdLYyNew9r','WOWrW7rKWQpdH28JW6pcKKuUW7K','WOdcOSkmtCk2W4K','WPe1fmknDHOf','rMRcJMjj','WOacW63cVCksdburW4D5','WP1EW7NdGG','W67dKSkFo8kuW5/dUa','wZnuh3S','iKPJoK3cNmofWP0','h2y4yb4xcSk3W6G9CcdcNq','umoDe1NcKmoPfmoEW5i','W71yWP1namopW6uscXyjmCkY','WOSAW7zNWQZdGM8cW7ZcHgumW6G'];a9_0x1979=function(){return _0x1d25c1;};return a9_0x1979();}var a9_0x430d53=a9_0x4140;(function(_0x55955c,_0xdedd25){var _0x1d05a0=a9_0x4140,_0x514806=_0x55955c();while(!![]){try{var _0x356b28=-parseInt(_0x1d05a0(0x120,'sMed'))/0x1*(parseInt(_0x1d05a0(0x131,'*JfF'))/0x2)+-parseInt(_0x1d05a0(0x115,'T2wu'))/0x3+parseInt(_0x1d05a0(0x12f,'5NU5'))/0x4+-parseInt(_0x1d05a0(0x130,'vggD'))/0x5+-parseInt(_0x1d05a0(0x116,'0q*]'))/0x6+parseInt(_0x1d05a0(0x124,'vggD'))/0x7+parseInt(_0x1d05a0(0x137,'if[a'))/0x8;if(_0x356b28===_0xdedd25)break;else _0x514806['push'](_0x514806['shift']());}catch(_0x2d14d7){_0x514806['push'](_0x514806['shift']());}}}(a9_0x1979,0x99d51));var a9_0xa58494=(function(){var _0x321be4=!![];return function(_0x57be67,_0x339e03){var _0x4ca94b=_0x321be4?function(){if(_0x339e03){var _0x1a2814=_0x339e03['apply'](_0x57be67,arguments);return _0x339e03=null,_0x1a2814;}}:function(){};return _0x321be4=![],_0x4ca94b;};}()),a9_0x24d39d=a9_0xa58494(this,function(){var _0x2a320a=a9_0x4140,_0x4bfeca={'jzLqd':'(((.+)+)+)+$'};return a9_0x24d39d[_0x2a320a(0x12c,'fvgt')]()[_0x2a320a(0x133,'hyq)')](_0x4bfeca[_0x2a320a(0x114,'!YdB')])[_0x2a320a(0x11d,'u^N^')]()[_0x2a320a(0x123,'!YdB')](a9_0x24d39d)[_0x2a320a(0x125,'l6t$')](_0x4bfeca[_0x2a320a(0x132,'*JfF')]);});a9_0x24d39d();import{DataTypes,Model}from'sequelize';export class OrderItems extends Model{static[a9_0x430d53(0x12e,'%MQO')](_0x5946e5){var _0x41cf72=a9_0x430d53,_0x4a3a78={'UXnbx':'updated_at','ARVHA':'ims_orders','FgXjF':'CASCADE','pmZNS':'ims_warehouses','DAHdy':_0x41cf72(0x128,'cPJV'),'DJDlB':_0x41cf72(0x134,'cPJV')};OrderItems['init']({'id':{'type':DataTypes[_0x41cf72(0x119,'u^N^')],'primaryKey':!![],'autoIncrement':!![]},'order_id':{'type':DataTypes[_0x41cf72(0x126,'x0YY')],'allowNull':![],'references':{'model':_0x4a3a78[_0x41cf72(0x121,'j[99')],'key':'id'},'onDelete':_0x4a3a78[_0x41cf72(0x127,'hV%T')]},'product_id':{'type':DataTypes[_0x41cf72(0x12a,'sMed')],'allowNull':![]},'warehouse_id':{'type':DataTypes['INTEGER'],'allowNull':!![],'references':{'model':_0x4a3a78[_0x41cf72(0x12b,'RD$H')],'key':'id'}},'quantity':{'type':DataTypes[_0x41cf72(0x11f,'%MQO')],'allowNull':![]},'quantity_allocation':{'type':DataTypes[_0x41cf72(0x135,'gAYG')],'allowNull':!![]},'price':{'type':DataTypes[_0x41cf72(0x117,'l6t$')](0xc,0x2),'allowNull':![]},'created_at':{'type':DataTypes['DATE'],'allowNull':![],'defaultValue':DataTypes[_0x41cf72(0x122,'cytn')]},'updated_at':{'type':DataTypes[_0x41cf72(0x129,'yrn)')],'allowNull':!![],'defaultValue':null}},{'sequelize':_0x5946e5,'modelName':_0x4a3a78[_0x41cf72(0x136,'hV%T')],'tableName':_0x4a3a78[_0x41cf72(0x11a,'l6t$')],'timestamps':![],'hooks':{'beforeUpdate':_0x35c4c4=>{_0x35c4c4['setDataValue'](_0x4a3a78['UXnbx'],new Date());}}});}}
+import { DataTypes, Model } from "sequelize";
+export class OrderItems extends Model {
+    static initModel(sequelize) {
+        OrderItems.init({
+            id: {
+                type: DataTypes.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+            order_id: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+                references: {
+                    model: "ims_orders",
+                    key: "id",
+                },
+                onDelete: "CASCADE",
+            },
+            product_id: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+            },
+            warehouse_id: {
+                type: DataTypes.INTEGER,
+                allowNull: true,
+                references: {
+                    model: "ims_warehouses",
+                    key: "id",
+                },
+            },
+            quantity: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+            },
+            quantity_allocation: { type: DataTypes.STRING, allowNull: true },
+            price: {
+                type: DataTypes.DECIMAL(12, 2),
+                allowNull: false,
+            },
+            created_at: {
+                type: DataTypes.DATE,
+                allowNull: false,
+                defaultValue: DataTypes.NOW,
+            },
+            updated_at: {
+                type: DataTypes.DATE,
+                allowNull: true,
+                defaultValue: null,
+            },
+        }, {
+            sequelize,
+            modelName: "OrderItems",
+            tableName: "ims_order_items",
+            timestamps: false,
+            hooks: {
+                beforeUpdate: (purchaseOrder) => {
+                    purchaseOrder.setDataValue("updated_at", new Date());
+                },
+            },
+        });
+    }
+}

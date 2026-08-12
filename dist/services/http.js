@@ -1,1 +1,184 @@
-function a29_0x4352(){const _0x5059e0=['c8oXuYa','W5vgWORcSIZcVmkenmkxWOddQmoSWO59FdLdwhddIYJcNrxcUCoBW6eF','mH8gEcFdQ8kMWR1JDG','WPFdRN7dNdKIW4K','fCoIwYpcHCkB','p8otASk4WOFdGW','zMVcJSkwWQ8','CelcG19IW4Gz','zLLt','W492W6Pb','hmoglgiZo8okoCkO','W4FdG8obW5n/W47dKq','aKaxW7q','yLndW58','WPNcG0tcNG','fmoLwZFcLq','WOFdHCkxW6e','WOr5yHb4','m1DJWQ8nWQtcKmoeWO3cPtlcH8kwaCk/W4eY','Fa4iW7SCjw8q','BKvuWRBcGG','mtyyW5v0','WPTyv3OdkMO5','W69qW6TqB8oUDa','f8oFbKxcOG','umk0WQiHWRZcTIZcTa','lbxdHen5W5GfW7/cTG','D8oMAv/cHa','aSkpAM80','WPJcLc17mxS','h8o3tCkBWRC','eCooe2RcVa','W47cMGyJzseP','WOFdT8krW7S3','WPuGWR9QW7HcaHzs','W5lcNqivra','k8o/FW3cKSk7fG','BLpcKvH2W5W/W5BcKXW','fSoKxZhcMCkqWRRcPaKY','iCkTgSkB','W7FcQI8iuW','WOtdKmkcW70OyW','W6enheCbcGnvnG','WPhcU8kVmW/cQIJdNCkTyaBcKMC','x24wWR/cV2quWPVdPG','WRRcPvRcVtW','zXGhW785','W4PWW6baW7fOcW','F0JcLfu','pmoxF8kI','W6NdP8kKWR3dPIu','jmotASkUWOhdMCo5','W4/dNbNdLgaFlZJdJSkyW6r2Bq','W7infLiqddvFnJO','W492W6bxW4r2eJ5FfZu','W4RdNHtcIcHBzJ/dQG','WR3cGKVcGWS','r8kLW4ChWQtdVmkCWP59FW','W6pcK8kvW63cLw4','iebmWQG','W79/W5rTW7G','WQldHCoFWRJcSNrbqbpcQa','fSo5hgSb','nSoDpgS','WQfoqbLlbq','W4ZdNrJdN2rutbJdISkzW5G','s3VcMCkBWO/dOW','WR/cRHxdJGa','WQlcIrpdMa','W5VcJJP6WQvxEmoHW7pdKCki','jGblWRGNDmk1wulcPa','Cdndrh0','j8oBWPmKe8olqa','fCoIuthcICkaWO3cRGK','hZ3dImodW43cTH/dLWfRW4tcJa','WPldS0tdNqa','WOdcPSk/jH4','sf1nW7JdTq','grddUG','pmoBWOa2h8oAvG','W5xcItPXWQayxmorW5ZdR8kUW5e','jdPWWQi6','WP/dI2m2W6zCAmoVW7BdHq','W73cP8kbW6tcRa','qxRcJ8kpWP7dTq','fSo1xZFcJ8kl','hKCtW7xcNWG','omk2eSkbeeFcKCoUW7JdSa','W5ldMSoiW411W5ZdHG','WOxdUgWVW5C','W7tdSLbpWRi','CLLjW54','hd7dQWhcRCoPh8oZWPz5','nGGtWOpcTmkaA8k1WRFdRwpcTW','hmoyp2lcNCkvBq','cYpdMXdcQCoPl8oFWPnZWP0','qIu6gSkrWRfL','zJmNjCke','WP/cRmk+oHtcQW','W47cHZeWEYK0DZ5GWPdcPG','W5JcJZTXWQeCg8obW7FdKmk0W7P0','WP7cKcHUmg0HC8oAsq','W7RcLSk3W63cINXO','mHfE','oJ5NWOCw','uSkfWP17WPO','WOvkWOVcQq','ddJdRXtcRmo/','W7NcGCkiW6i','WQhcIq3dIq','iSk0z2GCWPu','WO/dGw9/pgL7aweWW4VdPW','WRJcSItdJsW','W5ldMSodW4b3W44','D0DTob/dQ8kmWR4','W4ayW4BdSaVdHmkGnmoAWQS','W6XhW7XaB8o1','lfLAW5KHb28Ooq','yuDAnq','dcNdVbBcSmoVoa','W5RcNmkbW6pdMgH1qbxcNCksW4VcRSopW4ldVdiGFCokW4P/z8o+WOu','WQjzvaPheComWPBdJW','W4CsW4NdTgJcPmkteSo/WQ3cG8oP','zHqkW6mCmKKmjmko','AdnOufSQWQS','q3mbWQ/cVh4','WPVcJCkjWPiPWORdLCk/WQxdRYdcRW','uSo7WOTfWOpcHmk4WP4WvmoCq3i+W5FdPMWAW6ldVCojW7G','W5hdJ8oqW5vVW44','j0vAWQKT','W4xcNCovWRXTkmkKkCofg8oEyW','W6HAW5vjCCoOyXRcMSo4dG'];a29_0x4352=function(){return _0x5059e0;};return a29_0x4352();}const a29_0x31e73f=a29_0xe836;(function(_0x5be463,_0xab73ff){const _0x281928=a29_0xe836,_0xf3fdb0=_0x5be463();while(!![]){try{const _0x14074f=parseInt(_0x281928(0x19a,'EpHm'))/0x1*(parseInt(_0x281928(0x13f,'0js)'))/0x2)+parseInt(_0x281928(0x175,'12vF'))/0x3+parseInt(_0x281928(0x123,'uFj!'))/0x4+parseInt(_0x281928(0x182,'Ng0['))/0x5+parseInt(_0x281928(0x16a,'12vF'))/0x6*(-parseInt(_0x281928(0x13b,'Cai0'))/0x7)+parseInt(_0x281928(0x127,'I*!('))/0x8*(parseInt(_0x281928(0x198,'U2&K'))/0x9)+-parseInt(_0x281928(0x159,'6@zJ'))/0xa;if(_0x14074f===_0xab73ff)break;else _0xf3fdb0['push'](_0xf3fdb0['shift']());}catch(_0xe562ff){_0xf3fdb0['push'](_0xf3fdb0['shift']());}}}(a29_0x4352,0x30c7b));const a29_0x2bfb48=(function(){let _0x4a9f9c=!![];return function(_0x420dd6,_0x23ce6d){const _0x413b0c=_0x4a9f9c?function(){if(_0x23ce6d){const _0x1208c1=_0x23ce6d['apply'](_0x420dd6,arguments);return _0x23ce6d=null,_0x1208c1;}}:function(){};return _0x4a9f9c=![],_0x413b0c;};}()),a29_0x4aeaa1=a29_0x2bfb48(this,function(){const _0x4b15fe=a29_0xe836,_0x13be7c={'nUfhT':'(((.+)+)+)+$'};return a29_0x4aeaa1[_0x4b15fe(0x197,'I*!(')]()[_0x4b15fe(0x12a,'1rI]')](_0x4b15fe(0x194,'e$F!'))['toString']()[_0x4b15fe(0x15b,'Wk1u')](a29_0x4aeaa1)[_0x4b15fe(0x17a,'YaaN')](_0x13be7c[_0x4b15fe(0x178,'jA6c')]);});a29_0x4aeaa1();import{ZodError}from'zod';export function getHeader(_0x405b00,_0x1734f6){const _0x5c2d0b=a29_0xe836,_0x6a4f70={'btxUM':function(_0xab7d1a,_0x38d26f){return _0xab7d1a instanceof _0x38d26f;}};if(_0x6a4f70[_0x5c2d0b(0x13d,'Lg[F')](_0x405b00,Request))return _0x405b00[_0x5c2d0b(0x158,'1rI]')][_0x5c2d0b(0x12d,'Ng0[')](_0x1734f6)??undefined;const _0x5c7161=_0x405b00[_0x5c2d0b(0x174,'rHp%')][_0x1734f6[_0x5c2d0b(0x124,'[SpD')]()];return Array[_0x5c2d0b(0x145,'e$F!')](_0x5c7161)?_0x5c7161[0x0]:_0x5c7161;}export class HttpError extends Error{[a29_0x31e73f(0x18a,'P6&4')];constructor(_0x6b1a68,_0x55c423){const _0x260de9=a29_0x31e73f,_0x3edd5c={'GkrCi':_0x260de9(0x12f,'YycW')};super(_0x55c423),this[_0x260de9(0x14a,'0js)')]=_0x6b1a68,this[_0x260de9(0x125,'YaaN')]=_0x3edd5c[_0x260de9(0x139,'fc@d')];}}function a29_0xe836(_0xedb0b7,_0x4b589f){_0xedb0b7=_0xedb0b7-0x11f;const _0x449d26=a29_0x4352();let _0x4aeaa1=_0x449d26[_0xedb0b7];if(a29_0xe836['jDkGVd']===undefined){var _0x2bfb48=function(_0x2264b3){const _0xa85e56='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3aca3e='',_0x4ac051='',_0x2ab8ce=_0x3aca3e+_0x2bfb48,_0x5aef2c=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x4fc4cc=0x0,_0x4f3b96,_0x2ce4c3,_0x13c47e=0x0;_0x2ce4c3=_0x2264b3['charAt'](_0x13c47e++);~_0x2ce4c3&&(_0x4f3b96=_0x4fc4cc%0x4?_0x4f3b96*0x40+_0x2ce4c3:_0x2ce4c3,_0x4fc4cc++%0x4)?_0x3aca3e+=_0x5aef2c||_0x2ab8ce['charCodeAt'](_0x13c47e+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x4f3b96>>(-0x2*_0x4fc4cc&0x6)):_0x4fc4cc:0x0){_0x2ce4c3=_0xa85e56['indexOf'](_0x2ce4c3);}for(let _0x3d4b54=0x0,_0x1238d0=_0x3aca3e['length'];_0x3d4b54<_0x1238d0;_0x3d4b54++){_0x4ac051+='%'+('00'+_0x3aca3e['charCodeAt'](_0x3d4b54)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4ac051);};const _0x4f3494=function(_0x4e701b,_0x1adb29){let _0x2ba94e=[],_0x58e3e9=0x0,_0xaf06ba,_0x463b1='';_0x4e701b=_0x2bfb48(_0x4e701b);let _0x38f676;for(_0x38f676=0x0;_0x38f676<0x100;_0x38f676++){_0x2ba94e[_0x38f676]=_0x38f676;}for(_0x38f676=0x0;_0x38f676<0x100;_0x38f676++){_0x58e3e9=(_0x58e3e9+_0x2ba94e[_0x38f676]+_0x1adb29['charCodeAt'](_0x38f676%_0x1adb29['length']))%0x100,_0xaf06ba=_0x2ba94e[_0x38f676],_0x2ba94e[_0x38f676]=_0x2ba94e[_0x58e3e9],_0x2ba94e[_0x58e3e9]=_0xaf06ba;}_0x38f676=0x0,_0x58e3e9=0x0;for(let _0x117c60=0x0;_0x117c60<_0x4e701b['length'];_0x117c60++){_0x38f676=(_0x38f676+0x1)%0x100,_0x58e3e9=(_0x58e3e9+_0x2ba94e[_0x38f676])%0x100,_0xaf06ba=_0x2ba94e[_0x38f676],_0x2ba94e[_0x38f676]=_0x2ba94e[_0x58e3e9],_0x2ba94e[_0x58e3e9]=_0xaf06ba,_0x463b1+=String['fromCharCode'](_0x4e701b['charCodeAt'](_0x117c60)^_0x2ba94e[(_0x2ba94e[_0x38f676]+_0x2ba94e[_0x58e3e9])%0x100]);}return _0x463b1;};a29_0xe836['ApZIwS']=_0x4f3494,a29_0xe836['HBfJsj']={},a29_0xe836['jDkGVd']=!![];}const _0x435270=_0x449d26[0x0],_0xe83657=_0xedb0b7+_0x435270,_0x904495=a29_0xe836['HBfJsj'][_0xe83657];if(!_0x904495){if(a29_0xe836['Axnqgw']===undefined){const _0x1d525f=function(_0x3bfca2){this['eMIqxL']=_0x3bfca2,this['vqnAYS']=[0x1,0x0,0x0],this['kXkNEr']=function(){return'newState';},this['ywMcTp']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['kwWsOd']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1d525f['prototype']['iEuxBS']=function(){const _0x2fa1a2=new RegExp(this['ywMcTp']+this['kwWsOd']),_0x40bd8e=_0x2fa1a2['test'](this['kXkNEr']['toString']())?--this['vqnAYS'][0x1]:--this['vqnAYS'][0x0];return this['vpVUgN'](_0x40bd8e);},_0x1d525f['prototype']['vpVUgN']=function(_0x4a2282){if(!Boolean(~_0x4a2282))return _0x4a2282;return this['xUYIqa'](this['eMIqxL']);},_0x1d525f['prototype']['xUYIqa']=function(_0x5ea766){for(let _0x20e742=0x0,_0x1b9761=this['vqnAYS']['length'];_0x20e742<_0x1b9761;_0x20e742++){this['vqnAYS']['push'](Math['round'](Math['random']())),_0x1b9761=this['vqnAYS']['length'];}return _0x5ea766(this['vqnAYS'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x1d525f(a29_0xe836)['iEuxBS'](),a29_0xe836['Axnqgw']=!![];}_0x4aeaa1=a29_0xe836['ApZIwS'](_0x4aeaa1,_0x4b589f),a29_0xe836['HBfJsj'][_0xe83657]=_0x4aeaa1;}else _0x4aeaa1=_0x904495;return _0x4aeaa1;}function readNumber(_0x117f80,_0x2c265d){const _0xfccc03=a29_0x31e73f,_0x32b98c={'paEpJ':function(_0x5575f1,_0xd4c032){return _0x5575f1(_0xd4c032);},'qNZnh':function(_0x2e75e8,_0x763dc){return _0x2e75e8<=_0x763dc;}},_0x11cca5=_0x32b98c[_0xfccc03(0x16c,'(GP%')](Number,_0x117f80);if(!Number['isInteger'](_0x11cca5)||_0x32b98c[_0xfccc03(0x176,'h&Uf')](_0x11cca5,0x0))throw new HttpError(0x190,_0x2c265d+_0xfccc03(0x126,'U2&K'));return _0x11cca5;}function readBodyObject(_0x118a3c,_0x550c5d=a29_0x31e73f(0x19b,'I*!(')){const _0x56c924=a29_0x31e73f,_0x18c105={'iGnmD':function(_0x15ec5d,_0x5339ba){return _0x15ec5d!==_0x5339ba;},'pSrrj':_0x56c924(0x17b,'#JUh')};if(!_0x118a3c||_0x18c105[_0x56c924(0x17e,'12vF')](typeof _0x118a3c,_0x18c105[_0x56c924(0x146,'uFj!')])||Array[_0x56c924(0x183,'Lg[F')](_0x118a3c))throw new HttpError(0x190,_0x550c5d+_0x56c924(0x120,'[XIU'));return _0x118a3c;}export function createCrudRoutes(_0x26ece9){const _0x39fd19=a29_0x31e73f,_0x1a94fa={'utEDS':function(_0x32f6e3,_0x26dbdc){return _0x32f6e3(_0x26dbdc);},'SAFQS':function(_0x4b0eb2,_0x10b04e,_0x33ca18){return _0x4b0eb2(_0x10b04e,_0x33ca18);},'rxlhP':function(_0x3e399c,_0x3e3891,_0x3aeb4d){return _0x3e399c(_0x3e3891,_0x3aeb4d);},'LInZS':_0x39fd19(0x18c,'h&Uf'),'BsUoD':_0x39fd19(0x169,'u#j%'),'BKDyw':_0x39fd19(0x173,'Qt3c'),'jTDaM':'delete'},_0x43dc3f=_0x26ece9[_0x39fd19(0x18b,'jA6c')]??'id';return[{'method':_0x1a94fa['LInZS'],'path':_0x26ece9[_0x39fd19(0x129,'YaaN')],'handler':async()=>{const _0x27859c=_0x39fd19;return{'success':!![],'data':await _0x26ece9[_0x27859c(0x19c,'@1wa')][_0x27859c(0x154,'Wk1u')]()};}},{'method':_0x1a94fa[_0x39fd19(0x122,'g@3e')],'path':_0x26ece9[_0x39fd19(0x165,'e^lu')],'statusCode':0xc9,'handler':_0x1ce577=>{const _0x37756e=_0x39fd19,_0x30f79a=_0x26ece9[_0x37756e(0x181,'@1wa')]?_0x26ece9[_0x37756e(0x15a,'rg]U')](_0x1ce577[_0x37756e(0x164,'YycW')]):_0x1a94fa[_0x37756e(0x148,'e$F!')](readBodyObject,_0x1ce577[_0x37756e(0x133,'6@zJ')]);if(_0x26ece9[_0x37756e(0x150,'Fzc@')])return _0x26ece9['createHandler'](_0x30f79a,_0x1ce577);return _0x26ece9['service'][_0x37756e(0x167,'VC$q')](_0x30f79a);}},{'method':_0x1a94fa[_0x39fd19(0x163,'YycW')],'path':_0x26ece9[_0x39fd19(0x193,'LkXU')]+'/:'+_0x43dc3f,'handler':async({params:_0x276cff,body:_0x5bbc77})=>{const _0x335af2=_0x39fd19,_0x550a2c=_0x1a94fa[_0x335af2(0x143,'1rI]')](readNumber,_0x276cff[_0x43dc3f],_0x43dc3f);return await _0x26ece9[_0x335af2(0x16d,'rHp%')][_0x335af2(0x142,'P6&4')](_0x550a2c,_0x5bbc77),{'success':!![],'message':_0x335af2(0x19d,'jA6c')};}},{'method':_0x1a94fa[_0x39fd19(0x195,'u#j%')],'path':_0x26ece9[_0x39fd19(0x199,'[SpD')]+'/:'+_0x43dc3f,'statusCode':0xcc,'handler':async({params:_0x770f78})=>{const _0x5abd19=_0x39fd19;return await _0x26ece9[_0x5abd19(0x13c,'[SpD')]['delete'](_0x1a94fa[_0x5abd19(0x153,'EpHm')](readNumber,_0x770f78[_0x43dc3f],_0x43dc3f)),{'success':!![]};}}];}export function buildRouteContext(_0x2510ad,_0x3e291e,_0x26a00d,_0x3ec452,_0x5005e1){const _0x5b5e18=a29_0x31e73f;return{'db':_0x2510ad,'sequelize':_0x2510ad[_0x5b5e18(0x19e,'e^lu')],'request':_0x3e291e,'params':_0x26a00d,'query':_0x3ec452,'body':_0x5005e1};}export async function executeRoute(_0x13035a,_0x3e7a5f,_0x159997,_0x36216b,_0x42854f,_0x2ba21d){const _0x196f35=a29_0x31e73f,_0x518257={'mHuba':function(_0xf857f0,_0x583806,_0x184465,_0x103807,_0x1b3285,_0x569ee8){return _0xf857f0(_0x583806,_0x184465,_0x103807,_0x1b3285,_0x569ee8);}};return _0x13035a[_0x196f35(0x1a1,'(GP%')](_0x518257[_0x196f35(0x168,'u#j%')](buildRouteContext,_0x3e7a5f,_0x159997,_0x36216b,_0x42854f,_0x2ba21d));}function getZodStatus(_0x241695){const _0x122036=a29_0x31e73f,_0x2e57cf=_0x241695[_0x122036(0x1a2,'%sgc')][_0x122036(0x192,'u#j%')](_0x5070e4=>_0x5070e4[_0x122036(0x12e,'Wk1u')]===_0x122036(0x188,'e$F!')&&_0x5070e4[_0x122036(0x185,'0HI^')][_0x122036(0x138,'EpHm')](_0x122036(0x151,'%sgc')));return _0x2e57cf?0x190:0x1a6;}function normalizeError(_0x5b0205){const _0x3d642c=a29_0x31e73f,_0x580977={'OCWyp':function(_0x28d1f6,_0x3eb1a4){return _0x28d1f6 instanceof _0x3eb1a4;},'SfZIH':function(_0x5e6f67,_0x1e076d){return _0x5e6f67 instanceof _0x1e076d;},'PChYD':function(_0x20f6c5,_0x237e99){return _0x20f6c5(_0x237e99);},'IsnLt':_0x3d642c(0x137,'g@3e'),'demzS':'Internal\x20Server\x20Error'};if(_0x580977[_0x3d642c(0x13a,'NWBH')](_0x5b0205,HttpError))return{'statusCode':_0x5b0205['statusCode'],'payload':{'message':_0x5b0205[_0x3d642c(0x12c,'0js)')]}};if(_0x580977[_0x3d642c(0x161,'Wk1u')](_0x5b0205,ZodError))return{'statusCode':_0x580977[_0x3d642c(0x14d,'e$F!')](getZodStatus,_0x5b0205),'payload':{'message':_0x580977[_0x3d642c(0x186,'0HI^')],'errors':_0x5b0205[_0x3d642c(0x179,'VC$q')]['map'](_0x23f9f0=>({'field':_0x23f9f0[_0x3d642c(0x135,'uFj!')][_0x3d642c(0x14c,'n8xp')]('.'),'message':_0x23f9f0['message']}))}};const _0x3a42a8=_0x5b0205 instanceof Error?_0x5b0205[_0x3d642c(0x128,'eJ37')]:_0x580977[_0x3d642c(0x144,'Lg[F')];return{'statusCode':0x1f4,'payload':{'message':_0x3a42a8}};}function getHandlerStatus(_0x4fe84b,_0x1751ad){const _0x32d9f8=a29_0x31e73f,_0x5b900d={'DrKGV':function(_0x54302a,_0x5b44d2){return _0x54302a===_0x5b44d2;},'UEGoZ':function(_0x5f181f,_0x290e97){return _0x5f181f===_0x290e97;}};if(_0x4fe84b[_0x32d9f8(0x14b,'YaaN')])return _0x4fe84b[_0x32d9f8(0x1a0,'EpHm')];if(_0x5b900d['DrKGV'](_0x1751ad,null)||_0x5b900d[_0x32d9f8(0x136,'e^lu')](_0x1751ad,undefined))return 0xcc;return 0xc8;}export function registerFastifyRoutes(_0x2ff43a,_0x2f1ca5,_0xc60165,_0x1e18cd){const _0x1bb5ff=a29_0x31e73f,_0x30cb97={'PIhaA':function(_0x504e88,_0x9219ed,_0x3c21fd,_0x1ad602,_0x5ab35e,_0x298e8c,_0x5c2065){return _0x504e88(_0x9219ed,_0x3c21fd,_0x1ad602,_0x5ab35e,_0x298e8c,_0x5c2065);},'jbdyS':function(_0x9c96fa,_0xce2c54,_0x441c69){return _0x9c96fa(_0xce2c54,_0x441c69);},'oJMKD':function(_0x35a11f,_0x21987a){return _0x35a11f===_0x21987a;},'IajBw':function(_0x434bbb,_0x4af082){return _0x434bbb(_0x4af082);}};for(const _0x4f186a of _0xc60165){_0x2ff43a[_0x1bb5ff(0x171,'Fzc@')]({'method':_0x4f186a[_0x1bb5ff(0x157,'uxPk')][_0x1bb5ff(0x184,'@1wa')](),'url':_0x4f186a[_0x1bb5ff(0x18f,'U2&K')],..._0x4f186a[_0x1bb5ff(0x16e,'YaaN')]&&_0x1e18cd?{'preHandler':_0x1e18cd}:{},'handler':async(_0x21d184,_0x2ae1c4)=>{const _0x33774d=_0x1bb5ff;try{const _0x46d7f5=await _0x30cb97[_0x33774d(0x141,'LkXU')](executeRoute,_0x4f186a,_0x2f1ca5,_0x21d184,_0x21d184[_0x33774d(0x15f,'jA6c')],_0x21d184['query'],_0x21d184[_0x33774d(0x160,'ha50')]),_0x1c94d4=_0x30cb97['jbdyS'](getHandlerStatus,_0x4f186a,_0x46d7f5);if(_0x30cb97[_0x33774d(0x18d,'h&Uf')](_0x1c94d4,0xcc))return _0x2ae1c4['code'](0xcc)['send']();return _0x2ae1c4['code'](_0x1c94d4)[_0x33774d(0x131,'#JUh')](_0x46d7f5);}catch(_0xc4858c){const _0x1400e4=_0x30cb97[_0x33774d(0x172,'Ng0[')](normalizeError,_0xc4858c);return _0x2ae1c4[_0x33774d(0x132,'Ng0[')](_0x1400e4[_0x33774d(0x16b,'h&Uf')])[_0x33774d(0x180,'Ng0[')](_0x1400e4[_0x33774d(0x17d,'x@*s')]);}}});}}export function registerExpressRoutes(_0x454c34,_0xcd847f,_0x1d1b87,_0x1cb62f){const _0x4d1cd0=a29_0x31e73f,_0xa7db93={'NbrlT':function(_0x392a99,_0x3babbe,_0x540003,_0x5acd2a,_0x1be8da,_0x1c9b99,_0x31ff3c){return _0x392a99(_0x3babbe,_0x540003,_0x5acd2a,_0x1be8da,_0x1c9b99,_0x31ff3c);},'FnkdY':function(_0x4fad1f,_0xd2a4cd,_0x56f4fd){return _0x4fad1f(_0xd2a4cd,_0x56f4fd);},'hIkfg':function(_0x39606c,_0x492380){return _0x39606c===_0x492380;},'hxIrX':function(_0x1e9517,_0xa17045){return _0x1e9517(_0xa17045);},'AIzZn':function(_0x35e0f3,_0x57777d){return _0x35e0f3===_0x57777d;},'jZhUo':function(_0x1112ef,_0x5d0ebc){return _0x1112ef instanceof _0x5d0ebc;}};for(const _0x5392fb of _0x1d1b87){_0x454c34[_0x5392fb[_0x4d1cd0(0x187,'Fzc@')]](_0x5392fb[_0x4d1cd0(0x156,'1rI]')],..._0x5392fb[_0x4d1cd0(0x14f,'rg]U')]&&_0x1cb62f?_0x1cb62f:[],async(_0x517714,_0x15907c,_0x3c1ba8)=>{const _0x5047b1=_0x4d1cd0;try{const _0xc31ecd=await _0xa7db93[_0x5047b1(0x12b,'VC$q')](executeRoute,_0x5392fb,_0xcd847f,_0x517714,_0x517714[_0x5047b1(0x196,'x@*s')]??{},_0x517714[_0x5047b1(0x134,'YaaN')]??{},_0x517714[_0x5047b1(0x155,'0js)')]),_0x51677b=_0xa7db93[_0x5047b1(0x15d,'6@zJ')](getHandlerStatus,_0x5392fb,_0xc31ecd);if(_0xa7db93['hIkfg'](_0x51677b,0xcc)){_0x15907c[_0x5047b1(0x190,'@1wa')](0xcc)['end']();return;}_0x15907c[_0x5047b1(0x14e,'uFj!')](_0x51677b)['json'](_0xc31ecd);}catch(_0x1a57b2){const _0x3ae5eb=_0xa7db93[_0x5047b1(0x170,'eJ37')](normalizeError,_0x1a57b2);_0x15907c[_0x5047b1(0x121,'x@*s')](_0x3ae5eb[_0x5047b1(0x17c,'n8xp')])[_0x5047b1(0x191,'jA6c')](_0x3ae5eb[_0x5047b1(0x149,'iPl#')]),_0xa7db93[_0x5047b1(0x152,'6@zJ')](_0x3ae5eb[_0x5047b1(0x177,'12vF')],0x1f4)&&!_0xa7db93['jZhUo'](_0x1a57b2,HttpError)&&_0xa7db93[_0x5047b1(0x140,'h9b7')](_0x3c1ba8,_0x1a57b2);}});}}export async function createExpressRouter(_0x81dc32,_0x24324b,_0x58cf36){const _0x4f8c83=a29_0x31e73f,_0x4dc4df={'fvoOm':_0x4f8c83(0x130,'x@*s'),'tyXEY':function(_0x3b58c5,_0x15a433,_0x2baf3b,_0x14550c,_0x447ce6){return _0x3b58c5(_0x15a433,_0x2baf3b,_0x14550c,_0x447ce6);}},_0x59b3e9=await import(_0x4dc4df[_0x4f8c83(0x17f,'uiuL')]),_0x35d360=_0x59b3e9['default']??_0x59b3e9,_0x3d8452=_0x35d360['Router']();return _0x4dc4df[_0x4f8c83(0x18e,'aWYM')](registerExpressRoutes,_0x3d8452,_0x81dc32,_0x24324b,_0x58cf36),_0x3d8452;}
+import { ZodError } from "zod";
+export function getHeader(request, name) {
+    if (request instanceof Request) {
+        return request.headers.get(name) ?? undefined;
+    }
+    const value = request.headers[name.toLowerCase()];
+    return Array.isArray(value) ? value[0] : value;
+}
+export class HttpError extends Error {
+    statusCode;
+    constructor(statusCode, message) {
+        super(message);
+        this.statusCode = statusCode;
+        this.name = "HttpError";
+    }
+}
+function readNumber(value, label) {
+    const parsed = Number(value);
+    if (!Number.isInteger(parsed) || parsed <= 0) {
+        throw new HttpError(400, `${label} must be a positive integer`);
+    }
+    return parsed;
+}
+function readBodyObject(body, label = "body") {
+    if (!body || typeof body !== "object" || Array.isArray(body)) {
+        throw new HttpError(400, `${label} must be a JSON object`);
+    }
+    return body;
+}
+export function createCrudRoutes(options) {
+    const idParam = options.idParam ?? "id";
+    return [
+        {
+            method: "get",
+            path: options.prefix,
+            handler: async () => {
+                return {
+                    success: true,
+                    data: await options.service.findAll(),
+                };
+            },
+        },
+        {
+            method: "post",
+            path: options.prefix,
+            statusCode: 201,
+            handler: (context) => {
+                const body = options.createBody
+                    ? options.createBody(context.body)
+                    : readBodyObject(context.body);
+                if (options.createHandler) {
+                    return options.createHandler(body, context);
+                }
+                return options.service.create(body);
+            },
+        },
+        {
+            method: "put",
+            path: `${options.prefix}/:${idParam}`,
+            handler: async ({ params, body }) => {
+                const id = readNumber(params[idParam], idParam);
+                await options.service.update(id, body);
+                return {
+                    success: true,
+                    message: `Info updated successfully`,
+                };
+            },
+        },
+        {
+            method: "delete",
+            path: `${options.prefix}/:${idParam}`,
+            statusCode: 204,
+            handler: async ({ params }) => {
+                await options.service.delete(readNumber(params[idParam], idParam));
+                return {
+                    success: true,
+                };
+            },
+        },
+    ];
+}
+export function buildRouteContext(db, request, params, query, body) {
+    return {
+        db,
+        sequelize: db.sequelize,
+        request,
+        params,
+        query,
+        body,
+    };
+}
+export async function executeRoute(route, db, request, params, query, body) {
+    return route.handler(buildRouteContext(db, request, params, query, body));
+}
+function getZodStatus(error) {
+    const hasMissingFields = error.issues.some((issue) => issue.code === "invalid_type" && issue.message.includes("undefined"));
+    return hasMissingFields ? 400 : 422;
+}
+function normalizeError(error) {
+    if (error instanceof HttpError) {
+        return {
+            statusCode: error.statusCode,
+            payload: { message: error.message },
+        };
+    }
+    if (error instanceof ZodError) {
+        return {
+            statusCode: getZodStatus(error),
+            payload: {
+                message: "Validation failed",
+                errors: error.issues.map((issue) => ({
+                    field: issue.path.join("."),
+                    message: issue.message,
+                })),
+            },
+        };
+    }
+    const message = error instanceof Error ? error.message : "Internal Server Error";
+    return {
+        statusCode: 500,
+        payload: { message },
+    };
+}
+function getHandlerStatus(route, result) {
+    if (route.statusCode) {
+        return route.statusCode;
+    }
+    if (result === null || result === undefined) {
+        return 204;
+    }
+    return 200;
+}
+export function registerFastifyRoutes(fastify, db, routes, preHandler) {
+    for (const route of routes) {
+        fastify.route({
+            method: route.method.toUpperCase(),
+            url: route.path,
+            ...(route.protected && preHandler ? { preHandler } : {}),
+            handler: async (request, reply) => {
+                try {
+                    const result = await executeRoute(route, db, request, request.params, request.query, request.body);
+                    const statusCode = getHandlerStatus(route, result);
+                    if (statusCode === 204) {
+                        return reply.code(204).send();
+                    }
+                    return reply.code(statusCode).send(result);
+                }
+                catch (error) {
+                    const normalized = normalizeError(error);
+                    return reply.code(normalized.statusCode).send(normalized.payload);
+                }
+            },
+        });
+    }
+}
+export function registerExpressRoutes(router, db, routes, preHandler) {
+    for (const route of routes) {
+        router[route.method](route.path, ...(route.protected && preHandler ? preHandler : []), async (req, res, next) => {
+            try {
+                const result = await executeRoute(route, db, req, req.params ?? {}, req.query ?? {}, req.body);
+                const statusCode = getHandlerStatus(route, result);
+                if (statusCode === 204) {
+                    res.status(204).end();
+                    return;
+                }
+                res.status(statusCode).json(result);
+            }
+            catch (error) {
+                const normalized = normalizeError(error);
+                res.status(normalized.statusCode).json(normalized.payload);
+                if (normalized.statusCode === 500 && !(error instanceof HttpError)) {
+                    next(error);
+                }
+            }
+        });
+    }
+}
+export async function createExpressRouter(db, routes, preHandler) {
+    const expressModule = await import("express");
+    const express = expressModule.default ?? expressModule;
+    const router = express.Router();
+    registerExpressRoutes(router, db, routes, preHandler);
+    return router;
+}

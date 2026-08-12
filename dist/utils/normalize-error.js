@@ -1,1 +1,61 @@
-(function(_0x5a15dc,_0x520a73){const _0x582c72=a39_0xe1e4,_0x4075cc=_0x5a15dc();while(!![]){try{const _0x16bcbf=parseInt(_0x582c72(0xec,'Qd)n'))/0x1+-parseInt(_0x582c72(0xf5,'c)fJ'))/0x2*(parseInt(_0x582c72(0xe2,'7p9l'))/0x3)+-parseInt(_0x582c72(0x104,'1Pe]'))/0x4*(parseInt(_0x582c72(0xfe,'vXoY'))/0x5)+-parseInt(_0x582c72(0x10b,'tBMO'))/0x6+parseInt(_0x582c72(0xe3,'s#vN'))/0x7+-parseInt(_0x582c72(0xe1,'Hz)u'))/0x8+parseInt(_0x582c72(0x103,'Bftn'))/0x9;if(_0x16bcbf===_0x520a73)break;else _0x4075cc['push'](_0x4075cc['shift']());}catch(_0x3163ac){_0x4075cc['push'](_0x4075cc['shift']());}}}(a39_0x5a7c,0x7463a));function a39_0x5a7c(){const _0xcd6c18=['kSo0WPJcSSo+WQ4mAGP1','c2xcHxRcRXtcHmk3gSow','me0oomkHW4K','AePGW5hdSGCMWPSBExz0','c8ooWRvpc1hcTmoidIXm','WOayxdiWW69KW75BWRPkya','W5ddG8kKWOy','WQpdKSoYWQ9F','aSoTWQKFkG','yZK0WQ7cSstdQtOJWRFcKSkE','agRcSv/cOCowCCkfkb18oa','WQ1kz8oNma','WOtcSSowt8oZWR8/WRnMW4Wxu3m','W5PbWQvxhq','WRzToZZcU8oYtCoLAmoUWOO+','tbZcPSkhWOP5cSoOW5/dMSoeWOqIxq','DSkalCkTp8o4WQhdPq','WR1LomkCWOJdMCoaq17cVSopx15nr29gW4hcVmkoarCLFSkFW59WWOO4','BHRdLbpcVG','WPxcG8oNBvHFW7FcKJ56CHzPDI8krGVcRMSuW6RcGmkPmmkRgmkHcIe','W6VdUSkyWPRdU1BcPSku','WQdcPmosrMH+W6BcOHLl','WPS9W5G3vgboWR/dSCoHW77cHG','W444l8oBW5FcJCkaFfBcICoAxhS','r8oTW5xdSMbeWOGD','W7VdQCk5WP/cOcddMSkVfwhdJmktfSoasXW','CINdKJVcQG','WOTSW4xdQZW','CmoJWPGFWPiIaW','F8kDW6jxAWBdSCoeobfcW7ldSG','WQ8LW5VdGLdcOrFcH23cMG','W5DWW47cKg1TWO8UBcJcGmk9','AGZdMcdcSG','WQ/cO8kBWQpdNq','W4ddRCkMWOxcPsBdIW','m8ovi8k1lCoc','a2JcTv7cQCoxemoDpsTVmCotW4e','W6VdUmoeW4JcUdBdH8k4g8o9W57dP8k4','rtFdKr/dOSkksCki','E2FcVCkvW7ZcKCkDdJegbepcSmkmebPgAmkLWP9k','W6FcKw3cJaa0W4xcKSoiB8kwWPe','jfSHm8ka','W550WOa','t8kAasS','W4/dI8kGmmoO','WOeMW4CRtNHDW5NcT8kCWRtdHaa','W7tdNCk/eSoLW6NdGSkoWP3dG8kRASkfW5hdSCoSpCozW6BdT3ddHCkBW6OLnGDfBmk5WO3dPq','A28bW74'];a39_0x5a7c=function(){return _0xcd6c18;};return a39_0x5a7c();}const a39_0x79260e=(function(){let _0x5b04d8=!![];return function(_0x101a33,_0x1983a3){const _0x2cd4eb=_0x5b04d8?function(){if(_0x1983a3){const _0x29590b=_0x1983a3['apply'](_0x101a33,arguments);return _0x1983a3=null,_0x29590b;}}:function(){};return _0x5b04d8=![],_0x2cd4eb;};}()),a39_0x619b7f=a39_0x79260e(this,function(){const _0x268c66=a39_0xe1e4,_0x257e19={'KBxps':_0x268c66(0xfd,'b*d6')};return a39_0x619b7f[_0x268c66(0x10c,'oAb#')]()['search'](_0x268c66(0x10a,'1ISm'))[_0x268c66(0xea,'vXoY')]()['constructor'](a39_0x619b7f)[_0x268c66(0xe7,'1Pe]')](_0x257e19[_0x268c66(0xfc,'Hz)u')]);});function a39_0xe1e4(_0x1933ed,_0x26bba7){_0x1933ed=_0x1933ed-0xdf;const _0x359609=a39_0x5a7c();let _0x619b7f=_0x359609[_0x1933ed];if(a39_0xe1e4['qcRHBS']===undefined){var _0x79260e=function(_0x1d73bf){const _0x1c24e7='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3c0b67='',_0x108510='',_0x5934db=_0x3c0b67+_0x79260e,_0x9ea422=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3da223=0x0,_0x24edda,_0x31c651,_0x5cd896=0x0;_0x31c651=_0x1d73bf['charAt'](_0x5cd896++);~_0x31c651&&(_0x24edda=_0x3da223%0x4?_0x24edda*0x40+_0x31c651:_0x31c651,_0x3da223++%0x4)?_0x3c0b67+=_0x9ea422||_0x5934db['charCodeAt'](_0x5cd896+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x24edda>>(-0x2*_0x3da223&0x6)):_0x3da223:0x0){_0x31c651=_0x1c24e7['indexOf'](_0x31c651);}for(let _0x1bd359=0x0,_0x49e6fa=_0x3c0b67['length'];_0x1bd359<_0x49e6fa;_0x1bd359++){_0x108510+='%'+('00'+_0x3c0b67['charCodeAt'](_0x1bd359)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x108510);};const _0x3c0d80=function(_0x336d79,_0x4f7095){let _0x462f0e=[],_0x44f8cd=0x0,_0x1936bb,_0x4e9fb6='';_0x336d79=_0x79260e(_0x336d79);let _0x3f689d;for(_0x3f689d=0x0;_0x3f689d<0x100;_0x3f689d++){_0x462f0e[_0x3f689d]=_0x3f689d;}for(_0x3f689d=0x0;_0x3f689d<0x100;_0x3f689d++){_0x44f8cd=(_0x44f8cd+_0x462f0e[_0x3f689d]+_0x4f7095['charCodeAt'](_0x3f689d%_0x4f7095['length']))%0x100,_0x1936bb=_0x462f0e[_0x3f689d],_0x462f0e[_0x3f689d]=_0x462f0e[_0x44f8cd],_0x462f0e[_0x44f8cd]=_0x1936bb;}_0x3f689d=0x0,_0x44f8cd=0x0;for(let _0x36a407=0x0;_0x36a407<_0x336d79['length'];_0x36a407++){_0x3f689d=(_0x3f689d+0x1)%0x100,_0x44f8cd=(_0x44f8cd+_0x462f0e[_0x3f689d])%0x100,_0x1936bb=_0x462f0e[_0x3f689d],_0x462f0e[_0x3f689d]=_0x462f0e[_0x44f8cd],_0x462f0e[_0x44f8cd]=_0x1936bb,_0x4e9fb6+=String['fromCharCode'](_0x336d79['charCodeAt'](_0x36a407)^_0x462f0e[(_0x462f0e[_0x3f689d]+_0x462f0e[_0x44f8cd])%0x100]);}return _0x4e9fb6;};a39_0xe1e4['pBhoRN']=_0x3c0d80,a39_0xe1e4['emGwKD']={},a39_0xe1e4['qcRHBS']=!![];}const _0x5a7cb4=_0x359609[0x0],_0xe1e4aa=_0x1933ed+_0x5a7cb4,_0x2a08ee=a39_0xe1e4['emGwKD'][_0xe1e4aa];if(!_0x2a08ee){if(a39_0xe1e4['XIImVg']===undefined){const _0x45cf76=function(_0x1dc099){this['UyRdik']=_0x1dc099,this['ysYBxO']=[0x1,0x0,0x0],this['ItMOyB']=function(){return'newState';},this['zlSScU']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['XRYZHH']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x45cf76['prototype']['rvXlKo']=function(){const _0x53ab8e=new RegExp(this['zlSScU']+this['XRYZHH']),_0x5e4ac7=_0x53ab8e['test'](this['ItMOyB']['toString']())?--this['ysYBxO'][0x1]:--this['ysYBxO'][0x0];return this['UHovUK'](_0x5e4ac7);},_0x45cf76['prototype']['UHovUK']=function(_0x34445c){if(!Boolean(~_0x34445c))return _0x34445c;return this['pQdtRy'](this['UyRdik']);},_0x45cf76['prototype']['pQdtRy']=function(_0x3bf180){for(let _0x3e8ff4=0x0,_0x4a2368=this['ysYBxO']['length'];_0x3e8ff4<_0x4a2368;_0x3e8ff4++){this['ysYBxO']['push'](Math['round'](Math['random']())),_0x4a2368=this['ysYBxO']['length'];}return _0x3bf180(this['ysYBxO'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x45cf76(a39_0xe1e4)['rvXlKo'](),a39_0xe1e4['XIImVg']=!![];}_0x619b7f=a39_0xe1e4['pBhoRN'](_0x619b7f,_0x26bba7),a39_0xe1e4['emGwKD'][_0xe1e4aa]=_0x619b7f;}else _0x619b7f=_0x2a08ee;return _0x619b7f;}a39_0x619b7f();import{ZodError}from'zod';export function normalizeError(_0x45c4b8){const _0x107510=a39_0xe1e4,_0x151627={'TFgQU':function(_0x3a1db0,_0x3afac3){return _0x3a1db0 instanceof _0x3afac3;},'cVZqj':_0x107510(0x10d,'LGzx'),'KCXWB':_0x107510(0xf6,'okW)'),'HuayA':function(_0x447261,_0x3b8c33){return _0x447261!==_0x3b8c33;},'rilSW':function(_0x10917e,_0x191012){return _0x10917e in _0x191012;},'iTUNb':_0x107510(0xfa,'g&9r'),'isnWh':_0x107510(0x107,'9oxv'),'yspWm':_0x107510(0xf2,'YQ2T'),'fuPii':_0x107510(0x100,'(aj0'),'PPkbY':_0x107510(0xeb,'#Jmq'),'SGeLF':_0x107510(0x105,'tBMO')};if(_0x151627[_0x107510(0x106,'c)fJ')](_0x45c4b8,ZodError))return{'statusCode':0x190,'payload':{'success':![],'error':_0x151627[_0x107510(0xff,'!gl7')],'message':_0x45c4b8['issues'][_0x107510(0xee,'1ISm')](_0x4fbf23=>({'field':_0x4fbf23[_0x107510(0xef,'*ib&')]['join']('.'),'message':_0x4fbf23[_0x107510(0xe0,'h1aQ')]}))}};if(typeof _0x45c4b8===_0x151627['KCXWB']&&_0x151627[_0x107510(0x10e,'c)fJ')](_0x45c4b8,null)&&_0x151627[_0x107510(0xe5,'2hY!')](_0x151627[_0x107510(0x101,'1ISm')],_0x45c4b8)){const _0xdec3ed=_0x45c4b8;switch(_0xdec3ed[_0x107510(0xf3,'WSD^')]){case _0x151627[_0x107510(0xf0,'YQ2T')]:return{'statusCode':0x190,'payload':{'success':![],'error':_0x107510(0xf8,'Hz)u'),'message':_0x151627[_0x107510(0xdf,')f!Y')]}};default:return{'statusCode':_0xdec3ed[_0x107510(0x109,'9oxv')]??0x1f4,'payload':{'success':![],'error':_0x151627[_0x107510(0xfb,'*c(M')],'message':_0xdec3ed[_0x107510(0xe6,'LGzx')]}};}}if(_0x151627['TFgQU'](_0x45c4b8,Error))return{'statusCode':0x1f4,'payload':{'success':![],'error':_0x151627[_0x107510(0xe4,'c)fJ')],'message':_0x45c4b8['message']}};return{'statusCode':0x1f4,'payload':{'success':![],'error':'Internal\x20Server\x20Error','message':_0x151627[_0x107510(0xed,'fn%F')]}};}
+import { ZodError } from "zod";
+export function normalizeError(error) {
+    // Zod validation errors
+    if (error instanceof ZodError) {
+        return {
+            statusCode: 400,
+            payload: {
+                success: false,
+                error: "Validation Error",
+                message: error.issues.map((issue) => ({
+                    field: issue.path.join("."),
+                    message: issue.message,
+                })),
+            },
+        };
+    }
+    // Fastify errors
+    if (typeof error === "object" && error !== null && "code" in error) {
+        const err = error;
+        switch (err.code) {
+            case "FST_ERR_CTP_INVALID_MEDIA_TYPE":
+                return {
+                    statusCode: 400,
+                    payload: {
+                        success: false,
+                        error: "Bad Request",
+                        message: "Request body must be valid JSON.",
+                    },
+                };
+            default:
+                return {
+                    statusCode: err.statusCode ?? 500,
+                    payload: {
+                        success: false,
+                        error: "Request Error",
+                        message: err.message,
+                    },
+                };
+        }
+    }
+    // Standard Error
+    if (error instanceof Error) {
+        return {
+            statusCode: 500,
+            payload: {
+                success: false,
+                error: "Internal Server Error",
+                message: error.message,
+            },
+        };
+    }
+    // Unknown
+    return {
+        statusCode: 500,
+        payload: {
+            success: false,
+            error: "Internal Server Error",
+            message: "An unexpected error occurred.",
+        },
+    };
+}
