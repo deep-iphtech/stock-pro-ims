@@ -66,6 +66,7 @@ export const crudOnOrderItems = z
 });
 export const createOrderValidationSchema = z
     .object({
+    skipDuplicate: z.boolean().optional(),
     order_type: z.enum(["sales", "purchase"]),
     customer_id: positiveInt,
     status: z.enum(["0", "1", "2", "3", "4", "5", "6", "7"]).optional(),

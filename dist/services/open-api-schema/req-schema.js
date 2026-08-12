@@ -89,6 +89,9 @@ const reqSchemas = {
     Orders: {
         type: "object",
         properties: {
+            skipDuplicate: {
+                type: "boolean",
+            },
             customer_id: {
                 type: "integer",
             },

@@ -55,6 +55,7 @@ export declare const crudOnOrderItems: z.ZodObject<{
     }, z.core.$loose>>>;
 }, z.core.$loose>;
 export declare const createOrderValidationSchema: z.ZodObject<{
+    skipDuplicate: z.ZodOptional<z.ZodBoolean>;
     order_type: z.ZodEnum<{
         sales: "sales";
         purchase: "purchase";

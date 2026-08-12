@@ -54,6 +54,9 @@ declare const reqSchemas: {
     readonly Orders: {
         readonly type: "object";
         readonly properties: {
+            readonly skipDuplicate: {
+                readonly type: "boolean";
+            };
             readonly customer_id: {
                 readonly type: "integer";
             };
