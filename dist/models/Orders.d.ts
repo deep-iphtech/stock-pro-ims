@@ -15,5 +15,6 @@ export declare class Orders extends Model<InferAttributes<Orders>, InferCreation
     paid_at: Date | null;
     created_at: CreationOptional<Date>;
     updated_at: Date | null;
+    deleted_at: Date | null;
     static initModel(sequelize: Sequelize): void;
 }
