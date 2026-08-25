@@ -80,3 +80,6 @@ export declare const createOrderValidationSchema: z.ZodObject<{
         quantity_allocation: z.ZodOptional<z.ZodNullable<z.ZodString>>;
     }, z.core.$loose>>;
 }, z.core.$loose>;
+export declare const cancelOrderSchema: z.ZodObject<{
+    orderId: z.ZodNumber;
+}, z.core.$strip>;

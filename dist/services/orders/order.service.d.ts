@@ -4,6 +4,10 @@ import { Orders } from "../../models/Orders.js";
 import { BaseService } from "../base/base.service.js";
 export declare class OrderService extends BaseService<Orders> {
     constructor();
+    cancelOrder(sequelize: Sequelize, orderId: number): Promise<{
+        success: boolean;
+        message: any;
+    }>;
     ordersReceivable(customerId: number): Promise<Orders[]>;
     ordersPayable(customerId: number): Promise<Orders[]>;
     findWithItems(id: number): Promise<Orders | null>;
