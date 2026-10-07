@@ -1,6 +1,6 @@
 {
   "name": "stock-pro-ims",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "Stock management library",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
